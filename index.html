@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Colegio de Contadores Publicos de Junín | Página Web</title>
+    <title> Colégio de Contadores Públicos de Junín | Portal Web</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -30,7 +30,10 @@
     <!-- bootstrap wysihtml5 - text editor -->
     <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
 
-    <link rel="icon" href="dist/img/logoccnpj.png">
+    <link rel="icon" href="dist/img/logoccnpj-old.png">
+
+    <!-- font for msg slide -->
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,11 +48,14 @@
 
       <header class="main-header">
         <!-- Logo -->
-        <a href="" class="logo" style="background-color: #0266a1">
+        <a href="" class="logo" style="background-color: #0266a1;background-color: #0266a1;">
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini">CCP</span>
           <!-- logo for regular state and mobile devices -->
           <span class="logo-lg">CCP Junin</span>
+          <!--span>
+            <img src="dist/img/logo_horizontal_ccpj.png" alt="" width="300px" style="padding:5px">
+          </span-->
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation" style="background-color: #0266a1">
@@ -293,7 +299,7 @@
         <section class="sidebar">
           <!-- Sidebar user panel -->
           <div class="user-panel">
-              <img src="dist/img/logoccnpj.png" class="" alt="User Image" width="100%">
+              <img src="dist/img/logoccnpj.png" class="" alt="User Image" width="100%" style="padding: 7px">
           </div>
           <!-- search form -->
           <form action="#" method="get" class="sidebar-form">
@@ -621,26 +627,29 @@
         
           <div class="row">
             <div class="col-md-12">
-                <div class="col-md-4 col-sm-6">
-                    <img src="dist/img/logo_vertical_ccpj.png" width="100%">
+                <!--div class="col-md-4 col-sm-6">
+                    <img src="dist/img/logo_horizontal_ccpj.png" width="100%">
                 </div>
                 <div class="col-md-8 col-sm-6">
                   <div class="box-solid">
-                    <!--img src="http://placehold.it/700x130/ffffff/000000&text=Baner+promocional" width="100%"-->
+                    <img src="http://placehold.it/700x130/ffffff/000000&text=Baner+promocional" width="100%">
                   </div>
+                </div-->
+                <div class="col-md-12 col-sm-12" style="padding: 0px">
+                    <img src="dist/img/banner-superior.png" width="100%" style="background-size:cover;">
                 </div>
             </div>
             <div class="col-md-12" style="margin-top:10px">
                 <center>
                   <marquee direction="left" id="ejemplo">
-                      <span class="Apple-style-span" style="color: black; font-family:verdana; padding-top:3px">
-                          <p>
-                            Bienvenidos de nuevo Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam aspernatur hic temporibus dolore eos dicta consequuntur quis qui quibusdam aliquam, expedita blanditiis quia deleniti doloribus aliquid ducimus libero placeat?  
+                      <span class="Apple-style-span" style="color: black; padding-top:3px">
+                          <p style="font-family: 'Anton', sans-serif;">
+                            El Colegio de Contadores Públicos de Junín les desea un Felíz día a todos los Contadores del Peru. (12/09/2017) // Lorem ipsum dolor sit amet,cue.(13/12/2017) // Lorem ipsum dolor sit amet dolor sit ametdolor sit amet,cue.(14/12/2017)
                           </p>
                       </span>
                   </marquee> 
-                  <a href="javascript:void(0);"></a> 
-                  <a href="javascript:void(0);"></a>
+                  <!--a href="javascript:void(0);"></a> 
+                  <a href="javascript:void(0);"></a-->
                 </center>
             </div>
             <div class="col-md-12">
@@ -656,19 +665,19 @@
                       </ol>
                       <div class="carousel-inner">
                         <div class="item">
-                          <img src="http://placehold.it/1200x450/000000/ffffff&text=Mi+diseño+CCPJ+1200x400" alt="First slide" width="100%">
+                          <img src="dist/img/slide1-1200X400.jpg" alt="First slide" width="100%">
                           <div class="carousel-caption" width="auto">
                             First Slide
                           </div>
                         </div>
                         <div class="item active left">
-                          <img src="http://placehold.it/1200x450/2196F3/ffffff&text=Otro+dise%C3%B1o+CCPJ+1200x400" alt="Second slide" width="100%">
+                          <img src="dist/img/slide2-1200X400.jpg" alt="Second slide" width="100%">
                           <div class="carousel-caption">
                             Second Slide
                           </div>
                         </div>
                         <div class="item next left">
-                          <img src="http://placehold.it/1200x450/f39c12/ffffff&text=Un+diseño+adicional+1200x400" alt="Third slide" width="100%">
+                          <img src="dist/img/slide3-1200X400.jpg" alt="Third slide" width="100%">
                           <div class="carousel-caption">
                             Third Slide
                           </div>
@@ -692,52 +701,57 @@
           <!-- Small boxes (Stat box) -->
 
           <div class="row">
-            <div class="col-lg-2 col-sm-4">
-              <!--div class="small-box bg-aqua" style="height: 230px"-->
-              <div class="small-box " style="height: 230px; border: solid 1px grey; background-color:white">
-                <div class="inner">
-                  <img src="https://iiuc.ac.bd/techfest2015/img/pg.png" alt="" width="100%">
+            <div class="col-lg-2 col-xs-6">
+              <div class="small-box bg-aqua" style="">
+              <!--div class="small-box " style="height: 230px; border: solid 1px grey; background-color:white"-->
+                <div class="inner text-center">
+                  <img src="https://iiuc.ac.bd/techfest2015/img/pg.png" alt="" width="70%">
                   <p class="text-center">Requisitos para Colegiatura</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-2 col-sm-4">
-              <div class="small-box " style="height: 230px; border: solid 1px grey; background-color:white">
-                <div class="inner">
-                  <img src="https://iiuc.ac.bd/techfest2015/img/pg.png" alt="" width="100%">
+            <div class="col-lg-2 col-xs-6">
+              <div class="small-box bg-aqua" style="">
+              <!--div class="small-box " style="height: 230px; border: solid 1px grey; background-color:white"-->
+                <div class="inner text-center">
+                  <img src="https://iiuc.ac.bd/techfest2015/img/pg.png" alt="" width="70%">
                   <p class="text-center">El Proceso de Certificación</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-2 col-sm-4">
-              <div class="small-box " style="height: 230px; border: solid 1px grey; background-color:white">
-                <div class="inner">
-                  <img src="https://iiuc.ac.bd/techfest2015/img/pg.png" alt="" width="100%">
-                  <p class="text-center">Para Consultas de Habilidad</p>
+            <div class="col-lg-2 col-xs-6">
+              <div class="small-box bg-aqua" style="">
+              <!--div class="small-box " style="height: 230px; border: solid 1px grey; background-color:white"-->
+                <div class="inner text-center">
+                  <img src="https://iiuc.ac.bd/techfest2015/img/pg.png" alt="" width="70%">
+                  <p class="text-center">Consulta de Habilidad</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-2 col-sm-4">
-              <div class="small-box " style="height: 230px; border: solid 1px grey; background-color:white">
-                <div class="inner">
-                  <img src="https://iiuc.ac.bd/techfest2015/img/pg.png" alt="" width="100%">
-                  <p class="text-center">Ver Oportunidades Laborares</p>
+            <div class="col-lg-2 col-xs-6">
+              <div class="small-box bg-aqua" style="">
+              <!--div class="small-box " style="height: 230px; border: solid 1px grey; background-color:white"-->
+                <div class="inner text-center">
+                  <img src="https://iiuc.ac.bd/techfest2015/img/pg.png" alt="" width="70%">
+                  <p class="text-center">Oportunidades Laborares</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-2 col-sm-4">
-              <div class="small-box " style="height: 230px; border: solid 1px grey; background-color:white">
-                <div class="inner">
-                  <img src="https://iiuc.ac.bd/techfest2015/img/pg.png" alt="" width="100%">
-                  <p class="text-center">Sistemas e Informatica Contable</p>
+            <div class="col-lg-2 col-xs-6">
+              <div class="small-box bg-aqua" style="">
+              <!--div class="small-box " style="height: 230px; border: solid 1px grey; background-color:white"-->
+                <div class="inner text-center">
+                  <img src="https://iiuc.ac.bd/techfest2015/img/pg.png" alt="" width="70%">
+                  <p class="text-center">Alquiler de Ambientes</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-2 col-sm-4">
-              <div class="small-box " style="height: 230px; border: solid 1px grey; background-color:white">
-                <div class="inner">
-                  <img src="https://iiuc.ac.bd/techfest2015/img/pg.png" alt="" width="100%">
-                  <p class="text-center">Ver la Revista Institucional</p>
+            <div class="col-lg-2 col-xs-6">
+              <div class="small-box bg-aqua" style="">
+              <!--div class="small-box " style="height: 230px; border: solid 1px grey; background-color:white"-->
+                <div class="inner text-center">
+                  <img src="https://iiuc.ac.bd/techfest2015/img/pg.png" alt="" width="70%">
+                  <p class="text-center">Revista Institucional</p>
                 </div>
               </div>
             </div>
@@ -823,59 +837,80 @@
                   <ul class="products-list product-list-in-box">
                     <li class="item">
                       <div class="product-img">
-                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="Product Image">
+                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="img noticia">
                       </div>
                       <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">Samsung TV
-                          <span class="label label-warning pull-right">$1800</span></a>
-                            <span class="product-description">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque commodi, nobis rem nemo nesciunt cum omnis, perspiciatis, eveniet laudantium fuga quam. Nisi ipsum ducimus blanditiis voluptatibus accusamus, voluptate distinctio ut!
-                            </span>
-                      </div>
-                    </li>
-                    <!-- /.item -->
-                    <li class="item">
-                      <div class="product-img">
-                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="Product Image">
-                      </div>
-                      <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">Bicycle
-                          <span class="label label-info pull-right">$700</span></a>
+                        <a href="javascript:void(0)" class="product-title">
+                          <h4>Titulo Noticia</h4>
+                          <span class="label label-danger pull-left">12/12/2017</span>
+                        </a>
+                        <br>
                             <span class="product-description">
                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quidem nam totam, officia minima iure incidunt repellat molestiae magnam quod consequuntur, unde nemo fugit et vero placeat ut dolore!
                             </span>
+                        <br>
+                        <button type="button" class="btn bg-olive btn-sm  pull-right">Ver Noticia Completa</button>
                       </div>
                     </li>
                     <!-- /.item -->
                     <li class="item">
                       <div class="product-img">
-                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="Product Image">
+                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="img noticia">
                       </div>
                       <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">Xbox One <span class="label label-danger pull-right">$350</span></a>
+                        <a href="javascript:void(0)" class="product-title">
+                          <h4>Titulo Noticia</h4>
+                          <span class="label label-danger pull-left">12/12/2017</span>
+                        </a>
+                        <br>
                             <span class="product-description">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo reprehenderit quae, voluptate eos asperiores magni aspernatur id rem tempora, et ut quod, nobis voluptas adipisci. Officia impedit, similique qui laudantium!
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quidem nam totam, officia minima iure incidunt repellat molestiae magnam quod consequuntur, unde nemo fugit et vero placeat ut dolore!
                             </span>
+                        <br>
+                        <button type="button" class="btn bg-olive btn-sm  pull-right">Ver Noticia Completa</button>
                       </div>
                     </li>
                     <!-- /.item -->
                     <li class="item">
                       <div class="product-img">
-                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="Product Image">
+                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="img noticia">
                       </div>
                       <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">PlayStation 4
-                          <span class="label label-success pull-right">$399</span></a>
+                        <a href="javascript:void(0)" class="product-title">
+                          <h4>Titulo Noticia</h4>
+                          <span class="label label-danger pull-left">12/12/2017</span>
+                        </a>
+                        <br>
                             <span class="product-description">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis cumque quia molestiae laborum aperiam aliquid doloribus perspiciatis assumenda, quam odit dolores animi excepturi necessitatibus perferendis delectus asperiores repellendus numquam.
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quidem nam totam, officia minima iure incidunt repellat molestiae magnam quod consequuntur, unde nemo fugit et vero placeat ut dolore!
                             </span>
+                        <br>
+                        <button type="button" class="btn bg-olive btn-sm  pull-right">Ver Noticia Completa</button>
+                      </div>
+                    </li>
+                    <!-- /.item -->
+                    <li class="item">
+                      <div class="product-img">
+                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="img noticia" width="10px">
+                      </div>
+                      <div class="product-info">
+                        <a href="javascript:void(0)" class="product-title">
+                          <h4>Titulo Noticia</h4>
+                          <span class="label label-danger pull-left">12/12/2017</span>
+                        </a>
+                        <br>
+                            <span class="product-description">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quidem nam totam, officia minima iure incidunt repellat molestiae magnam quod consequuntur, unde nemo fugit et vero placeat ut dolore!
+                            </span>
+                        <br>
+                        <button type="button" class="btn bg-olive btn-sm  pull-right">Ver Noticia Completa</button>
                       </div>
                     </li>
                     <!-- /.item -->
                   </ul>
                 </div>
                 <div class="box-footer text-center">
-                  <a href="../inventario/vproducto" class="uppercase">
+                  <a href="" class="uppercase">
                       Ver todas las Noticias
                   </a>
                 </div>
@@ -901,12 +936,12 @@
                                   <p>Agrupar y representar a los contadores públicos ante la sociedad y autoridades, generando servicios de valor y calidad. Velar y promover la competencia profesional, conducta ética y acceso al conocimiento acorde con los adelantos científicos, tecnológicos y la dinámica global. Orienta a la sociedad y contribuye al desarrollo regional y del país en temas que le competen, y basa su crecimiento institucional en la activa participación de sus miembros, la investigación científica, una gestión de calidad y el uso transparente y eficiente de los recursos.</p>
                                 </div>
                             </div>
-                            <div class="row vertical-align" style="padding: 10px">
-                                <div class="col-lg-6" style="">
+                            <div class="row vertical-align">
+                                <div class="col-sm-12 col-lg-6 " style="">
                                   <h4><b>Visión</b></h4>
                                   <p>Ser la institución profesional líder en el mejoramiento de la competitividad del contador público, reconocida por la integridad de sus agremiados y servicio a la sociedad.</p>
                                 </div>
-                                <div class="col-lg-6" style="padding: 10px">
+                                <div class="col-sm-12 col-lg-6 ">
                                   <h4><b>Valores</b></h4>
                                   <p> Conducta Ética Calidad de Servicio a los Colegiados Prudencia en la Administración de los recusos Justicia </p>
                                 </div>
@@ -939,27 +974,27 @@
           </div>
 
         
-          <div class="row">
-                <img src="http://placehold.it/700x230/000000/ffffff&text=Baner+parallax" width="100%">
+          <div class="row" style="margin-top: 40px; margin-bottom: 40px">
+                <img src="dist/img/baner-paralax.jpg" width="100%">
           </div>
 
-          <div class="row" style="margin-top: 20px; margin-bottom: 20px">
+          <div class="row" style="">
               <div class="col-lg-12">
                   <div class="col-lg-6" style="padding:20px">
-                      <img src="http://placehold.it/300x300/000000/ffffff&text=Baner+parallax" width="100%">
+                      <img src="dist/img/baner-fotos.jpg" width="100%">
                   </div>
                   <div class="col-lg-6">
                       <div class="col-lg-6" style="padding:20px">
-                          <img src="http://placehold.it/300x300/000000/ffffff&text=Baner+parallax" width="100%">
+                          <img src="dist/img/baner-fotos-2.jpg" width="100%">
                       </div>
                       <div class="col-lg-6" style="padding:20px">
-                          <img src="http://placehold.it/300x300/000000/ffffff&text=Baner+parallax" width="100%">
+                          <img src="dist/img/baner-fotos-2.jpg" width="100%">
                       </div>
                       <div class="col-lg-6" style="padding:20px">
-                          <img src="http://placehold.it/300x300/000000/ffffff&text=Baner+parallax" width="100%">
+                          <img src="dist/img/baner-fotos-2.jpg" width="100%">
                       </div>
                       <div class="col-lg-6" style="padding:20px">
-                          <img src="http://placehold.it/300x300/000000/ffffff&text=Baner+parallax" width="100%">
+                          <img src="dist/img/baner-fotos-2.jpg" width="100%">
                       </div>
                   </div>
               </div>
@@ -1155,7 +1190,7 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- Morris.js charts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-    <script src="plugins/morris/morris.min.js"></script>
+    <!--script src="plugins/morris/morris.min.js"></script-->
     <!-- Sparkline -->
     <script src="plugins/sparkline/jquery.sparkline.min.js"></script>
     <!-- jvectormap -->
@@ -1177,7 +1212,7 @@
     <!-- AdminLTE App -->
     <script src="dist/js/app.min.js"></script>
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-    <script src="dist/js/pages/dashboard.js"></script>
+    <!--script src="dist/js/pages/dashboard.js"></script-->
     <!-- AdminLTE for demo purposes -->
     <script src="dist/js/demo.js"></script>
   </body>
@@ -1217,7 +1252,7 @@
             call: "+051 944 691 442", // Call phone number
             company_logo_url: "//scontent.xx.fbcdn.net/v/t1.0-1/p50x50/20604723_1399212693506057_5885822338460552719_n.jpg?oh=5d4da5524d615904e7f32ad6f09df75d&oe=5A3904A7", // URL of company logo (png, jpg, gif)
             greeting_message: "Hola, te damos la bienvenida la Página Web del Colegio de Contadores Públicos de Junín, en que podemos ayudarte?", // Text of greeting message
-            call_to_action: "Contáctate con Nosotros", // Call to action
+            call_to_action: "Bienvenido, Como puedo ayudarte?", // Call to action
             button_color: "#129BF4", // Color of button
             position: "right", // Position may be 'right' or 'left'
             order: "email,facebook,sms,call" // Order of buttons
@@ -1236,15 +1271,15 @@
 </script-->
 <!-- END evitar click derecho -->
 <script language="Javascript"> 
-function disableselect(e){ 
-return false 
-} 
-function reEnable(){ 
-return true 
-} 
-document.onselectstart=new Function ("return false") 
-if (window.sidebar){ 
-document.onmousedown=disableselect 
-document.onclick=reEnable 
-} 
+  function disableselect(e){ 
+    return false 
+  } 
+  function reEnable(){ 
+    return true 
+  } 
+  document.onselectstart=new Function ("return false") 
+  if (window.sidebar){ 
+    document.onmousedown=disableselect 
+    document.onclick=reEnable 
+  } 
 </script> 
