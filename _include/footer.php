@@ -90,7 +90,7 @@
         background-size: cover;
   }
   .paralax-laboral{
-        background: url(https://images.pexels.com/photos/288477/pexels-photo-288477.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb) no-repeat center center fixed;
+        background: url(dist/img/pexels-photo-288477.jpeg) no-repeat center center fixed;
         height: 100%;
         position: relative;
         width: 100%;
