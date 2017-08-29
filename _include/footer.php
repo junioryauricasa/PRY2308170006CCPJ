@@ -89,9 +89,25 @@
         -o-background-size: cover;
         background-size: cover;
   }
+  .paralax-laboral{
+        background: url(https://images.pexels.com/photos/288477/pexels-photo-288477.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb) no-repeat center center fixed;
+        height: 100%;
+        position: relative;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+  }
   #parallax-div{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .vcenter {
+      display: inline-block;
+      vertical-align: middle;
+      float: none;
   }
 </style>
 <!-- WhatsHelp.io widget -->
