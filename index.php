@@ -65,19 +65,19 @@
           </div>
         </div>
 
-
-        <?php include('_include/principaloptions.php'); ?>
-
         <!-- Main content -->
         <section class="content">
-
-          <!-- Small boxes (Stat box) -->
-          <!-- Main row -->
+          <!-- main options -->
+          <div class="row">
+            <div class="col-md-12">
+                <?php include('_include/principaloptions.php'); ?>
+            </div>
+          </div>
           <div class="row">
             <section class="col-lg-4">
               <div class="nav-tabs-custom">
                 <ul class="nav nav-tabs pull-right">
-                  <li class="pull-left header"><i class="fa fa-inbox"></i> Noticias</li>
+                  <li class="pull-left header"><i class="fa fa-newspaper-o"></i> Noticias</li>
                 </ul>
                 <div class="box-body">
                   <ul class="products-list product-list-in-box">
@@ -166,7 +166,7 @@
                 <div class="">
                     <div class="box box-solid">
                       <div class="box-header">
-                        <i class="fa fa-map-marker"></i>
+                        <i class="fa  fa-info-circle"></i>
                         <h3 class="box-title">
                           Nosotros
                         </h3>
@@ -194,7 +194,7 @@
                     </div>
                     <div class="box box-solid">
                       <div class="box-header">
-                        <i class="fa fa-map-marker"></i>
+                        <i class="fa fa-file-pdf-o"></i>
                         <h3 class="box-title">
                           Contador al Día
                         </h3>
@@ -413,31 +413,51 @@
                 </div>
             </section>
           </div>
-        
-          <div class="row" id="parallax-div">
-              <div class="paralax" style="height: 400px">
+        </section>    
+        <section id="parallax-div">
+            <div class="paralax" style="height: 300px">
+            </div>
+        </section>
+        <section class="content">
+            <div class="box box-solid">
+              <div class="box-header">
+                <i class="fa fa-camera"></i>
+                <h3 class="box-title">
+                  Galeria de Fotos y videos
+                </h3>
               </div>
-          </div>
-
-          <div class="row">
-              <div class="col-sm-6">
-                <img class="img-responsive" src="dist/img/baner-fotos.jpg" alt="Photo">
-              </div>
-              <div class="col-sm-6">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <img class="img-responsive" src="dist/img/baner-fotos-2.jpg" alt="Photo">
-                    <br>
-                    <img class="img-responsive" src="dist/img/baner-fotos-2.jpg" alt="Photo">
+              <div class="box-body">
+                  <div class="row margin-bottom">
+                    <div class="col-sm-6">
+                      <img class="img-responsive" src="http://placehold.it/500x500/39CCCC/ffffff&text=500x500" alt="Photo" width="100%">
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-sm-6">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <img class="img-responsive" src="http://placehold.it/500x500/39CCCC/ffffff&text=500x500" alt="Photo" width="100%">
+                          <br>
+                          <img class="img-responsive" src="http://placehold.it/500x500/39CCCC/ffffff&text=500x500" alt="Photo" width="100%">
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-sm-6">
+                          <img class="img-responsive" src="http://placehold.it/500x500/39CCCC/ffffff&text=500x500" alt="Photo" width="100%">
+                          <br>
+                          <img class="img-responsive" src="http://placehold.it/500x500/39CCCC/ffffff&text=500x500" alt="Photo" width="100%">
+                        </div>
+                        <!-- /.col -->
+                      </div>
+                      <!-- /.row -->
+                    </div>
+                    <!-- /.col -->
                   </div>
-                  <div class="col-sm-6">
-                    <img class="img-responsive" src="dist/img/baner-fotos-2.jpg" alt="Photo">
-                    <br>
-                    <img class="img-responsive" src="dist/img/baner-fotos-2.jpg" alt="Photo">
-                  </div>
-                </div>
               </div>
-          </div>
+              <div class="box-footer text-center">
+                <a href="" class="uppercase">
+                    Ver Todos
+                </a>
+              </div>
+            </div>
         </section>
       </div>
 

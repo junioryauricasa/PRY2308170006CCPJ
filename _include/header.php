@@ -70,7 +70,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class=""><a href="#">Inicio</a></li> <!-- class active para sombrear -->
+                <li class=""><a href="index">Inicio</a></li> <!-- class active para sombrear -->
                 <li class=""><a href="#">Noticias</a></li> <!-- class active para sombrear -->
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Institucional <span class="caret"></span></a>
@@ -98,6 +98,14 @@
                 </li>
                 <li><a href="#contact">Consulta de Habilidad</a></li>
                 <li><a href="#contact">Contacto</a></li>
+              </ul>
+
+              <ul class="nav navbar-nav navbar-right" style="padding-top: 7px;">
+                  <li><a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/ccpjunin"><i class="fa fa-facebook"></i></a></li>
+                  <li><a class="btn btn-social-icon btn-google" target="_blank" href="https://plus.google.com/u/0/b/111532763552457194914/111532763552457194914/about"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a class="btn btn-social-icon btn-google" target="_blank" href="https://www.youtube.com/channel/UCA7KbONq4t5Cg6LlS3MAuEg"><i class="fa fa-youtube"></i></a></li>
+                  <li><a class="btn btn-social-icon btn-linkedin" target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
+                  <li><a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/CCP_Junin"><i class="fa fa-twitter"></i></a></li>
               </ul>
             </div>
           </div>
@@ -294,12 +302,12 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> General</a></li>
-                <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> Icons</a></li>
-                <li><a href="pages/UI/buttons.html"><i class="fa fa-circle-o"></i> Buttons</a></li>
-                <li><a href="pages/UI/sliders.html"><i class="fa fa-circle-o"></i> Sliders</a></li>
-                <li><a href="pages/UI/timeline.html"><i class="fa fa-circle-o"></i> Timeline</a></li>
-                <li><a href="pages/UI/modals.html"><i class="fa fa-circle-o"></i> Modals</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i> General</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i> Icons</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i> Buttons</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i> Sliders</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i> Timeline</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i> Modals</a></li>
               </ul>
             </li>
             <li class="treeview">

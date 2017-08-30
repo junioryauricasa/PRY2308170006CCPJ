@@ -1,11 +1,84 @@
-      <footer class="main-footer">
-        <div class="pull-right hidden-xs">
-          <b>Version</b> 2.3.0
+
+      <footer class="main-footer" style="background:#3c8dbc ;color: white; border-left: 0px">  
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="col-lg-4">
+              <img class="img-responsive" src="dist/img/logo_horizontal_ccpj.png" alt="Logo horizontal del Colegio de Contadores Públicos de Junín">
+            </div>
+            <div class="col-lg-3">
+              <h4>Información de Contacto</h4>
+              <p class="text-footer">
+                <i class="fa fa-fw fa-map-marker"></i>
+                <span class="text">Dirección : Paseo la Breña No.125 Of 404 - 405</span>
+                <br>
+                <i class="fa fa-fw fa-globe"></i>
+                <span class="text">Huancayo, Perú</span>
+                <br>
+                <i class="fa fa-fw fa-mobile-phone"></i>
+                <span class="text">Celular : 964556754 / RPM : #964556754</span>
+                <br>
+                <i class="fa fa-fw fa-phone"></i>
+                <span class="text">Teléfono : (064)231063</span>
+                <br>
+                <i class="fa fa-fw fa-home"></i>
+                <span class="text">Email : <b><a style="color:white" href="mailto:secretaria.ccpj@gmail.com?Subject=Consulta%20desde%20Portal%20Web">secretaria.ccpj@gmail.com</a></b></span>
+              </p>
+            </div>
+            <div class="col-lg-2 col-xs-6">
+              <h4>Páginas de Interés</h4>
+              <p class="text-footer">
+                <i class="fa fa-fw fa-link"></i>
+                <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">JDCCPP</a></span>
+                <br>
+                <i class="fa fa-fw fa-link"></i>
+                <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">IFAC</a></span>
+                <br>
+                <i class="fa fa-fw fa-link"></i>
+                <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">AIC</a></span>
+                <br>
+                <i class="fa fa-fw fa-link"></i>
+                <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">SUNAT</a></span>
+                <br>
+                <i class="fa fa-fw fa-link"></i>
+                <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">Portal del Estado</a></span>
+                <br>
+                <i class="fa fa-fw fa-link"></i>
+                <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">Consulta RUC</a></span>
+              </p>
+            </div>
+            <div class="col-lg-3 col-xs-6">
+              <h4>Horario de atención</h4>
+              <p class="text-footer">
+                <i class="fa fa-fw  fa-clock-o"></i>
+                <span class="text">
+                  Lunes a Viernes 
+                  <ul>
+                    <li>Mañanas: 09:00 - 13:00 </li>
+                    <li>Tardes: 16:00 - 20:00</li>
+                  </ul>
+                </span>
+                <i class="fa fa-fw  fa-clock-o"></i>
+                <span class="text">
+                  Sábados
+                  <ul>
+                    <li> Mañanas: 09:00 - 13:00 </li>
+                </span>
+              </p>
+            </div>
+          </div>
         </div>
-        <strong>Copyright &copy; - Colegio de Contadores Públicos de Junín - Todos los Derechos Reservados
+        <br>
+        <div class="pull-right hidden-xs">
+        </div>
+        <strong>Copyright &copy; - Colegio de Contadores Públicos de Junín - Todos los Derechos Reservados </strong>
+        <!--div class="text-left" style="padding-top: 15px">
+          <a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/ccpjunin"><i class="fa fa-facebook"></i></a>
+          <a class="btn btn-social-icon btn-google" target="_blank" href="https://plus.google.com/u/0/b/111532763552457194914/111532763552457194914/about"><i class="fa fa-google-plus"></i></a>
+          <a class="btn btn-social-icon btn-google" target="_blank" href="https://www.youtube.com/channel/UCA7KbONq4t5Cg6LlS3MAuEg"><i class="fa fa-youtube"></i></a>
+          <a class="btn btn-social-icon btn-linkedin" target="_blank" href=""><i class="fa fa-linkedin"></i></a>
+          <a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/CCP_Junin"><i class="fa fa-twitter"></i></a>
+        </div-->
       </footer>
-
-
       <div class="control-sidebar-bg"></div>
     </div>
 
@@ -100,8 +173,8 @@
         background-size: cover;
   }
   #parallax-div{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .vcenter {
@@ -109,7 +182,12 @@
       vertical-align: middle;
       float: none;
   }
+
+  .text-footer{
+    color: white
+  }
 </style>
+
 <!-- WhatsHelp.io widget -->
 <script type="text/javascript">
     (function () {
