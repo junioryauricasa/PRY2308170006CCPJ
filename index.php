@@ -6,7 +6,10 @@
         <div class="row">
           <div class="col-md-12">
               <div class="col-md-12 col-sm-12" style="padding: 0px">
-                  <img src="dist/img/banner-superior.png" width="100%" style="background-size:cover;">
+                  <!--img src="dist/img/banner-superior.png" width="100%" style="background-size:cover;"-->
+                  <div class="img-backg-banner-header">
+                    
+                  </div>
               </div>
           </div>
           <div class="col-md-12" style="margin-top:10px">

@@ -186,6 +186,30 @@
   .text-footer{
     color: white
   }
+
+  /*
+      for banner in header
+  */
+  .img-backg-banner-header{
+    background-image: url("dist/img/banner-superior.png");
+    background-color: #cccccc;
+    background-size: cover;
+    height: 150px ;
+    width: 100%;
+  }
+
+  @media screen and (max-width:500px){
+  .img-backg-banner-header{
+      background-image: url("dist/img/banner-superior-min.png");
+      height: 100px ;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width:1036px){
+  .social-media-buttons{
+    display: none;
+  }
+  }
 </style>
 
 <!-- WhatsHelp.io widget -->

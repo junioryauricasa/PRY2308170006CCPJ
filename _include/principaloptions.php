@@ -1,6 +1,6 @@
  <div class="row">
         <div class="col-lg-2 col-md-4 col-xs-6">
-          <a href="">
+          <a href="requisitosparacolegiatura">
             <div class="small-box bg-aqua" style="">
               <div class="inner text-center">
                 <img src="dist/img/icons/031-folder-3.png" alt="" width="70%">

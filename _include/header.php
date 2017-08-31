@@ -96,11 +96,11 @@
                     <li><a href="#">Archivos de Actividades Académicask</a></li>
                   </ul>
                 </li>
-                <li><a href="#contact">Consulta de Habilidad</a></li>
+                <!--li><a href="#contact">Consulta de Habilidad</a></li-->
                 <li><a href="#contact">Contacto</a></li>
               </ul>
 
-              <ul class="nav navbar-nav navbar-right" style="padding-top: 7px;">
+              <ul class="nav navbar-nav navbar-right social-media-buttons" style="padding-top: 7px;">
                   <li><a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/ccpjunin"><i class="fa fa-facebook"></i></a></li>
                   <li><a class="btn btn-social-icon btn-google" target="_blank" href="https://plus.google.com/u/0/b/111532763552457194914/111532763552457194914/about"><i class="fa fa-google-plus"></i></a></li>
                   <li><a class="btn btn-social-icon btn-google" target="_blank" href="https://www.youtube.com/channel/UCA7KbONq4t5Cg6LlS3MAuEg"><i class="fa fa-youtube"></i></a></li>
