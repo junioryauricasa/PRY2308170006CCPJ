@@ -17,7 +17,7 @@
                 <marquee direction="left" id="ejemplo">
                     <span class="Apple-style-span" style="color: black; padding-top:3px">
                         <p style="font-family: 'Anton', sans-serif;">
-                          El Colegio de Contadores Públicos de Junín les desea un Felíz día a todos los Contadores del Peru. (12/09/2017) // Lorem ipsum dolor sit amet,cue.(13/12/2017) // Lorem ipsum dolor sit amet dolor sit ametdolor sit amet,cue.(14/12/2017) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae excepturi, quis cupiditate porro vitae harum explicabo, aliquam labore commodi dolore, fugiat itaque necessitatibus quidem tempora esse velit qui odit doloribus.
+                          El Colegio de Contadores Públicos de Junín les desea un Felíz día a todos los Contadores del Perú. (12/09/2017) // Lorem ipsum dolor sit amet,cue.(13/12/2017) // Lorem ipsum dolor sit amet dolor sit ametdolor sit amet,cue.(14/12/2017) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae excepturi, quis cupiditate porro vitae harum explicabo, aliquam labore commodi dolore, fugiat itaque necessitatibus quidem tempora esse velit qui odit doloribus.
                         </p>
                     </span>
                 </marquee> 
@@ -159,7 +159,7 @@
                   </ul>
                 </div>
                 <div class="box-footer text-center">
-                  <a href="" class="uppercase">
+                  <a href="noticias" class="uppercase">
                       Ver todas las Noticias
                   </a>
                 </div>
@@ -181,17 +181,20 @@
                                   <h4><b>Misión</b></h4>
                                   <p>Agrupar y representar a los contadores públicos ante la sociedad y autoridades, generando servicios de valor y calidad. Velar y promover la competencia profesional, conducta ética y acceso al conocimiento acorde con los adelantos científicos, tecnológicos y la dinámica global. Orienta a la sociedad y contribuye al desarrollo regional y del país en temas que le competen, y basa su crecimiento institucional en la activa participación de sus miembros, la investigación científica, una gestión de calidad y el uso transparente y eficiente de los recursos.</p>
                                 </div>
-                            </div>
-                            <div class="row vertical-align">
-                                <div class="col-sm-12 col-lg-6 " style="">
+                                <div class="col-lg-6 col-md-6 col-xs-12" style="">
                                   <h4><b>Visión</b></h4>
                                   <p>Ser la institución profesional líder en el mejoramiento de la competitividad del contador público, reconocida por la integridad de sus agremiados y servicio a la sociedad.</p>
                                 </div>
-                                <div class="col-sm-12 col-lg-6 ">
+                                <div class="col-lg-6 col-md-6 col-xs-12">
                                   <h4><b>Valores</b></h4>
                                   <p> Conducta Ética Calidad de Servicio a los Colegiados Prudencia en la Administración de los recusos Justicia </p>
                                 </div>
                             </div>
+                        </div>
+                        <div class="box-footer text-center">
+                          <a href="informacionempresarial" class="uppercase">
+                              Ver Información Empresarial
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -408,7 +411,7 @@
                         </div>
                       </div>
                       <div class="box-footer text-center">
-                        <a href="" class="uppercase">
+                        <a href="contadoraldia" class="uppercase">
                             Ver Todos
                         </a>
                       </div>
@@ -456,8 +459,8 @@
                   </div>
               </div>
               <div class="box-footer text-center">
-                <a href="" class="uppercase">
-                    Ver Todos
+                <a href="galeriafotosyvideos" class="uppercase">
+                    Ver Toda la Galería
                 </a>
               </div>
             </div>

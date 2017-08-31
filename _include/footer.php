@@ -1,9 +1,17 @@
 
-      <footer class="main-footer" style="background:#3c8dbc ;color: white; border-left: 0px">  
+      <footer class="main-footer" style="background:#03588a ;color: white; border-left: 0px">  
         <div class="row">
           <div class="col-lg-12">
             <div class="col-lg-4">
               <img class="img-responsive" src="dist/img/logo_horizontal_ccpj.png" alt="Logo horizontal del Colegio de Contadores Públicos de Junín">
+              <br>
+              <ul class="nav navbar-nav navbar-center social-media-buttons" style="padding-top: 7px;">
+                  <li><a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/ccpjunin"><i class="fa fa-facebook"></i></a></li>
+                  <li><a class="btn btn-social-icon btn-google" target="_blank" href="https://plus.google.com/u/0/b/111532763552457194914/111532763552457194914/about"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a class="btn btn-social-icon btn-google" target="_blank" href="https://www.youtube.com/channel/UCA7KbONq4t5Cg6LlS3MAuEg"><i class="fa fa-youtube"></i></a></li>
+                  <li><a class="btn btn-social-icon btn-linkedin" target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
+                  <li><a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/CCP_Junin"><i class="fa fa-twitter"></i></a></li>
+              </ul>
             </div>
             <div class="col-lg-3">
               <h4>Información de Contacto</h4>
@@ -47,7 +55,7 @@
               </p>
             </div>
             <div class="col-lg-3 col-xs-6">
-              <h4>Horario de atención</h4>
+              <h4>Horario de Atención</h4>
               <p class="text-footer">
                 <i class="fa fa-fw  fa-clock-o"></i>
                 <span class="text">

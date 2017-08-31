@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="dist/css/skins/_all-skins.css">
     <!-- iCheck -->
     <link rel="stylesheet" href="plugins/iCheck/flat/blue.css">
     <!-- Morris chart -->
@@ -71,13 +71,13 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class=""><a href="index">Inicio</a></li> <!-- class active para sombrear -->
-                <li class=""><a href="#">Noticias</a></li> <!-- class active para sombrear -->
+                <li class=""><a href="noticias">Noticias</a></li> <!-- class active para sombrear -->
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Institucional <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Historia, Misión y Visión</a></li>
-                    <li><a href="#">Consejo Directivo Actual</a></li>
-                    <li><a href="#">Comités Funcionales</a></li>
+                    <li><a href="informacioninstitucional">Historia, Misión y Visión</a></li>
+                    <li><a href="consejodirectivo">Consejo Directivo Actual</a></li>
+                    <li><a href="comitesfuncionales">Comités Funcionales</a></li>
                     <li><a href="">Órganos Institucionales</a></li>
                     <li><a href="#">Normatividad</a></li>
                     <li><a href="#">Requisitos para la Incorporación</a></li>
@@ -99,21 +99,12 @@
                 <!--li><a href="#contact">Consulta de Habilidad</a></li-->
                 <li><a href="#contact">Contacto</a></li>
               </ul>
-
-              <ul class="nav navbar-nav navbar-right social-media-buttons" style="padding-top: 7px;">
-                  <li><a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/ccpjunin"><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="btn btn-social-icon btn-google" target="_blank" href="https://plus.google.com/u/0/b/111532763552457194914/111532763552457194914/about"><i class="fa fa-google-plus"></i></a></li>
-                  <li><a class="btn btn-social-icon btn-google" target="_blank" href="https://www.youtube.com/channel/UCA7KbONq4t5Cg6LlS3MAuEg"><i class="fa fa-youtube"></i></a></li>
-                  <li><a class="btn btn-social-icon btn-linkedin" target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
-                  <li><a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/CCP_Junin"><i class="fa fa-twitter"></i></a></li>
-              </ul>
             </div>
           </div>
         </nav>
       </header>
       <!-- Left side column. contains the logo and sidebar -->
       <aside class="main-sidebar">
-        <!-- sidebar: style can be found in sidebar.less -->
         <section class="sidebar">
           <!-- Sidebar user panel -->
           <div class="user-panel">
@@ -132,7 +123,7 @@
           <!-- sidebar menu: : style can be found in sidebar.less -->
           <ul class="sidebar-menu">
             <li class="header">MENÚ DE NAVEGACIÓN</li>
-            <li class="active treeview">
+            <li class="treeview">
               <a href="#">
                 <i class="fa fa-dashboard"></i> <span>Menú Principal</span> <i class="fa fa-angle-left pull-right"></i>
               </a>
@@ -173,17 +164,17 @@
               <a href="#">
                 <i class="fa fa-files-o"></i>
                 <span>Actualidad</span>
-                <span class="label label-primary pull-right">4</span>
+                <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
                 <li class="active">
-                  <a href="index.html">
+                  <a href="contadoraldia">
                     <i class="fa fa-circle-o"></i> 
                     Contador al Día
                   </a>
                 </li>
                 <li class="active">
-                  <a href="index.html">
+                  <a href="noticias">
                     <i class="fa fa-circle-o"></i> 
                     Notícias
                   </a>
@@ -260,9 +251,9 @@
             </li>
             <li class="treeview">
               <a href="#">
-                <i class="fa fa-files-o"></i>
+                <i class="fa fa-users"></i>
                 <span>Órganos de Gobierno</span>
-                <span class="label label-primary pull-right">4</span>
+                <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
                 <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> Consejo Directivo</a></li>
@@ -271,16 +262,15 @@
             </li>
             <li class="treeview">
               <a href="#">
-                <i class="fa fa-files-o"></i>
+                <i class="fa fa-users"></i>
                 <span>Comites</span>
+                <i class="fa fa-angle-left pull-right"></i>
               </a>
-              <!-- menu del usuario -->
               <ul class="treeview-menu">
                 <li>
                   <a href="#" alt="Smiley face">
                     <i class="fa fa-circle-o"></i> 
                       Comite Funcional
-                    <i class="fa fa-angle-left pull-right">
                     </i>
                   </a>
                 </li>
@@ -288,92 +278,20 @@
                   <a href="#" alt="Smiley face">
                     <i class="fa fa-circle-o"></i> 
                       Comite Funcional de Apoyo
-                    <i class="fa fa-angle-left pull-right">
                     </i>
                   </a>
                 </li>
-              </ul>
-              <!-- END  menu del usuario -->
-            </li>
-            <li class="treeview">
-              <a href="#">
-                <i class="fa fa-laptop"></i>
-                <span>UI Elements</span>
-                <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu">
-                <li><a href=""><i class="fa fa-circle-o"></i> General</a></li>
-                <li><a href=""><i class="fa fa-circle-o"></i> Icons</a></li>
-                <li><a href=""><i class="fa fa-circle-o"></i> Buttons</a></li>
-                <li><a href=""><i class="fa fa-circle-o"></i> Sliders</a></li>
-                <li><a href=""><i class="fa fa-circle-o"></i> Timeline</a></li>
-                <li><a href=""><i class="fa fa-circle-o"></i> Modals</a></li>
-              </ul>
-            </li>
-            <li class="treeview">
-              <a href="#">
-                <i class="fa fa-edit"></i> <span>Forms</span>
-                <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu">
-                <li><a href="pages/forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
-                <li><a href="pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-                <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>
-              </ul>
-            </li>
-            <li class="treeview">
-              <a href="#">
-                <i class="fa fa-table"></i> <span>Tables</span>
-                <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu">
-                <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i> Simple tables</a></li>
-                <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="pages/calendar.html">
-                <i class="fa fa-calendar"></i> <span>Calendar</span>
-                <small class="label pull-right bg-red">3</small>
-              </a>
-            </li>
-            <li>
-              <a href="pages/mailbox/mailbox.html">
-                <i class="fa fa-envelope"></i> <span>Mailbox</span>
-                <small class="label pull-right bg-yellow">12</small>
-              </a>
-            </li>
-            <li class="treeview">
-              <a href="#">
-                <i class="fa fa-folder"></i> <span>Examples</span>
-                <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu">
-                <li><a href="pages/examples/invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
-                <li><a href="pages/examples/profile.html"><i class="fa fa-circle-o"></i> Profile</a></li>
-                <li><a href="pages/examples/login.html"><i class="fa fa-circle-o"></i> Login</a></li>
-                <li><a href="pages/examples/register.html"><i class="fa fa-circle-o"></i> Register</a></li>
-                <li><a href="pages/examples/lockscreen.html"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
-                <li><a href="pages/examples/404.html"><i class="fa fa-circle-o"></i> 404 Error</a></li>
-                <li><a href="pages/examples/500.html"><i class="fa fa-circle-o"></i> 500 Error</a></li>
-                <li><a href="pages/examples/blank.html"><i class="fa fa-circle-o"></i> Blank Page</a></li>
-              </ul>
-            </li>
-            <li class="treeview">
-              <a href="#">
-                <i class="fa fa-share"></i> <span>Multilevel</span>
-                <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu">
                 <li>
-                  <a href="#">
-                    <i class="fa fa-circle-o"></i> Level One
+                  <a href="#" alt="Smiley face">
+                    <i class="fa fa-circle-o"></i> 
+                      Gestión Gubernamental
+                    </i>
                   </a>
                 </li>
-                <li>
+                <li class="">
                   <a href="#">
                     <i class="fa fa-circle-o"></i> 
-                    Level One 
+                      Peritaje Contable
                     <i class="fa fa-angle-left pull-right">
                     </i>
                   </a>
@@ -381,26 +299,186 @@
                     <li>  
                       <a href="#">
                         <i class="fa fa-circle-o"></i> 
-                        Level Two
+                          Miembro Ordinario
                         </a>
                     </li>
-                    <li>
-                      <a href="#"><i class="fa fa-circle-o"></i> Level Two <i class="fa fa-angle-left pull-right"></i></a>
-                      <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                      </ul>
+                    <li>  
+                      <a href="#">
+                        <i class="fa fa-circle-o"></i> 
+                          Especialistas
+                        </a>
                     </li>
                   </ul>
                 </li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
+                <li class="">
+                  <a href="#">
+                    <i class="fa fa-circle-o"></i> 
+                      Auditoria
+                    <i class="fa fa-angle-left pull-right">
+                    </i>
+                  </a>
+                  <ul class="treeview-menu">
+                    <li>  
+                      <a href="#">
+                        <i class="fa fa-circle-o"></i> 
+                          Ordinaria
+                        </a>
+                    </li>
+                    <li>  
+                      <a href="#">
+                        <i class="fa fa-circle-o"></i> 
+                          Independiente
+                        </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" alt="Smiley face">
+                    <i class="fa fa-circle-o"></i> 
+                      Sociedad Auditora
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" alt="Smiley face">
+                    <i class="fa fa-circle-o"></i> 
+                      Gestión de las MYPE
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" alt="Smiley face">
+                    <i class="fa fa-circle-o"></i> 
+                      Finanzas y Gestión
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" alt="Smiley face">
+                    <i class="fa fa-circle-o"></i> 
+                      Desarrollo Profesional
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" alt="Smiley face">
+                    <i class="fa fa-circle-o"></i> 
+                      Tributación y Fiscalia
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" alt="Smiley face">
+                    <i class="fa fa-circle-o"></i> 
+                      Informática Contable
+                    </i>
+                  </a>
+                </li>
+                <li class="">
+                  <a href="#">
+                    <i class="fa fa-circle-o"></i> 
+                      Apoyo
+                    <i class="fa fa-angle-left pull-right">
+                    </i>
+                  </a>
+                  <ul class="treeview-menu">
+                    <li>  
+                      <a href="#">
+                        <i class="fa fa-circle-o"></i> 
+                          Investigación Contable
+                        </a>
+                    </li>
+                    <li>  
+                      <a href="#">
+                        <i class="fa fa-circle-o"></i> 
+                          Defensa Profesional
+                        </a>
+                    </li>
+                    <li>  
+                      <a href="#">
+                        <i class="fa fa-circle-o"></i> 
+                          Ecología y Ambiente
+                        </a>
+                    </li>
+                    <li>  
+                      <a href="#">
+                        <i class="fa fa-circle-o"></i> 
+                          Ética Profesional
+                        </a>
+                    </li>
+                    <li>  
+                      <a href="#">
+                        <i class="fa fa-circle-o"></i> 
+                          Actividades Sociales
+                        </a>
+                    </li>
+                    <li>  
+                      <a href="#">
+                        <i class="fa fa-circle-o"></i> 
+                          Deportes
+                        </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" alt="Smiley face">
+                    <i class="fa fa-circle-o"></i> 
+                      J. D. Selva Central
+                    </i>
+                  </a>
+                </li>
               </ul>
             </li>
-            <li><a href="documentation/index.html"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
-            <li class="header">LABELS</li>
-            <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
-            <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
-            <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-briefcase"></i>
+                <span>Servicios</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href=""><i class="fa fa-circle-o"></i> Actualización de Datos</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i> Documentos</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i> Biblioteca</a></li>
+                <li class="">
+                  <a href="#">
+                    <i class="fa fa-circle-o"></i> 
+                      Consulta Hábil
+                    <i class="fa fa-angle-left pull-right">
+                    </i>
+                  </a>
+                  <ul class="treeview-menu">
+                    <li>  
+                      <a href="#">
+                        <i class="fa fa-circle-o"></i> 
+                          Consulta por Código
+                        </a>
+                    </li>
+                    <li>  
+                      <a href="#">
+                        <i class="fa fa-circle-o"></i> 
+                          Sociedad Auditóra
+                        </a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href=""><i class="fa fa-circle-o"></i> Costos por Servicio</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i> Login Subir Archivos</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i> Archivos Académicas</a></li>
+              </ul>
+            </li>
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-files-o"></i> <span>Requisitos</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="pages/forms/general.html"><i class="fa fa-circle-o"></i> Colegiatura</a></li>
+                <li><a href="pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Certificación</a></li>
+                <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i> ReCertificación</a></li>
+                <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i> Incorporación al Comite</a></li>
+              </ul>
+            </li>
+            <li><a href="calendario"><i class="fa fa-calendar-times-o"></i> <span>Calendario</span></a></li>
           </ul>
         </section>
       </aside>
