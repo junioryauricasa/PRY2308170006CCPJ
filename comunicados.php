@@ -17,10 +17,10 @@
     <div class="row" style="" id="textonparallax">
       <div class="col-lg-12" style="color:white; text-align: center">
         <h1>
-            Bolsa de Trabajo
+            Comunicados
         </h1>
         <p style="">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nima. Dicta quae minus fugit aspernatur deserunt?
+          Lorem ipsum dolor sit amet, consectetur omnis officia ex corporis deleniti odit, dolorum in maiores facere nisi!
         </p>
       </div>
       
@@ -38,7 +38,7 @@
             <section class="col-lg-4">
               <div class="nav-tabs-custom">
                 <ul class="nav nav-tabs pull-right">
-                  <li class="pull-left header"><i class="fa fa-inbox"></i> Ofertas Laborales Recientes</li>
+                  <li class="pull-left header"><i class="fa fa-inbox"></i> Comunicados Recientes</li>
                 </ul>
 
                 <div class="box-body">
@@ -47,7 +47,7 @@
                       <div class="box-header with-border">
                         <h4 class="">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1-top" aria-expanded="false" class="collapsed">
-                            Requisitos para Colegiatura <span class="label label-danger pull-right">12/12/2017</span>
+                            Título de Comunicado <span class="label label-danger pull-right">12/12/2017</span>
                           </a>
                         </h4>
                       </div>
@@ -72,7 +72,7 @@
                       <div class="box-header with-border">
                         <h4 class="">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne34-top" aria-expanded="false" class="collapsed">
-                            Requisitos para Colegiatura <span class="label label-danger pull-right">12/12/2017</span>
+                            Título de Comunicado <span class="label label-danger pull-right">12/12/2017</span>
                           </a>
                         </h4>
                       </div>
@@ -88,13 +88,12 @@
                       <div class="box-header with-border">
                         <h4 class="">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne8-top" aria-expanded="false" class="collapsed">
-                            Publicación de la obra: "Aspectos Generales de los Procedimientos Administrativos Tributarios" <span class="label label-danger pull-right">12/12/2017</span>
+                            Título de Comunicado <span class="label label-danger pull-right">12/12/2017</span>
                           </a>
                         </h4>
                       </div>
                       <div id="collapseOne8-top" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
                         <div class="box-body">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
                           <br> 
                           <div class="embed-responsive" style="padding-bottom:150%">
                                <object data="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf" type="application/pdf" width="100%" height="800px"> 
@@ -113,7 +112,7 @@
                       <div class="box-header with-border">
                         <h4 class="">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne2-top" aria-expanded="false" class="collapsed">
-                            Requisitos para Colegiatura <span class="label label-danger pull-right">12/12/2017</span>
+                            Título de Comunicado <span class="label label-danger pull-right">12/12/2017</span>
                           </a>
                         </h4>
                       </div>
@@ -139,13 +138,13 @@
                       <div class="box-header with-border">
                         <h4 class="">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne7-top" aria-expanded="false" class="collapsed">
-                            Requisitos para Colegiatura <span class="label label-danger pull-right">12/12/2017</span>
+                            Título de Comunicado <span class="label label-danger pull-right">12/12/2017</span>
                           </a>
                         </h4>
                       </div>
                       <div id="collapseOne7-top" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
                         <div class="box-body">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
+                          <p>Lorem ipsum dolor si!</p>
                           <br> 
                           <div class="embed-responsive" style="padding-bottom:150%">
                                <object data="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf" type="application/pdf" width="100%" height="800px"> 
@@ -255,7 +254,7 @@
                   <div class="box-header">
                     <i class="fa fa-map-marker"></i>
                     <h3 class="box-title">
-                      Ofertas Laborales
+                      Nuestros Comunicados
                     </h3>
                   </div>
                   <div class="box-body">
@@ -264,24 +263,18 @@
                         <div class="box-header with-border">
                           <h4 class="">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" class="">
-                              Requisitos para Colegiatura <span class="label label-danger pull-right">12/12/2017</span>
+                              Título de Actividad Programada  <span class="label label-danger pull-right">12/12/2017</span>
                             </a>
                           </h4>
                         </div>
                         <div id="collapseOne1" class="panel-collapse collapse in" aria-expanded="true" style="">
                           <div class="box-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
-                            <br> 
-                            <div class="embed-responsive" style="padding-bottom:150%">
-                                 <object data="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
-                                  <p>
-                                    Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                   <a href="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf">
-                                     click para descargar el archivo PDF
-                                   </a>
-                                  </p>  
-                                 </object>
-                            </div>
+                            <img src="http://ccpjunin.pe/img/bolsa/convocatoria_administrador_obra.jpg" class="img-responsive" alt="">
+                            <br>
+                            <h4>Descripción:</h4>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!
+                            </p> 
                           </div>
                         </div>
                       </div>
@@ -289,15 +282,16 @@
                         <div class="box-header with-border">
                           <h4 class="">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne2" aria-expanded="false" class="collapsed">
-                              Requisitos para Colegiatura <span class="label label-danger pull-right">12/12/2017</span>
+                              Título de Actividad Programada  <span class="label label-danger pull-right">12/12/2017</span>
                             </a>
                           </h4>
                         </div>
                         <div id="collapseOne2" class="panel-collapse collapse in" aria-expanded="false" style="">
                           <div class="box-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
-                            <br> 
                             <img src="http://ccpjunin.pe/img/bolsa/convocatoria_administrador_obra.jpg" alt="" class="img-responsive">
+                            <br>
+                            <h4>Descripción:</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
                           </div>
                         </div>
                       </div>
@@ -305,14 +299,12 @@
                         <div class="box-header with-border">
                           <h4 class="">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne3" aria-expanded="false" class="collapsed">
-                              Requisitos para Colegiatura <span class="label label-danger pull-right">12/12/2017</span>
+                              Título de Actividad Programada  <span class="label label-danger pull-right">12/12/2017</span>
                             </a>
                           </h4>
                         </div>
                         <div id="collapseOne3" class="panel-collapse collapse in" aria-expanded="false" style="">
                           <div class="box-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
-                            <br> 
                             <div class="embed-responsive" style="padding-bottom:150%">
                                  <object data="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf" type="application/pdf" width="100%" height="800px"> 
                                   <p>
@@ -323,6 +315,9 @@
                                   </p>  
                                  </object>
                             </div>
+                            <br>
+                            <h4>Descripción:</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducequatur aut neque? Pariatur!</p>
                           </div>
                         </div>
                       </div>
@@ -330,15 +325,16 @@
                         <div class="box-header with-border">
                           <h4 class="">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne4" aria-expanded="false" class="collapsed">
-                              Requisitos para Colegiatura <span class="label label-danger pull-right">12/12/2017</span>
+                              Título de Actividad Programada  <span class="label label-danger pull-right">12/12/2017</span>
                             </a>
                           </h4>
                         </div>
                         <div id="collapseOne4" class="panel-collapse collapse in" aria-expanded="false" style="">
                           <div class="box-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
-                            <br> 
                             <img src="http://ccpjunin.pe/img/bolsa/convocatoria_administrador_obra.jpg" alt="" class="img-responsive">
+                            <br>
+                            <h4>Descripción:</h4>
+                            <p>Lorem ipsum dolor sit amet, consee alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
                           </div>
                         </div>
                       </div>
@@ -346,15 +342,17 @@
                         <div class="box-header with-border">
                           <h4 class="">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne5" aria-expanded="false" class="collapsed">
-                              Requisitos para Colegiatura <span class="label label-danger pull-right">12/12/2017</span>
+                              Título de Actividad Programada  <span class="label label-danger pull-right">12/12/2017</span>
                             </a>
                           </h4>
                         </div>
                         <div id="collapseOne5" class="panel-collapse collapse in" aria-expanded="false" style="">
                           <div class="box-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
-                            <br> 
                             <img src="http://ccpjunin.pe/img/bolsa/convocatoria_administrador_obra.jpg" alt="" class="img-responsive">
+                            <br>
+                            <h4>Descripción:</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illuatur aut neque? Pariatur!</p>
+                            <br> 
                           </div>
                         </div>
                       </div>
@@ -363,19 +361,13 @@
                 </div>
                 <!-- paginador -->
                 <ul class="pagination">
-                  <li><a href="#"><i class="fa fa-fw fa-backward"></i></a></li>
+                  <li><a href="#">Anterior</a></li>
                   <li><a href="#">1</a></li>
                   <li><a href="#">2</a></li>
                   <li><a href="#">3</a></li>
                   <li><a href="#">4</a></li>
                   <li><a href="#">5</a></li>
-                  <li><a href="#">6</a></li>
-                  <li><a href="#">7</a></li>
-                  <li><a href="#">8</a></li>
-                  <li><a href="#">9</a></li>
-                  <li><a href="#">10</a></li>
-                  <li><a href="#">11</a></li>
-                  <li><a href="#"><i class="fa fa-fw fa-forward"></i></a></li>
+                  <li><a href="#">Siguiente</a></li>
                 </ul>
             </section>
           </div>

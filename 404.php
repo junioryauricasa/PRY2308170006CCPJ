@@ -37,18 +37,6 @@
     </section>
 </div>
 
-<style>
-  #textonparallax{
-      margin-top: -280px; 
-      padding-bottom: 80px;
-  }
-  @media screen and (min-width:350px){
-    #textonparallax{
-          margin-bottom: 100px;
-    }
-  }
-</style>
-
 <?php 
 	include('_include/footer.php');
 ?>

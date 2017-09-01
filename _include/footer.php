@@ -1,5 +1,5 @@
 
-      <footer class="main-footer" style="background:#03588a ;color: white; border-left: 0px">  
+      <footer class="main-footer" style="background: #073e5f ;color: white; border-left: 0px">  
         <div class="row">
           <div class="col-lg-12">
             <div class="col-lg-4">
@@ -195,6 +195,16 @@
     color: white
   }
 
+  #textonparallax{
+      margin-top: -330px; 
+      padding-bottom: 80px;
+  }
+  @media screen and (min-width:350px){
+    #textonparallax{
+          margin-bottom: 50px;
+    }
+  }
+
   /*
       for banner in header
   */
@@ -214,10 +224,11 @@
     }
   }
   @media screen and (max-width:1036px){
-  .social-media-buttons{
-    display: none;
+    .social-media-buttons{
+      display: none;
+    }
   }
-  }
+
 </style>
 
 <!-- WhatsHelp.io widget -->

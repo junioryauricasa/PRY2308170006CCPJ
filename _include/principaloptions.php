@@ -24,7 +24,7 @@
             <div class="small-box bg-aqua" style="">
               <div class="inner text-center">
                 <img src="dist/img/icons/016-worker.png" alt="" width="70%">
-                <p class="text-center">Consulta de Habilidad</p>
+                <p class="text-center">Consulta por Habilidad</p>
               </div>
             </div>
           </a>
