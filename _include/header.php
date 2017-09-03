@@ -480,10 +480,10 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="pages/forms/general.html"><i class="fa fa-circle-o"></i> Colegiatura</a></li>
-                <li><a href="pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Certificación</a></li>
-                <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i> ReCertificación</a></li>
-                <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i> Incorporación al Comite</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i> Colegiatura</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i> Certificación</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i> ReCertificación</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i> Incorporación al Comite</a></li>
               </ul>
             </li>
             <li><a href="calendario"><i class="fa fa-calendar-times-o"></i> <span>Calendario</span></a></li>

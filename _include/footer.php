@@ -10,7 +10,7 @@
                     <li><a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/ccpjunin"><i class="fa fa-facebook"></i></a></li>
                     <li><a class="btn btn-social-icon btn-google" target="_blank" href="https://plus.google.com/u/0/b/111532763552457194914/111532763552457194914/about"><i class="fa fa-google-plus"></i></a></li>
                     <li><a class="btn btn-social-icon btn-google" target="_blank" href="https://www.youtube.com/channel/UCA7KbONq4t5Cg6LlS3MAuEg"><i class="fa fa-youtube"></i></a></li>
-                    <li><a class="btn btn-social-icon btn-linkedin" target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
+                    <!--li><a class="btn btn-social-icon btn-linkedin" target="_blank" href=""><i class="fa fa-linkedin"></i></a></li-->
                     <li><a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/CCP_Junin"><i class="fa fa-twitter"></i></a></li>
                 </ul>
               </div>
@@ -41,19 +41,19 @@
                 <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">JDCCPP</a></span>
                 <br>
                 <i class="fa fa-fw fa-link"></i>
-                <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">IFAC</a></span>
+                <span class="text"><a target="_blank" style="color:white" href="https://www.ifac.org/">IFAC</a></span>
                 <br>
                 <i class="fa fa-fw fa-link"></i>
-                <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">AIC</a></span>
+                <span class="text"><a target="_blank" style="color:white" href="http://www.contadores-aic.org/">AIC</a></span>
                 <br>
                 <i class="fa fa-fw fa-link"></i>
-                <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">SUNAT</a></span>
+                <span class="text"><a target="_blank" style="color:white" href="http://www.sunat.gob.pe/">SUNAT</a></span>
                 <br>
                 <i class="fa fa-fw fa-link"></i>
-                <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">Portal del Estado</a></span>
+                <span class="text"><a target="_blank" style="color:white" href="http://www.peru.gob.pe/%22">Portal del Estado</a></span>
                 <br>
                 <i class="fa fa-fw fa-link"></i>
-                <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">Consulta RUC</a></span>
+                <span class="text"><a target="_blank" style="color:white" href="http://ww1.sunat.gob.pe/cl-ti-itmrconsruc/jcrS00Alias">Consulta RUC</a></span>
               </p>
             </div>
             <div class="col-lg-2 col-md-3 col-xs-4">
@@ -237,11 +237,14 @@
   }
 
   @media screen and (max-width:500px){
-  .img-backg-banner-header{
-      background-image: url("dist/img/banner-superior-min.png");
-      height: 100px ;
-      width: 100%;
-    }
+      .img-backg-banner-header{
+          background-image: url("dist/img/banner-superior-min.png");
+          height: 100px ;
+          width: 100%;
+        }
+      img{
+         padding: 0px;
+      }
   }
   @media screen and (max-width:1036px){
     .social-media-buttons{
@@ -319,6 +322,17 @@ div.container .row .item {
 .well{
   padding: 0px
 }
+
+/* img hover */
+.img-option-principal{
+  padding: 10px;
+  transition: all .3s
+}
+.img-option-principal:hover{
+  padding: 2px;
+  transition: all .5s
+}
+
 </style>
 
 <!-- WhatsHelp.io widget -->
