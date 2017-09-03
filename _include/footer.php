@@ -41,19 +41,19 @@
                 <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">JDCCPP</a></span>
                 <br>
                 <i class="fa fa-fw fa-link"></i>
-                <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">IFAC</a></span>
+                <span class="text"><a target="_blank" style="color:white" href="https://www.ifac.org/">IFAC</a></span>
                 <br>
                 <i class="fa fa-fw fa-link"></i>
-                <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">AIC</a></span>
+                <span class="text"><a target="_blank" style="color:white" href="http://www.contadores-aic.org/">AIC</a></span>
                 <br>
                 <i class="fa fa-fw fa-link"></i>
-                <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">SUNAT</a></span>
+                <span class="text"><a target="_blank" style="color:white" href="http://www.sunat.gob.pe/">SUNAT</a></span>
                 <br>
                 <i class="fa fa-fw fa-link"></i>
-                <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">Portal del Estado</a></span>
+                <span class="text"><a target="_blank" style="color:white" href="http://www.peru.gob.pe/">Portal del Estado</a></span>
                 <br>
                 <i class="fa fa-fw fa-link"></i>
-                <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">Consulta RUC</a></span>
+                <span class="text"><a target="_blank" style="color:white" href="http://e-consultaruc.sunat.gob.pe/">Consulta RUC</a></span>
               </p>
             </div>
             <div class="col-lg-2 col-md-3 col-xs-4">

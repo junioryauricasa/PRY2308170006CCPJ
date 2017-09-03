@@ -40,7 +40,7 @@
                 <li class="pull-left header"><i class="fa fa-info-circle"></i> Historia</li>
               </ul>
               <div class="box-body">
-                  <p>
+                    <p>
                     Todo comenzó en el mes de noviembre de 1978. En esa asamblea general extraordinaria, que duró dos días, se decidió crear una Orden que represente a nivel de la Región a todos los Contadores Públicos. 
                     <br>
                     Determinándose los cimientos del hoy pujante y glorioso Colegio de Contadores Públicos de Junín. Por ello, es importante reconocer el papel que desarrollaron los integrantes de la comisión reorganizadora: don Félix Ríos Bianchi (presidente), don Florencio Garay Garay (secretario), don Pedro Raúl Vilcahuamán Jesús (tesorero) y don Teodosio Oré Gómez (vocal). 
