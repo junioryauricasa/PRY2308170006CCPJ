@@ -295,6 +295,30 @@ STYLE scroolbar
   font-family: 'Adamina', serif;
 }
 
+/*  For grid pinterest  */
+*,
+div.container .row:before,
+div.container .row::after {
+  box-sizing: border-box;
+}
+
+div.container .row {
+  /* column width */
+  -moz-column-width: 19em;
+  -webkit-column-width: 19em;
+  
+  /* space between columns */
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
+}
+
+div.container .row .item {
+  display: inline-block;
+  width: 100%;
+}
+.well{
+  padding: 0px
+}
 </style>
 
 <!-- WhatsHelp.io widget -->

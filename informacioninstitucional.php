@@ -57,6 +57,41 @@
             </div>
             <div class="nav-tabs-custom">
               <ul class="nav nav-tabs pull-right">
+                <li class="pull-left header"><i class="fa fa-info-circle"></i> Sobre Nuestra Institución</li>
+              </ul>
+              <div class="box-body">
+                  <div class="row">
+                      <div class="col-lg-12">
+                        <h4><b>Misión</b></h4>
+                        <p>"Agrupar y representar a los Contadores Públicos ante la sociedad y autoridades, generando servicios de valor y calidad. Velar y promover la competencia profesional, conducta ética y acceso al conocimiento acorde con los adelantos científicos, tecnológicos y la dinámica global. Orienta a la sociedad y contribuye al desarrollo regional y del país en temas que le competen y basa su crecimiento institucional en la activa participación de sus miembros, la investigación científica, una gestión de calidad y el uso transparente y eficiente de los recursos"</p>
+                      </div>
+                      <div class="col-lg-12">
+                        <h4><b>Visión</b></h4>
+                        <p>"Ser la institución profesional líder en el mejoramiento de la competitividad del Contador Público, reconocida por la integridad de sus agremiados y servicio a la sociedad"</p>
+                      </div>
+                      <div class="col-lg-12">
+                        <h4><b>Valores</b></h4>
+                        <p>
+                          <ul>
+                            <li>Conducta</li>
+                            <li>Ética</li>
+                            <li>Calidad de Servicio a los Colegiados</li>
+                            <li>Prudencia en la administración de los recursos Justicia</li>
+                          </ul>
+                        </p>
+                      </div>
+                      <div class="col-lg-12">
+                        <h4><b>Objetivo</b></h4>
+                        <p>
+                          Conducta Ética Calidad de Servicio a los Colegiados Prudencia en la administración de los recursos Justicia
+                        </p>
+                      </div>
+                  </div>
+                  <br>
+              </div>
+            </div>
+            <div class="nav-tabs-custom">
+              <ul class="nav nav-tabs pull-right">
                 <li class="pull-left header"><i class="fa fa-commenting"></i> Déjanos tu Opinión</li>
               </ul>
               <div class="box-body">
@@ -70,126 +105,99 @@
           </section>
           <section class="col-lg-8 col-md-12">
               <div class="nav-tabs-custom">
-                <ul class="nav nav-tabs pull-right">
-                  <li class="pull-left header"><i class="fa fa-list"></i> Documentos CCPJ</li>
-                </ul>
-                <div class="box-body">
-                    <!-- json datatable -->
-                <table data-toggle="table" data-show-refresh="true" data-show-toggle="true" data-show-columns="true" data-search="true" data-select-item-name="toolbar1" data-pagination="true" data-sort-name="name" data-sort-order="desc">
-                  <thead>
-                    <tr>
-                      <th>Nombre del Documento</th>
-                      <th>Descripción</th>
-                      <th>Opciones</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                      <tr class="">
-                        <td>CCP Junin - Compendio de Normas Generales</td>
-                        <td>
-                          Este archivo es para...
-                        </td>
-                        <td>
-                            <a data-toggle="tooltip" class="btn btn-primary btn-xs" data-original-title="Ver Documento" target="_blank" href="http://ccpjunin.pe/documentos/compendio_normas_generales.pdf">
-                              <span class="glyphicon glyphicon-eye-open"></span>
-                            </a>
-                            <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Descargar Documento" href="http://ccpjunin.pe/documentos/compendio_normas_generales.pdf" download="compendio_normas_generales">
-                              <span class="glyphicon glyphicon-cloud-download"></span>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr class="">
-                        <td>Requisitos Colegiatura 2016</td>
-                        <td>
-                          Este archivo es para...
-                        </td>
-                        <td>
-                          <a data-toggle="tooltip" class="btn btn-primary btn-xs" data-original-title="Ver Documento" target="_blank" href="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf">
-                            <span class="glyphicon glyphicon-eye-open"></span>
-                          </a>
-                          <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Descargar Documento" href="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf" download="requisitos_colegiatura">
-                            <span class="glyphicon glyphicon-cloud-download"></span>
-                          </a>
-                        </td>
-                      </tr>
-                      <tr class="">
-                        <td>Requisitos para Certificación Profesional</td>
-                        <td>
-                          Este archivo es para...
-                        </td>
-                        <td>
-                          <a data-toggle="tooltip" class="btn btn-primary btn-xs" data-original-title="Ver Documento" target="_blank" href="http://ccpjunin.pe/documentos/requisitos_certificacion.pdf">
-                            <span class="glyphicon glyphicon-eye-open"></span>
-                          </a>
-                          <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Descargar Documento" href="http://ccpjunin.pe/documentos/requisitos_certificacion.pdf" download="requisitos_certificacion">
-                            <span class="glyphicon glyphicon-cloud-download"></span>
-                          </a>
-                        </td>
-                      </tr>
-                      <tr class="">
-                        <td>Revista "El Contador XI"</td>
-                        <td>
-                          Este archivo es para...
-                        </td>
-                        <td>
-                            <a data-toggle="tooltip" class="btn btn-primary btn-xs" data-original-title="Ver Documento" target="_blank" href="http://ccpjunin.pe/documentos/Revista_Del_Contador_XI_2016.pdf">
-                              <span class="glyphicon glyphicon-eye-open"></span>
-                            </a>
-                            <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Descargar Documento" href="http://ccpjunin.pe/documentos/Revista_Del_Contador_XI_2016.pdf" download="Revista_Del_Contador_XI_2016">
-                              <span class="glyphicon glyphicon-cloud-download"></span>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr class="">
-                        <td>Compendio - Código de Ética de IFAC</td>
-                        <td>
-                          Este archivo es para...
-                        </td>
-                        <td>
-                            <a data-toggle="tooltip" class="btn btn-primary btn-xs" data-original-title="Ver Documento" target="_blank" href="http://ccpjunin.pe/documentos/compendio_codigo_ifac.pdf">
-                              <span class="glyphicon glyphicon-eye-open"></span>
-                            </a>
-                            <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Descargar Documento" href="http://ccpjunin.pe/documentos/compendio_codigo_ifac.pdf" download="compendio_codigo_ifac">
-                              <span class="glyphicon glyphicon-cloud-download"></span>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr class="">
-                        <td>Requisitos para la Incorporación a los Comités Funcionales</td>
-                        <td>
-                           Este archivo es para...
-                        </td>
-                        <td>
-                            <a data-toggle="tooltip" class="btn btn-primary btn-xs" data-original-title="Ver Documento" target="_blank" href="http://ccpjunin.pe/documentos/requisitos_comites_funcionales.pdf">
-                              <span class="glyphicon glyphicon-eye-open"></span>
-                            </a>
-                            <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Descargar Documento" href="http://ccpjunin.pe/documentos/requisitos_comites_funcionales.pdf" download="requisitos_comites_funcionales">
-                              <span class="glyphicon glyphicon-cloud-download"></span>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr class="">
-                        <td>Requisitos para Recertificación Profesional</td>
-                        <td>
-                          Este archivo es para...
-                        </td>
-                        <td>
-                            <a data-toggle="tooltip" class="btn btn-primary btn-xs" data-original-title="Ver Documento" target="_blank" href="http://ccpjunin.pe/documentos/requisitos_recertificacion.pdf">
-                              <span class="glyphicon glyphicon-eye-open"></span>
-                            </a>
-                            <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Descargar Documento" href="http://ccpjunin.pe/documentos/requisitos_recertificacion.pdf" download="requisitos_recertificacion.pd">
-                              <span class="glyphicon glyphicon-cloud-download"></span>
-                            </a>
-                        </td>
-                      </tr>
-                    </tbody>                
-                  </table>
-                    <!-- END json datatable -->
-                </div>
+                  <ul class="nav nav-tabs pull-right">
+                    <li class="pull-left header"><i class="fa fa-list"></i> Nuestro Nuevo Local </li>
+                  </ul>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <img src="http://ccpjunin.pe/img/institucional/institucional%20(1).jpg" alt="Foto nuestra nueva institución" class="img-responsive" style="" width="100%">
+                      <div class="fb-comments" data-href="http://ccpjunin.pe/img/institucional/institucional%20(1).jpg" data-width="100%" data-numposts="20"></div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="nav-tabs-custom">
+                  <ul class="nav nav-tabs pull-right">
+                    <li class="pull-left header"><i class="fa fa-list"></i> Nuestro Equipo de Trabajo</li>
+                  </ul>
+                  <div class="box-body">
+                      <div class="row">
+                            <div class="col-lg-6">
+                                <blockquote>
+                                  <p> 
+                                      CPCC. Zoila Guadalupe, Zúñiga Herrera, puede contactarse con ella: <a href="mailto:gerencia.ccpj@gmail.com">gerencia.ccpj@gmail.com</a> o mediante su número telefónico: # 964096426 o 231063 Anexo 18.
+                                  </p>
+                                  <small>Gerente Institucional</small>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-6">
+                                <blockquote>
+                                  <p> 
+                                      Lic. Chiang Arizapana Gomez, puede contactarse con ella mediante el correo electrónico: <a href="mailto:eventosccpj@gmail.com">eventosccpj@gmail.com</a> o mediante su número telefónico: RPC 949002916.
+                                  </p>
+                                  <small>Coord. de E. Académicos</small>
+                                </blockquote>
+                            </div>
+                      </div>
+                      <div class="row">
+                            <div class="col-lg-6">
+                                <blockquote>
+                                  <p> 
+                                      CPC. Maricé Carhuacusma Caso, puede contactarse con el mediante el correo electrónico: <a href="mailto:asist.conta.ccpj@gmail.com">asist.conta.ccpj@gmail.com</a> o mediante su número telefónico: 985245430 o 231063 Anexo 15.
+                                  </p>
+                                  <small>Contador General</small>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-6">
+                                <blockquote>
+                                  <p> 
+                                      Isabel Zenteno Huaman, puede contactarse con ella mediante el correo electrónico: <a href="mailto:secretaria.ccpj@gmail.com">secretaria.ccpj@gmail.com</a> o mediante su número telefónico: 231063 Anexo 11.
+                                  </p>
+                                  <small>Asistente de Gerencia</small>
+                                </blockquote>
+                            </div>
+                      </div>
+                      <div class="row">
+                            <div class="col-lg-6">
+                              <blockquote>
+                                  <p> 
+                                      CPC. Cynthia Natali, Flores Herrera, puede contactarse con ella mediante el correo electrónico: <a href="mailto:tesoreria.ccpj@gmail.com">tesoreria.ccpj@gmail.com</a> o mediante su número telefónico: 231063 Anexo 14.
+                                  </p>
+                                  <small>Asistente de Finanzas</small>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-6">
+                                <blockquote>
+                                  <p> 
+                                      Bach. Irving Gamarra Huallullo, puede contactarse con el mediante su número telefónico: 231063 anexo 16.
+                                  </p>
+                                  <small>Relacionista Público</small>
+                                </blockquote>
+                            </div>
+                      </div>
+                      <div class="row">
+                            <div class="col-lg-6">
+                                <blockquote>
+                                  <p> 
+                                      A. Frank Cairampoma, puede contactarse con el mediante el correo electrónico: <a href="mailto:ingfralch@gmail.com">ingfralch@gmail.com</a> o mediante su número telefónico: #961610362.
+                                  </p>
+                                  <small>Sistemas e Informatica</small>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-6">
+                                <blockquote>
+                                  <p> 
+                                      CPC. Hugo, Peña Durán, puede contactarse con el mediante el correo electrónico: <a href="mailto:hugopenaduran@hotmail.com">hugopenaduran@hotmail.com</a> o mediante su número telefónico: # 964848130.
+                                  </p>
+                                  <small>Gestor de Cobranzas / Courier</small>
+                                </blockquote>
+                            </div>
+                      </div>
+                  </div>
               </div>
           </section>
         </div>
-        <br>
+
         <div class="row">
           <div class="col-lg-12">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5059.773489627902!2d-75.21317235630036!3d-12.069722345035359!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8c7ed02d929c4a17!2sColegio+de+Contadores+P%C3%BAblicos+de+Jun%C3%ADn!5e0!3m2!1ses!2spe!4v1504307147190" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>

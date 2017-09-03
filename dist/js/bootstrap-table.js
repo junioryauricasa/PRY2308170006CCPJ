@@ -166,7 +166,7 @@
             return 'Buscar';
         },
         formatNoMatches: function () {
-            return 'No se encontraron registros coincidentes';
+            return 'No se encontraron coincidencias';
         },
         formatRefresh: function () {
             return 'Actualizar';
