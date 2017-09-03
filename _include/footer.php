@@ -54,6 +54,10 @@
                 <br>
                 <i class="fa fa-fw fa-link"></i>
                 <span class="text"><a target="_blank" style="color:white" href="http://ww1.sunat.gob.pe/cl-ti-itmrconsruc/jcrS00Alias">Consulta RUC</a></span>
+                <span class="text"><a target="_blank" style="color:white" href="http://www.peru.gob.pe/">Portal del Estado</a></span>
+                <br>
+                <i class="fa fa-fw fa-link"></i>
+                <span class="text"><a target="_blank" style="color:white" href="http://e-consultaruc.sunat.gob.pe/">Consulta RUC</a></span>
               </p>
             </div>
             <div class="col-lg-2 col-md-3 col-xs-4">
