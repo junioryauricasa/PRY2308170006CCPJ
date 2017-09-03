@@ -14,13 +14,13 @@
 </div>
 
 <div class="content-wrapper" style="padding-top: 30px">
-    <div class="row" style="" id="textonparallax">
-      <div class="col-lg-12" style="color:white; text-align: center">
+    <div class="row text-center" style="" id="textonparallax">
+      <div class="col-lg-6 col-md-offset-3" style="color:white;">
         <h1>
             Bolsa de Trabajo
         </h1>
         <p style="">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nima. Dicta quae minus fugit aspernatur deserunt?
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nima. Dicta quae minus fuor sit amet, consectetur adipisicing elit. Voluptatem nima. Dicta quae minus fugit aspernatur deserunt?
         </p>
       </div>
       
@@ -363,19 +363,13 @@
                 </div>
                 <!-- paginador -->
                 <ul class="pagination">
-                  <li><a href="#"><i class="fa fa-fw fa-backward"></i></a></li>
+                  <li><a href="#">Anterior</a></li>
                   <li><a href="#">1</a></li>
                   <li><a href="#">2</a></li>
                   <li><a href="#">3</a></li>
                   <li><a href="#">4</a></li>
                   <li><a href="#">5</a></li>
-                  <li><a href="#">6</a></li>
-                  <li><a href="#">7</a></li>
-                  <li><a href="#">8</a></li>
-                  <li><a href="#">9</a></li>
-                  <li><a href="#">10</a></li>
-                  <li><a href="#">11</a></li>
-                  <li><a href="#"><i class="fa fa-fw fa-forward"></i></a></li>
+                  <li><a href="#">Siguiente</a></li>
                 </ul>
             </section>
           </div>

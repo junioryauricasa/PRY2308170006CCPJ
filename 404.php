@@ -13,8 +13,8 @@
 </div>
 
 <div class="content-wrapper" style="">
-    <div class="row" style="" id="textonparallax">
-      <div class="col-lg-12" style="color:white; text-align: center">
+    <div class="row text-center" style="" id="textonparallax">
+      <div class="col-lg-6 col-md-offset-3" style="color:white;">
         <h1>
             404 Página no Encontrada
         </h1>

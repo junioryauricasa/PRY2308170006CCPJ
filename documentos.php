@@ -1,5 +1,5 @@
 <?php 
-  include('_include/header.php');
+	include('_include/header.php');
 ?>
 <div class="row">
   <div class="row" id="">
@@ -17,7 +17,7 @@
     <div class="row text-center" style="" id="textonparallax">
       <div class="col-lg-6 col-md-offset-3" style="color:white;">
         <h1>
-            Institucional
+            Documentos
         </h1>
         <p style="">
           En esta sección UD. podrá descargar los documentos disponibles del Colegio de Contadores Públicos de Junín
@@ -37,22 +37,20 @@
           <section class="col-lg-4 col-md-12">
             <div class="nav-tabs-custom">
               <ul class="nav nav-tabs pull-right">
-                <li class="pull-left header"><i class="fa fa-info-circle"></i> Historia</li>
+                <li class="pull-left header"><i class="fa fa-info-circle"></i> Mensaje Importante</li>
               </ul>
               <div class="box-body">
                   <p>
-                    Todo comenzó en el mes de noviembre de 1978. En esa asamblea general extraordinaria, que duró dos días, se decidió crear una Orden que represente a nivel de la Región a todos los Contadores Públicos. 
+                    Podrá descargar los documentos disponibles del Colegio de Contadores Públicos de Junín
+                  </p>
+                  <br>
+                  <div class="alert alert-success" id="success-alert">
+                    <strong>Bienvenido!</strong> 
                     <br>
-                    Determinándose los cimientos del hoy pujante y glorioso Colegio de Contadores Públicos de Junín. Por ello, es importante reconocer el papel que desarrollaron los integrantes de la comisión reorganizadora: don Félix Ríos Bianchi (presidente), don Florencio Garay Garay (secretario), don Pedro Raúl Vilcahuamán Jesús (tesorero) y don Teodosio Oré Gómez (vocal). 
+                    Te mostramos nuestra nueva experiencia de busqueda de archivos.
                     <br>
-                    <br>
-                    Ellos con un papel decoroso y probo, con libretas electorales en mano y con la consigna de respetar al milímetro el acuerdo de nuestras bases primigenias; visitaron, un 23 de noviembre de 1978, al jurisconsulto notario público Raúl Humberto Peña Martínez; consagrándose así la partida de nacimiento de esta respetable Orden Profesional. Desde aquel momento hasta hoy se ha trabajado con mucha austeridad. Son 36 años de tesón y lucha por lo cual, hoy decimos sin duda a equivocarnos, que somos el colegio profesional más activo y progresista y por ello a una sola voz expresamos 
-                    <br>
-                    <br>
-                    <b>
-                      FELIZ XXXVI ANIVERSARIO COLEGIO DE CONTADORES PÚBLICOS DE JUNÍN.
-                    </b>                  
-                    </p>
+                    Solo ingresa el nombre del archivo y encuentralo de manera casi instantanea.
+                  </div>
               </div>
             </div>
             <div class="nav-tabs-custom">
@@ -62,7 +60,7 @@
               <div class="box-body">
                   <div class="row">
                     <div class="col-lg-12">
-                      <div class="fb-comments" data-href="http://ccpjunin.pe/institucional/" data-width="100%" data-numposts="20"></div>
+                      <div class="fb-comments" data-href="http://ccpjunin.pe/documentos/" data-width="100%" data-numposts="20"></div>
                     </div>
                   </div>
               </div>
@@ -243,5 +241,5 @@
 </script>
 
 <?php 
-  include('_include/footer.php');
+	include('_include/footer.php');
 ?>

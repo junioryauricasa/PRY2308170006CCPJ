@@ -2,18 +2,20 @@
       <footer class="main-footer" style="background: #073e5f ;color: white; border-left: 0px">  
         <div class="row">
           <div class="col-lg-12">
-            <div class="col-lg-4">
+            <div class="col-lg-5 col-md-4 col-xs-12">
               <img class="img-responsive" src="dist/img/logo_horizontal_ccpj.png" alt="Logo horizontal del Colegio de Contadores Públicos de Junín">
               <br>
-              <ul class="nav navbar-nav navbar-center social-media-buttons" style="padding-top: 7px;">
-                  <li><a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/ccpjunin"><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="btn btn-social-icon btn-google" target="_blank" href="https://plus.google.com/u/0/b/111532763552457194914/111532763552457194914/about"><i class="fa fa-google-plus"></i></a></li>
-                  <li><a class="btn btn-social-icon btn-google" target="_blank" href="https://www.youtube.com/channel/UCA7KbONq4t5Cg6LlS3MAuEg"><i class="fa fa-youtube"></i></a></li>
-                  <li><a class="btn btn-social-icon btn-linkedin" target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
-                  <li><a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/CCP_Junin"><i class="fa fa-twitter"></i></a></li>
-              </ul>
+              <div>
+                <ul class="nav navbar-nav navbar-center social-media-buttons" style="padding-top: 7px;">
+                    <li><a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/ccpjunin"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="btn btn-social-icon btn-google" target="_blank" href="https://plus.google.com/u/0/b/111532763552457194914/111532763552457194914/about"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a class="btn btn-social-icon btn-google" target="_blank" href="https://www.youtube.com/channel/UCA7KbONq4t5Cg6LlS3MAuEg"><i class="fa fa-youtube"></i></a></li>
+                    <li><a class="btn btn-social-icon btn-linkedin" target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
+                    <li><a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/CCP_Junin"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+              </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3 col-xs-4">
               <h4>Información de Contacto</h4>
               <p class="text-footer">
                 <i class="fa fa-fw fa-map-marker"></i>
@@ -32,7 +34,7 @@
                 <span class="text">Email : <b><a style="color:white" href="mailto:secretaria.ccpj@gmail.com?Subject=Consulta%20desde%20Portal%20Web">secretaria.ccpj@gmail.com</a></b></span>
               </p>
             </div>
-            <div class="col-lg-2 col-xs-6">
+            <div class="col-lg-2 col-md-2 col-xs-4">
               <h4>Páginas de Interés</h4>
               <p class="text-footer">
                 <i class="fa fa-fw fa-link"></i>
@@ -54,7 +56,7 @@
                 <span class="text"><a target="_blank" style="color:white" href="http://www.jdccpp.com/">Consulta RUC</a></span>
               </p>
             </div>
-            <div class="col-lg-3 col-xs-6">
+            <div class="col-lg-2 col-md-3 col-xs-4">
               <h4>Horario de Atención</h4>
               <p class="text-footer">
                 <i class="fa fa-fw  fa-clock-o"></i>
@@ -90,8 +92,22 @@
       <div class="control-sidebar-bg"></div>
     </div>
 
+    <!-- Fb plugin for comment -->
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.10&appId=296109214133467";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- ENd Fb plugin for comment -->
+
     <!-- jQuery 2.1.4 -->
-    <script src="plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <!--script src="plugins/jQuery/jQuery-2.1.4.min.js"></script-->
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <!-- jQuery UI 1.11.4 -->
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
@@ -127,6 +143,10 @@
     <!--script src="dist/js/pages/dashboard.js"></script-->
     <!-- AdminLTE for demo purposes -->
     <script src="dist/js/demo.js"></script>
+
+    <!-- jsondatatable utilities -->
+    <script src="dist/js/bootstrap-table.js"></script>
+
   </body>
 </html>
 
@@ -229,6 +249,52 @@
     }
   }
 
+/*
+  for card personal
+*/
+.thumbnail{
+  visibility: visible; 
+  animation-delay: 0.1s; 
+  animation-name: fadeInUp; 
+  padding: 0px; 
+  background:#dbdbdb;
+  transition: 1.5s
+}
+/* 
+  END for card persoal 
+*/
+
+
+/*
+STYLE scroolbar
+*/
+#style-3::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px transparent;
+  background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar
+{
+  width: 7px;
+  background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar-thumb
+{
+  background-color: gray;
+}
+/* END STYLE scroolbar*/
+
+.thumbnail .caption {
+  min-height: 125px;
+  max-height: 125px;
+  font-family: 'Adamina', serif;
+}
+.font-institucional{
+  font-family: 'Adamina', serif;
+}
+
 </style>
 
 <!-- WhatsHelp.io widget -->
@@ -281,4 +347,44 @@
             $(".fixed").toggleClass("sidebar-collapse sidebar-open");
         });
     });
+
+    /* Scrool slowed for the pages */
+    if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
+    window.onmousewheel = document.onmousewheel = wheel;
+
+    function wheel(event) {
+        var delta = 0;
+        if (event.wheelDelta) delta = event.wheelDelta / 120;
+        else if (event.detail) delta = -event.detail / 3;
+
+        handle(delta);
+        if (event.preventDefault) event.preventDefault();
+        event.returnValue = false;
+    }
+
+    function handle(delta) {
+        var time = 1000;
+        var distance = 300;
+
+        $('html, body').stop().animate({
+            scrollTop: $(window).scrollTop() - (distance * delta)
+        }, time );
+    }
+    /* END Scrool slowed for the pages */
+
+    /* stylish for scrool bar */
+    $(document).ready(function () {
+          if (!$.browser.webkit) {
+              $('.wrapper').html('<p>Sorry! Non webkit users. :(</p>');
+          }
+    });
+    /* END stylish for scrool bar */
+
+    /* autoclose alert bootstrap 
+       Ruta: documentos.php
+    */
+    $("#success-alert").fadeTo(13000, 500).slideUp(500, function(){
+        $("#success-alert").slideUp(500);
+    });
+
 </script> 
