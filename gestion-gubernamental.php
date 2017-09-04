@@ -75,7 +75,7 @@
               <div class="box-body">
                   <div class="row">
                     <div class="col-lg-12">
-                      <div class="fb-comments" data-href="http://ccpjunin.pe/sociedad-auditora/" data-width="100%" data-numposts="20"></div>
+                      <div class="fb-comments" data-href="http://ccpjunin.pe/gestion-gubernamental/" data-width="100%" data-numposts="20"></div>
                     </div>
                   </div>
               </div>
