@@ -112,7 +112,7 @@
                 </ul>
                 <div class="box-body">
                     <p>
-                      El presente convenio tiene por objetivo desarrollar actividades académicas teóricas, prácticas, asesorías a favor del Colegio con la finalidad de la Obtencion Nueva, Recategorización, Revalidación, Capacitación y Sensibilización de una Licencia de Conducir que permita garantizar la conducción segura y responsable de los vehículos que circulan dentro del territorio nacional.
+                      El presente convenio tiene por objetivo desarrollar actividades académicas teóricas, prácticas, asesorías a favor del Colegio con la finalidad de la Obtención Nueva, Recategorización, Revalidación, Capacitación y Sensibilización de una Licencia de Conducir que permita garantizar la conducción segura y responsable de los vehículos que circulan dentro del territorio nacional.
                       <br>
                       <h4>Compromisos </h4>
                       <ul>

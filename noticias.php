@@ -220,7 +220,7 @@
                 </div>
               </div>
               <!-- paginador -->
-              <ul class="pagination">
+              <!--ul class="pagination">
                 <li><a href="#">Anterior</a></li>
                 <li><a href="#">1</a></li>
                 <li><a href="#">2</a></li>
@@ -228,7 +228,7 @@
                 <li><a href="#">4</a></li>
                 <li><a href="#">5</a></li>
                 <li><a href="#">Siguiente</a></li>
-              </ul>
+              </ul-->
           </section>
         </div>
     </section>

@@ -63,9 +63,10 @@
 
 
 <style>
-  @media screen and (max-width:374px){
-    .bg-aqua{
-      height: 150px;
+  @media screen and (max-width:376px){
+    .bg-primary{
+      min-height: 155px;
+      max-height: 155px;
     }
   }
 </style>

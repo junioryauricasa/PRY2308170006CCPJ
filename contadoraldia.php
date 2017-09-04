@@ -19,9 +19,6 @@
         <h1>
             Contador al Dia
         </h1>
-        <p style="">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nima. Dicta quae minus fuor sit amet, consectetur adipisicing elit. Voluptatem nima. Dicta quae minus fugit aspernatur deserunt?
-        </p>
       </div>
       
     </div>

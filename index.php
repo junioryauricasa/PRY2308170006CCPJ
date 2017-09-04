@@ -16,7 +16,7 @@
                 <marquee direction="left" id="ejemplo">
                     <span class="Apple-style-span" style="color: black; padding-top:3px">
                         <p style="font-family: 'Anton', sans-serif;">
-                          El Colegio de Contadores Públicos de Junín les desea un Felíz día a todos los Contadores del Perú. (12/09/2017) // Lorem ipsum dolor sit amet,cue.(13/12/2017) // Lorem ipsum dolor sit amet dolor sit ametdolor sit amet,cue.(14/12/2017) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae excepturi, quis cupiditate porro vitae harum explicabo, aliquam labore commodi dolore, fugiat itaque necessitatibus quidem tempora esse velit qui odit doloribus.
+                          El Colegio de Contadores Públicos de Junín les desea un Felíz día a todos los Contadores del Perú. (12/09/2017) // 
                         </p>
                     </span>
                 </marquee> 
@@ -216,7 +216,7 @@
                             </div>
                             <div id="collapseOne1" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
                               <div class="box-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
+                                <p>Descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
                                 <br> 
                                 <div class='embed-responsive' style='padding-bottom:150%'>
                                      <object data="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf" type="application/pdf" width="100%" height="800px"> 
@@ -436,7 +436,6 @@
                     <div class="col-sm-6">
                       <img class="img-responsive" src="http://placehold.it/500x500/39CCCC/ffffff&text=500x500" alt="Photo" width="100%">
                     </div>
-                    <!-- /.col -->
                     <div class="col-sm-6">
                       <div class="row">
                         <div class="col-sm-6">
@@ -444,21 +443,17 @@
                           <br>
                           <img class="img-responsive" src="http://placehold.it/500x500/39CCCC/ffffff&text=500x500" alt="Photo" width="100%">
                         </div>
-                        <!-- /.col -->
                         <div class="col-sm-6">
                           <img class="img-responsive" src="http://placehold.it/500x500/39CCCC/ffffff&text=500x500" alt="Photo" width="100%">
                           <br>
                           <img class="img-responsive" src="http://placehold.it/500x500/39CCCC/ffffff&text=500x500" alt="Photo" width="100%">
                         </div>
-                        <!-- /.col -->
                       </div>
-                      <!-- /.row -->
                     </div>
-                    <!-- /.col -->
                   </div>
               </div>
               <div class="box-footer text-center">
-                <a href="galeriafotosyvideos" class="uppercase">
+                <a href="galeria-fotos-y-videos" class="uppercase">
                     Ver Toda la Galería
                 </a>
               </div>

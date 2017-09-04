@@ -6,7 +6,6 @@
       <div class="paralax-laboral" style="height: 400px">
           <div class="row">
             <div class="col-lg-12 vcenter">
-                
             </div>
           </div>
       </div>
@@ -28,8 +27,6 @@
               <?php include('_include/principaloptions.php'); ?>
           </div>
         </div>
-        <!-- Small boxes (Stat box) -->
-        <!-- Main row -->
         <div class="row">
           <section class="col-lg-4 col-md-12">
             <div class="nav-tabs-custom">

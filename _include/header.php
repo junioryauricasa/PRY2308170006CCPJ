@@ -75,24 +75,21 @@
                   <ul class="dropdown-menu">
                     <li><a href="informacioninstitucional">Historia, Misión y Visión</a></li>
                     <li><a href="consejodirectivo">Consejo Directivo Actual</a></li>
-                    <li><a href="comites-funcionales">Comités Funcionales</a></li>
-                    <li><a href="">Órganos Institucionales</a></li>
-                    <li><a href="#">Normatividad</a></li>
-                    <li><a href="">Requisitos para la Incorporación</a></li>
+                    <li><a href="requisitos-incorporacion-comite">Requisitos para la Incorporación</a></li>
+                    <li><a href="convenios">Convenios</a></li>
                     <li><a href="requisitos-para-colegiatura">Requisitos para Colegiatura</a></li>
                     <li><a href="revista-institucional">Revista Institucional</a></li>
                   </ul>
                 </li>
-                <li><a href="convenios">Convenios</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Ficha de Actualización de Datos</a></li>
+                    <li><a href="ficha-actualizacion-datos">Ficha de Actualización de Datos</a></li>
                     <li><a href="documentos">Documentos</a></li>
                     <li><a href="#">Biblioteca</a></li>
-                    <li><a href="">Consulta Hábil</a></li>
-                    <li><a href="precios">Lista de Precio por servicios</a></li>
-                    <li><a href="#">Archivos de Actividades Académicask</a></li>
+                    <li><a href="#">Consulta Hábil</a></li>
+                    <li><a href="precios">Lista de Precio por Servicios</a></li>
+                    <li><a href="#">Archivos de Actividades Académicas</a></li>
                   </ul>
                 </li>
                 <!--li><a href="#contact">Consulta de Habilidad</a></li-->
@@ -112,14 +109,12 @@
           <!-- search form -->
           <form action="" method="" class="sidebar-form">
             <div class="input-group">
-              <input type="text" name="q" class="form-control" placeholder="Estoy Buscando...">
+              <!--input type="text" name="q" class="form-control" placeholder="Estoy Buscando...">
               <span class="input-group-btn">
                 <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
-              </span>
+              </span-->
             </div>
           </form>
-          <!-- /.search form -->
-          <!-- sidebar menu: : style can be found in sidebar.less -->
           <ul class="sidebar-menu">
             <li class="header">MENÚ DE NAVEGACIÓN</li>
             <li class="treeview">
@@ -145,12 +140,12 @@
                     Convenios
                   </a>
                 </li>
-                <li class="active">
+                <!--li class="active">
                   <a href="">
                     <i class="fa fa-circle-o"></i> 
                     Felicitaciones
                   </a>
-                </li>
+                </li-->
                 <li class="active">
                   <a href="contactanos">
                     <i class="fa fa-circle-o"></i> 
@@ -215,30 +210,15 @@
                 <li class="active">
                   <a href="">
                     <i class="fa fa-circle-o"></i> 
-                    Onomasticos
+                    Onomásticos
                   </a>
                 </li>
                 <li class="">
                   <a href="galeria-fotos-y-videos">
                     <i class="fa fa-circle-o"></i> 
-                      Galería
-                    <i class="fa fa-angle-left pull-right">
+                      Galería Fotos y Fotos
                     </i>
                   </a>
-                  <ul class="treeview-menu">
-                    <li>  
-                      <a href="galeria-fotos-y-videos">
-                        <i class="fa fa-circle-o"></i> 
-                          Fotos
-                        </a>
-                    </li>
-                    <li>  
-                      <a href="#">
-                        <i class="fa fa-circle-o"></i> 
-                          Videos
-                        </a>
-                    </li>
-                  </ul>
                 </li>
                 <li class="active">
                   <a href="bolsadetrabajo">
@@ -255,8 +235,8 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> Consejo Directivo</a></li>
-                <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> Past-Decanos</a></li>
+                <li><a href="consejodirectivo"><i class="fa fa-circle-o"></i> Consejo Directivo</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i> Past-Decanos</a></li>
               </ul>
             </li>
             <li class="treeview">
@@ -266,22 +246,22 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li>
+                <!--li>
                   <a href="#" alt="Smiley face">
                     <i class="fa fa-circle-o"></i> 
-                      Comite Funcional
+                      Comité Funcional
                     </i>
                   </a>
                 </li>
                 <li>
                   <a href="#" alt="Smiley face">
                     <i class="fa fa-circle-o"></i> 
-                      Comite Funcional de Apoyo
+                      Comité Funcional de Apoyo
                     </i>
                   </a>
-                </li>
+                </li-->
                 <li>
-                  <a href="#" alt="Smiley face">
+                  <a href="gestion-gubernamental" alt="Smiley face">
                     <i class="fa fa-circle-o"></i> 
                       Gestión Gubernamental
                     </i>
@@ -318,7 +298,7 @@
                   </a>
                   <ul class="treeview-menu">
                     <li>  
-                      <a href="#">
+                      <a href="auditoria-ordinaria">
                         <i class="fa fa-circle-o"></i> 
                           Ordinaria
                         </a>
@@ -435,8 +415,8 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href=""><i class="fa fa-circle-o"></i> Actualización de Datos</a></li>
-                <li><a href=""><i class="fa fa-circle-o"></i> Documentos</a></li>
+                <li><a href="ficha-actualizacion-datos"><i class="fa fa-circle-o"></i> Actualización de Datos</a></li>
+                <li><a href="documentos"><i class="fa fa-circle-o"></i> Documentos</a></li>
                 <li><a href=""><i class="fa fa-circle-o"></i> Biblioteca</a></li>
                 <li class="">
                   <a href="#">
@@ -453,14 +433,14 @@
                         </a>
                     </li>
                     <li>  
-                      <a href="#">
+                      <a href="sociedad-auditora">
                         <i class="fa fa-circle-o"></i> 
                           Sociedad Auditóra
                         </a>
                     </li>
                   </ul>
                 </li>
-                <li><a href=""><i class="fa fa-circle-o"></i> Costos por Servicio</a></li>
+                <li><a href="precios"><i class="fa fa-circle-o"></i> Costos por Servicio</a></li>
                 <li><a href=""><i class="fa fa-circle-o"></i> Login Subir Archivos</a></li>
                 <li><a href=""><i class="fa fa-circle-o"></i> Archivos Académicas</a></li>
               </ul>
@@ -472,9 +452,9 @@
               </a>
               <ul class="treeview-menu">
                 <li><a href="requisitos-para-colegiatura"><i class="fa fa-circle-o"></i> Colegiatura</a></li>
-                <li><a href=""><i class="fa fa-circle-o"></i> Certificación</a></li>
-                <li><a href=""><i class="fa fa-circle-o"></i> ReCertificación</a></li>
-                <li><a href=""><i class="fa fa-circle-o"></i> Incorporación al Comite</a></li>
+                <li><a href="requisitos-certificacion"><i class="fa fa-circle-o"></i> Certificación</a></li>
+                <li><a href="requisitos-recertificacion"><i class="fa fa-circle-o"></i> Recertificación</a></li>
+                <li><a href="requisitos-incorporacion-comite"><i class="fa fa-circle-o"></i> Incorporación al Comite</a></li>
               </ul>
             </li>
             <li><a href="calendario"><i class="fa fa-calendar-times-o"></i> <span>Calendario</span></a></li>
