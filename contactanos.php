@@ -6,7 +6,6 @@
       <div class="paralax-laboral" style="height: 400px">
           <div class="row">
             <div class="col-lg-12 vcenter">
-                
             </div>
           </div>
       </div>
@@ -19,9 +18,6 @@
         <h1>
             Contáctanos
         </h1>
-        <p style="">
-          Lorem ipsum dolor sit amet, consectetur omnis officia ex corporis deleniti odit, dolorum in maiores facere nisi! Lorem ipsum dolor sit amet, consectetur omnis officia ex corporis deleniti odit, dolorum in maiores facere nisi!
-        </p>
       </div>
     </div>
 
@@ -108,11 +104,11 @@
                         </div>
                         <div class="form-group">
                           <label for="codigoagremiado">Código de Agremiado</label>
-                          <input type="text" class="form-control" id="codigoagremiado" placeholder="Código de Agremiado" required="">
+                          <input type="number" class="form-control" id="codigoagremiado" placeholder="Código de Agremiado" required="">
                         </div>
                         <div class="form-group">
                           <label for="contenidodelmensaje">Contenido del Mensaje</label>
-                          <textarea class="form-control" id="Mensaje" name="Mensaje" placeholder="Escriba su mensaje aquí" required=""></textarea>
+                          <textarea class="textarea" id="Mensaje" name="Mensaje" placeholder="Escriba su mensaje aquí" required=""></textarea>
                         </div>
                       </div>
                       <div class="box-footer">

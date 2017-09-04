@@ -19,9 +19,6 @@
         <h1>
             Convenios CCPJ
         </h1>
-        <p style="">
-          Lorem ipsum dolor sit amet, consectetur omnis officia ex corporis deleniti odit, dolorum in maiores facere nisi! Lorem ipsum dolor sit amet, consectetur omnis officia ex corporis deleniti odit, dolorum in maiores facere nisi!
-        </p>
       </div>
     </div>
 
@@ -41,6 +38,7 @@
               </ul>
               <div class="box-body">
                   <p>
+                  <b>
                     El Colegio de Contadores Públicos de Junín pensando en sus agremiados a realizado diversos convenios con diferentes instituciones.
                     <br>
                     <br>
@@ -51,7 +49,20 @@
                       <i class="fa fa-envelope pr-10"></i> 
                       <b> gerencia.ccpj@gmail.com</b>
                     </a>
+                  </b>
                   </p>
+              </div>
+            </div>
+            <div class="nav-tabs-custom">
+              <ul class="nav nav-tabs pull-right">
+                <li class="pull-left header"><i class="fa fa-commenting"></i> Déjanos tu Opinión</li>
+              </ul>
+              <div class="box-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="fb-comments" data-href="http://ccpjunin.pe/conveniosccpj/" data-width="100%" data-numposts="20"></div>
+                    </div>
+                  </div>
               </div>
             </div>
           </section>
@@ -132,7 +143,7 @@
                 </div>
               </div>
               <!-- paginador -->
-                <ul class="pagination">
+                <!--ul class="pagination">
                   <li><a href="#">Anterior</a></li>
                   <li><a href="#">1</a></li>
                   <li><a href="#">2</a></li>
@@ -140,7 +151,7 @@
                   <li><a href="#">4</a></li>
                   <li><a href="#">5</a></li>
                   <li><a href="#">Siguiente</a></li>
-                </ul>
+                </ul-->
           </section>
         </div>
         <br>

@@ -6,31 +6,21 @@
     <title> Colégio de Contadores Públicos de Junín | Portal Web</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta name="description" content="El Colegio de Contadores Públicos de Junin es una Institución Profesional, autónoma, con personería de Derecho Público Interno">
+
     <!-- Bootstrap 3.3.5 -->
     <!--link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"-->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <!-- Theme style -->
     <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
-    <!-- AdminLTE Skins. Choose a skin from the css/skins
-         folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="dist/css/skins/_all-skins.css">
-    <!-- iCheck -->
     <link rel="stylesheet" href="plugins/iCheck/flat/blue.css">
-    <!-- Morris chart -->
     <link rel="stylesheet" href="plugins/morris/morris.css">
-    <!-- jvectormap -->
     <link rel="stylesheet" href="plugins/jvectormap/jquery-jvectormap-1.2.2.css">
-    <!-- Date Picker -->
     <link rel="stylesheet" href="plugins/datepicker/datepicker3.css">
-    <!-- Daterange picker -->
     <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker-bs3.css">
-    <!-- bootstrap wysihtml5 - text editor -->
     <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
-
     <link rel="icon" href="dist/img/logoccnpj-old.png">
 
     <!-- font for msg slide -->
@@ -85,11 +75,12 @@
                   <ul class="dropdown-menu">
                     <li><a href="informacioninstitucional">Historia, Misión y Visión</a></li>
                     <li><a href="consejodirectivo">Consejo Directivo Actual</a></li>
-                    <li><a href="comitesfuncionales">Comités Funcionales</a></li>
+                    <li><a href="comites-funcionales">Comités Funcionales</a></li>
                     <li><a href="">Órganos Institucionales</a></li>
                     <li><a href="#">Normatividad</a></li>
-                    <li><a href="#">Requisitos para la Incorporación</a></li>
-                    <li><a href="#">Revista Institucional</a></li>
+                    <li><a href="">Requisitos para la Incorporación</a></li>
+                    <li><a href="requisitos-para-colegiatura">Requisitos para Colegiatura</a></li>
+                    <li><a href="revista-institucional">Revista Institucional</a></li>
                   </ul>
                 </li>
                 <li><a href="convenios">Convenios</a></li>
@@ -97,10 +88,10 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="#">Ficha de Actualización de Datos</a></li>
-                    <li><a href="#">Documentos</a></li>
+                    <li><a href="documentos">Documentos</a></li>
                     <li><a href="#">Biblioteca</a></li>
                     <li><a href="">Consulta Hábil</a></li>
-                    <li><a href="#">Lista de Precio por servicios</a></li>
+                    <li><a href="precios">Lista de Precio por servicios</a></li>
                     <li><a href="#">Archivos de Actividades Académicask</a></li>
                   </ul>
                 </li>
@@ -137,31 +128,31 @@
               </a>
               <ul class="treeview-menu">
                 <li class="active">
-                  <a href="index.html">
+                  <a href="index">
                     <i class="fa fa-circle-o"></i> 
                     Inicio
                   </a>
                 </li>
                 <li class="active">
-                  <a href="index.html">
+                  <a href="informacioninstitucional">
                     <i class="fa fa-circle-o"></i> 
                     Institucional
                   </a>
                 </li>
                 <li class="active">
-                  <a href="index.html">
+                  <a href="convenios">
                     <i class="fa fa-circle-o"></i> 
                     Convenios
                   </a>
                 </li>
                 <li class="active">
-                  <a href="index.html">
+                  <a href="">
                     <i class="fa fa-circle-o"></i> 
                     Felicitaciones
                   </a>
                 </li>
                 <li class="active">
-                  <a href="index.html">
+                  <a href="contactanos">
                     <i class="fa fa-circle-o"></i> 
                     Contáctanos
                   </a>
@@ -188,7 +179,7 @@
                   </a>
                 </li>
                 <li class="active">
-                  <a href="index.html">
+                  <a href="comunicados">
                     <i class="fa fa-circle-o"></i> 
                     Comunicados
                   </a>
@@ -222,13 +213,13 @@
                   </ul>
                 </li>
                 <li class="active">
-                  <a href="index.html">
+                  <a href="">
                     <i class="fa fa-circle-o"></i> 
                     Onomasticos
                   </a>
                 </li>
                 <li class="">
-                  <a href="#">
+                  <a href="galeria-fotos-y-videos">
                     <i class="fa fa-circle-o"></i> 
                       Galería
                     <i class="fa fa-angle-left pull-right">
@@ -236,7 +227,7 @@
                   </a>
                   <ul class="treeview-menu">
                     <li>  
-                      <a href="#">
+                      <a href="galeria-fotos-y-videos">
                         <i class="fa fa-circle-o"></i> 
                           Fotos
                         </a>
@@ -250,7 +241,7 @@
                   </ul>
                 </li>
                 <li class="active">
-                  <a href="index.html">
+                  <a href="bolsadetrabajo">
                     <i class="fa fa-circle-o"></i> 
                     Bolsa de Trabajo
                   </a>
@@ -341,7 +332,7 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="#" alt="Smiley face">
+                  <a href="sociedad-auditora" alt="Smiley face">
                     <i class="fa fa-circle-o"></i> 
                       Sociedad Auditora
                     </i>
@@ -480,7 +471,7 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href=""><i class="fa fa-circle-o"></i> Colegiatura</a></li>
+                <li><a href="requisitos-para-colegiatura"><i class="fa fa-circle-o"></i> Colegiatura</a></li>
                 <li><a href=""><i class="fa fa-circle-o"></i> Certificación</a></li>
                 <li><a href=""><i class="fa fa-circle-o"></i> ReCertificación</a></li>
                 <li><a href=""><i class="fa fa-circle-o"></i> Incorporación al Comite</a></li>

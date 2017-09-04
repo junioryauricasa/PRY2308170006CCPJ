@@ -19,9 +19,6 @@
         <h1>
             Calendario
         </h1>
-        <p style="">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facilis nobis placeat reprehenderit ducimus voluptatum eum et aperiam commodi omnis officia ex corporis deleniti odit, dolorum in maiores facere nisi!
-        </p>
       </div>
       
     </div>

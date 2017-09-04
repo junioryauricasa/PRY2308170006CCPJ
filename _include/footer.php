@@ -430,3 +430,15 @@ div.container .row .item {
     });
 
 </script> 
+
+
+<!-- CK Editor -->
+<script src="plugins/ckeditor/ckeditor.js"></script>
+<!-- Bootstrap WYSIHTML5 -->
+<script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+<script>
+var ckEditorID;
+ckEditorID = 'Mensaje';
+CKEDITOR.replace( ckEditorID);
+</script>

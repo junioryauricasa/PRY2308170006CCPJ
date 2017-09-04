@@ -19,9 +19,6 @@
         <h1>
             Noticias
         </h1>
-        <p style="">
-          Lorem ipsum dolor sit amet, consectetur omnis officia ex corporis deleniti odit, dolorum in maiores facere nisi!
-        </p>
       </div>
     </div>
 

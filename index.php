@@ -8,7 +8,6 @@
               <div class="col-md-12 col-sm-12" style="padding: 0px">
                   <!--img src="dist/img/banner-superior.png" width="100%" style="background-size:cover;"-->
                   <div class="img-backg-banner-header">
-                    
                   </div>
               </div>
           </div>
@@ -192,7 +191,7 @@
                             </div>
                         </div>
                         <div class="box-footer text-center">
-                          <a href="informacionempresarial" class="uppercase">
+                          <a href="informacioninstitucional" class="uppercase">
                               Ver Información Empresarial
                           </a>
                         </div>
