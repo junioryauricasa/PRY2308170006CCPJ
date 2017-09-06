@@ -3,6 +3,7 @@
 ?>
 
 <div class="content-wrapper" style="padding-top: 30px">
+
 <!-- div con backgrond incluido -->
 <section class="content" style="    min-height: 0px;">
   <div class="row">

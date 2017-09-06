@@ -158,6 +158,11 @@
 
 <style>
   /* Header title - cambio solicitado por Frank Cairampoma */
+
+
+  *{
+    transition: all .3s;
+  }
   .product-title-gray{
     color: gray;
   }
