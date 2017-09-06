@@ -171,6 +171,36 @@
     font-family: 'Open Sans', sans-serif;
   }
   /* Header title */
+  
+  /* texto div con background img */
+  .text-description-header{
+    padding-right: 100px;
+    padding-left: 100px;
+    font-size: 16px
+  }
+  /* div background img */
+  .div-with-background-img{
+    background:red;
+    color:black; 
+    background:100% auto; 
+    padding-top: 60px; 
+    padding-bottom: 60px;
+    color: white;
+  }
+  /* END div background img */
+
+/* btn transparent for div background img */
+  .btn-transparente{
+    background-color: transparent;
+    color:white;
+    border: solid 1px white;
+    font-weight: bolder
+  }
+  .btn-transparente:hover{
+    color: black;
+    background-color: white
+  }
+/* END btn transparent for div background img */
 
   .vertical-align {
       display: flex;
@@ -261,6 +291,12 @@
         }
       img{
          padding: 0px;
+      }
+      /* texto div con background img */
+      .text-description-header{
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 12px
       }
   }
   @media screen and (max-width:1036px){
@@ -353,7 +389,7 @@ div.container .row .item {
 /* ---------------- */
 
 .header-page-h1{
-  font-size: 90px
+  font-size: 50px
 }
 
 </style>
