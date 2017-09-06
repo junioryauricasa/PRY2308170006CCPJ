@@ -27,6 +27,9 @@
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Adamina" rel="stylesheet">
 
+    <!-- fonts text slide -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800,800i" rel="stylesheet">
+
     <!-- link stylish for datatables -->
     <link rel="stylesheet" href="dist/css/bootstrap-table.css">
 
@@ -38,7 +41,7 @@
     <![endif]-->
   </head>
   
-  <body class="scrollbar fixed sidebar-mini skin-blue-light " id="style-3"> 
+  <body class="scrollbar fixed sidebar-mini skin-blue-light sidebar-collapse sidebar-open" id="style-3"> 
   <!--body class="fixed sidebar-mini skin-blue-light "  ondragstart="return false" oncontextmenu="return false" onselectstart="return false"--> <!-- evitar descargar imgs DESCOMENTAR AL FINAL -->
 
     <div class="wrapper">
@@ -69,7 +72,7 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class=""><a href="index">Inicio</a></li> <!-- class active para sombrear -->
-                <li class=""><a href="noticias">Noticias</a></li> <!-- class active para sombrear -->
+                <li class=""><a href="eventos">Eventos</a></li> <!-- class active para sombrear -->
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Institucional <span class="caret"></span></a>
                   <ul class="dropdown-menu">

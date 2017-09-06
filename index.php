@@ -14,9 +14,10 @@
           <div class="col-md-12" style="margin-top:10px">
               <center>
                 <marquee direction="left" id="ejemplo">
-                    <span class="Apple-style-span" style="color: black; padding-top:3px">
-                        <p style="font-family: 'Anton', sans-serif;">
-                          El Colegio de Contadores Públicos de Junín les desea un Felíz día a todos los Contadores del Perú. (12/09/2017) // 
+                    <span class="Apple-style-span" style="color: black; ">
+                        <!-- font slide dezlizable -->
+                        <p id="text_slide_header" >
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ipsam nam maxime architecto modi eligendi vitae minima quia ut, consequuntur delectus officia porro corporis fugit natus numquam molestiae, optio, in.
                         </p>
                     </span>
                 </marquee> 
@@ -24,179 +25,77 @@
                 <a href="javascript:void(0);"></a>
               </center>
           </div>
+
+          <!-- slides -->
           <div class="col-md-12">
             <div class="box box-solid">
-              <!--div class="box-header with-border">
-                <h3 class="box-title">Carousel</h3>
-              </div-->
               <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
                       <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-                      <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="3" class=""></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="4" class="active"></li>
                     </ol>
                     <div class="carousel-inner">
-                      <div class="item">
-                        <img src="dist/img/slide1-1200X400.jpg" alt="First slide" width="100%">
-                        <div class="carousel-caption" width="auto">
-                          First Slide
+                      <div class="carousel-inner">
+                        <div class="item">
+                          <a href="">
+                            <img src="dist/img/slides/sld-evento-academico-0001.jpg" alt="First slide" width="100%">
+                          </a>
                         </div>
-                      </div>
-                      <div class="item active left">
-                        <img src="dist/img/slide2-1200X400.jpg" alt="Second slide" width="100%">
-                        <div class="carousel-caption">
-                          Second Slide
+                        <div class="item active left">
+                          <a href="">
+                            <img src="dist/img/slides/sld-evento-0001.jpg" alt="Second slide" width="100%">
+                          </a>
                         </div>
-                      </div>
-                      <!-- primer slide a mostrar -->
-                      <div class="item next left">
-                        <img src="dist/img/slide3-1200X400.jpg" alt="Third slide" width="100%">
-                        <div class="carousel-caption">
-                          Third Slide
+                        <div class="item next left">
+                          <a href="">
+                            <img src="dist/img/slides/sld-noticias-0001.jpg" alt="Third slide" width="100%">
+                          </a>
                         </div>
+                        <div class="item next left">
+                          <a href="">
+                            <img src="dist/img/slides/sld-audita-0001.jpg" alt="Fourth slide" width="100%">
+                          </a>
+                        </div>
+
+                        <!-- primer slide (principal) -->
+                        <div class="item next left">
+                          <a href="">
+                            <img src="http://placehold.it/1200x275/39CCCC/ffffff&text=1200x275" alt="Default slide" width="100%">
+                          </a>
+                        </div>
+                        <!-- end primer slide (principal) -->
                       </div>
+
+                      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <span class="fa fa-angle-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                        <span class="fa fa-angle-right"></span>
+                      </a>
                     </div>
-                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                      <span class="fa fa-angle-left"></span>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                      <span class="fa fa-angle-right"></span>
-                    </a>
               </div>
-            </div><!-- /.box -->
+            </div>
           </div>
+          <!-- END slides -->
         </div>
 
-        <!-- Main content -->
+
         <section class="content">
-          <!-- main options -->
+          <!-- principal options  -->
           <div class="row">
             <div class="col-md-12">
                 <?php include('_include/principaloptions.php'); ?>
             </div>
           </div>
+          <!-- END principal options -->
+
           <div class="row">
-            <section class="col-lg-4">
-              <div class="nav-tabs-custom">
-                <ul class="nav nav-tabs pull-right">
-                  <li class="pull-left header"><i class="fa fa-newspaper-o"></i> Noticias</li>
-                </ul>
-                <div class="box-body">
-                  <ul class="products-list product-list-in-box">
-                    <li class="item">
-                      <div class="product-img">
-                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="img noticia">
-                      </div>
-                      <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">
-                          <h4>Titulo Noticia</h4>
-                          <span class="label label-danger pull-left">12/12/2017</span>
-                        </a>
-                        <br>
-                            <span class="product-description">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quidem nam totam, officia minima iure incidunt repellat molestiae magnam quod consequuntur, unde nemo fugit et vero placeat ut dolore!
-                            </span>
-                        <br>
-                        <button type="button" class="btn bg-olive btn-sm  pull-right">Ver Noticia Completa</button>
-                      </div>
-                    </li>
-                    <!-- /.item -->
-                    <li class="item">
-                      <div class="product-img">
-                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="img noticia">
-                      </div>
-                      <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">
-                          <h4>Titulo Noticia</h4>
-                          <span class="label label-danger pull-left">12/12/2017</span>
-                        </a>
-                        <br>
-                            <span class="product-description">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quidem nam totam, officia minima iure incidunt repellat molestiae magnam quod consequuntur, unde nemo fugit et vero placeat ut dolore!
-                            </span>
-                        <br>
-                        <button type="button" class="btn bg-olive btn-sm  pull-right">Ver Noticia Completa</button>
-                      </div>
-                    </li>
-                    <!-- /.item -->
-                    <li class="item">
-                      <div class="product-img">
-                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="img noticia">
-                      </div>
-                      <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">
-                          <h4>Titulo Noticia</h4>
-                          <span class="label label-danger pull-left">12/12/2017</span>
-                        </a>
-                        <br>
-                            <span class="product-description">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quidem nam totam, officia minima iure incidunt repellat molestiae magnam quod consequuntur, unde nemo fugit et vero placeat ut dolore!
-                            </span>
-                        <br>
-                        <button type="button" class="btn bg-olive btn-sm  pull-right">Ver Noticia Completa</button>
-                      </div>
-                    </li>
-                    <!-- /.item -->
-                    <li class="item">
-                      <div class="product-img">
-                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="img noticia" width="10px">
-                      </div>
-                      <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">
-                          <h4>Titulo Noticia</h4>
-                          <span class="label label-danger pull-left">12/12/2017</span>
-                        </a>
-                        <br>
-                            <span class="product-description">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quidem nam totam, officia minima iure incidunt repellat molestiae magnam quod consequuntur, unde nemo fugit et vero placeat ut dolore!
-                            </span>
-                        <br>
-                        <button type="button" class="btn bg-olive btn-sm  pull-right">Ver Noticia Completa</button>
-                      </div>
-                    </li>
-                    <!-- /.item -->
-                  </ul>
-                </div>
-                <div class="box-footer text-center">
-                  <a href="noticias" class="uppercase">
-                      Ver todas las Noticias
-                  </a>
-                </div>
-              </div><!-- /.nav-tabs-custom -->
-            </section>
+            <!-- Noticias -->
             <section class="col-lg-8">
                 <div class="">
-                    <div class="box box-solid">
-                      <div class="box-header">
-                        <i class="fa  fa-info-circle"></i>
-                        <h3 class="box-title">
-                          Nosotros
-                        </h3>
-                      </div>
-                      <div class="box-body">
-                        <div class="box-body">
-                            <div class="row" style="padding: 10px;">
-                                <div class="col-lg-12">
-                                  <h4><b>Misión</b></h4>
-                                  <p>Agrupar y representar a los contadores públicos ante la sociedad y autoridades, generando servicios de valor y calidad. Velar y promover la competencia profesional, conducta ética y acceso al conocimiento acorde con los adelantos científicos, tecnológicos y la dinámica global. Orienta a la sociedad y contribuye al desarrollo regional y del país en temas que le competen, y basa su crecimiento institucional en la activa participación de sus miembros, la investigación científica, una gestión de calidad y el uso transparente y eficiente de los recursos.</p>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-xs-12" style="">
-                                  <h4><b>Visión</b></h4>
-                                  <p>Ser la institución profesional líder en el mejoramiento de la competitividad del contador público, reconocida por la integridad de sus agremiados y servicio a la sociedad.</p>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-xs-12">
-                                  <h4><b>Valores</b></h4>
-                                  <p> Conducta Ética Calidad de Servicio a los Colegiados Prudencia en la Administración de los recusos Justicia </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="box-footer text-center">
-                          <a href="informacioninstitucional" class="uppercase">
-                              Ver Información Empresarial
-                          </a>
-                        </div>
-                      </div>
-                    </div>
                     <div class="box box-solid">
                       <div class="box-header">
                         <i class="fa fa-file-pdf-o"></i>
@@ -417,18 +316,124 @@
                     </div>
                 </div>
             </section>
+            <!-- END Noticias -->
+
+            <!-- Comentarios  -->
+            <section class="col-lg-4">
+              <div class="nav-tabs-custom">
+                <ul class="nav nav-tabs pull-right">
+                  <li class="pull-left header"><i class="fa fa-newspaper-o"></i> Noticias</li>
+                </ul>
+                <div class="box-body">
+                  <ul class="products-list product-list-in-box">
+                    <li class="item">
+                      <div class="product-img">
+                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="img noticia">
+                      </div>
+                      <div class="product-info">
+                        <a href="javascript:void(0)" class="product-title-gray">
+                          <h4>Titulo Noticia</h4>
+                          <span class="label label-danger pull-left">12/12/2017</span>
+                        </a>
+                        <br>
+                            <span class="product-description">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quidem nam totam, officia minima iure incidunt repellat molestiae magnam quod consequuntur, unde nemo fugit et vero placeat ut dolore!
+                            </span>
+                        <br>
+                        <button type="button" class="btn bg-olive btn-sm  pull-right">Ver Noticia Completa</button>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <div class="product-img">
+                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="img noticia">
+                      </div>
+                      <div class="product-info">
+                        <a href="javascript:void(0)" class="product-title-gray">
+                          <h4>Titulo Noticia</h4>
+                          <span class="label label-danger pull-left">12/12/2017</span>
+                        </a>
+                        <br>
+                            <span class="product-description">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quidem nam totam, officia minima iure incidunt repellat molestiae magnam quod consequuntur, unde nemo fugit et vero placeat ut dolore!
+                            </span>
+                        <br>
+                        <button type="button" class="btn bg-olive btn-sm  pull-right">Ver Noticia Completa</button>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <div class="product-img">
+                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="img noticia">
+                      </div>
+                      <div class="product-info">
+                        <a href="javascript:void(0)" class="product-title-gray">
+                          <h4>Titulo Noticia</h4>
+                          <span class="label label-danger pull-left">12/12/2017</span>
+                        </a>
+                        <br>
+                            <span class="product-description">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quidem nam totam, officia minima iure incidunt repellat molestiae magnam quod consequuntur, unde nemo fugit et vero placeat ut dolore!
+                            </span>
+                        <br>
+                        <button type="button" class="btn bg-olive btn-sm  pull-right">Ver Noticia Completa</button>
+                      </div>
+                    </li>
+                    <li class="item">
+                      <div class="product-img">
+                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="img noticia" width="10px">
+                      </div>
+                      <div class="product-info">
+                        <a href="javascript:void(0)" class="product-title-gray">
+                          <h4>Titulo Noticia</h4>
+                          <span class="label label-danger pull-left">12/12/2017</span>
+                        </a>
+                        <br>
+                            <span class="product-description">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quidem nam totam, officia minima iure incidunt repellat molestiae magnam quod consequuntur, unde nemo fugit et vero placeat ut dolore!
+                            </span>
+                        <br>
+                        <button type="button" class="btn bg-olive btn-sm  pull-right">Ver Noticia Completa</button>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="box-footer text-center">
+                  <a href="noticias" class="uppercase">
+                      Ver todas las Noticias
+                  </a>
+                </div>
+              </div>
+              <div class="nav-tabs-custom">
+                <ul class="nav nav-tabs pull-right">
+                  <li class="pull-left header"><i class="fa fa-newspaper-o"></i>Dejanos tu Opinión</li>
+                </ul>
+                <div class="box-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <!-- Comentario fb -->
+                      <div class="fb-comments" data-href="http://ccpjunin.pe/index/" data-width="100%" data-numposts="20"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- END noticas resumen  -->
           </div>
-        </section>    
+        </section> 
+
+        <!-- section parallax -->   
         <section id="parallax-div">
             <div class="paralax" style="height: 300px">
             </div>
         </section>
+        <!-- END section parallax -->  
+
+        <!-- Section Galeria -->
         <section class="content">
             <div class="box box-solid">
               <div class="box-header">
                 <i class="fa fa-camera"></i>
                 <h3 class="box-title">
-                  Galeria de Fotos y videos
+                  Galeria de Fotos y Videos
                 </h3>
               </div>
               <div class="box-body">
@@ -459,6 +464,8 @@
               </div>
             </div>
         </section>
+        <!-- END Section Galeria -->
+
       </div>
 
 <?php 

@@ -15,7 +15,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-xs-4">
+            <div class="col-lg-3 col-md-3 col-xs-6">
               <h4>Información de Contacto</h4>
               <p class="text-footer">
                 <i class="fa fa-fw fa-map-marker"></i>
@@ -34,7 +34,7 @@
                 <span class="text">Email : <b><a style="color:white" href="mailto:secretaria.ccpj@gmail.com?Subject=Consulta%20desde%20Portal%20Web">secretaria.ccpj@gmail.com</a></b></span>
               </p>
             </div>
-            <div class="col-lg-2 col-md-2 col-xs-4">
+            <div class="col-lg-2 col-md-2 col-xs-6">
               <h4>Páginas de Interés</h4>
               <p class="text-footer">
                 <i class="fa fa-fw fa-link"></i>
@@ -60,7 +60,7 @@
                 <span class="text"><a target="_blank" style="color:white" href="http://e-consultaruc.sunat.gob.pe/">Consulta RUC</a></span>
               </p>
             </div>
-            <div class="col-lg-2 col-md-3 col-xs-4">
+            <div class="col-lg-2 col-md-3 col-xs-12">
               <h4>Horario de Atención</h4>
               <p class="text-footer">
                 <i class="fa fa-fw  fa-clock-o"></i>
@@ -157,6 +157,21 @@
 
 
 <style>
+  /* Header title - cambio solicitado por Frank Cairampoma */
+  .product-title-gray{
+    color: gray;
+  }
+  .product-title-gray:hover{
+    color: #090909;
+  }
+  .content{
+    padding-top: 0px
+  }
+  p.text_slide_header{
+    font-family: 'Open Sans', sans-serif;
+  }
+  /* Header title */
+
   .vertical-align {
       display: flex;
       align-items: center;
@@ -229,15 +244,13 @@
     }
   }
 
-  /*
-      for banner in header
-  */
+  /* ---------- for banner in header ----------  */
   .img-backg-banner-header{
     background-image: url("dist/img/banner-superior.png");
     background-color: #cccccc;
     background-size: cover;
-    height: 150px ;
-    width: 100%;
+    height: 80px ;
+    width: cover;
   }
 
   @media screen and (max-width:500px){
@@ -256,9 +269,9 @@
     }
   }
 
-/*
-  for card personal
-*/
+/* --------------------------------------------- */
+
+/* ----------- for card personal ----------- */
 .thumbnail{
   visibility: visible; 
   animation-delay: 0.1s; 
@@ -267,6 +280,7 @@
   background:#dbdbdb;
   transition: 1.5s
 }
+/* ------------------------------------------ */
 /* 
   END for card persoal 
 */
@@ -327,7 +341,7 @@ div.container .row .item {
   padding: 0px
 }
 
-/* img hover */
+/* --- img hover --- */
 .img-option-principal{
   padding: 10px;
   transition: all .3s
@@ -335,6 +349,11 @@ div.container .row .item {
 .img-option-principal:hover{
   padding: 2px;
   transition: all .5s
+}
+/* ---------------- */
+
+.header-page-h1{
+  font-size: 90px
 }
 
 </style>
@@ -389,30 +408,6 @@ div.container .row .item {
             $(".fixed").toggleClass("sidebar-collapse sidebar-open");
         });
     });
-
-    /* Scrool slowed for the pages */
-    if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
-    window.onmousewheel = document.onmousewheel = wheel;
-
-    function wheel(event) {
-        var delta = 0;
-        if (event.wheelDelta) delta = event.wheelDelta / 120;
-        else if (event.detail) delta = -event.detail / 3;
-
-        handle(delta);
-        if (event.preventDefault) event.preventDefault();
-        event.returnValue = false;
-    }
-
-    function handle(delta) {
-        var time = 1000;
-        var distance = 300;
-
-        $('html, body').stop().animate({
-            scrollTop: $(window).scrollTop() - (distance * delta)
-        }, time );
-    }
-    /* END Scrool slowed for the pages */
 
     /* stylish for scrool bar */
     $(document).ready(function () {

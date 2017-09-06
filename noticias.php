@@ -16,7 +16,7 @@
 <div class="content-wrapper" style="padding-top: 30px">
     <div class="row text-center" style="" id="textonparallax">
       <div class="col-lg-6 col-md-offset-3" style="color:white;">
-        <h1>
+        <h1 class="header-page-h1">
             Noticias
         </h1>
       </div>

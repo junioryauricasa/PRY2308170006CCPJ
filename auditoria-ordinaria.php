@@ -31,56 +31,6 @@
         <!-- Small boxes (Stat box) -->
         <!-- Main row -->
         <div class="row">
-          <section class="col-lg-4 col-md-12">
-            <div class="nav-tabs-custom">
-              <ul class="nav nav-tabs pull-right">
-                <li class="pull-left header"><i class="fa fa-list"></i> Junta Directiva del Comité</li>
-              </ul>
-              <div class="box-body">
-                  <table class="table table-bordered">
-                      <tbody>
-                        <tr>
-                          <th>Cargo</th>
-                          <th>Apellidos y Nombres</th>
-                        </tr>
-                        <tr>
-                          <td>Presidenta</td>
-                          <td>CPCC. Rafael Jesús Fernández Jaime</td>
-                        </tr>
-                        <tr>
-                          <td>Vicepresidenta</td>
-                          <td>CPC. Iris Orfelinda Zacarias Torres</td>
-                        </tr>
-                        <tr>
-                          <td>Secretaria</td>
-                          <td>CPC. María Victoria Nattery Erquinigo</td>
-                        </tr>
-                        <tr>
-                          <td>Tesorera</td>
-                          <td>CPC. Miguel Ángel Rojas García</td>
-                        </tr>
-                        <tr>
-                          <td>Vocal</td>
-                          <td>CPC. María Elena Terreros Aliaga</td>
-                        </tr>
-                        
-                      </tbody>
-                  </table>
-              </div>
-            </div>
-            <div class="nav-tabs-custom">
-              <ul class="nav nav-tabs pull-right">
-                <li class="pull-left header"><i class="fa fa-commenting"></i> Déjanos tu Opinión</li>
-              </ul>
-              <div class="box-body">
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <div class="fb-comments" data-href="http://ccpjunin.pe/sociedad-auditora/" data-width="100%" data-numposts="20"></div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </section>
           <section class="col-lg-8 col-md-12">
               <div class="nav-tabs-custom">
                 <ul class="nav nav-tabs pull-right">
@@ -312,6 +262,58 @@
                 </div>
               </div>
           </section>
+          
+          <section class="col-lg-4 col-md-12">
+            <div class="nav-tabs-custom">
+              <ul class="nav nav-tabs pull-right">
+                <li class="pull-left header"><i class="fa fa-list"></i> Junta Directiva del Comité</li>
+              </ul>
+              <div class="box-body">
+                  <table class="table table-bordered">
+                      <tbody>
+                        <tr>
+                          <th>Cargo</th>
+                          <th>Apellidos y Nombres</th>
+                        </tr>
+                        <tr>
+                          <td>Presidenta</td>
+                          <td>CPCC. Rafael Jesús Fernández Jaime</td>
+                        </tr>
+                        <tr>
+                          <td>Vicepresidenta</td>
+                          <td>CPC. Iris Orfelinda Zacarias Torres</td>
+                        </tr>
+                        <tr>
+                          <td>Secretaria</td>
+                          <td>CPC. María Victoria Nattery Erquinigo</td>
+                        </tr>
+                        <tr>
+                          <td>Tesorera</td>
+                          <td>CPC. Miguel Ángel Rojas García</td>
+                        </tr>
+                        <tr>
+                          <td>Vocal</td>
+                          <td>CPC. María Elena Terreros Aliaga</td>
+                        </tr>
+                        
+                      </tbody>
+                  </table>
+              </div>
+            </div>
+            <div class="nav-tabs-custom">
+              <ul class="nav nav-tabs pull-right">
+                <li class="pull-left header"><i class="fa fa-commenting"></i> Déjanos tu Opinión</li>
+              </ul>
+              <div class="box-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="fb-comments" data-href="http://ccpjunin.pe/sociedad-auditora/" data-width="100%" data-numposts="20"></div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+          
         </div>
         <br>
         <div class="row">

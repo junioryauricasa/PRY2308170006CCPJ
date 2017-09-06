@@ -31,48 +31,6 @@
         <!-- Small boxes (Stat box) -->
         <!-- Main row -->
         <div class="row">
-          <section class="col-lg-4 col-md-12">
-            <div class="nav-tabs-custom">
-              <ul class="nav nav-tabs pull-right">
-                <li class="pull-left header"><i class="fa fa-info-circle"></i>Indicaciones Importantes</li>
-              </ul>
-              <div class="box-body">
-                  <div class="callout callout-danger">
-                      <h4>CRONOGRAMA DE PROCESO DE RECERTIFICACIÓN:</h4>
-                        <p>
-                            Presentación de expedientes: De acuerdo a la programación del proceso de recertificación se procederá a dar la fecha y hora en la que se presentará el expediente. (No habrá prórroga de fecha ni hora).
-                            <br>
-                            Conferencia sobre “Ética profesional del Contador Público Colegiado” la conferencia se realizará de acuerdo a la programación de la siguiente recertificación en el Auditorio del CCPJ.
-                        </p>
-                  </div>
-                  
-                  <ul>
-                      <li>
-                            Si desea puede descargar los requistos dando clic en el siguiente enlace: <b><a href="http://www.ccpjunin.pe/documentos/requisitos_recertificacion.pdf">Requisitos para la Recertificación Profesional</a></b>
-                      </li>
-                      <li>
-                            Si desea puede descargar el banco de preguntas dando clic en el siguiente enlace: <b><a href="http://www.ccpjunin.pe/documentos/banco.pdf">Banco de Preguntas</a></b>
-                      </li>
-                  </ul>
-                  
-
-
-                  <br>
-              </div>
-            </div>
-            <div class="nav-tabs-custom">
-              <ul class="nav nav-tabs pull-right">
-                <li class="pull-left header"><i class="fa fa-commenting"></i> Déjanos tu Opinión</li>
-              </ul>
-              <div class="box-body">
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <div class="fb-comments" data-href="http://ccpjunin.pe/requisitos-certificacion/" data-width="100%" data-numposts="20"></div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </section>
           <section class="col-lg-8 col-md-12">
               <div class="nav-tabs-custom">
                 <ul class="nav nav-tabs pull-right">
@@ -244,6 +202,50 @@
                 </div>
               </div>
           </section>
+          
+          <section class="col-lg-4 col-md-12">
+            <div class="nav-tabs-custom">
+              <ul class="nav nav-tabs pull-right">
+                <li class="pull-left header"><i class="fa fa-info-circle"></i>Indicaciones Importantes</li>
+              </ul>
+              <div class="box-body">
+                  <div class="callout callout-danger">
+                      <h4>CRONOGRAMA DE PROCESO DE RECERTIFICACIÓN:</h4>
+                        <p>
+                            Presentación de expedientes: De acuerdo a la programación del proceso de recertificación se procederá a dar la fecha y hora en la que se presentará el expediente. (No habrá prórroga de fecha ni hora).
+                            <br>
+                            Conferencia sobre “Ética profesional del Contador Público Colegiado” la conferencia se realizará de acuerdo a la programación de la siguiente recertificación en el Auditorio del CCPJ.
+                        </p>
+                  </div>
+                  
+                  <ul>
+                      <li>
+                            Si desea puede descargar los requistos dando clic en el siguiente enlace: <b><a href="http://www.ccpjunin.pe/documentos/requisitos_recertificacion.pdf">Requisitos para la Recertificación Profesional</a></b>
+                      </li>
+                      <li>
+                            Si desea puede descargar el banco de preguntas dando clic en el siguiente enlace: <b><a href="http://www.ccpjunin.pe/documentos/banco.pdf">Banco de Preguntas</a></b>
+                      </li>
+                  </ul>
+                  
+
+
+                  <br>
+              </div>
+            </div>
+            <div class="nav-tabs-custom">
+              <ul class="nav nav-tabs pull-right">
+                <li class="pull-left header"><i class="fa fa-commenting"></i> Déjanos tu Opinión</li>
+              </ul>
+              <div class="box-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="fb-comments" data-href="http://ccpjunin.pe/requisitos-certificacion/" data-width="100%" data-numposts="20"></div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+          
         </div>
         <br>
         <div class="row">

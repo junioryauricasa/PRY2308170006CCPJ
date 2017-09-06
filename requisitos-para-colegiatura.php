@@ -31,36 +31,6 @@
         <!-- Small boxes (Stat box) -->
         <!-- Main row -->
         <div class="row">
-          <section class="col-lg-4 col-md-12">
-            <div class="nav-tabs-custom">
-              <ul class="nav nav-tabs pull-right">
-                <li class="pull-left header"><i class="fa fa-info-circle"></i>Indicaciones Importantes</li>
-              </ul>
-              <div class="box-body">
-                  <div class="callout callout-danger">
-                      <h4>Importante</h4>
-                        <ul>
-                          <li><b>Debe asistir a la charla de Ética.</b></li>
-                          <li>CADA ASPIRANTE A COLEGIARSE TAMBIÉN DEBERÁ INCORPORARSE A UN COMITÉ FUNCIONAL SEGÚN LOS REQUISITOS DEL MISMO.</li>
-                        </ul>
-                  </div>
-                  Si desea puede descargar los requistos dando clic en el siguiente enlace: <b><a href="http://ccpjunin.pe/documentos/requisitos_colegiatura2017.pdf" download="requisitos-para-colegiatura_ccpj">Requisitos para la Colegiatura</a></b>
-                  <br>
-              </div>
-            </div>
-            <div class="nav-tabs-custom">
-              <ul class="nav nav-tabs pull-right">
-                <li class="pull-left header"><i class="fa fa-commenting"></i> Déjanos tu Opinión</li>
-              </ul>
-              <div class="box-body">
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <div class="fb-comments" data-href="http://ccpjunin.pe/requisitos-para-colegiatura/" data-width="100%" data-numposts="20"></div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </section>
           <section class="col-lg-8 col-md-12">
               <div class="nav-tabs-custom">
                 <ul class="nav nav-tabs pull-right">
@@ -346,6 +316,37 @@
                     </div>
                 </div>
               </div>
+          </section>          
+
+          <section class="col-lg-4 col-md-12">
+                <div class="nav-tabs-custom">
+                  <ul class="nav nav-tabs pull-right">
+                    <li class="pull-left header"><i class="fa fa-info-circle"></i>Indicaciones Importantes</li>
+                  </ul>
+                  <div class="box-body">
+                      <div class="callout callout-danger">
+                          <h4>Importante</h4>
+                            <ul>
+                              <li><b>Debe asistir a la charla de Ética.</b></li>
+                              <li>CADA ASPIRANTE A COLEGIARSE TAMBIÉN DEBERÁ INCORPORARSE A UN COMITÉ FUNCIONAL SEGÚN LOS REQUISITOS DEL MISMO.</li>
+                            </ul>
+                      </div>
+                      Si desea puede descargar los requistos dando clic en el siguiente enlace: <b><a href="http://ccpjunin.pe/documentos/requisitos_colegiatura2017.pdf" download="requisitos-para-colegiatura_ccpj">Requisitos para la Colegiatura</a></b>
+                      <br>
+                  </div>
+                </div>
+                <div class="nav-tabs-custom">
+                  <ul class="nav nav-tabs pull-right">
+                    <li class="pull-left header"><i class="fa fa-commenting"></i> Déjanos tu Opinión</li>
+                  </ul>
+                  <div class="box-body">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="fb-comments" data-href="http://ccpjunin.pe/requisitos-para-colegiatura/" data-width="100%" data-numposts="20"></div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
           </section>
         </div>
         <br>

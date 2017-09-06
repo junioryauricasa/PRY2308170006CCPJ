@@ -31,27 +31,17 @@
         <!-- Small boxes (Stat box) -->
         <!-- Main row -->
         <div class="row">
-          <section class="col-lg-4 col-md-12">
-            <div class="nav-tabs-custom">
-              <ul class="nav nav-tabs pull-right">
-                <li class="pull-left header"><i class="fa fa-commenting"></i> Déjanos tu Opinión</li>
-              </ul>
-              <div class="box-body">
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <div class="fb-comments" data-href="http://ccpjunin.pe/revista/revista-institucional-ccpj" data-width="100%" data-numposts="20"></div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </section>
-          <section class="col-lg-8 col-md-12">
+          <section class="col-lg-12 col-md-12">
               <div class="nav-tabs-custom">
                 <ul class="nav nav-tabs pull-right">
                   <li class="pull-left header"><i class="fa fa-list"></i> Sirvase a leer nuestra Revista Institucional</li>
                 </ul>
                 <div class="box-body">
-                  <iframe style="width:100%; height:371px;" src="//e.issuu.com/embed.html#28756625/52836599" frameborder="0" allowfullscreen></iframe>
+                  <iframe style="width:100%; height:1100px;" src="//e.issuu.com/embed.html#28756625/52836599" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="box-footer">
+                    <!-- descargar revista institucional (egar enlace) -->
+                    <a href="enlace-revistainstitucional" class="btn btn-danger btn-sm" download="Revista Institucional"><b><i class="fa fa-fw fa-file-pdf-o"></i>Descargar Revista Intitucional</b></a>
                 </div>
               </div>
           </section>

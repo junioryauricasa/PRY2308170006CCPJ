@@ -16,7 +16,7 @@
     <div class="row text-center" style="" id="textonparallax">
       <div class="col-lg-6 col-md-offset-3" style="color:white;">
         <h1>
-            Contáctanos
+            Consulta Hábil
         </h1>
       </div>
     </div>

@@ -73,130 +73,128 @@
       <div class="row">
         <section class="col-lg-12 img-responsive">
               <div class="row">
-                <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="col-lg-2 col-sm-6 col-xs-12">
                   <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
                       <!--div class="containimg">
                         <div class="cover" style="background-image: url('dist/img/decanos/CPCC. Hilario Aquino Wilder Sergio - Decano.jpg');"></div>
                       </div-->
                       <img src="dist/img/decanos/CPCC. Hilario Aquino Wilder Sergio - Decano.jpg" alt="" width="600px"> 
                       <div class="caption">
-                        <h4 class="text-center font-institucional">
+                        <p class="text-center font-institucional">
                             CPCC. Hilario Aquino Wilder Sergio <br> Decano del Colegio de Contadores Públicos de Junín
-                        </h4>     
+                        </p>     
                       </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="col-lg-2 col-sm-6 col-xs-12">
                   <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
                       <img src="dist/img/decanos/CPC. Mari Loardo Salutar - 1er Vice Decano.jpg" alt="" width="600px"> 
                       <div class="caption">
-                        <h4 class="text-center font-institucional">
+                        <p class="text-center font-institucional">
                             CPC. Mari Loardo Salutar <br> 1er Vice Decano del Colegio de Contadores Públicos de Junín
-                        </h4>     
+                        </p>     
                       </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="col-lg-2 col-sm-6 col-xs-12">
                   <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
                       <img src="dist/img/decanos/CPC. Villanueva Huamán María - 2da Vice Decana.jpg" alt="" width="600px"> 
                       <div class="caption">
-                        <h4 class="text-center font-institucional">
+                        <p class="text-center font-institucional">
                             CPC. Villanueva Huamán María <br> 2da Vice Decana del Colegio de Contadores Públicos de Junín
-                        </h4>     
+                        </p>     
                       </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="col-lg-2 col-sm-6 col-xs-12">
                   <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
                       <img src="dist/img/decanos/CPC. Fernández Cuba Luis - Director Secretaria.jpg" alt="" width="600px"> 
                       <div class="caption">
-                        <h4 class="text-center font-institucional">
+                        <p class="text-center font-institucional">
                             CPC. Fernández Cuba Luis <br> Director Secretaria del Colegio de Contadores Públicos de Junín
-                        </h4>     
+                        </p>     
                       </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="col-lg-2 col-sm-6 col-xs-12">
                   <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
                       <img src="dist/img/decanos/CPC. Casafranca Anaya María A. - Directora de Tesorería.jpg" alt="" width="600px"> 
                       <div class="caption">
-                        <h4 class="text-center font-institucional">
-                            CPC. Casafranca Anaya María A. <br> Directora de Tesorería del Colegio de Contadores Públicos de Junín
-                        </h4>     
+                        <p class="text-center font-institucional">
+                            CPC. Casafranca Anaya María A. <br> Directora de Tesorería
+                        </p>     
                       </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="col-lg-2 col-sm-6 col-xs-12">
                   <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
                       <img src="dist/img/decanos/CPC. Bendezú Vila Jorge Tito - Director de Ética y Defensa Profesional.jpg" alt="" width="600px"> 
                       <div class="caption">
-                        <h4 class="text-center font-institucional">
-                            CPC. Bendezú Vila Jorge Tito <br> Director de Ética y Defensa Profesional del Colegio de Contadores Públicos de Junín
-                        </h4>     
-                      </div>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                  <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
-                      <img src="dist/img/decanos/CPC. Unocc Dávila Raúl - Director de Investigación, Publicaciones y Certamen.jpg" alt="" width="600px"> 
-                      <div class="caption">
-                        <h4 class="text-center font-institucional">
-                            CPC. Unocc Dávila Raúl <br> Director de Investigación, Publicaciones y Certamen del Colegio de Contadores Públicos de Junín
-                        </h4>     
-                      </div>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                  <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
-                      <img src="dist/img/decanos/CPC. Flores Pacheco Humberto Joel - Director de Actividades Culturales, Deportivas y Profesionales.jpg" alt="" width="600px"> 
-                      <div class="caption">
-                        <h4 class="text-center font-institucional">
-                            CPC. Flores Pacheco Humberto Joel <br> Director de Actividades Culturales, Deportivas y Profesionales del Colegio de Contadores Públicos de Junín
-                        </h4>     
+                        <p class="text-center font-institucional">
+                            CPC. Bendezú Vila Jorge Tito <br> Director de Ética y Defensa Profesional
+                        </p>     
                       </div>
                   </div>
                 </div>
               </div>
               <div class="row">
-                <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="col-lg-2 col-sm-6 col-xs-12">
+                  <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
+                      <img src="dist/img/decanos/CPC. Unocc Dávila Raúl - Director de Investigación, Publicaciones y Certamen.jpg" alt="" width="600px">
+                      <div class="caption">
+                        <p class="text-center font-institucional">
+                            CPC. Unocc Dávila Raúl <br> Director de Investigación, Publicaciones y Certamen
+                        </p>     
+                      </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 col-xs-12">
+                  <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
+                      <img src="dist/img/decanos/CPC. Flores Pacheco Humberto Joel - Director de Actividades Culturales, Deportivas y Profesionales.jpg" alt="" width="600px"> 
+                      <div class="caption">
+                        <p class="text-center font-institucional">
+                            CPC. Flores Pacheco Humberto Joel <br> Director de Actividades Culturales, Deportivas y Profesionales
+                        </p>     
+                      </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 col-xs-12">
                   <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
                       <img src="dist/img/decanos/CPC. Palacios Arias Maribel Luz - Directora de Asistencia Social y Biblioteca.jpg" alt="" width="600px"> 
                       <div class="caption">
-                        <h4 class="text-center font-institucional">
-                            CPC. Palacios Arias Maribel Luz <br> Directora de Asistencia Social y Biblioteca del Colegio de Contadores Públicos de Junín
-                        </h4>     
+                        <p class="text-center font-institucional">
+                            CPC. Palacios Arias Maribel Luz <br> Directora de Asistencia Social y Biblioteca
+                        </p>     
                       </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="col-lg-2 col-sm-6 col-xs-12">
                   <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
                       <img src="dist/img/decanos/CPC. Arredondo Cristóbal José Antonio - Director de Auditoría, Finanzas e Informática.jpg" alt="" width="600px"> 
                       <div class="caption">
-                        <h4 class="text-center font-institucional">
-                            CPC. Arredondo Cristóbal José Antonio <br> Director de Auditoría, Finanzas e Informática del Colegio de Contadores Públicos de Junín
-                        </h4>     
+                        <p class="text-center font-institucional">
+                            CPC. Arredondo Cristóbal José Antonio <br> Director de Auditoría, Finanzas e Informática
+                        </p>     
                       </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="col-lg-2 col-sm-6 col-xs-12">
                   <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
                       <img src="dist/img/decanos/CPC. De La Cruz Orellana Richard - Director de Normas Legales y Tributarias.jpg" alt="" width="600px"> 
                       <div class="caption">
-                        <h4 class="text-center font-institucional">
-                            CPC. De La Cruz Orellana Richard <br> Director de Normas Legales y Tributarias del Colegio de Contadores Públicos de Junín
-                        </h4>     
+                        <p class="text-center font-institucional">
+                            CPC. De La Cruz Orellana Richard <br> Director de Normas Legales y Tributarias
+                        </p>     
                       </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="col-lg-2 col-sm-6 col-xs-12">
                   <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
                       <img src="dist/img/decanos/CPC. Munive Lozano Hilda - Directora de Contabilida Pública y Privada.jpg" alt="" width="600px"> 
                       <div class="caption">
-                        <h4 class="text-center font-institucional">
-                           CPC. Munive Lozano Hilda <br> Directora de Contabilida Pública y Privada del Colegio de Contadores Públicos de Junín
-                        </h4>     
+                        <p class="text-center font-institucional">
+                           CPC. Munive Lozano Hilda <br> Directora de Contabilida Pública y Privada
+                        </p>     
                       </div>
                   </div>
                 </div>
