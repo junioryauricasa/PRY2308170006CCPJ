@@ -13,10 +13,10 @@
                 Eventos
             </h1>
             <p class="text-center text-description-header ">
-                Bienvenidos a la seccion de eventos del Portal Web del Colegio de Contadores Públicos de Junín, aquí podras mantenerte informado y al día de todos los eventos que estamos desarrollando, no te pierdas de ninguno de estos, comunicate con nosotros.
+                Bienvenidos a la seccion de eventos del Portal Web del Colegio de Contadores Públicos de Junín. <br> Aquí podras mantenerte informado y al día de todos los eventos que estamos desarrollando, no te pierdas de ninguno de estos, comunicate con nosotros.
                 <br>
                 <br>
-                <a href="suscribirse" class="btn btn-transparente">Deseo Inscribirme</a>
+                <a href="#" class="btn btn-transparente">Deseo Inscribirme</a>
             </p>
       </div>
     </div>
@@ -46,7 +46,7 @@
                     <div class="panel box box-primary">
                       <div class="box-header with-border">
                         <h4 class="">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" class="">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" class="" href="#">
                             XXIII CONVENCION NACIONAL DE TRIBUTACION <br><span class="label label-danger pull-left">13/06/2017</span>
                           </a>
                         </h4>
@@ -62,7 +62,7 @@
                     <div class="panel box box-primary">
                       <div class="box-header with-border">
                         <h4 class="">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne2" aria-expanded="false" class="collapsed">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne2" aria-expanded="false" class="collapsed" href="#">
                              DIPLOMATURA <br><span class="label label-danger pull-left">11/04/2017</span>
                           </a>
                         </h4>
@@ -78,7 +78,7 @@
                     <div class="panel box box-primary">
                       <div class="box-header with-border">
                         <h4 class="">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne3" aria-expanded="false" class="collapsed">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne3" aria-expanded="false" class="collapsed" href="#">
                             I CONVERSA DE FINANZAS <br><span class="label label-danger pull-left">11/04/2017</span>
                           </a>
                         </h4>
@@ -93,7 +93,7 @@
                     <div class="panel box box-primary">
                       <div class="box-header with-border">
                         <h4 class="">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne4" aria-expanded="false" class="collapsed">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne4" aria-expanded="false" class="collapsed" href="#">
                             INVESTIGACIÓN CONTABLE <br><span class="label label-danger pull-left">11/04/2017</span>
                           </a>
                         </h4>
@@ -108,7 +108,7 @@
                     <div class="panel box box-primary">
                       <div class="box-header with-border">
                         <h4 class="">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne5" aria-expanded="false" class="collapsed">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne5" aria-expanded="false" class="collapsed" href="#">
                             FRACCIONAMIENTO ESPECIAL <br><span class="label label-danger pull-left">22/03/2017</span>
                           </a>
                         </h4>
@@ -135,7 +135,7 @@
                   <div class="panel box box-default">
 	                    <div class="box-header with-border">
 	                      <h4 class="">
-	                        <a data-toggle="" data-parent="#accordion" href="#collapseOne1-top" aria-expanded="false" class="collapsed product-title-gray" href="`#">
+	                        <a class="collapsed product-title-gray" href="`#">
 	                           XXIII CONVENCION NACIONAL DE TRIBUTACION <br><span class="label label-default pull-left">13/06/2017</span>
 	                        </a>
 	                      </h4>
@@ -149,7 +149,7 @@
                   <div class="panel box box-default">
 	                    <div class="box-header with-border">
 	                      <h4 class="">
-	                        <a data-toggle="" data-parent="#accordion" href="#collapseOne34-top" aria-expanded="false" class="collapsed product-title-gray" href="#">
+	                        <a class="collapsed product-title-gray" href="#">
 	                          DIPLOMATURA <br><span class="label label-default pull-left">11/04/2017</span>
 	                        </a>
 	                      </h4>
@@ -163,7 +163,7 @@
                   <div class="panel box box-default">
 	                    <div class="box-header with-border">
 	                      <h4 class="">
-	                        <a data-toggle="" data-parent="#accordion" href="#collapseOne8-top" aria-expanded="false" class="collapsed product-title-gray" href="#">
+	                        <a class="collapsed product-title-gray" href="#">
 	                          I CONVERSA DE FINANZAS <br><span class="label label-default pull-left">11/04/2017</span>
 	                        </a>
 	                      </h4>

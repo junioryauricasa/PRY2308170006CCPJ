@@ -211,7 +211,7 @@
                   </ul>
                 </li>
                 <li class="active">
-                  <a href="">
+                  <a href="onomasticos">
                     <i class="fa fa-circle-o"></i> 
                     Onomásticos
                   </a>

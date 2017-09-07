@@ -13,10 +13,11 @@
                     Consulta Hábil
                 </h1>
                 <p class="text-center text-description-header ">
-                    Bienvenidos a la seccion de Requisitos para Colegiatura del Colegio de Contadores Públicos de Junín, aqui podrás mantenerte informado y al día, y tu que esperas para Colegiarte.
+                    Bienvenidos a la seccion de Consulta Hábil del Colegiatura del Colegio de Contadores Públicos de Junín. <br> 
+                    Busque la habilidad por medio del código de Colegiatura
                     <br>
                     <br>
-                    <a href="suscribirse" class="btn btn-transparente">Informarme Más</a>
+                    <a href="#" class="btn btn-transparente">Informarme Más</a>
                 </p>
           </div>
         </div>
@@ -32,18 +33,67 @@
         </div>
         <!-- Small boxes (Stat box) -->
         <!-- Main row -->
+        <body onLoad="ChangeCaptcha()">
         <div class="row">
-          <section class="col-lg-4 col-md-5">
-            <div class="nav-tabs-custom">
-              <ul class="nav nav-tabs pull-right">
-                <li class="pull-left header"><i class="fa fa-map-marker"></i> Dirección</li>
-              </ul>
-              <div class="box-body text-center">
-                  Edificio Breña, Paseo la Breña N°125, Of 404 - 405 
-                  <br>
-                  Huancayo, PERU
+          <section class="col-lg-8 col-md-7">
+              <div class="box box-solid">
+                <div class="box-header">
+                  <i class="fa fa-list-alt"></i>
+                  <h3 class="box-title">
+                    Formulário de Consulta Hábil
+                  </h3>
+                </div>
+                <div class="box-body">
+                    <form role="form">
+                      <div class="box-body">
+                        <div class="row">
+                            <div class="col-lg-6">
+                              <div class="form-group">
+                                <label for="nombrecontacto">Número de Matricula:</label>
+                                <input type="text" class="form-control" id="txtCodigo" placeholder="Código de Agremiado" maxlength="5">
+                              </div>
+                              <div class="row">
+                                  <div class="col-lg-6 col-xs-12">
+                                    <div class="form-group">
+                                      <label for="nombrecontacto"></label>
+                                      <input type="text"  class="" id="randomfield" disabled>
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-6 col-xs-12">
+                                    <div class="form-group">
+                                      <label for="nombrecontacto">Código Captcha:</label>
+                                      <input type="text" class="form-control" id="CaptchaEnter" size="20" maxlength="6" placeholder="Ingrese CAPTCHA">
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <p class="text-center">
+                                  <h4>Resultado de la Consulta</h4>
+                                  <b>Matricula:</b> 01232 
+                                  <br>
+                                  <b>Nombre:</b> ESTHER R. 
+                                  <br>
+                                  <b>Apellidos:</b> GUTIERREZ CARRASCAL 
+                                  <br>
+                                  <b>Estado Actual:</b> ACTIVO 
+                                  <br>
+                                  <b>Habil:</b> NO
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="box-footer">
+                        <button type="button" onclick="check()" class="btn btn-success" style="font-weight: bolder">Consultar</button>
+                        <button type="button" class="btn btn-primary" style="font-weight: bolder" onclick="ChangeCaptcha()">Cambiar CAPTCHA</button>
+                      </div>
+                    </form>
+                </div>
               </div>
-            </div>
+          </section>
+
+          <section class="col-lg-4 col-md-5">
             <div class="nav-tabs-custom">
               <ul class="nav nav-tabs pull-right">
                 <li class="pull-left header"><i class="fa fa-clock-o"></i> Horario de Atención</li>
@@ -80,50 +130,7 @@
               </div>
             </div>
           </section>
-          <section class="col-lg-8 col-md-7">
-              <div class="box box-solid">
-                <div class="box-header">
-                  <i class="fa fa-list-alt"></i>
-                  <h3 class="box-title">
-                    Formulário de Contacto CCPJ
-                  </h3>
-                </div>
-                <div class="box-body">
-                    <form role="form">
-                      <div class="box-body">
-                        <div class="row">
-                          <div class="col-lg-5">
-                            <div class="form-group">
-                              <label for="nombrecontacto">Nombre de Contacto</label>
-                              <input type="text" class="form-control" id="nombrecontacto" placeholder="Ingrese sus Nombres" required="">
-                            </div>
-                          </div>
-                          <div class="col-lg-4">
-                            <div class="form-group">
-                              <label for="correoelectronico">Correo Electrónico</label>
-                              <input type="mail" class="form-control" id="correoelectronico" placeholder="Ingrese Correo Electrónico" required="">
-                            </div>
-                          </div>
-                          <div class="col-lg-3">
-                            <div class="form-group">
-                            <label for="codigoagremiado">Código de Agremiado</label>
-                            <input type="text" class="form-control" id="codigoagremiado" placeholder="Código de Agremiado" required="" maxlength="5">
-                          </div>
-                          </div>
-                        </div>
-                        <div class="form-group">
-                          <label for="contenidodelmensaje">Contenido del Mensaje</label>
-                          <textarea class="textarea" id="Mensaje" name="Mensaje" placeholder="Escriba su mensaje aquí" required=""></textarea>
-                        </div>
-                      </div>
-                      <div class="box-footer">
-                        <button type="submit" class="btn btn-success">Enviar Mensaje</button>
-                        <button type="reset" class="btn btn-danger">Limpiar Campos</button>
-                      </div>
-                    </form>
-                </div>
-              </div>
-          </section>
+          
         </div>
 
         <div class="row">
@@ -134,18 +141,10 @@
     </section>
 </div>
 
-<style>
-  #textonparallax{
-      margin-top: -280px; 
-      padding-bottom: 80px;
-  }
-  @media screen and (min-width:350px){
-    #textonparallax{
-          margin-bottom: 100px;
-    }
-  }
-</style>
-
 <?php 
 	include('_include/footer.php');
 ?>
+
+<style>
+   @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700');
+</style>

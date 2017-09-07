@@ -14,10 +14,10 @@
                 Revista Institucional
             </h1>
             <p class="text-center text-description-header ">
-                Bienvenidos a la seccion de Oportunidades Laborales del Colegio de Contadores Públicos de Junín, aqui podrás mantenerte informado y al día de todos las ofertas laborales de nuestra institución, que esperas para comunicate con nosotros.
+                Bienvenidos a la seccion de Oportunidades Laborales del Colegio de Contadores Públicos de Junín. <br> Aqui podrás mantenerte informado y al día de todos las ofertas laborales de nuestra institución, que esperas para comunicate con nosotros.
                 <br>
                 <br>
-                <a href="suscribirse" class="btn btn-transparente">Informarme Más</a>
+                <a href="#" class="btn btn-transparente">Informarme Más</a>
             </p>
       </div>
     </div>

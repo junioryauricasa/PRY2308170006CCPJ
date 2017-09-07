@@ -43,7 +43,7 @@
           <a href="eventos">
             <div class="small-box bg-primary" style="">
               <div class="inner text-center">
-                <img src="dist/img/icons/010-house.png" alt="" width="45%" class="img-option-principal">
+                <img src="dist/img/icons/calendar.png" alt="" width="45%" class="img-option-principal">
                 <p class="text-center">Eventos <br> Académicos</p>
               </div>
             </div>

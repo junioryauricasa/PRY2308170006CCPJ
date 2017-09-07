@@ -99,13 +99,13 @@
     <!-- Fb plugin for comment -->
     <div id="fb-root"></div>
     <script>
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.10&appId=296109214133467";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.10&appId=296109214133467";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
     <!-- ENd Fb plugin for comment -->
 
@@ -159,10 +159,6 @@
 <style>
   /* Header title - cambio solicitado por Frank Cairampoma */
 
-
-  *{
-    transition: all .3s;
-  }
   .product-title-gray{
     color: gray;
   }
@@ -181,7 +177,8 @@
   .text-description-header{
     padding-right: 100px;
     padding-left: 100px;
-    font-size: 16px
+    font-size: 16px;
+    transition: all 0s;
   }
   /* div background img */
   .div-with-background-img{
@@ -278,6 +275,29 @@
           margin-bottom: 50px;
     }
   }
+
+
+
+  /* Para catcha */
+  #randomfield { 
+    -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; 
+      width: 200px;
+      color: black;
+      border-color: transparent;
+      text-align: center;
+      font-size: 40px;
+      background-image: url('http://teleglobos.com.mx/imagenes/mayor/background.png');
+      font-family: 'Cabin Sketch', cursive;
+  }
+
+  /* Para catcha */
+
+
 
   /* ---------- for banner in header ----------  */
   .img-backg-banner-header{
@@ -397,6 +417,8 @@ div.container .row .item {
   font-size: 50px
 }
 
+
+
 </style>
 
 <!-- WhatsHelp.io widget -->
@@ -465,6 +487,38 @@ div.container .row .item {
         $("#success-alert").slideUp(500);
     });
 
+    /*
+        Date: 
+        Interface: Consulta-Habil
+        Description: script for captcha
+    */
+    // Do not remove this (it's just a comment and won't effect the functions)
+    // SimpleCaptcha v1.0 © Anudeep Tubati
+    function ChangeCaptcha() {
+        var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
+        var string_length = 6;
+        var ChangeCaptcha = '';
+
+        for (var i=0; i<string_length; i++) {
+          var rnum = Math.floor(Math.random() * chars.length);
+          ChangeCaptcha += chars.substring(rnum,rnum+1);
+        }
+        document.getElementById('randomfield').value = ChangeCaptcha;
+    }
+    function check() {
+          if(document.getElementById('txtCodigo').value == '' || document.getElementById('CaptchaEnter').value == ''){
+            alert('Rellena todos los Campos');
+          }else 
+          if(document.getElementById('CaptchaEnter').value == document.getElementById('randomfield').value ) {
+           //window.open('consulta.php ','_self');
+           window.location.href="consulta.php";
+          }
+          else {
+            alert('El Codigo CAPTCHA no coincide');
+          }
+      }
+    /* END script for captcha */
+
 </script> 
 
 
@@ -474,7 +528,7 @@ div.container .row .item {
 <script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
 <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
 <script>
-var ckEditorID;
-ckEditorID = 'Mensaje';
-CKEDITOR.replace( ckEditorID);
+    var ckEditorID;
+    ckEditorID = 'Mensaje';
+    CKEDITOR.replace( ckEditorID);
 </script>

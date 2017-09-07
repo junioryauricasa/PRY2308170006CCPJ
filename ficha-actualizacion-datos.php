@@ -1,25 +1,28 @@
 <?php 
 	include('_include/header.php');
 ?>
-<div class="row">
-  <div class="row" id="">
-      <div class="paralax-laboral" style="height: 400px">
-          <div class="row">
-            <div class="col-lg-12 vcenter">
-            </div>
-          </div>
-      </div>
-  </div>
-</div>
 
 <div class="content-wrapper" style="padding-top: 30px">
-    <div class="row text-center" style="" id="textonparallax">
-      <div class="col-lg-6 col-md-offset-3" style="color:white;">
-        <h1>
-            Ficha de Actualización de Datos
-        </h1>
+
+<!-- div con backgrond incluido -->
+<section class="content" style="    min-height: 0px;">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-ofertas-laborales.jpg'); ">
+            <h1 class="text-center header-page-h1">
+                Ficha de Actualización de Datos
+            </h1>
+            <p class="text-center text-description-header ">
+                Bienvenidos a la seccion de Oportunidades Laborales del Colegio de Contadores Públicos de Junín, aqui<br>  podrás mantenerte informado y al día de todos las ofertas laborales de nuestra institución, que esperas para comunicate con nosotros.
+                <br>
+                <br>
+                <a href="" class="btn btn-transparente">Informarme Más</a>
+            </p>
       </div>
     </div>
+  </div>
+</section>
+<!-- div con backgrond incluido -->
 
     <section class="content">
         <div class="row">
@@ -118,7 +121,7 @@
                             <div class="form-group">
                               <label for="codigoagremiado">Ficha de Actualización</label>
                               <input type="file" class="form-control" id="docadjunto" placeholder="Código de Agremiado" required="">
-                              <p style="color:red"><b>Se le recuerda que debe de adjuntar la ficha de Actualizacion de Datos, que descargó mas arriba, rellenada correctamente.</b></p>
+                              <p style="color:red"><b>*Se le recuerda que debe de adjuntar la ficha de Actualizacion de Datos, que descargó mas arriba, rellenada correctamente.</b></p>
                             </div>
                           </div>
                         </div>
