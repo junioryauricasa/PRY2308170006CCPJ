@@ -472,7 +472,9 @@
 
 
       <style>
-          /* ---------- for banner in header ----------  */
+
+
+/* ---------- for banner in header ----------  */
   .img-backg-banner-header{
     background-image: url("dist/img/banner-superior.png");
     background-color: #cccccc;
