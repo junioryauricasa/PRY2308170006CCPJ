@@ -2,6 +2,8 @@
   include('_include/header.php');
 ?>
 
+
+
       <div class="content-wrapper">
         <div class="row">
           <div class="col-md-12">
@@ -17,7 +19,7 @@
                     <span class="Apple-style-span" style="color: black; ">
                         <!-- font slide dezlizable -->
                         <p id="text_slide_header" >
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ipsam nam maxime architecto modi eligendi vitae minima quia ut, consequuntur delectus officia porro corporis fugit natus numquam molestiae, optio, in.
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ipsam nam maxime architecto modi eligendi vitae minim
                         </p>
                     </span>
                 </marquee> 
