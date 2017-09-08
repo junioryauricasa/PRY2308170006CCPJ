@@ -6,82 +6,23 @@
 
       <div class="content-wrapper">
         <div class="row">
-          <div class="col-md-12">
+          <!--div class="col-md-12">
               <div class="col-md-12 col-sm-12" style="padding: 0px">
-                  <!--img src="dist/img/banner-superior.png" width="100%" style="background-size:cover;"-->
                   <div class="img-backg-banner-header">
                   </div>
               </div>
-          </div>
-          <div class="col-md-12" style="margin-top:10px">
-              <center>
-                <marquee direction="left" id="ejemplo">
-                    <span class="Apple-style-span" style="color: black; ">
-                        <!-- font slide dezlizable -->
-                        <p id="text_slide_header" >
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ipsam nam maxime architecto modi eligendi vitae minim
-                        </p>
-                    </span>
-                </marquee> 
-                <a href="javascript:void(0);"></a> 
-                <a href="javascript:void(0);"></a>
-              </center>
-          </div>
-
-          <!-- slides -->
-          <div class="col-md-12">
-            <div class="box box-solid">
-              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
-                      <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-                      <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
-                      <li data-target="#carousel-example-generic" data-slide-to="3" class=""></li>
-                      <li data-target="#carousel-example-generic" data-slide-to="4" class="active"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-inner">
-                        <div class="item">
-                          <a href="">
-                            <img src="dist/img/slides/sld-evento-academico-0001.jpg" alt="First slide" width="100%">
-                          </a>
-                        </div>
-                        <div class="item active left">
-                          <a href="">
-                            <img src="dist/img/slides/sld-evento-0001.jpg" alt="Second slide" width="100%">
-                          </a>
-                        </div>
-                        <div class="item next left">
-                          <a href="">
-                            <img src="dist/img/slides/sld-noticias-0001.jpg" alt="Third slide" width="100%">
-                          </a>
-                        </div>
-                        <div class="item next left">
-                          <a href="">
-                            <img src="dist/img/slides/sld-audita-0001.jpg" alt="Fourth slide" width="100%">
-                          </a>
-                        </div>
-
-                        <!-- primer slide (principal) -->
-                        <div class="item next left">
-                          <a href="">
-                            <img src="http://placehold.it/1200x275/39CCCC/ffffff&text=1200x275" alt="Default slide" width="100%">
-                          </a>
-                        </div>
-                        <!-- end primer slide (principal) -->
-                      </div>
-
-                      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                        <span class="fa fa-angle-left"></span>
-                      </a>
-                      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                        <span class="fa fa-angle-right"></span>
-                      </a>
-                    </div>
+          </div-->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="img-backg-banner-header" style="">
               </div>
             </div>
           </div>
-          <!-- END slides -->
+          <div class="col-md-12" style="margin-top:10px">
+              <marquee direction="left" width="100%">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ab similique neque eligendi voluptatum numquam, voluptates nam recusandae odio rerum omnis veniam quisquam harum quam voluptate distinctio fugit dolorem, molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut rem illum laudantium animi voluptate corrupti necessitatibus deleniti quas iure, inventore aperiam adipisci facilis earum fugit in molestiae. Autem, sed.
+              </marquee>
+          </div>
         </div>
 
 

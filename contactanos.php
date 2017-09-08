@@ -148,3 +148,9 @@
 <?php 
 	include('_include/footer.php');
 ?>
+
+<script>
+    var ckEditorID;
+    ckEditorID = 'Mensaje';
+    CKEDITOR.replace( ckEditorID);
+</script>

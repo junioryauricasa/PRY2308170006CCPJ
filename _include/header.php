@@ -478,6 +478,7 @@
     background-color: #cccccc;
     background-size: cover;
     height: 80px ;
+    margin-left: 15px;
     width: cover;
   }
 
@@ -492,8 +493,8 @@
       }
       /* texto div con background img */
       .text-description-header{
-        padding-right: 10px;
-        padding-left: 10px;
+        padding-right: 7px;
+        padding-left: 7px;
         font-size: 12px
       }
   }

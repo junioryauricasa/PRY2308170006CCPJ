@@ -175,8 +175,6 @@
   
   /* texto div con background img */
   .text-description-header{
-    padding-right: 100px;
-    padding-left: 100px;
     font-size: 16px;
     transition: all 0s;
   }
@@ -437,12 +435,12 @@ div.container .row .item {
         });
     });
 
-    /* stylish for scrool bar */
+    /* stylish for scrool bar 
     $(document).ready(function () {
           if (!$.browser.webkit) {
               $('.wrapper').html('<p>Sorry! Non webkit users. :(</p>');
           }
-    });
+    });*/
     /* END stylish for scrool bar */
 
     /* autoclose alert bootstrap 
@@ -492,8 +490,3 @@ div.container .row .item {
 <!-- Bootstrap WYSIHTML5 -->
 <script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
 <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
-<script>
-    var ckEditorID;
-    ckEditorID = 'Mensaje';
-    CKEDITOR.replace( ckEditorID);
-</script>

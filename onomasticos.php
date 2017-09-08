@@ -5,8 +5,7 @@
 <div class="content-wrapper" style="padding-top: 30px">
 
 <!-- div con backgrond incluido -->
-<section class="content" style="    min-height: 0px;">
-  <div class="row">
+<section class="content" <div class="row">
     <div class="col-md-12">
       <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-onomasticos.jpg'); ">
             <h1 class="text-center header-page-h1">
@@ -20,7 +19,8 @@
             </p>
       </div>
     </div>
-  </div>
+  </div>style="    min-height: 0px;">
+  
 </section>
 <!-- div con backgrond incluido -->
 
