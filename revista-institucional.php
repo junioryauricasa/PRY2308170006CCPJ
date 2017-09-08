@@ -40,11 +40,12 @@
                   <li class="pull-left header"><i class="fa fa-list"></i> Sirvase a leer nuestra Revista Institucional</li>
                 </ul>
                 <div class="box-body">
-                  <iframe style="width:100%; height:1100px;" src="//e.issuu.com/embed.html#28756625/52836599" frameborder="0" allowfullscreen></iframe>
+                  <iframe style="width:100%; height:1100px;" src="//e.issuu.com/embed.html#28756625/52984464" frameborder="0" allowfullscreen></iframe>
                 </div>
+
                 <div class="box-footer">
                     <!-- descargar revista institucional (egar enlace) -->
-                    <a href="enlace-revistainstitucional" class="btn btn-danger btn-sm" download="Revista Institucional"><b><i class="fa fa-fw fa-file-pdf-o"></i>Descargar Revista Intitucional</b></a>
+                    <a href="dist/docs/REVISTA-INSTITUCIONAL-CCPJ-2017.pdf" class="btn btn-danger btn-sm" download="Revista-Institucional"><b><i class="fa fa-fw fa-file-pdf-o"></i>Descargar Revista Intitucional</b></a>
                 </div>
               </div>
           </section>

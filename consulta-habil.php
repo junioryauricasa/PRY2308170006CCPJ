@@ -69,18 +69,7 @@
                             </div>
 
                             <div class="col-lg-6">
-                                <p class="text-center">
-                                  <h4>Resultado de la Consulta</h4>
-                                  <b>Matricula:</b> 01232 
-                                  <br>
-                                  <b>Nombre:</b> ESTHER R. 
-                                  <br>
-                                  <b>Apellidos:</b> GUTIERREZ CARRASCAL 
-                                  <br>
-                                  <b>Estado Actual:</b> ACTIVO 
-                                  <br>
-                                  <b>Habil:</b> NO
-                                </p>
+                                
                             </div>
                         </div>
                       </div>

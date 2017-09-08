@@ -43,7 +43,7 @@
                 </div>
                 <div class="box-body">
                   <div class="box-group" id="accordion">
-                    <div class="panel box box-primary">
+                    <div class="panel box box-default">
                       <div class="box-header with-border">
                         <h4 class="">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" class="">
@@ -68,7 +68,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="panel box box-primary">
+                    <div class="panel box box-default">
                       <div class="box-header with-border">
                         <h4 class="">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne2" aria-expanded="false" class="collapsed">
@@ -84,7 +84,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="panel box box-primary">
+                    <div class="panel box box-default">
                       <div class="box-header with-border">
                         <h4 class="">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne3" aria-expanded="false" class="collapsed">
@@ -109,7 +109,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="panel box box-primary">
+                    <div class="panel box box-default">
                       <div class="box-header with-border">
                         <h4 class="">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne4" aria-expanded="false" class="collapsed">
@@ -125,7 +125,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="panel box box-primary">
+                    <div class="panel box box-default">
                       <div class="box-header with-border">
                         <h4 class="">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne5" aria-expanded="false" class="collapsed">
@@ -144,16 +144,7 @@
                   </div>
                 </div>
               </div>
-              <!-- paginador -->
-              <ul class="pagination">
-                <li><a href="#">Anterior</a></li>
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#">Siguiente</a></li>
-              </ul>
+              
           </section>
           <section class="col-lg-4">
             <div class="nav-tabs-custom">
@@ -163,7 +154,7 @@
 
               <div class="box-body">
                 <div class="box-group" id="accordion">
-                  <div class="panel box box-primary">
+                  <div class="panel box box-default">
                     <div class="box-header with-border">
                       <h4 class="">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1-top" aria-expanded="false" class="collapsed">
@@ -188,7 +179,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="panel box box-primary">
+                  <div class="panel box box-default">
                     <div class="box-header with-border">
                       <h4 class="">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne34-top" aria-expanded="false" class="collapsed">
@@ -204,7 +195,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="panel box box-primary">
+                  <div class="panel box box-default">
                     <div class="box-header with-border">
                       <h4 class="">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne8-top" aria-expanded="false" class="collapsed">
@@ -229,7 +220,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="panel box box-primary">
+                  <div class="panel box box-default">
                     <div class="box-header with-border">
                       <h4 class="">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne2-top" aria-expanded="false" class="collapsed">
@@ -255,7 +246,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="panel box box-primary">
+                  <div class="panel box box-default">
                     <div class="box-header with-border">
                       <h4 class="">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne7-top" aria-expanded="false" class="collapsed">
