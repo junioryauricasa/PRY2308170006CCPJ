@@ -42,7 +42,7 @@
                     El Colegio de Contadores Públicos de Junín pensando en sus agremiados a realizado diversos convenios con diferentes instituciones.
                     <br>
                     <br>
-                    Es por ese motivo que promoviendo el desarrollo, cooperación y la integracion entre el Colegio y estas instituciones se logran establecer convenios que no solo beneficiarán al Colegio, tambien traerán beneficios a sus agremiados en general.
+                    Es por ese motivo que promoviendo el desarrollo, cooperación y la integración entre el Colegio y estas instituciones se logran establecer convenios que no solo beneficiarán al Colegio, tambien traerán beneficios a sus agremiados en general.
                     <br>
                     <br>
                     <a href="mailto:gerencia.ccpj@gmail.com?Subject=Consulta%20desde%20Portal%20Web" class="btn btn-xs btn-danger">
