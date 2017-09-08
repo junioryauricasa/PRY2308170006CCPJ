@@ -20,11 +20,11 @@
           </a>
         </div>
         <div class="col-lg-2 col-md-4 col-xs-6">
-          <a href="">
+          <a href="requisitos-certificacion">
             <div class="small-box bg-primary" style="">
               <div class="inner text-center">
                 <img src="dist/img/icons/025-process.png" alt="" width="45%" class="img-option-principal">
-                <p class="text-center">El Proceso de <br>Certificación</p>
+                <p class="text-center">Proceso de <br>Certificación</p>
               </div>
             </div>
           </a>

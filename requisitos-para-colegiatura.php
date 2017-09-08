@@ -11,7 +11,8 @@
                     Requisitos Para Colegiatura
                 </h1>
                 <p class="text-center text-description-header ">
-                    Bienvenidos a la seccion de Requisitos para Colegiatura del Colegio de Contadores Públicos de Junín, aqui podrás mantenerte informado y al día, y tu que esperas para Colegiarte.
+                    Bienvenidos a la seccion de Requisitos para Colegiatura del Colegio de Contadores Públicos de Junín, <br>
+                    Aqui podrás mantenerte informado y al día, y tu que esperas para Colegiarte.
                     <br>
                     <br>
                     <a href="suscribirse" class="btn btn-transparente">Informarme Más</a>

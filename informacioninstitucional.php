@@ -16,6 +16,8 @@
             <p class="text-center text-description-header ">
                 Bienvenidos a la seccion de Información Institucional del Colegio de Contadores Públicos de Junín.
                 <br>
+                Tómese el tiempo para conocer un poco sobre nuestra institución.
+                <br>
                 <br>
                 <a href="suscribirse" class="btn btn-transparente">Informarme Más</a>
             </p>

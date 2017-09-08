@@ -39,9 +39,14 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+      <script>
+          function ocultar(){
+            $('#buttondisplayhidden').click();
+          }
+      </script>
   </head>
   
-  <body class="scrollbar fixed sidebar-mini skin-blue-light sidebar-collapse sidebar-open" id="style-3"> 
+  <body class="scrollbar fixed sidebar-mini skin-blue-light sidebar-collapse " id="style-3"> 
   <!--body class="fixed sidebar-mini skin-blue-light "  ondragstart="return false" oncontextmenu="return false" onselectstart="return false"--> <!-- evitar descargar imgs DESCOMENTAR AL FINAL -->
 
     <div class="wrapper">
@@ -464,3 +469,39 @@
           </ul>
         </section>
       </aside>
+
+
+      <style>
+          /* ---------- for banner in header ----------  */
+  .img-backg-banner-header{
+    background-image: url("dist/img/banner-superior.png");
+    background-color: #cccccc;
+    background-size: cover;
+    height: 80px ;
+    width: cover;
+  }
+
+  @media screen and (max-width:500px){
+      .img-backg-banner-header{
+          background-image: url("dist/img/banner-superior-min.png");
+          height: 100px ;
+          width: 100%;
+        }
+      img{
+         padding: 0px;
+      }
+      /* texto div con background img */
+      .text-description-header{
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 12px
+      }
+  }
+  @media screen and (max-width:1036px){
+    .social-media-buttons{
+      display: none;
+    }
+  }
+
+/* --------------------------------------------- */
+      </style>

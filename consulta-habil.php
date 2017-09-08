@@ -53,13 +53,13 @@
                                 <input type="text" class="form-control" id="txtCodigo" placeholder="Código de Agremiado" maxlength="5">
                               </div>
                               <div class="row">
-                                  <div class="col-lg-6 col-xs-12">
+                                  <div class="col-lg-12 col-xs-12">
                                     <div class="form-group">
                                       <label for="nombrecontacto"></label>
                                       <input type="text"  class="" id="randomfield" disabled>
                                     </div>
                                   </div>
-                                  <div class="col-lg-6 col-xs-12">
+                                  <div class="col-lg-12 col-xs-12">
                                     <div class="form-group">
                                       <label for="nombrecontacto">Código Captcha:</label>
                                       <input type="text" class="form-control" id="CaptchaEnter" size="20" maxlength="6" placeholder="Ingrese CAPTCHA">

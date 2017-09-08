@@ -297,41 +297,6 @@
 
   /* Para catcha */
 
-
-
-  /* ---------- for banner in header ----------  */
-  .img-backg-banner-header{
-    background-image: url("dist/img/banner-superior.png");
-    background-color: #cccccc;
-    background-size: cover;
-    height: 80px ;
-    width: cover;
-  }
-
-  @media screen and (max-width:500px){
-      .img-backg-banner-header{
-          background-image: url("dist/img/banner-superior-min.png");
-          height: 100px ;
-          width: 100%;
-        }
-      img{
-         padding: 0px;
-      }
-      /* texto div con background img */
-      .text-description-header{
-        padding-right: 10px;
-        padding-left: 10px;
-        font-size: 12px
-      }
-  }
-  @media screen and (max-width:1036px){
-    .social-media-buttons{
-      display: none;
-    }
-  }
-
-/* --------------------------------------------- */
-
 /* ----------- for card personal ----------- */
 .thumbnail{
   visibility: visible; 
@@ -414,7 +379,7 @@ div.container .row .item {
 /* ---------------- */
 
 .header-page-h1{
-  font-size: 50px
+  font-size:36px
 }
 
 

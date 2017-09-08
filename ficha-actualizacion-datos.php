@@ -13,7 +13,7 @@
                 Ficha de Actualización de Datos
             </h1>
             <p class="text-center text-description-header ">
-                Bienvenidos a la seccion de Oportunidades Laborales del Colegio de Contadores Públicos de Junín, aqui<br>  podrás mantenerte informado y al día de todos las ofertas laborales de nuestra institución, que esperas para comunicate con nosotros.
+                Bienvenidos a la seccion de Oportunidades Laborales del Colegio de Contadores Públicos de Junín.<br> 
                 <br>
                 <br>
                 <a href="" class="btn btn-transparente">Informarme Más</a>
