@@ -47,7 +47,7 @@
                       <div class="box-header with-border">
                         <h4 class="">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" class="" href="#">
-                            XXIII CONVENCION NACIONAL DE TRIBUTACION <br><span class="label label-danger pull-left">13/06/2017</span>
+                            XXIII CONVENCION NACIONAL DE TRIBUTACIÓN <br><span class="label label-danger pull-left">13/06/2017</span>
                           </a>
                         </h4>
                       </div>
