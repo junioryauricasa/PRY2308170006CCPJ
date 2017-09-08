@@ -93,7 +93,7 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="ficha-actualizacion-datos">Ficha de Actualización de Datos</a></li>
-                    <li><a href="documentos">Documentos</a></li>
+                    <li><a href="documento">Documentos</a></li>
                     <li><a href="#">Biblioteca</a></li>
                     <li><a href="#">Consulta Hábil</a></li>
                     <li><a href="precios">Lista de Precio por Servicios</a></li>
@@ -424,7 +424,7 @@
               </a>
               <ul class="treeview-menu">
                 <li><a href="ficha-actualizacion-datos"><i class="fa fa-circle-o"></i> Actualización de Datos</a></li>
-                <li><a href="documentos"><i class="fa fa-circle-o"></i> Documentos</a></li>
+                <li><a href="documento"><i class="fa fa-circle-o"></i> Documentos</a></li>
                 <li><a href=""><i class="fa fa-circle-o"></i> Biblioteca</a></li>
                 <li class="">
                   <a href="#">

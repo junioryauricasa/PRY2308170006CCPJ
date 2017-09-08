@@ -94,19 +94,19 @@
                           <div class="col-lg-5">
                             <div class="form-group">
                               <label for="nombrecontacto">Nombre de Contacto</label>
-                              <input type="text" class="form-control" id="nombrecontacto" placeholder="Ingrese sus Nombres" required="">
+                              <input type="text" class="form-control" id="nombrecontacto" pattern="[A-Za-z]{6,50}" title="Te recomendamos ingresar un nombre real" placeholder="Ingrese sus Nombres" required="">
                             </div>
                           </div>
                           <div class="col-lg-4">
                             <div class="form-group">
                               <label for="correoelectronico">Correo Electrónico</label>
-                              <input type="mail" class="form-control" id="correoelectronico" placeholder="Ingrese Correo Electrónico" required="">
+                              <input type="mail" class="form-control" id="correoelectronico"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Ingresa un correo valido por favor." placeholder="Ingrese Correo Electrónico" required="">
                             </div>
                           </div>
                           <div class="col-lg-3">
                             <div class="form-group">
                             <label for="codigoagremiado">Código de Agremiado</label>
-                            <input type="text" class="form-control" id="codigoagremiado" placeholder="Código de Agremiado" required="" maxlength="5">
+                            <input type="text" class="form-control" onkeypress="return justNumbers(event);" id="codigoagremiado" placeholder="Código de Agremiado" required="" maxlength="5">
                           </div>
                           </div>
                         </div>

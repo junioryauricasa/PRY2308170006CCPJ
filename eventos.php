@@ -31,8 +31,9 @@
           </div>
         </div>
 
-        <!-- section  -->
+        <!-- section -->
         <div class="row">
+          <!-- section principal -->
           <section class="col-lg-9">
               <div class="box box-solid">
                 <div class="box-header">
@@ -43,11 +44,11 @@
                 </div>
                 <div class="box-body">
                   <div class="box-group" id="accordion">
-                    <div class="panel box box-primary">
+                    <div class="panel box box-default">
                       <div class="box-header with-border">
                         <h4 class="">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" class="" href="#">
-                            XXIII CONVENCION NACIONAL DE TRIBUTACIÓN <br><span class="label label-danger pull-left">13/06/2017</span>
+                            XXIII CONVENCION NACIONAL DE TRIBUTACIÓN <br><span class="label label-default pull-left">13/06/2017</span>
                           </a>
                         </h4>
                       </div>
@@ -59,11 +60,11 @@
                         <br>
                       </div>
                     </div>
-                    <div class="panel box box-primary">
+                    <div class="panel box box-default">
                       <div class="box-header with-border">
                         <h4 class="">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne2" aria-expanded="false" class="collapsed" href="#">
-                             DIPLOMATURA <br><span class="label label-danger pull-left">11/04/2017</span>
+                             DIPLOMATURA <br><span class="label label-default pull-left">11/04/2017</span>
                           </a>
                         </h4>
                       </div>
@@ -75,11 +76,11 @@
                         </div>
                       </div>
                     </div>
-                    <div class="panel box box-primary">
+                    <div class="panel box box-default">
                       <div class="box-header with-border">
                         <h4 class="">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne3" aria-expanded="false" class="collapsed" href="#">
-                            I CONVERSA DE FINANZAS <br><span class="label label-danger pull-left">11/04/2017</span>
+                            I CONVERSA DE FINANZAS <br><span class="label label-default pull-left">11/04/2017</span>
                           </a>
                         </h4>
                       </div>
@@ -90,11 +91,11 @@
                         </div>
                       </div>
                     </div>
-                    <div class="panel box box-primary">
+                    <div class="panel box box-default">
                       <div class="box-header with-border">
                         <h4 class="">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne4" aria-expanded="false" class="collapsed" href="#">
-                            INVESTIGACIÓN CONTABLE <br><span class="label label-danger pull-left">11/04/2017</span>
+                            INVESTIGACIÓN CONTABLE <br><span class="label label-default pull-left">11/04/2017</span>
                           </a>
                         </h4>
                       </div>
@@ -105,11 +106,11 @@
                         </div>
                       </div>
                     </div>
-                    <div class="panel box box-primary">
+                    <div class="panel box box-default">
                       <div class="box-header with-border">
                         <h4 class="">
                           <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne5" aria-expanded="false" class="collapsed" href="#">
-                            FRACCIONAMIENTO ESPECIAL <br><span class="label label-danger pull-left">22/03/2017</span>
+                            FRACCIONAMIENTO ESPECIAL <br><span class="label label-default pull-left">22/03/2017</span>
                           </a>
                         </h4>
                       </div>
@@ -124,6 +125,8 @@
                 </div>
               </div>
           </section>
+          <!-- section secundaria -->
+
           <section class="col-lg-3">
             <div class="nav-tabs-custom">
               <ul class="nav nav-tabs pull-right">

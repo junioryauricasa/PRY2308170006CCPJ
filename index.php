@@ -18,7 +18,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-12" style="margin-top:10px">
+          <div class="col-md-12" style="padding: 5px">
               <marquee direction="left" width="100%">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ab similique neque eligendi voluptatum numquam, voluptates nam recusandae odio rerum omnis veniam quisquam harum quam voluptate distinctio fugit dolorem, molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut rem illum laudantium animi voluptate corrupti necessitatibus deleniti quas iure, inventore aperiam adipisci facilis earum fugit in molestiae. Autem, sed.
               </marquee>
@@ -27,6 +27,64 @@
 
 
         <section class="content">
+          <div class="row">
+            <!-- slides -->
+            <div class="col-md-12">
+              <div class="box box-solid">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="4" class="active"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-inner">
+                          <div class="item">
+                            <a href="">
+                              <img src="dist/img/slides/sld-evento-academico-0001.jpg" alt="First slide" width="100%">
+                            </a>
+                          </div>
+                          <div class="item active left">
+                            <a href="">
+                              <img src="dist/img/slides/sld-evento-0001.jpg" alt="Second slide" width="100%">
+                            </a>
+                          </div>
+                          <div class="item next left">
+                            <a href="">
+                              <img src="dist/img/slides/sld-noticias-0001.jpg" alt="Third slide" width="100%">
+                            </a>
+                          </div>
+                          <div class="item next left">
+                            <a href="">
+                              <img src="dist/img/slides/sld-audita-0001.jpg" alt="Fourth slide" width="100%">
+                            </a>
+                          </div>
+
+                          <!-- primer slide (principal) -->
+                          <div class="item next left">
+                            <a href="">
+                              <img src="http://placehold.it/1200x275/39CCCC/ffffff&text=1200x275" alt="Default slide" width="100%">
+                            </a>
+                          </div>
+                          <!-- end primer slide (principal) -->
+                        </div>
+
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                          <span class="fa fa-angle-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                          <span class="fa fa-angle-right"></span>
+                        </a>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <!-- END slides -->
+          </div>
+
+
           <!-- principal options  -->
           <div class="row">
             <div class="col-md-12">

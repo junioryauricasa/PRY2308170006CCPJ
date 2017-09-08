@@ -200,6 +200,9 @@
     color: black;
     background-color: white
   }
+  .btn-transparente:active,.btn-transparente:selected{
+    color:white;
+  }
 /* END btn transparent for div background img */
 
   .vertical-align {
@@ -380,7 +383,10 @@ div.container .row .item {
   font-size:36px
 }
 
-
+/* estyle for letter <a> */
+.box-default > .box-header > h4 > a{
+  color: gray
+}
 
 </style>
 
@@ -481,6 +487,21 @@ div.container .row .item {
           }
       }
     /* END script for captcha */
+
+    /*
+      inpedir ingreso de texto en un input
+    */
+    function justNumbers(e)
+    {
+        var keynum = window.event ? window.event.keyCode : e.which;
+        if ((keynum == 8) || (keynum == 46))
+        return true;
+         
+        return /\d/.test(String.fromCharCode(keynum));
+    }
+    /*
+      ENd inpedir ingreso de texto en un input
+    */
 
 </script> 
 

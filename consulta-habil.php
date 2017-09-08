@@ -17,7 +17,7 @@
                     Busque la habilidad por medio del código de Colegiatura
                     <br>
                     <br>
-                    <a href="#" class="btn btn-transparente">Informarme Más</a>
+                    <input type="button" class="btn btn-transparente" value="Informarme Más">
                 </p>
           </div>
         </div>
@@ -50,7 +50,7 @@
                             <div class="col-lg-6">
                               <div class="form-group">
                                 <label for="nombrecontacto">Número de Matricula:</label>
-                                <input type="text" class="form-control" id="txtCodigo" placeholder="Código de Agremiado" maxlength="5">
+                                <input type="text" class="form-control" id="txtCodigo" placeholder="Código de Agremiado" onkeypress="return justNumbers(event);" maxlength="5">
                               </div>
                               <div class="row">
                                   <div class="col-lg-12 col-xs-12">
