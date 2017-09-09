@@ -3,7 +3,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="col-lg-5 col-md-4 col-xs-12">
-              <img class="img-responsive" src="dist/img/logo_horizontal_ccpj.png" alt="Logo horizontal del Colegio de Contadores Públicos de Junín">
+              <img class="img-responsive" src="dist/img/logo_horizontal_ccpj_blanco.png" alt="Logo horizontal del Colegio de Contadores Públicos de Junín">
               <br>
               <div>
                 <ul class="nav navbar-nav navbar-center social-media-buttons" style="padding-top: 7px;">
@@ -475,6 +475,7 @@ div.container .row .item {
         document.getElementById('randomfield').value = ChangeCaptcha;
     }
     function check() {
+         
           if(document.getElementById('txtCodigo').value == '' || document.getElementById('CaptchaEnter').value == ''){
             alert('Rellena todos los Campos');
           }else 
@@ -483,7 +484,10 @@ div.container .row .item {
            window.location.href="consulta.php";
           }
           else {
-            alert('El Codigo CAPTCHA no coincide');
+
+            alert('El Codigo CAPTCHA no coincide!');
+
+
           }
       }
     /* END script for captcha */
