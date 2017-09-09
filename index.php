@@ -32,13 +32,26 @@
             <div class="col-md-12">
               <div class="box box-solid">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                      <ol class="carousel-indicators">
+                      
+                      <!--ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
                         <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
                         <li data-target="#carousel-example-generic" data-slide-to="3" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="4" class="active"></li>
-                      </ol>
+                        <li data-target="#carousel-example-generic" data-slide-to="4" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="5" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="6" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="7" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="8" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="9" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="10" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="11" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="12" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="13" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="14" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="15" class="active"></li>
+                      </ol-->
+
                       <div class="carousel-inner">
                         <div class="carousel-inner">
                           <div class="item">
@@ -59,6 +72,61 @@
                           <div class="item next left">
                             <a href="">
                               <img src="dist/img/slides/sld-audita-0001.jpg" alt="Fourth slide" width="100%">
+                            </a>
+                          </div>
+                          <div class="item next left">
+                            <a href="">
+                              <img src="dist/img/slides/aniversario.jpg" alt="Fifth slide" width="100%">
+                            </a>
+                          </div>
+                          <div class="item next left">
+                            <a href="">
+                              <img src="dist/img/slides/eko.jpg" alt="Fifth slide" width="100%">
+                            </a>
+                          </div>
+                          <div class="item next left">
+                            <a href="">
+                              <img src="dist/img/slides/esperanz.jpg" alt="Fifth slide" width="100%">
+                            </a>
+                          </div>
+                          <div class="item next left">
+                            <a href="">
+                              <img src="dist/img/slides/certificacion.jpg" alt="Fifth slide" width="100%">
+                            </a>
+                          </div>
+                          <div class="item next left">
+                            <a href="">
+                              <img src="dist/img/slides/CIC.jpg" alt="Fifth slide" width="100%">
+                            </a>
+                          </div>
+                          <div class="item next left">
+                            <a href="">
+                              <img src="dist/img/slides/estadosf.jpg" alt="Fifth slide" width="100%">
+                            </a>
+                          </div>
+                          <div class="item next left">
+                            <a href="">
+                              <img src="dist/img/slides/ubicanos.jpg" alt="Fifth slide" width="100%">
+                            </a>
+                          </div>
+                          <div class="item next left">
+                            <a href="">
+                              <img src="dist/img/slides/eventos junta de decanos.jpg" alt="Fifth slide" width="100%">
+                            </a>
+                          </div>
+                          <div class="item next left">
+                            <a href="">
+                              <img src="dist/img/slides/proceso recerti.jpg" alt="Fifth slide" width="100%">
+                            </a>
+                          </div>
+                          <div class="item next left">
+                            <a href="">
+                              <img src="dist/img/slides/recertificacion.jpg" alt="Fifth slide" width="100%">
+                            </a>
+                          </div>
+                          <div class="item next left">
+                            <a href="">
+                              <img src="dist/img/slides/xicongreso educadores.jpg" alt="Fifth slide" width="100%">
                             </a>
                           </div>
 

@@ -77,7 +77,6 @@
                   <thead>
                     <tr>
                       <th>Nombre del Documento</th>
-                      <th>Descripción</th>
                       <th>Opciones</th>
                     </tr>
                     </thead>
@@ -85,13 +84,10 @@
                       <tr class="">
                         <td>CCP Junin - Compendio de Normas Generales</td>
                         <td>
-                          Este archivo es para...
-                        </td>
-                        <td>
-                            <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Ver Documento" target="_blank" href="http://ccpjunin.pe/documentos/compendio_normas_generales.pdf">
+                            <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Ver Documento" target="_blank" href="dist/docs/compendio_normas_generales.pdf">
                               <i class="fa fa-fw fa-file-pdf-o"></i>
                             </a>
-                            <a data-toggle="tooltip" class="btn btn-default btn-xs" data-original-title="Descargar Documento" href="http://ccpjunin.pe/documentos/compendio_normas_generales.pdf" download="compendio_normas_generales">
+                            <a data-toggle="tooltip" class="btn btn-default btn-xs" data-original-title="Descargar Documento" href="dist/docs/compendio_normas_generales.pdf" download="compendio_normas_generales">
                               <span class="glyphicon glyphicon-cloud-download"></span>
                             </a>
                         </td>
@@ -99,13 +95,10 @@
                       <tr class="">
                         <td>Requisitos Colegiatura 2016</td>
                         <td>
-                          Este archivo es para...
-                        </td>
-                        <td>
-                          <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Ver Documento" target="_blank" href="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf">
+                          <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Ver Documento" target="_blank" href="dist/docs/requisitos_colegiatura.pdf">
                             <i class="fa fa-fw fa-file-pdf-o"></i>
                           </a>
-                          <a data-toggle="tooltip" class="btn btn-default btn-xs" data-original-title="Descargar Documento" href="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf" download="requisitos_colegiatura">
+                          <a data-toggle="tooltip" class="btn btn-default btn-xs" data-original-title="Descargar Documento" href="dist/docs/requisitos_colegiatura.pdf" download="requisitos_colegiatura">
                             <span class="glyphicon glyphicon-cloud-download"></span>
                           </a>
                         </td>
@@ -113,13 +106,10 @@
                       <tr class="">
                         <td>Requisitos para Certificación Profesional</td>
                         <td>
-                          Este archivo es para...
-                        </td>
-                        <td>
-                          <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Ver Documento" target="_blank" href="http://ccpjunin.pe/documentos/requisitos_certificacion.pdf">
+                          <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Ver Documento" target="_blank" href="dist/docs/requisitos_certificacion.pdf">
                             <i class="fa fa-fw fa-file-pdf-o"></i>
                           </a>
-                          <a data-toggle="tooltip" class="btn btn-default btn-xs" data-original-title="Descargar Documento" href="http://ccpjunin.pe/documentos/requisitos_certificacion.pdf" download="requisitos_certificacion">
+                          <a data-toggle="tooltip" class="btn btn-default btn-xs" data-original-title="Descargar Documento" href="dist/docs/requisitos_certificacion.pdf" download="requisitos_certificacion">
                             <span class="glyphicon glyphicon-cloud-download"></span>
                           </a>
                         </td>
@@ -127,16 +117,13 @@
                       <tr class="">
                         <td>Revista "El Contador XI"</td>
                         <td>
-                          Este archivo es para...
-                        </td>
-                        <td>
                             <a data-toggle="tooltip" class="btn btn-warning btn-xs" data-original-title="Ver Revista" href="revista-contador-XI">
                               <i class="fa fa-fw fa-eye"></i>
                             </a>
-                            <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Ver Documento" target="_blank" href="http://ccpjunin.pe/documentos/Revista_Del_Contador_XI_2016.pdf">
+                            <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Ver Documento" target="_blank" href="dist/docs/Revista_Del_Contador_XI_2016.pdf">
                               <i class="fa fa-fw fa-file-pdf-o"></i>
                             </a>
-                            <a data-toggle="tooltip" class="btn btn-default btn-xs" data-original-title="Descargar Documento" href="http://ccpjunin.pe/documentos/Revista_Del_Contador_XI_2016.pdf" download="Revista_Del_Contador_XI_2016">
+                            <a data-toggle="tooltip" class="btn btn-default btn-xs" data-original-title="Descargar Documento" href="dist/docs/Revista_Del_Contador_XI_2016.pdf" download="Revista_Del_Contador_XI_2016">
                               <span class="glyphicon glyphicon-cloud-download"></span>
                             </a>
                         </td>
@@ -144,13 +131,10 @@
                       <tr class="">
                         <td>Compendio - Código de Ética de IFAC</td>
                         <td>
-                          Este archivo es para...
-                        </td>
-                        <td>
-                            <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Ver Documento" target="_blank" href="http://ccpjunin.pe/documentos/compendio_codigo_ifac.pdf">
+                            <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Ver Documento" target="_blank" href="dist/docs/compendio_codigo_ifac.pdf">
                               <i class="fa fa-fw fa-file-pdf-o"></i>
                             </a>
-                            <a data-toggle="tooltip" class="btn btn-default btn-xs" data-original-title="Descargar Documento" href="http://ccpjunin.pe/documentos/compendio_codigo_ifac.pdf" download="compendio_codigo_ifac">
+                            <a data-toggle="tooltip" class="btn btn-default btn-xs" data-original-title="Descargar Documento" href="dist/docs/compendio_codigo_ifac.pdf" download="compendio_codigo_ifac">
                               <span class="glyphicon glyphicon-cloud-download"></span>
                             </a>
                         </td>
@@ -158,13 +142,10 @@
                       <tr class="">
                         <td>Requisitos para la Incorporación a los Comités Funcionales</td>
                         <td>
-                           Este archivo es para...
-                        </td>
-                        <td>
-                            <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Ver Documento" target="_blank" href="http://ccpjunin.pe/documentos/requisitos_comites_funcionales.pdf">
+                            <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Ver Documento" target="_blank" href="dist/docs/requisitos_comites_funcionales.pdf">
                               <i class="fa fa-fw fa-file-pdf-o"></i>
                             </a>
-                            <a data-toggle="tooltip" class="btn btn-default btn-xs" data-original-title="Descargar Documento" href="http://ccpjunin.pe/documentos/requisitos_comites_funcionales.pdf" download="requisitos_comites_funcionales">
+                            <a data-toggle="tooltip" class="btn btn-default btn-xs" data-original-title="Descargar Documento" href="dist/docs/requisitos_comites_funcionales.pdf" download="requisitos_comites_funcionales">
                               <span class="glyphicon glyphicon-cloud-download"></span>
                             </a>
                         </td>
@@ -172,13 +153,10 @@
                       <tr class="">
                         <td>Requisitos para Recertificación Profesional</td>
                         <td>
-                          Este archivo es para...
-                        </td>
-                        <td>
-                            <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Ver Documento" target="_blank" href="http://ccpjunin.pe/documentos/requisitos_recertificacion.pdf">
+                            <a data-toggle="tooltip" class="btn btn-danger btn-xs" data-original-title="Ver Documento" target="_blank" href="dist/docs/requisitos_recertificacion.pdf">
                               <i class="fa fa-fw fa-file-pdf-o"></i>
                             </a>
-                            <a data-toggle="tooltip" class="btn btn-default btn-xs" data-original-title="Descargar Documento" href="http://ccpjunin.pe/documentos/requisitos_recertificacion.pdf" download="requisitos_recertificacion.pd">
+                            <a data-toggle="tooltip" class="btn btn-default btn-xs" data-original-title="Descargar Documento" href="dist/docs/requisitos_recertificacion.pdf" download="requisitos_recertificacion.pd">
                               <span class="glyphicon glyphicon-cloud-download"></span>
                             </a>
                         </td>
