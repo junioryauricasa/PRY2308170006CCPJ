@@ -1,29 +1,28 @@
 <?php 
 	include('_include/header.php');
 ?>
-<div class="row">
-  <div class="row" id="">
-      <div class="paralax-laboral" style="height: 400px">
-          <div class="row">
-            <div class="col-lg-12 vcenter">
-                
-            </div>
-          </div>
-      </div>
-  </div>
-</div>
 
 <div class="content-wrapper" style="padding-top: 30px">
-    <div class="row" style="" id="textonparallax">
-      <div class="col-lg-12" style="color:white; text-align: center">
-        <h1>
-            Calendario
-        </h1>
-      </div>
-      
-    </div>
 
-<section class="content">
+    <!-- div con backgrond incluido -->
+    <section class="content" style=" min-height: 0px;">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-onomasticos.jpg'); ">
+                <h1 class="text-center header-page-h1">
+                    Calendario
+                </h1>
+                <p class="text-center text-description-header ">
+                    <br>
+                    <a href="#" class="btn btn-transparente">Informarme Más</a>
+                </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- div con backgrond incluido -->
+
+    <section class="content">
         <div class="row">
           <div class="col-md-12">
               <?php include('_include/principaloptions.php'); ?>
@@ -369,7 +368,7 @@
                 </ul>
             </section>
           </div>
-        </section>
+    </section>
 </div>
 
 <style>

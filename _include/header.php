@@ -224,7 +224,7 @@
                 <li class="">
                   <a href="galeria-fotos-y-videos">
                     <i class="fa fa-circle-o"></i> 
-                      Galería Fotos y Fotos
+                      Galería Fotos y Videos
                     </i>
                   </a>
                 </li>

@@ -1,29 +1,29 @@
 <?php 
 	include('_include/header.php');
 ?>
-<div class="row">
-  <div class="row" id="">
-      <div class="paralax-laboral" style="height: 400px">
-          <div class="row">
-            <div class="col-lg-12 vcenter">
-                
-            </div>
-          </div>
-      </div>
-  </div>
-</div>
 
 <div class="content-wrapper" style="padding-top: 30px">
-    <div class="row text-center" style="" id="textonparallax">
-      <div class="col-lg-6 col-md-offset-3" style="color:white;">
-        <h1>
-            Consejo Directivo
-        </h1>
-        <p style="">
-          El Decano y El Consejo Directivo 2017 – 2018 les da la bienvenida a nuestra página web institucional donde podrá encontrar toda la información sobre el Colegio de Contadores Públicos de Junín, les invitamos a hacer un recorrido por nuestra página web.
-        </p>
+    <!-- div con backgrond incluido -->
+    <section class="content" style=" min-height: 0px;">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-onomasticos.jpg'); ">
+                <h1 class="text-center header-page-h1">
+                    Consejo Directivo
+                </h1>
+                <p class="text-center text-description-header ">
+                    El Decano y El Consejo Directivo 2017 – 2018 les da la bienvenida a nuestra página web institucional
+                    <br>
+                    Podrá encontrar toda la información sobre el Colegio de Contadores Públicos de Junín, les invitamos a hacer un recorrido por nuestra página web.
+                    <br>
+                    <br>
+                    <a href="#" class="btn btn-transparente">Informarme Más</a>
+                </p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <!-- div con backgrond incluido -->
 
     <section class="content">
       <div class="row">

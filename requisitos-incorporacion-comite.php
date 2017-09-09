@@ -1,26 +1,28 @@
 <?php 
 	include('_include/header.php');
 ?>
-<div class="row">
-  <div class="row" id="">
-      <div class="paralax-laboral" style="height: 400px">
-          <div class="row">
-            <div class="col-lg-12 vcenter">
-                
-            </div>
-          </div>
-      </div>
-  </div>
-</div>
 
 <div class="content-wrapper" style="padding-top: 30px">
-    <div class="row text-center" style="" id="textonparallax">
-      <div class="col-lg-6 col-md-offset-3" style="color:white;">
-        <h1>
-            Requisitos para la Incorporación a Comités Funcionales
-        </h1>
+
+    <!-- div con backgrond incluido -->
+    <section class="content" style=" min-height: 0px;">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-onomasticos.jpg'); ">
+                <h1 class="text-center header-page-h1">
+                    Requisitos para la Incorporación a Comités Funcionales
+                </h1>
+                <p class="text-center text-description-header ">
+                   A continuacion podrá encontrar los requisitos, pulsar sobre cada requisito para desplegar información.
+                    <br>
+                    <br>
+                    <a href="#list-de-requisitos" class="btn btn-transparente">Informarme Más</a>
+                </p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <!-- div con backgrond incluido -->
 
     <section class="content">
         <div class="row">
@@ -66,10 +68,14 @@
               </div>
             </div>
           </section>
-          <section class="col-lg-8 col-md-12">
+          
+          <section class="col-lg-8 col-md-12" id='list-de-requisitos'>
               <div class="nav-tabs-custom">
                 <ul class="nav nav-tabs pull-right">
-                  <li class="pull-left header"><i class="fa fa-list"></i> Lista de Requisitos para Incorporación a Comités Funcionales</li>
+                  <li class="pull-left header">
+                      <i class="fa fa-list"></i> 
+                      Lista de Requisitos para Incorporación a Comités Funcionales
+                  </li>
                 </ul>
                 <div class="box-body">
                     <p>

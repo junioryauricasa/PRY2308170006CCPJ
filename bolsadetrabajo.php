@@ -38,7 +38,7 @@
                 <div class="box-header">
                   <i class="fa fa-map-marker"></i>
                   <h3 class="box-title">
-                    Ofertas Laborales
+                    Ofertas laborales publicadas
                   </h3>
                 </div>
                 <div class="box-body">
@@ -48,7 +48,7 @@
                       <div class="box-header with-border">
                         <h4 class="">
                           <a href="#collapseOne1">
-                            Requisitos para Colegiatura <span class="label label-danger pull-right">12/12/2017</span>
+                            Requisitos para Colegiatura <span class="label label-default pull-right">12/12/2017</span>
                           </a>
                         </h4>
                       </div>

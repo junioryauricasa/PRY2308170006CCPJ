@@ -1,26 +1,27 @@
 <?php 
 	include('_include/header.php');
 ?>
-<div class="row">
-  <div class="row" id="">
-      <div class="paralax-laboral" style="height: 400px">
-          <div class="row">
-            <div class="col-lg-12 vcenter">
-                
-            </div>
-          </div>
-      </div>
-  </div>
-</div>
 
 <div class="content-wrapper" style="padding-top: 30px">
-    <div class="row text-center" style="" id="textonparallax">
-      <div class="col-lg-6 col-md-offset-3" style="color:white;">
-        <h1>
-            Convenios CCPJ
-        </h1>
+    <!-- div con backgrond incluido -->
+    <section class="content" style="">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-onomasticos.jpg'); ">
+                <h1 class="text-center header-page-h1">
+                    Convenios CCPJ
+                </h1>
+                <p class="text-center text-description-header ">
+                    El Colegio de Contadores Públicos de Junín pensando en sus agremiados a realizado diversos convenios con diferentes instituciones.
+                    <br>
+                    <br>
+                    <a href="#" class="btn btn-transparente">Informarme Más</a>
+                </p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <!-- div con backgrond incluido -->
 
     <section class="content">
         <div class="row">
@@ -39,9 +40,6 @@
               <div class="box-body">
                   <p>
                   <b>
-                    El Colegio de Contadores Públicos de Junín pensando en sus agremiados a realizado diversos convenios con diferentes instituciones.
-                    <br>
-                    <br>
                     Es por ese motivo que promoviendo el desarrollo, cooperación y la integración entre el Colegio y estas instituciones se logran establecer convenios que no solo beneficiarán al Colegio, tambien traerán beneficios a sus agremiados en general.
                     <br>
                     <br>
