@@ -95,7 +95,7 @@
                     <li><a href="ficha-actualizacion-datos">Ficha de Actualización de Datos</a></li>
                     <li><a href="documento">Documentos</a></li>
                     <li><a href="#">Biblioteca</a></li>
-                    <li><a href="#">Consulta Hábil</a></li>
+                    <li><a href="consulta-habil">Consulta Hábil</a></li>
                     <li><a href="precios">Lista de Precio por Servicios</a></li>
                     <li><a href="#">Archivos de Actividades Académicas</a></li>
                   </ul>
@@ -427,7 +427,7 @@
                 <li><a href="documento"><i class="fa fa-circle-o"></i> Documentos</a></li>
                 <li><a href=""><i class="fa fa-circle-o"></i> Biblioteca</a></li>
                 <li class="">
-                  <a href="#">
+                  <a href="consulta-habil">
                     <i class="fa fa-circle-o"></i> 
                       Consulta Hábil
                     <i class="fa fa-angle-left pull-right">
