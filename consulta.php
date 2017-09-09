@@ -1,3 +1,13 @@
+﻿<?php
+$conexion_db = mysql_connect("localhost", "root","")or die("Error conectando a la BBDD");
+
+mysql_select_db("adminav_bd_ccpj",$conexion_db)or die ( " Base de datos no encontrada");
+
+mysql_set_charset('utf8');
+
+$compa = null;
+
+?>
 <?php 
 	include('_include/header.php');
 ?>
@@ -36,60 +46,61 @@
         <body onLoad="ChangeCaptcha()">
         <div class="row">
           <section class="col-lg-8 col-md-7">
-              <div class="box box-solid">
-                <div class="box-header">
-                  <i class="fa fa-list-alt"></i>
-                  <h3 class="box-title">
-                    Formulário de Consulta Hábil
-                  </h3>
-                </div>
-                <div class="box-body">
-                    <form role="form">
-                      <div class="box-body">
-                        <div class="row">
-                            <div class="col-lg-6">
-                              <div class="form-group">
-                                <label for="nombrecontacto">Número de Matricula:</label>
-                                <input type="text" class="form-control" id="txtCodigo" placeholder="Código de Agremiado" onkeypress="return justNumbers(event);" maxlength="5">
-                              </div>
-                              <div class="row">
-                                  <div class="col-lg-12 col-xs-12">
-                                    <div class="form-group">
-                                      <label for="nombrecontacto"></label>
-                                      <input type="text"  class="" id="randomfield" disabled>
-                                    </div>
-                                  </div>
-                                  <div class="col-lg-12 col-xs-12">
-                                    <div class="form-group">
-                                      <label for="nombrecontacto">Código Captcha:</label>
-                                      <input type="text" class="form-control" id="CaptchaEnter" size="20" maxlength="6" placeholder="Ingrese CAPTCHA">
-                                    </div>
-                                  </div>
-                              </div>
-                            </div>
+              <div class="row">
+                <div class="col-lg-12">
+                	<div class="box box-solid">
+		                <div class="box-header">
+		                  <i class="fa fa-list-alt"></i>
+		                  <h2 class="box-title">
+		                    Resultado de consulta
+		                  </h2>
+		                </div>
+		                <div class="box-body">
+		                   <div class="col-lg-4">
+		                    <?php 
+			                    $codigo = $_POST['txtCodigo'];
+			                    $query = "SELECT * FROM agremiados WHERE  id = '".$codigo."' ";
+			                      
+			                    $consulta = mysql_query($query,$conexion_db);
 
-                            <div class="col-lg-6">
-                                <p class="text-center">
-                                  <h4>Resultado de la Consulta</h4>
-                                  <b>Matricula:</b> 01232 
-                                  <br>
-                                  <b>Nombre:</b> ESTHER R. 
-                                  <br>
-                                  <b>Apellidos:</b> GUTIERREZ CARRASCAL 
-                                  <br>
-                                  <b>Estado Actual:</b> ACTIVO 
-                                  <br>
-                                  <b>Habil:</b> NO
-                                </p>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="box-footer">
-                        <button type="button" onclick="check()" class="btn btn-success" style="font-weight: bolder">Consultar</button>
-                        <button type="button" class="btn btn-primary" style="font-weight: bolder" onclick="ChangeCaptcha()">Cambiar CAPTCHA</button>
-                      </div>
-                    </form>
+
+			                    while($row = mysql_fetch_assoc($consulta))
+			                    {
+			                        $compa=$row['id'];
+                        	?>
+			                    <p class="text-center">
+			                      <h4>Datos</h4>
+			                      <b >Matricula:</b><?php echo $row['id'];?> 
+			                      <br>
+			                      <b >Nombres:</b> <?php echo $row['nombres'];?>
+			                      <br>
+			                      <b >Telefono:</b> <?php echo  $row['telf'];?> 
+			                      <br>
+			                      <b >Celular:</b><?php echo  $row['cel'];?>
+			                      <br>
+			                      <b >Habil:</b><?php echo  $row['habilidad'];?>
+			                    </p>
+                           <?php   
+                    }mysql_free_result($consulta);
+
+                    if (is_null($compa)) {
+                        echo "Contador no activo";
+                    }
+
+                    ?>
+
+                 <?php ?>
+			                </div>
+			                <div class="col-lg-8">
+			                	<img src="dist/img/logo_horizontal_ccpj.png" alt="" class="img-responsive" width="100%">
+			                </div>
+		                </div>
+		                <div class="box-footer">
+		              	    <input type="button" class="btn btn-primary" name="" value="Buscar Nuevamente">
+		                </div>
+	                </div>
                 </div>
+          	
               </div>
           </section>
 
@@ -147,4 +158,4 @@
 
 <style>
    @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700');
-</style>Estas es tu chamba FRANK
+</style>
