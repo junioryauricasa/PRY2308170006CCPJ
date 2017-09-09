@@ -5,7 +5,7 @@
 <div class="content-wrapper" style="padding-top: 30px">
 
     <!-- div con backgrond incluido -->
-    <section class="content" style="    min-height: 0px;">
+    <section class="content" style="min-height: 0px;">
       <div class="row">
         <div class="col-md-12">
           <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-ofertas-laborales.jpg'); ">
@@ -75,7 +75,7 @@
                       </div>
                       <div class="box-footer">
                         <button type="button" onclick="check()" class="btn btn-success" style="font-weight: bolder">Consultar</button>
-                        <button type="button" class="btn btn-primary" style="font-weight: bolder" onclick="ChangeCaptcha()">Cambiar CAPTCHA</button>
+                        <button type="button" class="btn btn-default" style="font-weight: bolder" onclick="ChangeCaptcha()">Cambiar CAPTCHA</button>
                       </div>
                     </form>
                 </div>
