@@ -35,7 +35,7 @@
         <!-- Main row -->
         <div class="row">
           <!-- section principal -->
-          <section class="col-lg-9">
+          <section class="col-lg-8">
               <div class="box box-solid">
                 <div class="box-header">
                   <i class="fa fa-map-marker"></i>
@@ -157,106 +157,176 @@
           <!-- END section principal -->
           
           <!-- section secundario -->
-          <section class="col-lg-3">
+          <section class="col-lg-4">
             <div class="nav-tabs-custom">
               <ul class="nav nav-tabs pull-right">
-                <li class="pull-left header"><i class="fa fa-inbox"></i> Noticias Recientes</li>
+                <li class="pull-left header"><i class="fa fa-inbox"></i> Bolsa de trabajo</li>
               </ul>
               <div class="box-body">
-                <div class="box-group" id="accordion">
-                  <!-- esqueleto de noticia -->
+                  <!-- div bolsa trabajo -->
                   <div class="panel box box-default">
                     <div class="box-header with-border">
                       <h4 class="">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1-top" aria-expanded="false" class="collapsed">
-                          SUNAT solicita infomación de los agremiados <br> <span class="label label-default pull-left">05/04/2017</span>
+                        <a href="#collapseOne1">
+                          Convocatoria 21 de Agosto del 2017 <span class="label label-default pull-right">21/08/2017</span>
                         </a>
                       </h4>
                     </div>
-                    <div id="collapseOne1-top" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                    <div class="">
                       <div class="box-body">
-                          <img src="http://ccpjunin.pe/img/sunat.jpg" alt="" class="img-responsive">
-                        <div class="fb-comments" data-href="http://ccpjunin.pe/img/sunat.jpg" data-width="100%" data-numposts="20"></div>
+                        <p>
+                          Descripción: (Vista previa) para poder descargar el archivo completo, dar click en el siguiente enlace <b><a href="dist/docs/ofertalaboral/21-agosto-1Bolsa-de-trabajo.pdf" download="dist/docs/ofertalaboral/21-agosto-1Bolsa-de-trabajo.pdf">Descargar archivo completo</a></b>
+                        </p>
+                        <br> 
+                        <div class="embed-responsive" style="padding-bottom:150%">
+                             <object data="dist/docs/ofertalaboral/21-agosto-1Bolsa-de-trabajo.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
+                              <p>
+                                Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
+                               <a href="dist/docs/ofertalaboral/21-agosto-1Bolsa-de-trabajo.pdf">
+                                 click para descargar el archivo PDF
+                               </a>
+                              </p>  
+                             </object>
+                        </div>
+                        <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/bolsatrabajo1" data-width="100%" data-numposts="20"></div>
                       </div>
                     </div>
                   </div>
-                  <!-- END esqueleto de noticia -->
+                  <!-- div bolsa trabajo -->
 
-                  <!-- esqueleto de noticia -->
-                  <div class="panel box box-default">
-                    <div class="box-header with-border">
-                      <h4 class="">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne34-top" aria-expanded="false" class="collapsed">
-                          Problemas con el internet perjudican Declaraciones Anuales <br> <span class="label label-default pull-left">23/03/2017</span>
-                        </a>
-                      </h4>
-                    </div>
-                    <div id="collapseOne34-top" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
-                      <div class="box-body">
-                        <img src="http://ccpjunin.pe/imagenes/sunat2.jpg" alt="" class="img-responsive">
-                        <img src="http://ccpjunin.pe/imagenes/sunat.jpg" alt="" class="img-responsive">
-                        <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/sunat.jpg" data-width="100%" data-numposts="20"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- END esqueleto de noticia -->
 
-                  <!-- esqueleto de noticia -->
+                  <!-- div bolsa trabajo -->
                   <div class="panel box box-default">
                     <div class="box-header with-border">
                       <h4 class="">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne8-top" aria-expanded="false" class="collapsed">
-                          Especializacion en Contratación <br> <span class="label label-default pull-left">22/02/2017</span>
+                        <a href="#collapseOne1">
+                          Convocatoria 20 de Julio del 2017 <span class="label label-default pull-right">20/07/2017</span>
                         </a>
                       </h4>
                     </div>
-                    <div id="collapseOne8-top" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                    <div class="">
                       <div class="box-body">
-                        <img src="http://ccpjunin.pe/imagenes/osce.png" alt="" class="img-responsive">
-                        <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/osce.png" data-width="100%" data-numposts="20"></div>
+                        <p>
+                          Descripción: (Vista previa) para poder descargar el archivo completo, dar click en el siguiente enlace <b><a href="dist/docs/ofertalaboral/20-agost-Bolsa-de-trabajo.pdf" download="dist/docs/ofertalaboral/20-agost-Bolsa-de-trabajo.pdf">Descargar archivo completo</a></b>
+                        </p>
+                        <br> 
+                        <div class="embed-responsive" style="padding-bottom:150%">
+                             <object data="dist/docs/ofertalaboral/20-agost-Bolsa-de-trabajo.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
+                              <p>
+                                Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
+                               <a href="dist/docs/ofertalaboral/20-agost-Bolsa-de-trabajo.pdf">
+                                 click para descargar el archivo PDF
+                               </a>
+                              </p>  
+                             </object>
+                        </div>
+                        <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/bolsatrabajo0002" data-width="100%" data-numposts="20"></div>
                       </div>
                     </div>
                   </div>
-                  <!-- END esqueleto de noticia -->
+                  <!-- div bolsa trabajo -->
 
-                  <!-- esqueleto de noticia -->
+                  <!-- div bolsa trabajo -->
                   <div class="panel box box-default">
                     <div class="box-header with-border">
                       <h4 class="">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne2-top" aria-expanded="false" class="collapsed">
-                          XVII Campeonato, Verano Contable 2017 <br> <span class="label label-default pull-left">20/02/2017</span>
+                        <a href="#collapseOne1">
+                          Convocatoria 20 de Julio del 2017 <span class="label label-default pull-right">20/07/2017</span>
                         </a>
                       </h4>
                     </div>
-                    <div id="collapseOne2-top" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                    <div class="">
                       <div class="box-body">
-                        <img src="http://ccpjunin.pe/imagenes/verano.jpg" alt="" class="img-responsive">
-                        <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/verano.jpg" data-width="100%" data-numposts="20"></div>
+                        <p>
+                          Descripción: (Vista previa) para poder descargar el archivo completo, dar click en el siguiente enlace <b><a href="dist/docs/ofertalaboral/20-julio-2Bolsa-de-trabajo.pdf" download="dist/docs/ofertalaboral/20-julio-2Bolsa-de-trabajo.pdf">Descargar archivo completo</a></b>
+                        </p>
+                        <br> 
+                        <div class="embed-responsive" style="padding-bottom:150%">
+                             <object data="dist/docs/ofertalaboral/20-julio-2Bolsa-de-trabajo.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
+                              <p>
+                                Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
+                               <a href="dist/docs/ofertalaboral/20-julio-2Bolsa-de-trabajo.pdf">
+                                 click para descargar el archivo PDF
+                               </a>
+                              </p>  
+                             </object>
+                        </div>
+                        <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/bolsatrabajo0003" data-width="100%" data-numposts="20"></div>
                       </div>
                     </div>
                   </div>
-                  <!-- END esqueleto de noticia -->
+                  <!-- div bolsa trabajo -->
 
-                  <!-- esqueleto de noticia -->
+                  <!-- div bolsa trabajo -->
                   <div class="panel box box-default">
                     <div class="box-header with-border">
                       <h4 class="">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne7-top" aria-expanded="false" class="collapsed">
-                          CIC 2017 - Una Experiencia Memorable Enterate más AQUI <br> <span class="label label-default pull-left">28/02/2017</span>
+                        <a href="#collapseOne1">
+                          Convocatoria 10 de Julio del 2017 <span class="label label-default pull-right">10/07/2017</span>
                         </a>
                       </h4>
                     </div>
-                    <div id="collapseOne7-top" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                    <div class="">
                       <div class="box-body">
-                        <img src="http://ccpjunin.pe/imagenes/cic.jpg" alt="" class="img-responsive">
-                        <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/cic.jpg" data-width="100%" data-numposts="20"></div>
+                        <p>
+                          Descripción: (Vista previa) para poder descargar el archivo completo, dar click en el siguiente enlace <b><a href="dist/docs/ofertalaboral/10-julio-bolsa-de-trabajo.pdf" download="dist/docs/ofertalaboral/10-julio-bolsa-de-trabajo.pdf">Descargar archivo completo</a></b>
+                        </p>
+                        <br> 
+                        <div class="embed-responsive" style="padding-bottom:150%">
+                             <object data="dist/docs/ofertalaboral/10-julio-bolsa-de-trabajo.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
+                              <p>
+                                Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
+                               <a href="dist/docs/ofertalaboral/10-julio-bolsa-de-trabajo.pdf">
+                                 click para descargar el archivo PDF
+                               </a>
+                              </p>  
+                             </object>
+                        </div>
+                        <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/bolsatrabajo0004" data-width="100%" data-numposts="20"></div>
                       </div>
                     </div>
                   </div>
-                  <!-- END esqueleto de noticia -->
-                </div>
+                  <!-- div bolsa trabajo -->
+
+                  <!-- div bolsa trabajo -->
+                  <div class="panel box box-default">
+                    <div class="box-header with-border">
+                      <h4 class="">
+                        <a href="#collapseOne1">
+                          Convocatoria 06 de Julio del 2017 <span class="label label-default pull-right">06/07/2017</span>
+                        </a>
+                      </h4>
+                    </div>
+                    <div class="">
+                      <div class="box-body">
+                        <p>
+                          Descripción: (Vista previa) para poder descargar el archivo completo, dar click en el siguiente enlace <b><a href="dist/docs/ofertalaboral/06-julio-Bolsa-de-trabajo.pdf" download="dist/docs/ofertalaboral/06-julio-Bolsa-de-trabajo.pdf">Descargar archivo completo</a></b>
+                        </p>
+                        <br> 
+                        <div class="embed-responsive" style="padding-bottom:150%">
+                             <object data="dist/docs/ofertalaboral/06-julio-Bolsa-de-trabajo.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
+                              <p>
+                                Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
+                               <a href="dist/docs/ofertalaboral/06-julio-Bolsa-de-trabajo.pdf">
+                                 click para descargar el archivo PDF
+                               </a>
+                              </p>  
+                             </object>
+                        </div>
+                        <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/bolsatrabajo0005" data-width="100%" data-numposts="20"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- div bolsa trabajo -->
+              </div>
+              <div class="box-footer text-center">
+                <a href="bolsadetrabajo" class="uppercase">
+                    Ver Ofertas Laborales
+                </a>
               </div>
             </div>
+
+            <!-- fb comments -->
             <div class="nav-tabs-custom">
               <ul class="nav nav-tabs pull-right">
                 <li class="pull-left header"><i class="fa fa-commenting"></i> Déjanos tu Opinión</li>
@@ -269,6 +339,8 @@
                   </div>
               </div>
             </div>
+            <!-- END fb comments -->
+
           </section>
           <!-- END section secundario -->
         </div>

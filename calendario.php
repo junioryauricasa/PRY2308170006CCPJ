@@ -12,7 +12,7 @@
                 <h1 class="text-center header-page-h1">
                     Calendario
                 </h1>
-                <p class="text-center text-description-header ">
+                <p class="text-center text-description-header">
                     <br>
                     <a href="#" class="btn btn-transparente">Informarme Más</a>
                 </p>
