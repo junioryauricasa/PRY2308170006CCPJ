@@ -196,13 +196,13 @@
                   </a>
                   <ul class="treeview-menu">
                     <li>  
-                      <a href="#">
+                      <a href="academicos-diplomados">
                         <i class="fa fa-circle-o"></i> 
                           Diplomados
                         </a>
                     </li>
                     <li>  
-                      <a href="#">
+                      <a href="academicos-cursos">
                         <i class="fa fa-circle-o"></i> 
                           Cursos
                         </a>
@@ -244,7 +244,7 @@
               </a>
               <ul class="treeview-menu">
                 <li><a href="consejodirectivo"><i class="fa fa-circle-o"></i> Consejo Directivo</a></li>
-                <li><a href=""><i class="fa fa-circle-o"></i> Past-Decanos</a></li>
+                <li><a href="past-decanos"><i class="fa fa-circle-o"></i> Past-Decanos</a></li>
               </ul>
             </li>
             <li class="treeview">

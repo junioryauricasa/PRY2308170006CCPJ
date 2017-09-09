@@ -33,7 +33,7 @@
               <div class="box box-solid">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                       
-                      <!--ol class="carousel-indicators">
+                      <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
                         <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
@@ -50,90 +50,90 @@
                         <li data-target="#carousel-example-generic" data-slide-to="13" class=""></li>
                         <li data-target="#carousel-example-generic" data-slide-to="14" class=""></li>
                         <li data-target="#carousel-example-generic" data-slide-to="15" class="active"></li>
-                      </ol-->
+                      </ol>
 
                       <div class="carousel-inner">
                         <div class="carousel-inner">
                           <div class="item">
                             <a href="">
-                              <img src="dist/img/slides/sld-evento-academico-0001.jpg" alt="First slide" width="100%">
+                              <img src="dist/img/slides/sld-evento-academico-0001.jpg" alt=" slide" width="100%">
                             </a>
                           </div>
                           <div class="item active left">
                             <a href="">
-                              <img src="dist/img/slides/sld-evento-0001.jpg" alt="Second slide" width="100%">
+                              <img src="dist/img/slides/sld-evento-0001.jpg" alt=" slide" width="100%">
                             </a>
                           </div>
                           <div class="item next left">
                             <a href="">
-                              <img src="dist/img/slides/sld-noticias-0001.jpg" alt="Third slide" width="100%">
+                              <img src="dist/img/slides/sld-noticias-0001.jpg" alt=" slide" width="100%">
                             </a>
                           </div>
                           <div class="item next left">
                             <a href="">
-                              <img src="dist/img/slides/sld-audita-0001.jpg" alt="Fourth slide" width="100%">
+                              <img src="dist/img/slides/sld-audita-0001.jpg" alt=" slide" width="100%">
                             </a>
                           </div>
                           <div class="item next left">
                             <a href="">
-                              <img src="dist/img/slides/aniversario.jpg" alt="Fifth slide" width="100%">
+                              <img src="dist/img/slides/aniversario.jpg" alt=" slide" width="100%">
                             </a>
                           </div>
                           <div class="item next left">
                             <a href="">
-                              <img src="dist/img/slides/eko.jpg" alt="Fifth slide" width="100%">
+                              <img src="dist/img/slides/eko.jpg" alt=" slide" width="100%">
                             </a>
                           </div>
                           <div class="item next left">
                             <a href="">
-                              <img src="dist/img/slides/esperanz.jpg" alt="Fifth slide" width="100%">
+                              <img src="dist/img/slides/esperanz.jpg" alt=" slide" width="100%">
                             </a>
                           </div>
                           <div class="item next left">
                             <a href="">
-                              <img src="dist/img/slides/certificacion.jpg" alt="Fifth slide" width="100%">
+                              <img src="dist/img/slides/certificacion.jpg" alt=" slide" width="100%">
                             </a>
                           </div>
                           <div class="item next left">
                             <a href="">
-                              <img src="dist/img/slides/CIC.jpg" alt="Fifth slide" width="100%">
+                              <img src="dist/img/slides/CIC.jpg" alt=" slide" width="100%">
                             </a>
                           </div>
                           <div class="item next left">
                             <a href="">
-                              <img src="dist/img/slides/estadosf.jpg" alt="Fifth slide" width="100%">
+                              <img src="dist/img/slides/estadosf.jpg" alt=" slide" width="100%">
                             </a>
                           </div>
                           <div class="item next left">
                             <a href="">
-                              <img src="dist/img/slides/ubicanos.jpg" alt="Fifth slide" width="100%">
+                              <img src="dist/img/slides/ubicanos.jpg" alt=" slide" width="100%">
                             </a>
                           </div>
                           <div class="item next left">
                             <a href="">
-                              <img src="dist/img/slides/eventos junta de decanos.jpg" alt="Fifth slide" width="100%">
+                              <img src="dist/img/slides/eventos junta de decanos.jpg" alt=" slide" width="100%">
                             </a>
                           </div>
                           <div class="item next left">
                             <a href="">
-                              <img src="dist/img/slides/proceso recerti.jpg" alt="Fifth slide" width="100%">
+                              <img src="dist/img/slides/proceso recerti.jpg" alt=" slide" width="100%">
                             </a>
                           </div>
                           <div class="item next left">
                             <a href="">
-                              <img src="dist/img/slides/recertificacion.jpg" alt="Fifth slide" width="100%">
+                              <img src="dist/img/slides/recertificacion.jpg" alt=" slide" width="100%">
                             </a>
                           </div>
                           <div class="item next left">
                             <a href="">
-                              <img src="dist/img/slides/xicongreso educadores.jpg" alt="Fifth slide" width="100%">
+                              <img src="dist/img/slides/xicongreso educadores.jpg" alt=" slide" width="100%">
                             </a>
                           </div>
 
                           <!-- primer slide (principal) -->
                           <div class="item next left">
                             <a href="">
-                              <img src="http://placehold.it/1200x275/39CCCC/ffffff&text=1200x275" alt="Default slide" width="100%">
+                              <img src="http://placehold.it/1200x275/39CCCC/ffffff&text=1200x275" alt="slide" width="100%">
                             </a>
                           </div>
                           <!-- end primer slide (principal) -->
@@ -398,76 +398,64 @@
                   <li class="pull-left header"><i class="fa fa-newspaper-o"></i> Noticias</li>
                 </ul>
                 <div class="box-body">
-                  <ul class="products-list product-list-in-box">
-                    <li class="item">
-                      <div class="product-img">
-                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="img noticia">
+
+                    <!-- estructura convencional de una noticia -->
+                    <div class="panel box box-default">
+                      <div class="box-header with-border">
+                        <h4 class="">
+                          <a href="#" class="">
+                             SUNAT solicita infomación de los agremiados <br> 
+                             <span class="label label-default pull-left">05/04/2017</span> <!-- FEcha noticia -->
+                          </a>
+                        </h4>
                       </div>
-                      <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title-gray">
-                          <h4>Titulo Noticia</h4>
-                          <span class="label label-default pull-left">12/12/2017</span>
-                        </a>
-                        <br>
-                            <span class="product-description">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quidem nam totam, officia minima iure incidunt repellat molestiae magnam quod consequuntur, unde nemo fugit et vero placeat ut dolore!
-                            </span>
-                        <br>
-                        <button type="button" class="btn bg-olive btn-sm  pull-right">Ver Noticia Completa</button>
+                      <div id="" style="">
+                        <div class="box-body">
+                          <img src="dist\img\noticias-eventos/sunat.jpg" alt="" class="img-responsive" width="100%">
+                          <div class="fb-comments" data-href="http://ccpjunin.pe/img/sunat.jpg" data-width="100%" data-numposts="20"></div>
+                        </div>
                       </div>
-                    </li>
-                    <li class="item">
-                      <div class="product-img">
-                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="img noticia">
+                    </div>
+                    <!-- END estructura convencional de una noticia -->
+      
+                    <!-- estructura convencional de una noticia -->
+                    <div class="panel box box-default">
+                      <div class="box-header with-border">
+                        <h4 class="">
+                          <a>
+                            Problemas con el internet perjudican Declaraciones Anuales <br> 
+                            <span class="label label-default pull-left">23/03/2017</span> <!-- FEcha noticia -->
+                          </a>
+                        </h4>
                       </div>
-                      <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title-gray">
-                          <h4>Titulo Noticia</h4>
-                          <span class="label label-default pull-left">12/12/2017</span>
-                        </a>
-                        <br>
-                            <span class="product-description">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quidem nam totam, officia minima iure incidunt repellat molestiae magnam quod consequuntur, unde nemo fugit et vero placeat ut dolore!
-                            </span>
-                        <br>
-                        <button type="button" class="btn bg-olive btn-sm  pull-right">Ver Noticia Completa</button>
+                      <div>
+                        <div class="box-body">
+                          <img src="dist\img\noticias-eventos/sunat2.jpg" alt="" class="img-responsive">
+                          <img src="dist\img\noticias-eventos/sunat (1).jpg" alt="" class="img-responsive">
+                          <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/sunatsunat2/1.jpg" data-width="100%" data-numposts="20"></div>
+                        </div>
                       </div>
-                    </li>
-                    <li class="item">
-                      <div class="product-img">
-                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="img noticia">
+                    </div>
+                    <!-- END estructura convencional de una noticia -->
+
+                    <!-- estructura convencional de una noticia -->
+                    <div class="panel box box-default">
+                      <div class="box-header with-border">
+                        <h4 class="">
+                          <a href="#">
+                            Especializacion en Contratación <br> 
+                            <span class="label label-default pull-left">22/02/2017</span>
+                          </a>
+                        </h4>
                       </div>
-                      <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title-gray">
-                          <h4>Titulo Noticia</h4>
-                          <span class="label label-default pull-left">12/12/2017</span>
-                        </a>
-                        <br>
-                            <span class="product-description">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quidem nam totam, officia minima iure incidunt repellat molestiae magnam quod consequuntur, unde nemo fugit et vero placeat ut dolore!
-                            </span>
-                        <br>
-                        <button type="button" class="btn bg-olive btn-sm  pull-right">Ver Noticia Completa</button>
+                      <div id="collapseOne3" style="">
+                        <div class="box-body">
+                          <img src="dist\img\noticias-eventos/osce.png" alt="" class="img-responsive" width="100%">
+                          <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/osce.png" data-width="100%" data-numposts="20"></div>
+                        </div>
                       </div>
-                    </li>
-                    <li class="item">
-                      <div class="product-img">
-                        <img src="http://mobile--shop2.ecudemo4320.cafe24.com/web/product/medium/14_shop2_120454.jpg" alt="img noticia" width="10px">
-                      </div>
-                      <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title-gray">
-                          <h4>Titulo Noticia</h4>
-                          <span class="label label-default pull-left">12/12/2017</span>
-                        </a>
-                        <br>
-                            <span class="product-description">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eaque quidem nam totam, officia minima iure incidunt repellat molestiae magnam quod consequuntur, unde nemo fugit et vero placeat ut dolore!
-                            </span>
-                        <br>
-                        <button type="button" class="btn bg-olive btn-sm  pull-right">Ver Noticia Completa</button>
-                      </div>
-                    </li>
-                  </ul>
+                    </div>
+
                 </div>
                 <div class="box-footer text-center">
                   <a href="noticias" class="uppercase">

@@ -34,40 +34,43 @@
       <br>
       <!-- slider banner grupal consejo -->
       <div class="row">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="item">
-                <img src="dist/img/banners/consejo.jpg" alt="First slide" class="img-responsive" style="width:100%">
-                <div class="carousel-caption">
-                  Consejo Directivo 2017 - 2018.
+         <div class="col-lg-12">
+           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item">
+                  <img src="dist/img/banners/consejo.jpg" alt="First slide" class="img-responsive" style="width:100%">
+                  <div class="carousel-caption">
+                    Consejo Directivo 2017 - 2018.
+                  </div>
+                </div>
+                <div class="item active">
+                  <img src="dist/img/banners/consejo.jpg" alt="First slide" class="img-responsive" style="width:100%">
+                  <div class="carousel-caption">
+                    Consejo Directivo 2017 - 2018.
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="dist/img/banners/consejo.jpg" alt="First slide" class="img-responsive" style="width:100%">
+                  <div class="carousel-caption">
+                    Consejo Directivo 2017 - 2018.
+                  </div>
                 </div>
               </div>
-              <div class="item active">
-                <img src="dist/img/banners/consejo.jpg" alt="First slide" class="img-responsive" style="width:100%">
-                <div class="carousel-caption">
-                  Consejo Directivo 2017 - 2018.
-                </div>
-              </div>
-              <div class="item">
-                <img src="dist/img/banners/consejo.jpg" alt="First slide" class="img-responsive" style="width:100%">
-                <div class="carousel-caption">
-                  Consejo Directivo 2017 - 2018.
-                </div>
-              </div>
-            </div>
-            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-              <span class="fa fa-angle-left"></span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-              <span class="fa fa-angle-right"></span>
-            </a>
-          </div>
+              <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="fa fa-angle-left"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="fa fa-angle-right"></span>
+              </a>
+           </div>
+         </div>
       </div>
+      <!-- END slider banner grupal consejo -->
       <br>
       <br>
       <div class="row">
