@@ -31,122 +31,156 @@
             <!-- slides -->
             <div class="col-md-12">
               <div class="box box-solid">
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                      
+                <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                      <!-- order liist for carrousel -->
                       <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="3" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="4" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="5" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="6" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="7" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="8" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="9" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="10" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="11" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="12" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="13" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="14" class=""></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="15" class="active"></li>
+                        <li data-target="#carousel-example" data-slide-to="0" class="active"></li><!-- for slide princpal active -->
+                        <li data-target="#carousel-example" data-slide-to="1"></li>
+                        <li data-target="#carousel-example" data-slide-to="2"></li>
+                        <li data-target="#carousel-example" data-slide-to="3"></li>
+                        <li data-target="#carousel-example" data-slide-to="4"></li>
+                        <li data-target="#carousel-example" data-slide-to="5"></li>
+                        <li data-target="#carousel-example" data-slide-to="6"></li>
+                        <li data-target="#carousel-example" data-slide-to="7"></li>
+                        <li data-target="#carousel-example" data-slide-to="8"></li>
+                        <li data-target="#carousel-example" data-slide-to="9"></li>
+                        <li data-target="#carousel-example" data-slide-to="10"></li>
+                        <li data-target="#carousel-example" data-slide-to="11"></li>
+                        <li data-target="#carousel-example" data-slide-to="12"></li>
+                        <li data-target="#carousel-example" data-slide-to="13"></li>
+                        <li data-target="#carousel-example" data-slide-to="14"></li>
+                        <li data-target="#carousel-example" data-slide-to="15"></li>
                       </ol>
+                      <!-- END order liist for carrousel -->
 
+                      <!-- IMG slides for carrousel -->
                       <div class="carousel-inner">
-                        <div class="carousel-inner">
-                          <div class="item">
-                            <a href="">
-                              <img src="dist/img/slides/sld-evento-academico-0001.jpg" alt=" slide" width="100%">
-                            </a>
+                        <!--  img principal 0 -->
+                        <div class="item active">
+                          <a href="#"><img src="dist/img/slides/sld-principal-0001.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
                           </div>
-                          <div class="item active left">
-                            <a href="">
-                              <img src="dist/img/slides/sld-evento-0001.jpg" alt=" slide" width="100%">
-                            </a>
-                          </div>
-                          <div class="item next left">
-                            <a href="">
-                              <img src="dist/img/slides/sld-noticias-0001.jpg" alt=" slide" width="100%">
-                            </a>
-                          </div>
-                          <div class="item next left">
-                            <a href="">
-                              <img src="dist/img/slides/sld-audita-0001.jpg" alt=" slide" width="100%">
-                            </a>
-                          </div>
-                          <div class="item next left">
-                            <a href="">
-                              <img src="dist/img/slides/aniversario.jpg" alt=" slide" width="100%">
-                            </a>
-                          </div>
-                          <div class="item next left">
-                            <a href="">
-                              <img src="dist/img/slides/eko.jpg" alt=" slide" width="100%">
-                            </a>
-                          </div>
-                          <div class="item next left">
-                            <a href="">
-                              <img src="dist/img/slides/esperanz.jpg" alt=" slide" width="100%">
-                            </a>
-                          </div>
-                          <div class="item next left">
-                            <a href="">
-                              <img src="dist/img/slides/certificacion.jpg" alt=" slide" width="100%">
-                            </a>
-                          </div>
-                          <div class="item next left">
-                            <a href="">
-                              <img src="dist/img/slides/CIC.jpg" alt=" slide" width="100%">
-                            </a>
-                          </div>
-                          <div class="item next left">
-                            <a href="">
-                              <img src="dist/img/slides/estadosf.jpg" alt=" slide" width="100%">
-                            </a>
-                          </div>
-                          <div class="item next left">
-                            <a href="">
-                              <img src="dist/img/slides/ubicanos.jpg" alt=" slide" width="100%">
-                            </a>
-                          </div>
-                          <div class="item next left">
-                            <a href="">
-                              <img src="dist/img/slides/eventos junta de decanos.jpg" alt=" slide" width="100%">
-                            </a>
-                          </div>
-                          <div class="item next left">
-                            <a href="">
-                              <img src="dist/img/slides/proceso recerti.jpg" alt=" slide" width="100%">
-                            </a>
-                          </div>
-                          <div class="item next left">
-                            <a href="">
-                              <img src="dist/img/slides/recertificacion.jpg" alt=" slide" width="100%">
-                            </a>
-                          </div>
-                          <div class="item next left">
-                            <a href="">
-                              <img src="dist/img/slides/xicongreso educadores.jpg" alt=" slide" width="100%">
-                            </a>
-                          </div>
+                        </div>
+                        <!--  END img principal -->
 
-                          <!-- primer slide (principal) -->
-                          <div class="item next lef">
-                            <a href="">
-                              <img src="http://placehold.it/1200x275/39CCCC/ffffff&text=1200x275" alt="slide" width="100%">
-                            </a>
+                        <!-- 1 slide 0 -->
+                        <div class="item">
+                          <a href="requisitos-recertificacion"><img src="dist/img/slides/recertificacion.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
                           </div>
-                          <!-- end primer slide (principal) -->
+                        </div>
+  
+                        <!-- 2 slide -->
+                        <div class="item">
+                          <a href=""><img src="dist/img/slides/xicongreso educadores.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
                         </div>
 
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                          <span class="fa fa-angle-left"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                          <span class="fa fa-angle-right"></span>
-                        </a>
+                        <!-- 3 slide -->
+                        <div class="item">
+                          <a href="#"><img src="dist/img/slides/proceso recerti.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 4 slide -->
+                        <div class="item">
+                          <a href="#"><img src="dist/img/slides/eventos junta de decanos.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 5 slide -->
+                        <div class="item">
+                          <a href="contactanos"><img src="dist/img/slides/ubicanos.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 6 slide -->
+                        <div class="item">
+                          <a href="#"><img src="dist/img/slides/estadosf.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 7 slide -->
+                        <div class="item">
+                          <a href="#"><img src="dist/img/slides/CIC.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 8 slide -->
+                        <div class="item">
+                          <a href="#"><img src="dist/img/slides/certificacion.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 9 slide -->
+                        <div class="item">
+                          <a href="#"><img src="dist/img/slides/esperanz.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 10 slide -->
+                        <div class="item">
+                          <a href="#"><img src="dist/img/slides/eko.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">                          </div>
+                        </div>
+
+                        <!-- 11 slide -->
+                        <div class="item">
+                          <a href="#"><img src="dist/img/slides/aniversario.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 12 slide -->
+                        <div class="item">
+                          <a href="#"><img src="dist/img/slides/sld-audita-0001.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 13 slide -->
+                        <div class="item">
+                          <a href="#"><img src="dist/img/slides/sld-noticias-0001.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 14 slide -->
+                        <div class="item">
+                          <a href="#"><img src="dist/img/slides/sld-evento-0001.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 15 slide -->
+                        <div class="item">
+                          <a href="#"><img src="dist/img/slides/sld-evento-academico-0001.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+
                       </div>
-                </div>
+                      <!-- END IMG slides for carrousel -->
+                      
+                      <!-- link for rigth or letf -->
+                      <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                      <!-- END link for rigth or letf -->
+
+                    </div>
               </div>
             </div>
             <!-- END slides -->
