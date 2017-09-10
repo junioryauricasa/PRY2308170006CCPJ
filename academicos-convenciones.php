@@ -13,7 +13,7 @@
                 Convenciones
             </h1>
             <p class="text-center text-description-header ">
-                Bienvenidos a la seccion de connvencios del Portal Web del Colegio de Contadores Públicos de Junín. 
+                Bienvenidos a la seccion de convencios del Portal Web del Colegio de Contadores Públicos de Junín. 
                 <br> 
                 Ante dudas y/o consultas, comunicate con nosotros.
                 <br>
@@ -42,7 +42,7 @@
                 <div class="box-header">
                   <i class="fa fa-map-marker"></i>
                   <h3 class="box-title">
-                    Nuestros Últimas convenciones
+                    Nuestros convenciones
                   </h3>
                 </div>
                 <div class="box-body">
@@ -53,32 +53,142 @@
                       <div class="box-header with-border">
                         <h4 class="">
                           <a href="#" class=""> 
-                          III Convención Nacional de Investigación Contable - Investiga 2015 - Tacna - 10, 11 y 12 de Diciembre.<br> 
-                             <span class="label label-default pull-left">19/11?20177</span> <!-- FEcha noticia -->
+                          Calendario 2016 de Convenciones a nivel Nacional.
+                          <br> 
+                             <span class="label label-default pull-left">31/12/2016</span> <!-- FEcha noticia -->
                           </a>
                         </h4>
                       </div>
                       <div id="" style="">
                         <div class="box-body">
-                          <p>descripción</p>
-                          <img src="dist/img/cursos/curso_siaf_noviembre.jpg" alt="" class="img-responsive" width="100%">
-                          <div class="fb-comments" data-href="http://ccpjunin.pe/dist/img/cursos/curso_siaf_noviembre.jpg" data-width="100%" data-numposts="20"></div>
+                          <br>
+                          <img src="dist/img/convenciones/cronograma_2016.jpg" alt="" class="img-responsive" width="100%">
+                          <div class="fb-comments" data-href="http://ccpjunin.pe/dist/img/convenciones/cronograma_2016.jpg" data-width="100%" data-numposts="20"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END estructura convencional de una noticia -->
+
+                    <!-- estructura convencional de una noticia -->
+                    <div class="panel box box-default">
+                      <div class="box-header with-border">
+                        <h4 class="">
+                          <a href="#" class=""> 
+                          VIII Convención Nacional de Finanzas 2016 - Huancayo
+                          <br> 
+                             <span class="label label-default pull-left">18/11/2016</span> <!-- FEcha noticia -->
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="" style="">
+                        <div class="box-body">
+                          <br>
+                          <img src="dist/img/convenciones/CONAFIN_2016.jpg" alt="" class="img-responsive" width="100%">
+                          <div class="fb-comments" data-href="http://ccpjunin.pe/dist/img/convenciones/CONAFIN_2016.jpg" data-width="100%" data-numposts="20"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END estructura convencional de una noticia -->
+
+                    <!-- estructura convencional de una noticia -->
+                    <div class="panel box box-default">
+                      <div class="box-header with-border">
+                        <h4 class="">
+                          <a href="#" class=""> 
+                          XIII Convención Nacional de Peritos Contables 2016 - Ayacucho.
+                          <br> 
+                             <span class="label label-default pull-left">21/07/2017</span> <!-- FEcha noticia -->
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="" style="">
+                        <div class="box-body">
+                          <br>
+                          <img src="dist/img/convenciones/peritos_2016.jpg" alt="" class="img-responsive" width="100%">
+                          <div class="fb-comments" data-href="http://ccpjunin.pe/dist/img/convenciones/peritos_2016.jpg" data-width="100%" data-numposts="20"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END estructura convencional de una noticia -->
+
+                    <!-- estructura convencional de una noticia -->
+                    <div class="panel box box-default">
+                      <div class="box-header with-border">
+                        <h4 class="">
+                          <a href="#" class=""> 
+                          I Convención Nacional de las Pequeñas, Medianas y Microempresas - Tingo María.
+                          <br> 
+                             <span class="label label-default pull-left">22/06/2017</span> <!-- FEcha noticia -->
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="" style="">
+                        <div class="box-body">
+                          <p>
+                              <b>
+                                Descripción: </b>Puede visualizar y descargar el reglamento del evento en el siguiente enlace: <a href="http://www.ccpmadrededios.org.pe/eventos/CONANIIF-2016/">Reglamento CONANIIF 2016 </a>Encontrá más información en el siguiente enlace: CANANIIF 2016 - Madre de Dios
+                              </b>
+                          </p>
+                          <br>
+                          <img src="dist/img/convenciones/CONAPYMES_2016.jpg" alt="" class="img-responsive" width="100%">
+                          <div class="fb-comments" data-href="http://ccpjunin.pe/dist/img/convenciones/CONAPYMES_2016.jpg" data-width="100%" data-numposts="20"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END estructura convencional de una noticia -->
+
+                    <!-- estructura convencional de una noticia -->
+                    <div class="panel box box-default">
+                      <div class="box-header with-border">
+                        <h4 class="">
+                          <a href="#" class=""> 
+                          IV Convención Nacional de Normas Internacionales de Información Financiera.<br> 
+                             <span class="label label-default pull-left">26/05/2017</span> <!-- FEcha noticia -->
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="" style="">
+                        <div class="box-body">
+                          <p>
+                              <b>
+                                Descripción: </b>Puede visualizar y descargar el reglamento del evento en el siguiente enlace: <a href="http://ccpjunin.pe/http://www.ccpmadrededios.org.pe/eventos/CONANIIF-2016/">Reglamento CONANIIF 2016 </a>Encontrá más información en el siguiente enlace: CANANIIF 2016 - Madre de Dios
+                              </b>
+                          </p>
+                          <br>
+                          <img src="dist/img/convenciones/CONANIIF_2016.jpg" alt="" class="img-responsive" width="100%">
+                          <div class="fb-comments" data-href="dist/img/convenciones/CONANIIF_2016.jpg" data-width="100%" data-numposts="20"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END estructura convencional de una noticia -->
+
+                    <!-- estructura convencional de una noticia -->
+                    <div class="panel box box-default">
+                      <div class="box-header with-border">
+                        <h4 class="">
+                          <a href="#" class=""> 
+                          III Convención Nacional de Investigación Contable - Investiga 2015 - Tacna - 10, 11 y 12 de Diciembre.<br> 
+                             <span class="label label-default pull-left">19/11/2017</span> <!-- FEcha noticia -->
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="" style="">
+                        <div class="box-body">
+                          <p>
+                              <b>Descripción: </b>Puede ver el video promocional en el siguiente link: 
+                              <b><a href="https://www.youtube.com/watch?v=vmzN_e1SJBQ">Video Promocional "INVESTIGA 2015 - Tacna" </a></b>Puede visualizar y descargar los dipticos del evento en el siguiente elnace: Dipticos INVESTIGA 2015 - Tacna Encontrá más información en el siguiente enlace: 
+                              <b><a href="http://www.ccptacna.org.pe/portal/rpt_bannerdetalle.php?id=19">INVESTIGA 2015 - Tacna</a></b>
+                          </p>
+                          <br>
+                          <img src="dist/img/convenciones/convencion_investiga_banner.jpg" alt="" class="img-responsive" width="100%">
+                          <div class="fb-comments" data-href="http://ccpjunin.pe/dist/img/convenciones/convencion_investiga_banner.jpg" data-width="100%" data-numposts="20"></div>
                         </div>
                       </div>
                     </div>
                     <!-- END estructura convencional de una noticia -->
                 </div>
               </div>
-              <!-- paginador -->
-              <!--ul class="pagination">
-                <li><a href="#">Anterior</a></li>
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#">Siguiente</a></li>
-              </ul-->
+
           </section>
           <!-- END section principal -->
           
