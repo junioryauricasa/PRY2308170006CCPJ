@@ -131,7 +131,7 @@
                           </div>
 
                           <!-- primer slide (principal) -->
-                          <div class="item next left">
+                          <div class="item next lef">
                             <a href="">
                               <img src="http://placehold.it/1200x275/39CCCC/ffffff&text=1200x275" alt="slide" width="100%">
                             </a>
@@ -173,213 +173,106 @@
                         </h3>
                       </div>
                       <div class="box-body">
-                        <div class="box-group" id="accordion">
                           <div class="panel box box-default">
                             <div class="box-header with-border">
                               <h4 class="">
-                                <a class="collapsed">
-                                  Requisitos para Colegiatura <span class="label label-default pull-right">12/12/2017</span>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" class="">
+                                  Publicación del 05 de Julio <br><span class="label label-default pull-left">05/07/2017</span>
                                 </a>
                               </h4>
                             </div>
-                            <div class="panel-collapse collapse in" aria-expanded="false">
+                            <div id="collapseOne1" class="panel-collapse collapse in" aria-expanded="true" style="">
                               <div class="box-body">
-                                <p>
-                                    Descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!
-                                </p>
-                                <br> 
-                                <div class='embed-responsive' style='padding-bottom:150%'>
-                                     <object data="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf" type="application/pdf" width="100%" height="800px"> 
+                                <div class="embed-responsive" style="padding-bottom:150%">
+                                     <object data="http://ccpjunin.pe/img/0707.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
                                       <p>
                                         Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf">
+                                       <a href="http://ccpjunin.pe/img/0707.pdf">
                                          click para descargar el archivo PDF
                                        </a>
                                       </p>  
                                      </object>
                                 </div>
+                                <br>
+                                <div class="fb-comments" data-href="http://ccpjunin.pe/img/0707.pdf" data-width="100%" data-numposts="20"></div>
                               </div>
                             </div>
                           </div>
-                          <div class="panel box box-default">
-                            <div class="box-header with-border">
-                              <h4 class="">
-                                <a data-toggle="collapse" class="collapsed">
-                                  Requisitos para Colegiatura <span class="label label-default pull-right">12/12/2017</span>
-                                </a>
-                              </h4>
-                            </div>
-                            <div class="panel-collapse collapse in" aria-expanded="false">
-                              <div class="box-body">
-                                <p>
-                                    Descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!
-                                </p>
-                                <br> 
-                                <!--iframe id="fred" style="" title="Requisito para colegiatura" src="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf" frameborder="1" scrolling="auto" height="600" width="100%"></iframe-->
-                                <div class='embed-responsive' style='padding-bottom:150%'>
-                                     <object data="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf" type="application/pdf" width="100%" height="800px"> 
-                                      <p>
-                                        Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf">
-                                         click para descargar el archivo PDF
-                                       </a>
-                                      </p>  
-                                     </object>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="panel box box-default">
+                          <div class="panel box box-default ">
                             <div class="box-header with-border">
                               <h4 class="">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne3" aria-expanded="false" class="collapsed">
-                                  Requisitos para Colegiatura <span class="label label-default pull-right">12/12/2017</span>
+                                  Publicación del 04 de Julio <br><span class="label label-default pull-left">04/07/2017</span>
                                 </a>
                               </h4>
                             </div>
-                            <div class="panel-collapse collapse in">
+                            <div id="collapseOne3" class="panel-collapse collapse in" aria-expanded="false" style="">
                               <div class="box-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
-                                <br> 
-                                <div class='embed-responsive' style='padding-bottom:150%'>
-                                     <object data="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf" type="application/pdf" width="100%" height="800px"> 
+                                <div class="embed-responsive" style="padding-bottom:150%">
+                                     <object data="http://ccpjunin.pe/imagenes/superintendecia.pdf" type="application/pdf" width="100%" height="800px"> 
                                       <p>
                                         Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf">
+                                       <a href="http://ccpjunin.pe/imagenes/superintendecia.pdf">
                                          click para descargar el archivo PDF
                                        </a>
                                       </p>  
                                      </object>
                                 </div>
+                                <br>
+                                <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/superintendecia.pdf" data-width="100%" data-numposts="20"></div>
                               </div>
                             </div>
                           </div>
                           <div class="panel box box-default">
                             <div class="box-header with-border">
                               <h4 class="">
-                                <a href="#collapseOne4" aria-expanded="false" class="collapsed">
-                                  Requisitos para Colegiatura <span class="label label-default pull-right">12/12/2017</span>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne4" aria-expanded="false" class="collapsed">
+                                  Adopcion de normas internacionales de información financiera NIIF <br><span class="label label-default pull-left">15/06/2017</span>
                                 </a>
                               </h4>
                             </div>
-                            <div class="panel-collapse collapse in" >
+                            <div id="collapseOne4" class="panel-collapse collapse in" aria-expanded="false" style="">
                               <div class="box-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
-                                <br> 
-                                <div class='embed-responsive' style='padding-bottom:150%'>
-                                     <object data="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf" type="application/pdf" width="100%" height="800px"> 
+                                <div class="embed-responsive" style="padding-bottom:150%">
+                                     <object data="http://ccpjunin.pe/imagenes/sedam.pdf" type="application/pdf" width="100%" height="800px"> 
                                       <p>
                                         Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf">
+                                       <a href="http://ccpjunin.pe/imagenes/sedam.pdf">
                                          click para descargar el archivo PDF
                                        </a>
                                       </p>  
                                      </object>
                                 </div>
+                                <br>
+                                <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/sedam.pdf" data-width="100%" data-numposts="20"></div>
                               </div>
                             </div>
                           </div>
-                          <div class="panel box box-default">
+                          <div class="panel box box-default ">
                             <div class="box-header with-border">
                               <h4 class="">
-                                <a href="#" class="collapsed">
-                                  Requisitos para Colegiatura <span class="label label-default pull-right">12/12/2017</span>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne5" aria-expanded="false" class="collapsed">
+                                  Terminos de referencia para la contratación de servicios cuyo valor estimado sea menor o igual a 8 UIT  <br><span class="label label-default pull-left">15/06/2017</span>
                                 </a>
                               </h4>
                             </div>
-                            <div class="panel-collapse collapse in">
+                            <div id="collapseOne5" class="panel-collapse collapse in" aria-expanded="false" style="">
                               <div class="box-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
-                                <br> 
-                                <div class='embed-responsive' style='padding-bottom:150%'>
-                                     <object data="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf" type="application/pdf" width="100%" height="800px"> 
+                                <div class="embed-responsive" style="padding-bottom:150%">
+                                     <object data="http://ccpjunin.pe/imagenes/contraloria.pdf" type="application/pdf" width="100%" height="800px"> 
                                       <p>
                                         Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf">
+                                       <a href="http://ccpjunin.pe/imagenes/contraloria.pdf">
                                          click para descargar el archivo PDF
                                        </a>
                                       </p>  
                                      </object>
                                 </div>
+                                <br>
+                                <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/contraloria.pdf" data-width="100%" data-numposts="20"></div>
                               </div>
                             </div>
                           </div>
-                          <div class="panel box box-default">
-                            <div class="box-header with-border">
-                              <h4 class="">
-                                <a  href="#" class="collapsed">
-                                  Requisitos para Colegiatura <span class="label label-default pull-right">12/12/2017</span>
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="" class="panel-collapse collapse in" >
-                              <div class="box-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
-                                <br> 
-                                <div class='embed-responsive' style='padding-bottom:150%'>
-                                     <object data="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf" type="application/pdf" width="100%" height="800px"> 
-                                      <p>
-                                        Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf">
-                                         click para descargar el archivo PDF
-                                       </a>
-                                      </p>  
-                                     </object>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="panel box box-default">
-                            <div class="box-header with-border">
-                              <h4 class="">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne7" aria-expanded="false" class="collapsed">
-                                  Requisitos para Colegiatura <span class="label label-default pull-right">12/12/2017</span>
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="" class="panel-collapse collapse in" >
-                              <div class="box-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
-                                <br> 
-                                <div class='embed-responsive' style='padding-bottom:150%'>
-                                     <object data="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf" type="application/pdf" width="100%" height="800px"> 
-                                      <p>
-                                        Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf">
-                                         click para descargar el archivo PDF
-                                       </a>
-                                      </p>  
-                                     </object>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="panel box box-default">
-                            <div class="box-header with-border">
-                              <h4 class="">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne8" aria-expanded="false" class="collapsed">
-                                  Publicación de la obra: "Aspectos Generales de los Procedimientos Administrativos Tributarios" <span class="label label-default pull-right">12/12/2017</span>
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="" class="panel-collapse collapse in" >
-                              <div class="box-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non totam ipsam earum repellat, voluptates facilis quidem qui neque quam quia. Animi fugiat eaque ducimus quam illum saepe alias! Modi, illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, molestias, vel expedita dolores aspernatur placeat corrupti voluptas, animi facere eum, amet! Quaerat eveniet, explicabo ratione sit rerum, at accusantium sed.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est recusandae vel laudantium delectus possimus, odit sit tempora, modi incidunt ad, sequi, aperiam maxime. Sit tempore hic consequatur aut neque? Pariatur!</p>
-                                <br> 
-                                <div class='embed-responsive' style='padding-bottom:150%'>
-                                     <object data="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf" type="application/pdf" width="100%" height="800px"> 
-                                      <p>
-                                        Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="http://ccpjunin.pe/documentos/requisitos_colegiatura.pdf">
-                                         click para descargar el archivo PDF
-                                       </a>
-                                      </p>  
-                                     </object>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
                       </div>
                       <div class="box-footer text-center">
                         <a href="contadoraldia" class="uppercase">

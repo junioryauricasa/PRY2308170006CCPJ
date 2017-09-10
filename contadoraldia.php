@@ -32,6 +32,7 @@
         </div>
       </div>
       <!-- Small boxes (Stat box) -->
+
       <!-- Main row -->
       <div class="row">
         <section class="col-lg-9">
@@ -169,8 +170,6 @@
                       </div>
                     </div>
                   </div>
-
-
                   <div class="panel box box-default">
                     <div class="box-header with-border">
                       <h4 class="">

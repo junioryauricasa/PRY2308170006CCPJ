@@ -42,7 +42,7 @@
                 <div class="box-header">
                   <i class="fa fa-map-marker"></i>
                   <h3 class="box-title">
-                    Nuestros convenciones
+                    Nuestras Convenciones
                   </h3>
                 </div>
                 <div class="box-body">
