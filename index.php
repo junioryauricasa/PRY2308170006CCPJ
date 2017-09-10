@@ -48,8 +48,6 @@
                         <li data-target="#carousel-example" data-slide-to="11"></li>
                         <li data-target="#carousel-example" data-slide-to="12"></li>
                         <li data-target="#carousel-example" data-slide-to="13"></li>
-                        <li data-target="#carousel-example" data-slide-to="14"></li>
-                        <li data-target="#carousel-example" data-slide-to="15"></li>
                       </ol>
                       <!-- END order liist for carrousel -->
 
@@ -63,7 +61,7 @@
                         </div>
                         <!--  END img principal -->
 
-                        <!-- 1 slide 0 -->
+                        <!-- 1 slide  -->
                         <div class="item">
                           <a href="requisitos-recertificacion"><img src="dist/img/slides/recertificacion.jpg" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
@@ -148,21 +146,7 @@
 
                         <!-- 13 slide -->
                         <div class="item">
-                          <a href="#"><img src="dist/img/slides/sld-noticias-0001.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 14 slide -->
-                        <div class="item">
                           <a href="#"><img src="dist/img/slides/sld-evento-0001.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 15 slide -->
-                        <div class="item">
-                          <a href="#"><img src="dist/img/slides/sld-evento-academico-0001.jpg" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
