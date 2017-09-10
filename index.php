@@ -411,19 +411,19 @@
               <div class="box-body">
                   <div class="row margin-bottom">
                     <div class="col-sm-6">
-                      <img class="img-responsive" src="http://placehold.it/500x500/39CCCC/ffffff&text=500x500" alt="Photo" width="100%">
+                      <img class="img-responsive" src="dist\img\foto-y-video/21.jpg" alt="Photo" width="100%">
                     </div>
                     <div class="col-sm-6">
                       <div class="row">
                         <div class="col-sm-6">
-                          <img class="img-responsive" src="http://placehold.it/500x500/39CCCC/ffffff&text=500x500" alt="Photo" width="100%">
+                          <img class="img-responsive" src="dist\img\foto-y-video/1.jpg" alt="Photo" width="100%">
                           <br>
-                          <img class="img-responsive" src="http://placehold.it/500x500/39CCCC/ffffff&text=500x500" alt="Photo" width="100%">
+                          <img class="img-responsive" src="dist\img\foto-y-video/7.jpg" alt="Photo" width="100%">
                         </div>
                         <div class="col-sm-6">
-                          <img class="img-responsive" src="http://placehold.it/500x500/39CCCC/ffffff&text=500x500" alt="Photo" width="100%">
+                          <img class="img-responsive" src="dist\img\foto-y-video/3.jpg" alt="Photo" width="100%">
                           <br>
-                          <img class="img-responsive" src="http://placehold.it/500x500/39CCCC/ffffff&text=500x500" alt="Photo" width="100%">
+                          <img class="img-responsive" src="dist\img\foto-y-video/4.jpg" alt="Photo" width="100%">
                         </div>
                       </div>
                     </div>

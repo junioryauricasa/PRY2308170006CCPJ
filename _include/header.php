@@ -208,7 +208,7 @@
                         </a>
                     </li>
                     <li>  
-                      <a href="#">
+                      <a href="academicos-convenciones">
                         <i class="fa fa-circle-o"></i> 
                           Convenciones
                         </a>
