@@ -17,7 +17,7 @@
                     Lo sentimos no hemos encontrado coincidencias con tu busqueda, pero tienes muchas más opciones a tu disposición. <br> 
                     <br>
                     <br>
-                    <a href="#" class="btn btn-transparente" action="action" onclick="window.history.go(-1); return false;" >Deseo Inscribirme</a>
+                    <a href="#" class="btn btn-transparente" action="action" onclick="window.history.go(-1); return false;" >Ponme a Salvo</a>
                 </p>
           </div>
         </div>
