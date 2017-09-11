@@ -435,13 +435,13 @@
                   </a>
                   <ul class="treeview-menu">
                     <li>  
-                      <a href="#">
+                      <a href="consulta-habil">
                         <i class="fa fa-circle-o"></i> 
                           Consulta por Código
                         </a>
                     </li>
                     <li>  
-                      <a href="sociedad-auditora">
+                      <a href="consulta-habil">
                         <i class="fa fa-circle-o"></i> 
                           Sociedad Auditóra
                         </a>
