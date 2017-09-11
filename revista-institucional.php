@@ -40,7 +40,7 @@
                   <li class="pull-left header"><i class="fa fa-list"></i> Sirvase a leer nuestra Revista Institucional</li>
                 </ul>
                 <div class="box-body">
-                  <iframe style="width:100%; height:1100px;" src="//e.issuu.com/embed.html#28756625/52984464" frameborder="0" allowfullscreen></iframe>
+                  <iframe style="width:100%; height:1100px;" src="//e.issuu.com/embed.html#28756625/53051233" frameborder="0" allowfullscreen></iframe>
                 </div>
 
                 <div class="box-footer">

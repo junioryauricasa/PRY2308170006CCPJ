@@ -191,6 +191,7 @@
                         </h3>
                       </div>
                       <div class="box-body">
+                      <!-- contador al dia actualiza -->
                           <div class="panel box box-default">
                             <div class="box-header with-border">
                               <h4 class="">
@@ -202,17 +203,17 @@
                             <div id="collapseOne1" class="panel-collapse collapse in" aria-expanded="true" style="">
                               <div class="box-body">
                                 <div class="embed-responsive" style="padding-bottom:150%">
-                                     <object data="http://ccpjunin.pe/img/0707.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
+                                     <object data="dist\docs\contador al dia/05julio.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
                                       <p>
                                         Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="http://ccpjunin.pe/img/0707.pdf">
+                                       <a href="dist\docs\contador al dia/05julio.pdf">
                                          click para descargar el archivo PDF
                                        </a>
                                       </p>  
                                      </object>
                                 </div>
                                 <br>
-                                <div class="fb-comments" data-href="http://ccpjunin.pe/img/0707.pdf" data-width="100%" data-numposts="20"></div>
+                                <div class="fb-comments" data-href="http://ccpjunin.pe/dist\docs\contador-al-dia/05julio.pdf" data-width="100%" data-numposts="20"></div>
                               </div>
                             </div>
                           </div>
@@ -227,17 +228,17 @@
                             <div id="collapseOne3" class="panel-collapse collapse in" aria-expanded="false" style="">
                               <div class="box-body">
                                 <div class="embed-responsive" style="padding-bottom:150%">
-                                     <object data="http://ccpjunin.pe/imagenes/superintendecia.pdf" type="application/pdf" width="100%" height="800px"> 
+                                     <object data="dist\docs\contador al dia/04julio.pdf" type="application/pdf" width="100%" height="800px"> 
                                       <p>
                                         Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="http://ccpjunin.pe/imagenes/superintendecia.pdf">
+                                       <a href="dist\docs\contador al dia/04julio.pdf">
                                          click para descargar el archivo PDF
                                        </a>
                                       </p>  
                                      </object>
                                 </div>
                                 <br>
-                                <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/superintendecia.pdf" data-width="100%" data-numposts="20"></div>
+                                <div class="fb-comments" data-href="http://ccpjunin.pe/dist\docs\contador-al-dia/04julio.pdf" data-width="100%" data-numposts="20"></div>
                               </div>
                             </div>
                           </div>
@@ -252,10 +253,10 @@
                             <div id="collapseOne4" class="panel-collapse collapse in" aria-expanded="false" style="">
                               <div class="box-body">
                                 <div class="embed-responsive" style="padding-bottom:150%">
-                                     <object data="http://ccpjunin.pe/imagenes/sedam.pdf" type="application/pdf" width="100%" height="800px"> 
+                                     <object data="dist\docs\contador al dia/sedam.pdf" type="application/pdf" width="100%" height="800px"> 
                                       <p>
                                         Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="http://ccpjunin.pe/imagenes/sedam.pdf">
+                                       <a href="dist\docs\contador al dia/sedam.pdf">
                                          click para descargar el archivo PDF
                                        </a>
                                       </p>  
@@ -277,10 +278,10 @@
                             <div id="collapseOne5" class="panel-collapse collapse in" aria-expanded="false" style="">
                               <div class="box-body">
                                 <div class="embed-responsive" style="padding-bottom:150%">
-                                     <object data="http://ccpjunin.pe/imagenes/contraloria.pdf" type="application/pdf" width="100%" height="800px"> 
+                                     <object data="dist\docs\contador al dia/contraloria.pdf" type="application/pdf" width="100%" height="800px"> 
                                       <p>
                                         Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="http://ccpjunin.pe/imagenes/contraloria.pdf">
+                                       <a href="dist\docs\contador al dia/contraloria.pdf">
                                          click para descargar el archivo PDF
                                        </a>
                                       </p>  
@@ -291,6 +292,7 @@
                               </div>
                             </div>
                           </div>
+                      <!-- END contador al dia actualiza -->
                       </div>
                       <div class="box-footer text-center">
                         <a href="contadoraldia" class="uppercase">
