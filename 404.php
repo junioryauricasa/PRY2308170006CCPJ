@@ -17,7 +17,7 @@
                     Lo sentimos no hemos encontrado coincidencias con tu busqueda, pero tienes muchas más opciones a tu disposición. <br> 
                     <br>
                     <br>
-                    <a href="#" class="btn btn-transparente">Deseo Inscribirme</a>
+                    <a href="#" class="btn btn-transparente" action="action" onclick="window.history.go(-1); return false;" >Deseo Inscribirme</a>
                 </p>
           </div>
         </div>
@@ -29,7 +29,7 @@
       <div class="row">
         <div class="col-md-12">
             <div class="box box-info">
-              <img style="padding:50px;" src="dist/img/logo_horizontal_ccpj.png" alt="" width="100%">
+              <img style="padding:50px;" src="dist/img/logo_horizontal_ccpj.png" alt="logo institucional colegio de contadores publicos de junín" width="100%">
             </div>
         </div>
       </div>
