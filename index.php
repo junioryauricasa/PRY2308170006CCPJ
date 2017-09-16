@@ -1,9 +1,6 @@
 <?php 
   include('_include/header.php');
 ?>
-
-
-
       <div class="content-wrapper">
         <div class="row">
           <!--div class="col-md-12">
@@ -20,7 +17,7 @@
           </div>
           <div class="col-md-12" style="padding: 5px">
               <marquee direction="left" width="100%">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ab similique neque eligendi voluptatum numquam, voluptates nam recusandae odio rerum omnis veniam quisquam harum quam voluptate distinctio fugit dolorem, molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut rem illum laudantium animi voluptate corrupti necessitatibus deleniti quas iure, inventore aperiam adipisci facilis earum fugit in molestiae. Autem, sed.
+                  <p>Bienvenido a la nueva página web del Colegio de Contadores Públicos de Junín // <a href="consulta-habil">Realiza consulta hábil muy fácilmente</a> // <a href="eventos">Entérate de nuestros eventos</a></p>
               </marquee>
           </div>
         </div>

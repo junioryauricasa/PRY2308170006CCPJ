@@ -1,26 +1,30 @@
 <?php 
 	include('_include/header.php');
 ?>
-<div class="row">
-  <div class="row" id="">
-      <div class="paralax-laboral" style="height: 400px">
-          <div class="row">
-            <div class="col-lg-12 vcenter">
-                
-            </div>
-          </div>
-      </div>
-  </div>
-</div>
 
 <div class="content-wrapper" style="padding-top: 30px">
-    <div class="row text-center" style="" id="textonparallax">
-      <div class="col-lg-6 col-md-offset-3" style="color:white;">
-        <h1>
-            COMITÉ FUNCIONAL DE AUDITORÍA MIEMBRO ORDINARIO
-        </h1>
+
+<!-- div con backgrond incluido -->
+<section class="content" style="    min-height: 0px;">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-eventos.jpg'); ">
+            <h1 class="text-center header-page-h1">
+                COMITÉ FUNCIONAL DE AUDITORÍA MIEMBRO ORDINARIO
+            </h1>
+            <p class="text-center text-description-header ">
+                Bienvenidos a la seccion de Auditoria ordinaria del Colegio de Contadores Públicos de Junín. 
+                <br> 
+                Ante dudas y/o consultas, comunicate con nosotros.
+                <br>
+                <br>
+                <a href="contactanos" class="btn btn-transparente">Contactarlos</a>
+            </p>
       </div>
     </div>
+  </div>
+</section>
+<!-- div con backgrond incluido -->
 
     <section class="content">
         <div class="row">

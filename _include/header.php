@@ -117,10 +117,10 @@
           <!-- search form -->
           <form action="" method="" class="sidebar-form">
             <div class="input-group">
-              <!--input type="text" name="q" class="form-control" placeholder="Estoy Buscando...">
+              <input type="text" name="q" class="form-control" placeholder="Estoy Buscando...">
               <span class="input-group-btn">
                 <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
-              </span-->
+              </span>
             </div>
           </form>
           <ul class="sidebar-menu">
@@ -284,13 +284,13 @@
                   </a>
                   <ul class="treeview-menu">
                     <li>  
-                      <a href="#">
+                      <a href="peritaje-miembro-ordinario">
                         <i class="fa fa-circle-o"></i> 
                           Miembro Ordinario
                         </a>
                     </li>
                     <li>  
-                      <a href="#">
+                      <a href="peritaje-especialista">
                         <i class="fa fa-circle-o"></i> 
                           Especialistas
                         </a>
@@ -312,7 +312,7 @@
                         </a>
                     </li>
                     <li>  
-                      <a href="#">
+                      <a href="auditoria-independiente">
                         <i class="fa fa-circle-o"></i> 
                           Independiente
                         </a>
@@ -327,14 +327,14 @@
                   </a>
                 </li>
                 <li>
-                  <a href="#" alt="Smiley face">
+                  <a href="mypes" alt="Smiley face">
                     <i class="fa fa-circle-o"></i> 
                       Gestión de las MYPE
                     </i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" alt="Smiley face">
+                  <a href="finanzas-gestion-administrativa" alt="Smiley face">
                     <i class="fa fa-circle-o"></i> 
                       Finanzas y Gestión
                     </i>
@@ -355,7 +355,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="#" alt="Smiley face">
+                  <a href="sistemas-informatica" alt="Smiley face">
                     <i class="fa fa-circle-o"></i> 
                       Informática Contable
                     </i>
@@ -408,7 +408,7 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="#" alt="Smiley face">
+                  <a href="filial-selva-central" alt="Smiley face">
                     <i class="fa fa-circle-o"></i> 
                       J. D. Selva Central
                     </i>
