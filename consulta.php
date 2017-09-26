@@ -1,15 +1,8 @@
 ﻿﻿<?php
-$conexion_db = mysql_connect("localhost", "wwwccpju_pagweb","#*{}+")or die("Error conectando a la BBDD");
-
-mysql_select_db("wwwccpju_nbdccpj",$conexion_db)or die ( " Base de datos no encontrada");
-
-mysql_set_charset('utf8');
-
-$compa = null;
-
-?>
-<?php 
+  //$conexion_db = mysql_connect("localhost", "wwwccpju_pagweb","#*{}+")or die("Error conectando a la BBDD");
+  include('db/conexion.php'); //include connection file 
   include('_include/header.php');
+
 ?>
 
 <div class="content-wrapper" style="padding-top: 30px">
@@ -58,38 +51,75 @@ $compa = null;
                     <div class="box-body">
                        <div class="col-lg-4">
                         <?php 
-                          $codigo = $_POST['txtCodigo'];
-                          $query = "SELECT * FROM agre WHERE  id = '".$codigo."' ";
-                            
-                          $consulta = mysql_query($query,$conexion_db);
+                              //$codigo = $_POST['txtCodigo'];
+                              if(empty($_POST['txtCodigo'])){
+                                   echo '
+                                      <div class="alert alert-warning alert-dismissable">
+                                        <strong>Alerta!</strong> Lo sentimos, para realizar una consulta debes de realizarla desde <a href="consulta-habil">formulario de consulta hábil</a>.
+                                      </div>
+                                   ';
+                              }else 
 
+                              if($codigo){
+                                // Create connection
+                                $conn = new mysqli($servername, $username, $password, $dbname);
+                                // Check connection
+                                if ($conn->connect_error) {
+                                    die("Connection failed: " . $conn->connect_error);
+                                } 
+                                
+                                $sql = "SELECT * FROM agre WHERE id = '".$_POST['txtCodigo']."' ";
+                                $result = $conn->query($sql);
 
-                          while($row = mysql_fetch_assoc($consulta))
-                          {
-                              $compa=$row['id'];
-                          ?>
-                          <p class="text-center">
-                            <h4>Datos</h4>
-                            <b >Matricula:</b><?php echo $row['id'];?> 
-                            <br>
-                            <b >Nombres:</b> <?php echo $row['nombres'];?>
-                            <br>
-                            <b >Telefono:</b> <?php echo  $row['telf'];?> 
-                            <br>
-                            <b >Celular:</b><?php echo  $row['cel'];?>
-                            <br>
-                            <b >Habil:</b><?php echo  $row['habilidad'];?>
-                          </p>
-                           <?php   
-                    }mysql_free_result($consulta);
+                                if ($result->num_rows > 0) {
+                                    // output data of each row
+                                    while($row = $result->fetch_assoc()) {
+                                      if(empty($row["cel"])){
+                                          $row["cel"] = 'No posee';
+                                      } 
+                                      if(empty($row["telf"])){
+                                          $row["telf"] = 'No posee';
+                                      }
+                                        echo '
+                                              <div class="col-lg-12">
+                                                  <p class="text-center">
+                                                    <h4>Datos</h4>
+                                                    <b>Matricula:</b> '.$row["id"].'
+                                                    <br>
+                                                    <b>Nombre:</b> '.$row["nombres"].'
+                                                    <br>
+                                                    <b>Teléfono:</b> '.$row["telf"].'
+                                                    <br>
+                                                    <b>Cel:</b> '.$row["cel"].'
+                                                    <br>
+                                                    <b><b>Habil:</b> '.$row["habilidad"].'
+                                                    <br>
+                                                  </p>
+                                              </div>
+                                            ';
+                                        }
 
-                    if (is_null($compa)) {
-                        echo "Contador no activo";
-                    }
+                                }else {
+                                    echo '
+                                            <div class="alert alert-danger alert-dismissable">
+                                              <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+                                              <strong>Alerta!</strong> Lo sentimos, no existe registro alguno.
+                                            </div>
+                                    ';
+                                }
 
-                    ?>
+                                $conn->close();
+                              }else{
+                                echo '
+                                      <div class="alert alert-danger alert-dismissable">
+                                        <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+                                        <strong>Alerta!</strong> Lo sentimos, no existe registro alguno.
+                                      </div>
+                                     '
+                                     ;
+                              }
 
-                 <?php ?>
+                        ?>
                       </div>
                       <div class="col-lg-8">
                         <img src="dist/img/logo_horizontal_ccpj.png" alt="" class="img-responsive" width="100%">
@@ -97,7 +127,8 @@ $compa = null;
                     </div>
                     <div class="box-footer">
                         <!--input type="button" class="btn btn-primary" name="" value="Buscar Nuevamente"-->
-                                    <a href="consulta-habil" class="btn btn-primary">Buscar Nuevamente</a>
+                        <a href="consulta-habil" class="btn btn-primary">Buscar Nuevamente</a>
+                        <!--a href="" class="btn btn-danger">Imprimir</a-->
                     </div>
                   </div>
                 </div>

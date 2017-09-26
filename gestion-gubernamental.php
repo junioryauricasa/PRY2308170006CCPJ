@@ -7,7 +7,7 @@
     <section class="content" style=" min-height: 0px;">
       <div class="row">
         <div class="col-md-12">
-          <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-onomasticos.jpg'); ">
+          <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-eventos.jpg'); ">
                 <h1 class="text-center header-page-h1">
                     COMITÉ FUNCIONAL DE GESTIÓN GUBERNAMENTAL
                 </h1>
@@ -44,23 +44,23 @@
                         </tr>
                         <tr>
                           <td>Presidenta</td>
-                          <td>CPCC. Rafael Jesús Fernández Jaime</td>
+                          <td>CPC. MARCO ANTONIO ARMAULIA POMA</td>
                         </tr>
                         <tr>
                           <td>Vicepresidenta</td>
-                          <td>CPC. Iris Orfelinda Zacarias Torres</td>
+                          <td>CPCC. VICENTE FERNANDEZ TICLLACURI</td>
                         </tr>
                         <tr>
                           <td>Secretaria</td>
-                          <td>CPC. María Victoria Nattery Erquinigo</td>
+                          <td>CPC. PATRICIA BARRIOS ESTEBAN</td>
                         </tr>
                         <tr>
                           <td>Tesorera</td>
-                          <td>CPC. Miguel Ángel Rojas García</td>
+                          <td>CPC. LUZ PEREZ RUIZ</td>
                         </tr>
                         <tr>
                           <td>Vocal</td>
-                          <td>CPC. María Elena Terreros Aliaga</td>
+                          <td>CPC. CARMEN CECILIA ORIHUELA ROMERO</td>
                         </tr>
                         
                       </tbody>

@@ -2,52 +2,55 @@
 	include('_include/header.php');
 ?>
 
-
 <div class="content-wrapper" style="padding-top: 30px">
 
 <!-- div con backgrond incluido -->
 <section class="content" style="    min-height: 0px;">
   <div class="row">
     <div class="col-md-12">
-      <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-ofertas-laborales.jpg'); ">
-            <h1 class="text-center header-page-h1">
-                Revista Institucional
-            </h1>
-            <p class="text-center text-description-header ">
-                Bienvenidos a la seccion de Oportunidades Laborales del Colegio de Contadores Públicos de Junín. <br> Aqui podrás mantenerte informado y al día de todos las ofertas laborales de nuestra institución, que esperas para comunicate con nosotros.
-                <br>
-                <br>
-                <a href="#" class="btn btn-transparente">Informarme Más</a>
-            </p>
+      <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-ofertas-laborales.jpg'); padding-top: 20px; padding-bottom: 30px">
+          <h1 class="text-center header-page-h1">
+              Revista Institucional 2017
+          </h1>
       </div>
     </div>
   </div>
 </section>
 <!-- div con backgrond incluido -->
-
     <section class="content">
-        <div class="row">
-          <div class="col-md-12">
-              <?php include('_include/principaloptions.php'); ?>
-          </div>
-        </div>
         <!-- Small boxes (Stat box) -->
         <!-- Main row -->
         <div class="row">
-          <section class="col-lg-12 col-md-12">
+          <section class="col-lg-9 col-md-12">
               <div class="nav-tabs-custom">
-                <ul class="nav nav-tabs pull-right">
-                  <li class="pull-left header"><i class="fa fa-list"></i> Sirvase a leer nuestra Revista Institucional</li>
-                </ul>
                 <div class="box-body">
-                  <iframe style="width:100%; height:1100px;" src="//e.issuu.com/embed.html#28756625/53051233" frameborder="0" allowfullscreen></iframe>
+                  <div data-configid="31214758/53614911" style="width:100%; height:700px;" class="issuuembed"></div>
+                  <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
                 </div>
 
                 <div class="box-footer">
                     <!-- descargar revista institucional (egar enlace) -->
-                    <a href="dist/docs/REVISTA-INSTITUCIONAL-CCPJ-2017.pdf" class="btn btn-danger btn-sm" download="Revista-Institucional"><b><i class="fa fa-fw fa-file-pdf-o"></i>Descargar Revista Intitucional</b></a>
+                    <a href="dist/docs/REVISTA INSTITUCIONAL CCPJ 2017.pdf" class="btn btn-danger btn-sm" download="REVISTA INSTITUCIONAL CCPJ 2017.pdf"><b><i class="fa fa-fw fa-file-pdf-o"></i> Descargar Revista Intitucional</b></a>
                 </div>
               </div>
+          </section>
+
+          <section class="col-lg-3 col-md-12">
+            <div class="nav-tabs-custom">
+              <ul class="nav nav-tabs pull-right">
+                <li class="pull-left header"><i class="fa fa-commenting"></i> Déjanos tu Opinión</li>
+              </ul>
+              <div class="box-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <p>
+                        Te presentamos nuestra revista institucional 2017, puedes vizualizarla o descargarla pulsando sobre el botón ubicado en la parte inferior de la revista inferior.
+                      </p>
+                      <div class="fb-comments" data-href="http://ccpjunin.pe/revista-institucional/" data-width="100%" data-numposts="20"></div>
+                    </div>
+                  </div>
+              </div>
+            </div>
           </section>
         </div>
     </section>

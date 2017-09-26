@@ -5,19 +5,15 @@
 <div class="content-wrapper" style="padding-top: 30px">
 
     <!-- div con backgrond incluido -->
-    <section class="content" style="min-height: 0px;">
+    <section class="content" style="    min-height: 0px;">
       <div class="row">
         <div class="col-md-12">
           <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-ofertas-laborales.jpg'); ">
                 <h1 class="text-center header-page-h1">
                     Consulta Hábil
                 </h1>
-                <p class="text-center text-description-header ">
-                    Bienvenidos a la seccion de Consulta Hábil del Colegiatura del Colegio de Contadores Públicos de Junín. <br> 
-                    Busque la habilidad por medio del código de Colegiatura
-                    <br>
-                    <br>
-                    <input type="button" class="btn btn-transparente" value="Informarme Más">
+                <p class="text-center text-description-header "> 
+                    Consulta Hábil por medio del código de Colegiatura
                 </p>
           </div>
         </div>
@@ -44,38 +40,51 @@
                   </h3>
                 </div>
                 <div class="box-body">
-                    <form role="form">
+                    <form method="post" action="consulta.php" role="form">
                       <div class="box-body">
                         <div class="row">
                             <div class="col-lg-6">
                               <div class="form-group">
                                 <label for="nombrecontacto">Número de Matricula:</label>
-                                <input type="text" class="form-control" id="txtCodigo" placeholder="Código de Agremiado" onkeypress="return justNumbers(event);" maxlength="5">
+                                <input type="text" class="form-control" id="txtCodigo" name="txtCodigo" placeholder="Código de Agremiado" onkeypress="return justNumbers(event);" maxlength="5" autocomplete="false">
                               </div>
                               <div class="row">
                                   <div class="col-lg-12 col-xs-12">
                                     <div class="form-group">
-                                      <label for="nombrecontacto"></label>
-                                      <input type="text"  class="" id="randomfield" disabled>
+                                      <label for="nombrecontacto" ></label>
+                                      <input type="text"  class=""  style="cursor: pointer" id="randomfield" label="Presione para cambiar de Código Captcha"  onclick="ChangeCaptcha()" disabled>
                                     </div>
                                   </div>
                                   <div class="col-lg-12 col-xs-12">
                                     <div class="form-group">
                                       <label for="nombrecontacto">Código Captcha:</label>
-                                      <input type="text" class="form-control" id="CaptchaEnter" size="20" maxlength="6" placeholder="Ingrese CAPTCHA">
+                                      <input type="text" class="form-control" id="CaptchaEnter" size="20" maxlength="6" placeholder="Ingrese CAPTCHA" autocomplete="false">
                                     </div>
                                   </div>
                               </div>
                             </div>
+  <!--
 
                             <div class="col-lg-6">
-                                
+                                <p class="text-center">
+                                  <h4>Resultado de la Consulta</h4>
+                                  <b>Matricula:</b> 01232 
+                                  <br>
+                                  <b>Nombre:</b> ESTHER R. 
+                                  <br>
+                                  <b>Apellidos:</b> GUTIERREZ CARRASCAL 
+                                  <br>
+                                  <b>Estado Actual:</b> ACTIVO 
+                                  <br>
+                                  <b>Habil:</b> NO
+                                </p>
                             </div>
+   -->
                         </div>
                       </div>
                       <div class="box-footer">
-                        <button type="button" onclick="check()" class="btn btn-success" style="font-weight: bolder">Consultar</button>
-                        <button type="button" class="btn btn-default" style="font-weight: bolder" onclick="ChangeCaptcha()">Cambiar CAPTCHA</button>
+                        <button type="submit" onclick="check()" class="btn btn-success" style="font-weight: bolder">Consultar</button>
+                        <button type="button" class="btn btn-primary" style="font-weight: bolder" onclick="ChangeCaptcha()">Cambiar CAPTCHA</button>
                       </div>
                     </form>
                 </div>

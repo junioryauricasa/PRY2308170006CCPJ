@@ -49,15 +49,13 @@
                   
                   <ul>
                       <li>
-                            Si desea puede descargar los requistos dando clic en el siguiente enlace: <b><a href="http://www.ccpjunin.pe/documentos/requisitos_certificacion.pdf">Requisitos para la Certificación Profesional</a></b>
+                            Si desea puede descargar los requistos dando clic en el siguiente enlace: <b><a href="http://www.ccpjunin.pe/documentos/requisitos_certificacion.pdf" download="http://www.ccpjunin.pe/documentos/requisitos_certificacion.pdf">Requisitos para la Certificación Profesional</a></b>
                       </li>
                       <li>
-                            Si desea puede descargar el banco de preguntas dando clic en el siguiente enlace: <b><a href="http://www.ccpjunin.pe/documentos/banco.pdf">Banco de Preguntas</a></b>
+                            Si desea puede descargar el banco de preguntas dando clic en el siguiente enlace: <b><a href="http://www.ccpjunin.pe/documentos/banco.pdf" download="http://www.ccpjunin.pe/documentos/banco.pdf">Banco de Preguntas</a></b>
                       </li>
                   </ul>
                   
-
-
                   <br>
               </div>
             </div>

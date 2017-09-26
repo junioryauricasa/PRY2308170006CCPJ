@@ -7,7 +7,7 @@
     <section class="content" style=" min-height: 0px;">
       <div class="row">
         <div class="col-md-12">
-          <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-onomasticos.jpg'); ">
+          <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-ofertas-laborales.jpg'); ">
                 <h1 class="text-center header-page-h1">
                     Consejo Directivo
                 </h1>
@@ -32,32 +32,18 @@
         </div>
       </div>
       <br>
+
       <!-- slider banner grupal consejo -->
       <div class="row">
          <div class="col-lg-12">
            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
-              </ol>
               <div class="carousel-inner">
                 <div class="item">
                   <img src="dist/img/banners/consejo.jpg" alt="First slide" class="img-responsive" style="width:100%">
                   <div class="carousel-caption">
-                    Consejo Directivo 2017 - 2018.
-                  </div>
-                </div>
-                <div class="item active">
-                  <img src="dist/img/banners/consejo.jpg" alt="First slide" class="img-responsive" style="width:100%">
-                  <div class="carousel-caption">
-                    Consejo Directivo 2017 - 2018.
-                  </div>
-                </div>
-                <div class="item">
-                  <img src="dist/img/banners/consejo.jpg" alt="First slide" class="img-responsive" style="width:100%">
-                  <div class="carousel-caption">
-                    Consejo Directivo 2017 - 2018.
+                    <h3>
+                        Consejo Directivo 2017 - 2018.
+                    </h3>
                   </div>
                 </div>
               </div>
@@ -71,6 +57,7 @@
          </div>
       </div>
       <!-- END slider banner grupal consejo -->
+
       <br>
       <br>
       <div class="row">

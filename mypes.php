@@ -44,23 +44,23 @@
                         </tr>
                         <tr>
                           <td>Presidenta</td>
-                          <td>CPCC. Rafael Jesús Fernández Jaime</td>
+                          <td>CPCC. MARITZA MARIBEL LLACTA SURICHAQUI</td>
                         </tr>
                         <tr>
-                          <td>Vicepresidenta</td>
-                          <td>CPC. Iris Orfelinda Zacarias Torres</td>
+                          <td>Vicepresidente</td>
+                          <td>CPCC. VICENTE FERNANDEZ TICLLACURI</td>
                         </tr>
                         <tr>
                           <td>Secretaria</td>
-                          <td>CPC. María Victoria Nattery Erquinigo</td>
+                          <td>CPC. PATRICIA BARRIOS ESTEBAN</td>
                         </tr>
                         <tr>
                           <td>Tesorera</td>
-                          <td>CPC. Miguel Ángel Rojas García</td>
+                          <td>CPC. LUZ PEREZ RUIZ</td>
                         </tr>
                         <tr>
                           <td>Vocal</td>
-                          <td>CPC. María Elena Terreros Aliaga</td>
+                          <td>CPC. CARMEN CECILIA ORIHUELA ROMERO</td>
                         </tr>
                         
                       </tbody>

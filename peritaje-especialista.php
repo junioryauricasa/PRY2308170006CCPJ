@@ -387,23 +387,23 @@
                         </tr>
                         <tr>
                           <td>Presidenta</td>
-                          <td>CPCC. Rafael Jesús Fernández Jaime</td>
+                          <td>CPC. ALEJANDRO DELGADO QUINTANILLA</td>
                         </tr>
                         <tr>
                           <td>Vicepresidenta</td>
-                          <td>CPC. Iris Orfelinda Zacarias Torres</td>
+                          <td>CPC. MAX JUAN VARGAS LOZADA</td>
                         </tr>
                         <tr>
                           <td>Secretaria</td>
-                          <td>CPC. María Victoria Nattery Erquinigo</td>
+                          <td>CPC. ALDEMIR GONZALES REYMUNDO</td>
                         </tr>
                         <tr>
                           <td>Tesorera</td>
-                          <td>CPC. Miguel Ángel Rojas García</td>
+                          <td>CPC. JHON ALEX MANSILLA VASQUEZ</td>
                         </tr>
                         <tr>
                           <td>Vocal</td>
-                          <td>CPC. María Elena Terreros Aliaga</td>
+                          <td>CPC. MYRIAN HELEN GONZALES QUILLA</td>
                         </tr>
                         
                       </tbody>

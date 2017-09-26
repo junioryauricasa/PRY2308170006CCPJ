@@ -78,6 +78,7 @@
               <ul class="nav navbar-nav">
                 <li class=""><a href="index">Inicio</a></li> <!-- class active para sombrear -->
                 <li class=""><a href="eventos">Eventos</a></li> <!-- class active para sombrear -->
+                <li class=""><a href="conferencias">Conferencias</a></li> <!-- class active para sombrear -->
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Institucional <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -98,6 +99,7 @@
                     <li><a href="consulta-habil">Consulta Hábil</a></li>
                     <li><a href="precios">Lista de Precio por Servicios</a></li>
                     <li><a href="#">Archivos de Actividades Académicas</a></li>
+                    <li><a href="gestor-de-cobranza"> Gestor de Cobranza</a></li>
                   </ul>
                 </li>
                 <!--li><a href="#contact">Consulta de Habilidad</a></li-->
@@ -146,6 +148,12 @@
                   <a href="convenios">
                     <i class="fa fa-circle-o"></i> 
                     Convenios
+                  </a>
+                </li>
+                <li class="">
+                  <a href="conferencias">
+                    <i class="fa fa-circle-o"></i> 
+                    Conferencias
                   </a>
                 </li>
                 <!--li class="active">
@@ -348,7 +356,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="#" alt="Smiley face">
+                  <a href="comite-funcional-de-tributacion" alt="Smiley face">
                     <i class="fa fa-circle-o"></i> 
                       Tributación y Fiscalia
                     </i>
@@ -370,37 +378,37 @@
                   </a>
                   <ul class="treeview-menu">
                     <li>  
-                      <a href="#">
+                      <a href="apoyo-investigacion-contable">
                         <i class="fa fa-circle-o"></i> 
                           Investigación Contable
                         </a>
                     </li>
                     <li>  
-                      <a href="#">
+                      <a href="apoyo-permanente-defensa-profesional">
                         <i class="fa fa-circle-o"></i> 
                           Defensa Profesional
                         </a>
                     </li>
                     <li>  
-                      <a href="#">
+                      <a href="apoyo-ecologia-ambiente">
                         <i class="fa fa-circle-o"></i> 
                           Ecología y Ambiente
                         </a>
                     </li>
                     <li>  
-                      <a href="#">
+                      <a href="apoyo-etica-ejercicio-profesional">
                         <i class="fa fa-circle-o"></i> 
                           Ética Profesional
                         </a>
                     </li>
                     <li>  
-                      <a href="#">
+                      <a href="apoyo-cultura-arte-actividades-sociales">
                         <i class="fa fa-circle-o"></i> 
                           Actividades Sociales
                         </a>
                     </li>
                     <li>  
-                      <a href="#">
+                      <a href="apoyo-deporte">
                         <i class="fa fa-circle-o"></i> 
                           Deportes
                         </a>
@@ -450,7 +458,8 @@
                 </li>
                 <li><a href="precios"><i class="fa fa-circle-o"></i> Costos por Servicio</a></li>
                 <li><a href=""><i class="fa fa-circle-o"></i> Login Subir Archivos</a></li>
-                <li><a href=""><i class="fa fa-circle-o"></i> Archivos Académicas</a></li>
+                <li><a href=""><i class="fa fa-circle-o"></i> Archivos Académicos</a></li>
+                <li><a href="gestor-de-cobranza"><i class="fa fa-circle-o"></i> Gestor de Cobranza</a></li>
               </ul>
             </li>
             <li class="treeview">

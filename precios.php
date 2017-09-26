@@ -75,11 +75,11 @@
                 <div class="box-body">
                     <!-- json datatable -->
                 <table data-toggle="table" data-show-refresh="true" data-show-toggle="true" data-show-columns="true" data-search="true" data-select-item-name="toolbar1" data-pagination="true" data-sort-name="name" data-sort-order="desc">
-                  <thead>
-                    <tr>
-                      <th>Denominación de Servicio</th>
-                      <th>Costo del Servicio</th>
-                    </tr>
+                    <thead>
+                      <tr>
+                        <th>Denominación de Servicio</th>
+                        <th>Costo del Servicio</th>
+                      </tr>
                     </thead>
                     <tbody>
                       <tr class="">

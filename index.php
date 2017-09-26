@@ -30,8 +30,8 @@
               <div class="box box-solid">
                 <div id="carousel-example" class="carousel slide" data-ride="carousel">
                       <!-- order liist for carrousel -->
-                      <ol class="carousel-indicators">
-                        <li data-target="#carousel-example" data-slide-to="0" class="active"></li><!-- for slide princpal active -->
+                      <!--ol class="carousel-indicators">
+                        <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example" data-slide-to="1"></li>
                         <li data-target="#carousel-example" data-slide-to="2"></li>
                         <li data-target="#carousel-example" data-slide-to="3"></li>
@@ -45,11 +45,11 @@
                         <li data-target="#carousel-example" data-slide-to="11"></li>
                         <li data-target="#carousel-example" data-slide-to="12"></li>
                         <li data-target="#carousel-example" data-slide-to="13"></li>
-                      </ol>
+                      </ol-->
                       <!-- END order liist for carrousel -->
 
                       <!-- IMG slides for carrousel -->
-                      <div class="carousel-inner">
+                      <div class="carousel-inner" role="listbox">
                         <!--  img principal 0 -->
                         <div class="item active">
                           <a href="#"><img src="dist/img/slides/sld-principal-0001.jpg" class="img-responsive" width="100%" /></a>
@@ -153,12 +153,14 @@
                       <!-- END IMG slides for carrousel -->
                       
                       <!-- link for rigth or letf -->
-                      <a class="left carousel-control" href="#carousel-example" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                      </a>
-                      <a class="right carousel-control" href="#carousel-example" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                      </a>
+                          <a class="left carousel-control" href="#carousel-example" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#carousel-example" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
                       <!-- END link for rigth or letf -->
 
                     </div>
@@ -442,3 +444,20 @@
 <?php 
   include('_include/footer.php');
 ?>
+
+<script>
+  $(document).ready(function(){
+   // Añadimos la funcionalidad al evento scroll de window
+   $(window).scroll(function(){
+   // Comprobamos si estamos en la parte inferior de la página.
+   if ($(window).scrollTop() == $(document).height() - $(window).height()){
+   // Mostramos la imagen de cargando
+   $('div#last_msg_loader').html('<img src="bigLoader.gif">');
+   // Cargamos el contenido.
+   var ID=$(".message_box:last").attr("id");
+   $.post("load_data.php?action=get&last_msg_id="+ID,
+   }
+   });
+   });
+  });
+</script>

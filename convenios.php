@@ -4,19 +4,13 @@
 
 <div class="content-wrapper" style="padding-top: 30px">
     <!-- div con backgrond incluido -->
-    <section class="content" style="">
+    <section class="content" style="min-height: auto">
       <div class="row">
         <div class="col-md-12">
-          <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-onomasticos.jpg'); ">
+          <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-eventos.jpg'); ">
                 <h1 class="text-center header-page-h1">
                     Convenios CCPJ
                 </h1>
-                <p class="text-center text-description-header ">
-                    El Colegio de Contadores Públicos de Junín pensando en sus agremiados a realizado diversos convenios con diferentes instituciones.
-                    <br>
-                    <br>
-                    <a href="#" class="btn btn-transparente">Informarme Más</a>
-                </p>
           </div>
         </div>
       </div>
@@ -38,16 +32,20 @@
                 <li class="pull-left header"><i class="fa fa-list"></i> Datos para Contáctos</li>
               </ul>
               <div class="box-body">
+                  <img src="dist/img/logo_horizontal_ccpj.png" alt="" class="img-responsive" width="100%" style="padding: 10px">
+                  <br>
                   <p>
-                  <b>
-                    Es por ese motivo que promoviendo el desarrollo, cooperación y la integración entre el Colegio y estas instituciones se logran establecer convenios que no solo beneficiarán al Colegio, tambien traerán beneficios a sus agremiados en general.
-                    <br>
-                    <br>
-                    <a href="mailto:gerencia.ccpj@gmail.com?Subject=Consulta%20desde%20Portal%20Web" class="btn btn-xs btn-danger">
-                      <i class="fa fa-envelope pr-10"></i> 
-                      <b> gerencia.ccpj@gmail.com</b>
-                    </a>
-                  </b>
+                    <b>
+                      El Colegio de Contadores Públicos de Junín pensando en sus agremiados a realizado diversos convenios con diferentes instituciones.
+                      <br>
+                      Es por ese motivo que promoviendo el desarrollo, cooperación y la integración entre el Colegio y estas instituciones se logran establecer convenios que no solo beneficiarán al Colegio, tambien traerán beneficios a sus agremiados en general.
+                      <br>
+                      <br>
+                      <a href="mailto:gerencia.ccpj@gmail.com?Subject=Consulta%20desde%20Portal%20Web" class="btn btn-xs btn-danger">
+                        <i class="fa fa-envelope pr-10"></i> 
+                        <b> gerencia.ccpj@gmail.com</b>
+                      </a>
+                    </b>
                   </p>
               </div>
             </div>

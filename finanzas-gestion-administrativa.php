@@ -9,7 +9,7 @@
         <div class="col-md-12">
           <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-eventos.jpg'); ">
                 <h1 class="text-center header-page-h1">
-                    COMITE FUNCIONAL DE LA GESTIÓN ADMINISTRATIVA
+                    COMITE FUNCIONAL DE LA  COMITÉ DE FINANZAS Y GESTIÓN ADMINISTRATIVA
                 </h1>
                 <p class="text-center text-description-header ">
                     <br>
@@ -43,24 +43,24 @@
                           <th>Apellidos y Nombres</th>
                         </tr>
                         <tr>
-                          <td>Presidenta</td>
-                          <td>CPCC. Rafael Jesús Fernández Jaime</td>
+                          <td>Presidente</td>
+                          <td>CPC. JHONY SAUL SALAZAR SINTI</td>
                         </tr>
                         <tr>
                           <td>Vicepresidenta</td>
-                          <td>CPC. Iris Orfelinda Zacarias Torres</td>
+                          <td>CPC. CHRIS ESTEFANIA PALOMINO LAVADO</td>
                         </tr>
                         <tr>
                           <td>Secretaria</td>
-                          <td>CPC. María Victoria Nattery Erquinigo</td>
+                          <td>CPC. LUZ MILAGROS CORDOVA GALVAN</td>
                         </tr>
                         <tr>
-                          <td>Tesorera</td>
-                          <td>CPC. Miguel Ángel Rojas García</td>
+                          <td>Tesorero</td>
+                          <td>CPC. PAUL DAVID VILCAHUAMAN CARBAJAL</td>
                         </tr>
                         <tr>
                           <td>Vocal</td>
-                          <td>CPC. María Elena Terreros Aliaga</td>
+                          <td>CPC. HERMELINDA AGATONICA ROMAN CASTILLO</td>
                         </tr>
                         
                       </tbody>
