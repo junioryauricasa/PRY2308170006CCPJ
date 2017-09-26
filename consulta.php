@@ -49,18 +49,20 @@
                       </h2>
                     </div>
                     <div class="box-body">
-                       <div class="col-lg-4">
+                       <div class="col-lg-5">
                         <?php 
                               //$codigo = $_POST['txtCodigo'];
+                              $imprimir = 1;
                               if(empty($_POST['txtCodigo'])){
                                    echo '
                                       <div class="alert alert-warning alert-dismissable">
                                         <strong>Alerta!</strong> Lo sentimos, para realizar una consulta debes de realizarla desde <a href="consulta-habil">formulario de consulta hábil</a>.
                                       </div>
                                    ';
+                                   $imprimir = 0; 
                               }else 
 
-                              if($codigo){
+                              if($_POST['txtCodigo']){
                                 // Create connection
                                 $conn = new mysqli($servername, $username, $password, $dbname);
                                 // Check connection
@@ -102,26 +104,26 @@
                                 }else {
                                     echo '
                                             <div class="alert alert-danger alert-dismissable">
-                                              <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
                                               <strong>Alerta!</strong> Lo sentimos, no existe registro alguno.
                                             </div>
                                     ';
+                                    $imprimir = 0; 
                                 }
 
                                 $conn->close();
                               }else{
                                 echo '
                                       <div class="alert alert-danger alert-dismissable">
-                                        <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
                                         <strong>Alerta!</strong> Lo sentimos, no existe registro alguno.
                                       </div>
                                      '
                                      ;
+                                $imprimir = 0; 
                               }
 
                         ?>
                       </div>
-                      <div class="col-lg-8">
+                      <div class="col-lg-7">
                         <img src="dist/img/logo_horizontal_ccpj.png" alt="" class="img-responsive" width="100%">
                       </div>
                     </div>
@@ -129,6 +131,14 @@
                         <!--input type="button" class="btn btn-primary" name="" value="Buscar Nuevamente"-->
                         <a href="consulta-habil" class="btn btn-primary">Buscar Nuevamente</a>
                         <!--a href="" class="btn btn-danger">Imprimir</a-->
+                        <?php 
+                            if($imprimir == 1){
+                                echo '
+                                  <a href="" class="btn btn-danger">Imprimir</a>
+                                ';
+                            }else
+                                echo '';
+                         ?>
                     </div>
                   </div>
                 </div>

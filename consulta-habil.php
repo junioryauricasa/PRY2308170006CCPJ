@@ -43,7 +43,7 @@
                     <form method="post" action="consulta.php" role="form">
                       <div class="box-body">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-5">
                               <div class="form-group">
                                 <label for="nombrecontacto">Número de Matricula:</label>
                                 <input type="text" class="form-control" id="txtCodigo" name="txtCodigo" placeholder="Código de Agremiado" onkeypress="return justNumbers(event);" maxlength="5" autocomplete="false">
@@ -63,23 +63,9 @@
                                   </div>
                               </div>
                             </div>
-  <!--
-
-                            <div class="col-lg-6">
-                                <p class="text-center">
-                                  <h4>Resultado de la Consulta</h4>
-                                  <b>Matricula:</b> 01232 
-                                  <br>
-                                  <b>Nombre:</b> ESTHER R. 
-                                  <br>
-                                  <b>Apellidos:</b> GUTIERREZ CARRASCAL 
-                                  <br>
-                                  <b>Estado Actual:</b> ACTIVO 
-                                  <br>
-                                  <b>Habil:</b> NO
-                                </p>
+                            <div class="col-lg-7">
+                              <img src="dist/img/logo_horizontal_ccpj.png" alt="" class="img-responsive" width="100%">
                             </div>
-   -->
                         </div>
                       </div>
                       <div class="box-footer">
