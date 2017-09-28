@@ -1,7 +1,15 @@
 <?php 
     require_once("dompdf/dompdf_config.inc.php");
-    $conexion = mysql_connect("localhost","root","");
-    mysql_select_db("db_ccpj",$conexion);
+    //$conexion = mysql_connect("localhost","root","");
+    //mysql_select_db("db_ccpj",$conexion);
+
+    $host = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "db_ccpj";
+
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+
 
     //obteniendo parametro
     $codigo = $_GET['cod_consulta_habil'];
@@ -67,6 +75,7 @@
 $fechadoc = $diadelmes.' '.$mesdelanio1.' a las '.$time; 
 
 
+
 $codigoHTML='
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -92,19 +101,32 @@ $codigoHTML='
           </tr>
         </thead>
       <tbody>';
-          $consulta=mysql_query("
-              SELECT 
-                * 
-              FROM 
-              agre 
-              WHERE id = $codigo;
-              ");
-          while($dato=mysql_fetch_array($consulta)){
-          $codigoHTML.='
-                <tr style="text-transform:uppercase">
-                  <td>'.$dato['nombres'].'</td>
-                </tr>';
-                } 
+    
+    $sql = 'SELECT * FROM agre  WHERE id = $codigo;';
+    $q = $pdo->query($sql);
+    $q->setFetchMode(PDO::FETCH_ASSOC);
+
+    echo "
+      <table class='table table-bordered table-condensed'>
+          <thead>
+              <tr>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Job Title</th>
+              </tr>
+          </thead>
+          <tbody>
+              <?php while ($r = $q->fetch()): ?>
+                  <tr>
+                      <td><?php echo htmlspecialchars($r['id']) ?></td>
+                      <td><?php echo htmlspecialchars($r['nombres']); ?></td>
+                      <td><?php echo htmlspecialchars($r['habildad']); ?></td>
+                  </tr>
+              <?php endwhile; ?>
+          </tbody>
+      </table>
+    ";
+
           $codigoHTML.='
     </tbody>
     </table>

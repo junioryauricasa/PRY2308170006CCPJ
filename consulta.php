@@ -129,7 +129,7 @@
                         <?php 
                             if($imprimir == 1){
                                 echo '
-                                  <!--a href="reporte-pdf?cod_consulta_habil='.$_POST['txtCodigo'].'" class="btn btn-danger">Imprimir</a-->
+                                  <a href="reporte-pdf?cod_consulta_habil='.$_POST['txtCodigo'].'" class="btn btn-danger">Imprimir</a>
                                 ';
                             }else
                             if($imprimir == 0){

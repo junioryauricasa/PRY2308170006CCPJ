@@ -42,11 +42,11 @@
                       </ol-->
                       <!-- END order liist for carrousel -->
 
-                      <!-- IMG slides for carrousel -->
+                       <!-- IMG slides for carrousel -->
                       <div class="carousel-inner" role="listbox">
                         <!--  img principal 0 -->
                         <div class="item active">
-                          <a href="#"><img src="dist/img/slides/sld-principal-0001.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/sld-principal-0001.jpg" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
@@ -54,94 +54,167 @@
 
                         <!-- 1 slide  -->
                         <div class="item">
-                          <a href="requisitos-recertificacion"><img src="dist/img/slides/recertificacion.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="requisitos-recertificacion"><img src="http://www.ccpjunin.pe/dist/img/slides/asamblea.jpg" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
   
                         <!-- 2 slide -->
                         <div class="item">
-                          <a href=""><img src="dist/img/slides/xicongreso educadores.jpg" class="img-responsive" width="100%" /></a>
+                          <a href=""><img src="http://www.ccpjunin.pe/dist/img/slides/campeonatoCREDJ.jpg" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
 
                         <!-- 3 slide -->
                         <div class="item">
-                          <a href="#"><img src="dist/img/slides/proceso recerti.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/certificacion.jpg" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
 
                         <!-- 4 slide -->
                         <div class="item">
-                          <a href="#"><img src="dist/img/slides/eventos junta de decanos.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/CIC.jpg" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
 
                         <!-- 5 slide -->
                         <div class="item">
-                          <a href="contactanos"><img src="dist/img/slides/ubicanos.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="contactanos"><img src="http://www.ccpjunin.pe/dist/img/slides/eko.jpg" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
 
                         <!-- 6 slide -->
                         <div class="item">
-                          <a href="#"><img src="dist/img/slides/estadosf.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/esperanz.jpg" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
 
                         <!-- 7 slide -->
                         <div class="item">
-                          <a href="#"><img src="dist/img/slides/CIC.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/eventos junta de decanos.jpg" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
 
                         <!-- 8 slide -->
                         <div class="item">
-                          <a href="#"><img src="dist/img/slides/certificacion.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/proceso recerti.jpg" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
 
                         <!-- 9 slide -->
                         <div class="item">
-                          <a href="#"><img src="dist/img/slides/esperanz.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/recertificacion.jpg" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
 
+
                         <!-- 10 slide -->
                         <div class="item">
-                          <a href="#"><img src="dist/img/slides/eko.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">                          </div>
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/sld-audita-0001.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
                         </div>
+
 
                         <!-- 11 slide -->
                         <div class="item">
-                          <a href="#"><img src="dist/img/slides/aniversario.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/sld-evento-academico-0001.jpg" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
 
                         <!-- 12 slide -->
                         <div class="item">
-                          <a href="#"><img src="dist/img/slides/sld-audita-0001.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/sld-noticias-0001.jpg" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
 
                         <!-- 13 slide -->
                         <div class="item">
-                          <a href="#"><img src="dist/img/slides/sld-evento-0001.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/sld-principal-0001.jpg" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
 
+                        <!-- 14 slide -->
+                        <div class="item">
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/ubicanos.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 15 slide -->
+                        <div class="item">
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/xicongreso educadores.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 16 slide -->
+                        <div class="item">
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/21930835_1849243101756958_2132577761_o.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 17 slide -->
+                        <div class="item">
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/22140384_1855818507766084_1012147690_o.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 18 slide -->
+                        <div class="item">
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/22092693_1855820501099218_156543099_o.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 19 slide -->
+                        <div class="item">
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/22139761_1855821331099135_1268457996_o.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 20 slide -->
+                        <div class="item">
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/22140013_1855846717763263_606456521_o.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 21 slide -->
+                        <div class="item">
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/22092531_1855879807759954_707433954_o.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 22 slide -->
+                        <div class="item">
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/22095695_1855246417823293_942358365_o.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+
+                        <!-- 23 slide -->
+                        <div class="item">
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/21952335_1851166954897906_543941134_o.jpg" class="img-responsive" width="100%" /></a>
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+                        
 
                       </div>
                       <!-- END IMG slides for carrousel -->
@@ -184,6 +257,89 @@
                       </div>
                       <div class="box-body">
                       <!-- contador al dia actualiza -->
+
+
+                          <div class="panel box box-default">
+                            <div class="box-header with-border">
+                              <h4 class="">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" class="">
+                                  Publicación del 28 de Septiembre <br><span class="label label-default pull-left">18/09/2017</span>
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseOne1" class="panel-collapse collapse in" aria-expanded="true" style="">
+                              <div class="box-body">
+                                <div class="embed-responsive" style="padding-bottom:150%">
+                                     <object data="dist\docs\contador al dia/contador-al-dia-28-septiembre.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
+                                      <p>
+                                        Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
+                                       <a href="dist\docs\contador al dia/contador-al-dia-28-septiembre.pdf">
+                                         click para descargar el archivo PDF
+                                       </a>
+                                      </p>  
+                                     </object>
+                                </div>
+                                <br>
+                                <div class="fb-comments" data-href="http://ccpjunin.pe/dist\docs\contador-al-dia/contador-al-dia-28-septiembre.pdf" data-width="100%" data-numposts="20"></div>
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <div class="panel box box-default">
+                            <div class="box-header with-border">
+                              <h4 class="">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" class="">
+                                  Publicación del 14 de Septiembre <br><span class="label label-default pull-left">14/09/2017</span>
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseOne1" class="panel-collapse collapse in" aria-expanded="true" style="">
+                              <div class="box-body">
+                                <div class="embed-responsive" style="padding-bottom:150%">
+                                     <object data="dist\docs\contador al dia/conta1409.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
+                                      <p>
+                                        Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
+                                       <a href="dist\docs\contador al dia/conta1409.pdf">
+                                         click para descargar el archivo PDF
+                                       </a>
+                                      </p>  
+                                     </object>
+                                </div>
+                                <br>
+                                <div class="fb-comments" data-href="http://ccpjunin.pe/dist\docs\contador-al-dia/13-sep-bolsa.pdf" data-width="100%" data-numposts="20"></div>
+                              </div>
+                            </div>
+                          </div>
+
+
+
+                          <div class="panel box box-default">
+                            <div class="box-header with-border">
+                              <h4 class="">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" class="">
+                                  Publicación del 13 de Septiembre <br><span class="label label-default pull-left">13/09/2017</span>
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseOne1" class="panel-collapse collapse in" aria-expanded="true" style="">
+                              <div class="box-body">
+                                <div class="embed-responsive" style="padding-bottom:150%">
+                                     <object data="dist\docs\contador al dia/13-sep-bolsa.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
+                                      <p>
+                                        Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
+                                       <a href="dist\docs\contador al dia/13-sep-bolsa.pdf">
+                                         click para descargar el archivo PDF
+                                       </a>
+                                      </p>  
+                                     </object>
+                                </div>
+                                <br>
+                                <div class="fb-comments" data-href="http://ccpjunin.pe/dist\docs\contador-al-dia/13-sep-bolsa.pdf" data-width="100%" data-numposts="20"></div>
+                              </div>
+                            </div>
+                          </div>
+
                           <div class="panel box box-default">
                             <div class="box-header with-border">
                               <h4 class="">
@@ -303,6 +459,25 @@
                   <li class="pull-left header"><i class="fa fa-newspaper-o"></i> Noticias</li>
                 </ul>
                 <div class="box-body">
+
+                    <!-- estructura convencional de una noticia -->
+                    <div class="panel box box-default">
+                      <div class="box-header with-border">
+                        <h4 class="">
+                          <a href="#" class="">
+                             Comunicado <br> 
+                             <span class="label label-default pull-left">13/09/2017</span> <!-- FEcha noticia -->
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="" style="">
+                        <div class="box-body">
+                          <img src="dist\img\noticias/21754834_1840754809272454_675416764_o (1).jpg" alt="" class="img-responsive" width="100%">
+                          <div class="fb-comments" data-href="http://ccpjunin.pe/img/21754834_1840754809272454_675416764_o (1).jpg" data-width="100%" data-numposts="20"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END estructura convencional de una noticia -->
 
                     <!-- estructura convencional de una noticia -->
                     <div class="panel box box-default">
