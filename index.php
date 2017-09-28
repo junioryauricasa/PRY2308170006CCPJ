@@ -1,14 +1,8 @@
 <?php 
   include('_include/header.php');
 ?>
-      <div class="content-wrapper">
+      <div class="content-wrapper" style="padding-top: 0px">
         <div class="row">
-          <!--div class="col-md-12">
-              <div class="col-md-12 col-sm-12" style="padding: 0px">
-                  <div class="img-backg-banner-header">
-                  </div>
-              </div>
-          </div-->
           <div class="row">
             <div class="col-md-12">
               <div class="img-backg-banner-header" style="">
@@ -177,7 +171,6 @@
             </div>
           </div>
           <!-- END principal options -->
-
           <div class="row">
             <!-- Noticias -->
             <section class="col-lg-8">

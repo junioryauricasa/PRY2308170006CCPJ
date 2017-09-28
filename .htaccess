@@ -9,3 +9,4 @@ ErrorDocument 404 /404.php
 ErrorDocument 405 /404.php
 ErrorDocument 406 /404.php
 ErrorDocument 500 /404.php
+ErrorDocument 503 /404.php

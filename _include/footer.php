@@ -183,8 +183,8 @@
     background:red;
     color:black; 
     background:100% auto; 
-    padding-top: 60px; 
-    padding-bottom: 60px;
+    padding-top: 25px; 
+    padding-bottom: 25px;
     color: white;
   }
   /* END div background img */
@@ -277,6 +277,16 @@
     }
   }
 
+  @media screen and (max-width:766px){
+    body{
+      margin-top: 95px;
+    }
+  }
+  @media screen and (min-width:767px){
+    .img-backg-banner-header{
+      margin-top: 50px;
+    }
+  }
 
 
   /* Para catcha */
@@ -370,7 +380,7 @@ div.container .row .item {
 
 /* --- img hover --- */
 .img-option-principal{
-  padding: 10px;
+  padding: 5px;
   transition: all .3s
 }
 .img-option-principal:hover{

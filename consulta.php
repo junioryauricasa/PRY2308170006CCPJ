@@ -8,7 +8,7 @@
 <div class="content-wrapper" style="padding-top: 30px">
 
     <!-- div con backgrond incluido -->
-    <section class="content" style="    min-height: 0px;">
+    <section class="content" style=" min-height: 0px;">
       <div class="row">
         <div class="col-md-12">
           <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-ofertas-laborales.jpg'); ">
@@ -20,7 +20,6 @@
                     Busque la habilidad por medio del código de Colegiatura
                     <br>
                     <br>
-                    <input type="button" class="btn btn-transparente" value="Informarme Más">
                 </p>
           </div>
         </div>
@@ -83,16 +82,12 @@
                                           $row["telf"] = 'No posee';
                                       }
                                         echo '
-                                              <div class="col-lg-12">
-                                                  <p class="text-center">
+                                              <div class="col-lg-12" style="font-size:19px">
+                                                  <p class="">
                                                     <h4>Datos</h4>
                                                     <b>Matricula:</b> '.$row["id"].'
                                                     <br>
                                                     <b>Nombre:</b> '.$row["nombres"].'
-                                                    <br>
-                                                    <b>Teléfono:</b> '.$row["telf"].'
-                                                    <br>
-                                                    <b>Cel:</b> '.$row["cel"].'
                                                     <br>
                                                     <b><b>Habil:</b> '.$row["habilidad"].'
                                                     <br>
@@ -134,10 +129,13 @@
                         <?php 
                             if($imprimir == 1){
                                 echo '
-                                  <a href="" class="btn btn-danger">Imprimir</a>
+                                  <!--a href="reporte-pdf?cod_consulta_habil='.$_POST['txtCodigo'].'" class="btn btn-danger">Imprimir</a-->
                                 ';
                             }else
-                                echo '';
+                            if($imprimir == 0){
+                              echo '';
+                            }
+                                
                          ?>
                     </div>
                   </div>
