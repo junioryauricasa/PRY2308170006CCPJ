@@ -10,7 +10,7 @@
             </div>
           </div>
           <div class="col-md-12" style="padding: 5px">
-              <marquee direction="left" width="100%">
+              <marquee width="100%" height="20" align="bottom" direction="left">
                   <p>Bienvenido a la nueva página web del Colegio de Contadores Públicos de Junín // <a href="consulta-habil">Realiza consulta hábil muy fácilmente</a> // <a href="eventos">Entérate de nuestros eventos</a></p>
               </marquee>
           </div>
@@ -20,7 +20,7 @@
         <section class="content">
           <div class="row">
             <!-- slides -->
-            <div class="col-md-12">
+            <div class="">
               <div class="box box-solid">
                 <div id="carousel-example" class="carousel slide" data-ride="carousel">
                       <!-- order liist for carrousel -->
@@ -46,7 +46,7 @@
                       <div class="carousel-inner" role="listbox">
                         <!--  img principal 0 -->
                         <div class="item active">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/sld-principal-0001.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="#"><img src="http://placehold.it/900x340/39CCCC/ffffff&text=900x340" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
@@ -203,7 +203,7 @@
 
                         <!-- 22 slide -->
                         <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/22095695_1855246417823293_942358365_o.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="http://www.ccpjunin.pe/dist/img/slides/imgslides/22070440_1854961924518409_1009795220_o.jpg"><img src="http://www.ccpjunin.pe/dist/img/slides/22095695_1855246417823293_942358365_o.jpg" class="img-responsive" width="100%" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
@@ -239,7 +239,7 @@
 
           <!-- principal options  -->
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-lg-12" style="">
                 <?php include('_include/principaloptions.php'); ?>
             </div>
           </div>

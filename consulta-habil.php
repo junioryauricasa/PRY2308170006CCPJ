@@ -15,6 +15,8 @@
                 <p class="text-center text-description-header "> 
                     Consulta Hábil por medio del código de Colegiatura
                 </p>
+                <br>
+                <br>
           </div>
         </div>
       </div>

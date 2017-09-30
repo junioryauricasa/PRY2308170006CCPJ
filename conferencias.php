@@ -13,6 +13,8 @@
                 <h1 class="text-center header-page-h1">
                     Conferencias
                 </h1>
+                <br>
+                <br>
           </div>
         </div>
       </div>

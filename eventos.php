@@ -16,7 +16,6 @@
                 Bienvenidos a la seccion de eventos del Portal Web del Colegio de Contadores Públicos de Junín. <br> Aquí podras mantenerte informado y al día de todos los eventos que estamos desarrollando, no te pierdas de ninguno de estos, comunicate con nosotros.
                 <br>
                 <br>
-                <a href="#" class="btn btn-transparente">Deseo Inscribirme</a>
             </p>
       </div>
     </div>
