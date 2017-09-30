@@ -54,28 +54,28 @@
 
                         <!-- 1 slide  -->
                         <div class="item">
-                          <a href="requisitos-recertificacion"><img src="http://www.ccpjunin.pe/dist/img/slides/asamblea.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="requisitos-recertificacion"><img src="http://www.ccpjunin.pe/dist/img/slides/asamblea.jpg" class="img-responsive" width="100%" height="600px" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
   
                         <!-- 2 slide -->
                         <div class="item">
-                          <a href=""><img src="http://www.ccpjunin.pe/dist/img/slides/campeonatoCREDJ.jpg" class="img-responsive" width="100%" /></a>
+                          <a href=""><img src="http://www.ccpjunin.pe/dist/img/slides/campeonatoCREDJ.jpg" class="img-responsive" width="100%" height="600px" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
 
                         <!-- 3 slide -->
                         <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/certificacion.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/certificacion.jpg" class="img-responsive" width="100%" height="600px" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
 
                         <!-- 4 slide -->
                         <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/CIC.jpg" class="img-responsive" width="100%" /></a>
+                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/CIC.jpg" class="img-responsive" width="100%" height="600px" /></a>
                           <div class="carousel-caption">
                           </div>
                         </div>
