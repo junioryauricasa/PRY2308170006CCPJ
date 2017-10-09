@@ -71,7 +71,7 @@
                       <img src="dist/img/decanos/CPCC. Hilario Aquino Wilder Sergio - Decano.jpg" alt="" width="600px"> 
                       <div class="caption">
                         <p class="text-center font-institucional">
-                            CPCC. Hilario Aquino Wilder Sergio <br> Decano del Colegio de Contadores Públicos de Junín
+                            CPCC. Hilario Aquino Wilder Sergio <br> Decano
                         </p>     
                       </div>
                   </div>
@@ -81,7 +81,7 @@
                       <img src="dist/img/decanos/CPC. Mari Loardo Salutar - 1er Vice Decano.jpg" alt="" width="600px"> 
                       <div class="caption">
                         <p class="text-center font-institucional">
-                            CPC. Mari Loardo Salutar <br> 1er Vice Decano del Colegio de Contadores Públicos de Junín
+                            CPC. Mari Loardo Salutar <br> 1er Vice Decano 
                         </p>     
                       </div>
                   </div>
@@ -91,7 +91,7 @@
                       <img src="dist/img/decanos/CPC. Villanueva Huamán María - 2da Vice Decana.jpg" alt="" width="600px"> 
                       <div class="caption">
                         <p class="text-center font-institucional">
-                            CPC. Villanueva Huamán María <br> 2da Vice Decana del Colegio de Contadores Públicos de Junín
+                            CPC. Villanueva Huamán María <br> 2da Vice Decana
                         </p>     
                       </div>
                   </div>
@@ -101,7 +101,7 @@
                       <img src="dist/img/decanos/CPC. Fernández Cuba Luis - Director Secretaria.jpg" alt="" width="600px"> 
                       <div class="caption">
                         <p class="text-center font-institucional">
-                            CPC. Fernández Cuba Luis <br> Director Secretaria del Colegio de Contadores Públicos de Junín
+                            CPC. Fernández Cuba Luis <br> Director Secretario
                         </p>     
                       </div>
                   </div>

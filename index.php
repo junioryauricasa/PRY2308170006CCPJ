@@ -11,7 +11,7 @@
           </div>
           <div class="col-md-12" style="padding: 5px">
               <marquee width="100%" height="20" align="bottom" direction="left">
-                  <p>Bienvenido a la nueva página web del Colegio de Contadores Públicos de Junín // <a href="consulta-habil">Realiza consulta hábil muy fácilmente</a> // <a href="eventos">Entérate de nuestros eventos</a></p>
+                  <p>Bienvenido a la nueva página web del Colegio de Contadores Públicos de Junín // <a href="consulta-habil">Realiza tus consultas de habilidad muy fácilmente</a> // <a href="eventos">Entérate de nuestros Eventos Académicos</a></p>
               </marquee>
           </div>
         </div>
@@ -22,7 +22,7 @@
             <!-- slides -->
             <div class="">
               <div class="box box-solid">
-                <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                <div id="carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
                       <!-- order liist for carrousel -->
                       <!--ol class="carousel-indicators">
                         <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
@@ -44,9 +44,12 @@
 
                        <!-- IMG slides for carrousel -->
                       <div class="carousel-inner" role="listbox">
+                        
                         <!--  img principal 0 -->
                         <div class="item active">
-                          <a href="#"><img src="http://placehold.it/900x340/39CCCC/ffffff&text=900x340" class="img-responsive" width="100%" /></a>
+                          <a href="#">
+                            <img src="http://placehold.it/900x340/39CCCC/ffffff&text=900x340" class="img-responsive banner-principal" width="100%" height="430px" />
+                          </a>
                           <div class="carousel-caption">
                           </div>
                         </div>
@@ -54,167 +57,30 @@
 
                         <!-- 1 slide  -->
                         <div class="item">
-                          <a href="requisitos-recertificacion"><img src="http://www.ccpjunin.pe/dist/img/slides/asamblea.jpg" class="img-responsive" width="100%" height="600px" /></a>
+                          <a href="requisitos-recertificacion">
+                            <img src="http://www.ccpjunin.pe/dist/img/slides/asamblea.jpg" class="img-responsive banner-principal" width="100%" height="430px" />
+                          </a>
                           <div class="carousel-caption">
                           </div>
                         </div>
   
                         <!-- 2 slide -->
                         <div class="item">
-                          <a href=""><img src="http://www.ccpjunin.pe/dist/img/slides/campeonatoCREDJ.jpg" class="img-responsive" width="100%" height="600px" /></a>
+                          <a href=""> 
+                            <img src="http://www.ccpjunin.pe/dist/img/slides/campeonatoCREDJ.jpg" class="img-responsive banner-principal" width="100%" height="430px" />
+                          </a>
                           <div class="carousel-caption">
                           </div>
                         </div>
 
                         <!-- 3 slide -->
                         <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/certificacion.jpg" class="img-responsive" width="100%" height="600px" /></a>
+                          <a href="#">
+                            <img src="http://www.ccpjunin.pe/dist/img/slides/certificacion.jpg" class="img-responsive" width="100%"  height="430px" />
+                          </a>
                           <div class="carousel-caption">
                           </div>
                         </div>
-
-                        <!-- 4 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/CIC.jpg" class="img-responsive" width="100%" height="600px" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 5 slide -->
-                        <div class="item">
-                          <a href="contactanos"><img src="http://www.ccpjunin.pe/dist/img/slides/eko.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 6 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/esperanz.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 7 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/eventos junta de decanos.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 8 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/proceso recerti.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 9 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/recertificacion.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-
-                        <!-- 10 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/sld-audita-0001.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-
-                        <!-- 11 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/sld-evento-academico-0001.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 12 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/sld-noticias-0001.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 13 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/sld-principal-0001.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 14 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/ubicanos.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 15 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/xicongreso educadores.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 16 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/21930835_1849243101756958_2132577761_o.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 17 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/22140384_1855818507766084_1012147690_o.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 18 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/22092693_1855820501099218_156543099_o.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 19 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/22139761_1855821331099135_1268457996_o.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 20 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/22140013_1855846717763263_606456521_o.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 21 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/22092531_1855879807759954_707433954_o.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 22 slide -->
-                        <div class="item">
-                          <a href="http://www.ccpjunin.pe/dist/img/slides/imgslides/22070440_1854961924518409_1009795220_o.jpg"><img src="http://www.ccpjunin.pe/dist/img/slides/22095695_1855246417823293_942358365_o.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 23 slide -->
-                        <div class="item">
-                          <a href="#"><img src="http://www.ccpjunin.pe/dist/img/slides/21952335_1851166954897906_543941134_o.jpg" class="img-responsive" width="100%" /></a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-                        
 
                       </div>
                       <!-- END IMG slides for carrousel -->
@@ -629,3 +495,38 @@
    });
   });
 </script>
+
+
+<style>
+  .banner-principal{
+    min-height: 430px;
+  }
+
+  div.carousel-inner>div.item>a>img{
+    height: 430px
+  }
+
+
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+
+
+</style>

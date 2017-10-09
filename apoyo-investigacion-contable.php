@@ -1,5 +1,5 @@
 <?php 
-	include('_include/header.php');
+  include('_include/header.php');
 ?>
 
 <div class="content-wrapper" style="padding-top: 30px">
@@ -12,9 +12,9 @@
                     COMITÉ FUNCIONAL DE APOYO DE INVESTIGACIÓN CONTABLE
                 </h1>
                 <p class="text-center text-description-header ">
-                    <br>
-                    <a href="#" class="btn btn-transparente">Informarme Más</a>
                 </p>
+                <br>
+                <br>
           </div>
         </div>
       </div>
@@ -31,53 +31,53 @@
         <!-- Main row -->
         <div class="row">
           <section class="col-lg-4 col-md-12">
-	            <div class="nav-tabs-custom">
-	              <ul class="nav nav-tabs pull-right">
-	                <li class="pull-left header"><i class="fa fa-list"></i> Junta Directiva</li>
-	              </ul>
-	              <div class="box-body">
-	                  <table class="table table-bordered">
-	                      <tbody>
-	                        <tr>
-	                          <th>Cargo</th>
-	                          <th>Nombres y Apellidos</th>
-	                        </tr>
-	                        <tr>
-	                          <td>Presidenta</td>
-	                          <td>CPCC. Jesús, Salazar Cabanillas</td>
-	                        </tr>
-	                        <tr>
-	                          <td>Vicepresidenta</td>
-	                          <td>CPCC. Wilder Sergio, Hilario Aquino</td>
-	                        </tr>
-	                        <tr>
-	                          <td>Secretario</td>
-	                          <td>CPCC. Ruben, Calero Romero</td>
-	                        </tr>
-	                        <tr>
-	                          <td>Tesorero</td>
-	                          <td>CPCC. Victor José, Quintana Palacios</td>
-	                        </tr>
-	                        <tr>
-	                          <td>Vocal</td>
-	                          <td>CPCC. Jorge, Bendezú Vila</td>
-	                        </tr>
-	                      </tbody>
-	                  </table>
-	              </div>
-	            </div>
-	            <div class="nav-tabs-custom">
-	              <ul class="nav nav-tabs pull-right">
-	                <li class="pull-left header"><i class="fa fa-commenting"></i> Déjanos tu Opinión</li>
-	              </ul>
-	              <div class="box-body">
-	                  <div class="row">
-	                    <div class="col-lg-12">
-	                      <div class="fb-comments" data-href="http://ccpjunin.pe/htmls/imagenes/comites/investigacion.pdf" data-width="100%" data-numposts="20"></div>
-	                    </div>
-	                  </div>
-	              </div>
-	            </div>
+              <div class="nav-tabs-custom">
+                <ul class="nav nav-tabs pull-right">
+                  <li class="pull-left header"><i class="fa fa-list"></i> Junta Directiva</li>
+                </ul>
+                <div class="box-body">
+                    <table class="table table-bordered">
+                        <tbody>
+                          <tr>
+                            <th>Cargo</th>
+                            <th>Nombres y Apellidos</th>
+                          </tr>
+                          <tr>
+                            <td>Presidente</td>
+                            <td>CPC. Victor Cárdenas Osores</td>
+                          </tr>
+                          <tr>
+                            <td>Vicepresidente</td>
+                            <td>CPC. Jim Paul Tuppia Barzola</td>
+                          </tr>
+                          <tr>
+                            <td>Secretario</td>
+                            <td>CPC. David Vilchez Lazo</td>
+                          </tr>
+                          <tr>
+                            <td>Tesorera</td>
+                            <td>CPC. Sandra Tacza Egoavil</td>
+                          </tr>
+                          <tr>
+                            <td>Vocal</td>
+                            <td>CPC. Henry López Canturín</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+              </div>
+              <div class="nav-tabs-custom">
+                <ul class="nav nav-tabs pull-right">
+                  <li class="pull-left header"><i class="fa fa-commenting"></i> Déjanos tu Opinión</li>
+                </ul>
+                <div class="box-body">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="fb-comments" data-href="http://ccpjunin.pe/htmls/imagenes/comites/investigacion.pdf" data-width="100%" data-numposts="20"></div>
+                      </div>
+                    </div>
+                </div>
+              </div>
           </section>
           <section class="col-lg-8 col-md-12">
               <div class="nav-tabs-custom">
@@ -85,16 +85,41 @@
                   <li class="pull-left header"><i class="fa fa-list"></i></li>
                 </ul>
                 <div class="box-body">  
-                    <div class="embed-responsive" style="padding-bottom:150%">
-                         <object data="http://ccpjunin.pe/htmls/imagenes/comites/investigacion.pdf" type="application/pdf" width="100%" height="800px"> 
-                          <p>
-                            Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                           <a href="http://ccpjunin.pe/htmls/imagenes/comites/investigacion.pdf">
-                             click para descargar el archivo PDF
-                           </a>
-                          </p>  
-                         </object>
-                    </div>
+                    
+                <table data-toggle="table" data-show-refresh="true" data-show-toggle="true" data-show-columns="true" data-search="true" data-select-item-name="toolbar1" data-pagination="true" data-sort-name="name" data-sort-order="desc">
+                  <thead>
+                    <tr>
+                      <th>N° de Registro</th>
+                      <th>MAT</th>
+                      <th>Nombres y Apellidos</th>
+                      <th>Fecha de Incorporación</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+<tr>  <td>1 - IC  </td> <td>08-1465</td> <td>JIM CULKIN VERA ALVARADO                 </td> <td>          </td> </tr>
+<tr>  <td>2 - IC  </td> <td>08-0358</td> <td>FLAVIO AUGUSTO ANGULO DIAZ               </td> <td>          </td> </tr>
+<tr>  <td>3 - IC  </td> <td>08-0364</td> <td>JESUS PEDRO GUERREROS MEZA               </td> <td>          </td> </tr>
+<tr>  <td>4 - IC  </td> <td>2094   </td> <td>MERCEDES KATY PAUCARCHUCO HUAMAN         </td> <td>          </td> </tr>
+<tr>  <td>5 - IC  </td> <td>08-1202</td> <td>VICENTE FERNANDEZ TICLLACURI             </td> <td>          </td> </tr>
+<tr>  <td>6 - IC  </td> <td>08-1831</td> <td>VICTOR RAUL CARDENAS OSORES              </td> <td>          </td> </tr>
+<tr>  <td>7 - IC  </td> <td>08-0685</td> <td>RAUL UNOCC DAVILA                        </td> <td>          </td> </tr>
+<tr>  <td>8 - IC  </td> <td>08-1777</td> <td>GUSTAVO CARDENAS VASQUEZ                 </td> <td>          </td> </tr>
+<tr>  <td>9 - IC  </td> <td>08-0192</td> <td>JESUS SALAZAR CABANILLAS                 </td> <td>          </td> </tr>
+<tr>  <td>10 - IC </td> <td>08-1733</td> <td> SOLIS RODRIGUEZ ANGEL MARLEONE          </td> <td>05/09/2012</td> </tr>
+<tr>  <td>11 - IC </td> <td>08-0306</td> <td> PARIONA COLONIO CESAR FRANCISCO         </td> <td>05/09/2012</td> </tr>
+<tr>  <td>12 - IC </td> <td>MIEMBRO HONORARIO</td> <td> MAG. ZOSIMO DE LA CRUZ CERRON </td> <td>          </td> </tr>
+<tr>  <td>13 - IC </td> <td>07-0197</td> <td> MORAN VILCHERREZ, MARIO                 </td> <td>26/05/2014</td> </tr>
+<tr>  <td>14 - IC </td> <td>08-2772</td> <td> VIVAS INOCENTE, ANDREA DEL PILAR        </td> <td>26/05/2014</td> </tr>
+<tr>  <td>15 - IC </td> <td>08-3058</td> <td>TACZA EGOAVIL, SANDRA ANDREA             </td> <td>04/09/2015</td> </tr>
+<tr>  <td>16 - IC </td> <td>08-1230</td> <td>LLACTA SURICHAQUI, MARITZA MARIBEL       </td> <td>04/09/2015</td> </tr>
+<tr>  <td>17 - IC </td> <td>       </td> <td> COSME LOPEZ, MARCO ANTONIO              </td> <td>2016      </td> </tr>
+
+
+                  </tbody>
+                </table>
+
+
                 </div>
               </div>
           </section>
@@ -153,5 +178,5 @@
 </script>
 
 <?php 
-	include('_include/footer.php');
+  include('_include/footer.php');
 ?>

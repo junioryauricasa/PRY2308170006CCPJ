@@ -91,7 +91,9 @@
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios <span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">        Servicios 
+                      <span class="caret"></span>
+                  </a>
                   <ul class="dropdown-menu">
                     <li><a href="ficha-actualizacion-datos">Ficha de Actualización de Datos</a></li>
                     <li><a href="documento">Documentos</a></li>
@@ -102,8 +104,58 @@
                     <li><a href="gestor-de-cobranza"> Gestor de Cobranza</a></li>
                   </ul>
                 </li>
-                <!--li><a href="#contact">Consulta de Habilidad</a></li-->
+                <li class="dropdown">
+                  <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Comités Funcionales <b class="caret"></b></a>
+                        <ul class="dropdown-menu multi-level">
+                            <li><a href="gestion-gubernamental">Gestión Gubernamental</a></li>
+                            <li class="dropdown-submenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                  Peritaje Contable
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="peritaje-miembro-ordinario">Miembro Ordinario</a></li>
+                                    <li><a href="peritaje-especialista" >Miembro Especialista</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                  Auditoría
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="auditoria-ordinaria">Ordinario</a></li>
+                                    <li><a href="auditoria-independiente">Independiente</a></li>
+                                    <li><a href="sociedad-auditora">Sociedades Auditoras</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="mypes">Gestión de las MYPE</a></li>
+                            <li><a href="finanzas-gestion-administrativa">Finanzas y Gestión Administrativa</a></li>
+                            <li><a href="">Desarrollo Profesional</a></li>
+                            <li><a href="comite-funcional-de-tributacion">Tributación y Fiscalidad</a></li>
+                            <li class="dropdown-submenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                  Apoyo
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="apoyo-investigacion-contable">Investigación Contable</a></li>
+                                    <li><a href="apoyo-permanente-defensa-profesional">Defensa Profesional</a></li>
+                                    <li><a href="apoyo-ecologia-ambiente">Ecología y Ambiente</a></li>
+                                    <li><a href="apoyo-etica-ejercicio-profesional">Ética Profesional</a></li>
+                                    <li><a href="sistemas-informatica">Desarrollo Profesional e Informática Contable</a></li>
+                                    <li><a href="apoyo-cultura-arte-actividades-sociales">Actividades Sociales</a></li>
+                                    <li><a href="apoyo-deporte">Deportes</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="filial-selva-central">J. D. Selva Central</a></li>
+                        </ul>
+                    </li>
+                      
+                  </ul>
+                </li>
+                <li><a href="estados-financieros">Estados Financieros</a></li>
                 <li><a href="contactanos">Contacto</a></li>
+
               </ul>
             </div>
           </div>
@@ -258,24 +310,10 @@
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-users"></i>
-                <span>Comites</span>
+                <span>Comités Funcionales</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <!--li>
-                  <a href="#" alt="Smiley face">
-                    <i class="fa fa-circle-o"></i> 
-                      Comité Funcional
-                    </i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" alt="Smiley face">
-                    <i class="fa fa-circle-o"></i> 
-                      Comité Funcional de Apoyo
-                    </i>
-                  </a>
-                </li-->
                 <li>
                   <a href="gestion-gubernamental" alt="Smiley face">
                     <i class="fa fa-circle-o"></i> 
@@ -300,7 +338,7 @@
                     <li>  
                       <a href="peritaje-especialista">
                         <i class="fa fa-circle-o"></i> 
-                          Especialistas
+                         Miembro Especialista
                         </a>
                     </li>
                   </ul>
@@ -317,22 +355,21 @@
                       <a href="auditoria-ordinaria">
                         <i class="fa fa-circle-o"></i> 
                           Ordinaria
-                        </a>
+                      </a>
                     </li>
                     <li>  
                       <a href="auditoria-independiente">
                         <i class="fa fa-circle-o"></i> 
                           Independiente
-                        </a>
+                      </a>
+                    </li>
+                    <li>  
+                      <a href="sociedad-auditora">
+                        <i class="fa fa-circle-o"></i> 
+                          Sociedades Auditoras
+                      </a>
                     </li>
                   </ul>
-                </li>
-                <li>
-                  <a href="sociedad-auditora" alt="Smiley face">
-                    <i class="fa fa-circle-o"></i> 
-                      Sociedad Auditora
-                    </i>
-                  </a>
                 </li>
                 <li>
                   <a href="mypes" alt="Smiley face">
@@ -344,7 +381,7 @@
                 <li>
                   <a href="finanzas-gestion-administrativa" alt="Smiley face">
                     <i class="fa fa-circle-o"></i> 
-                      Finanzas y Gestión
+                      Finanzas y Gestión Administrativa
                     </i>
                   </a>
                 </li>
@@ -358,14 +395,7 @@
                 <li>
                   <a href="comite-funcional-de-tributacion" alt="Smiley face">
                     <i class="fa fa-circle-o"></i> 
-                      Tributación y Fiscalia
-                    </i>
-                  </a>
-                </li>
-                <li>
-                  <a href="sistemas-informatica" alt="Smiley face">
-                    <i class="fa fa-circle-o"></i> 
-                      Informática Contable
+                      Tributación y Fiscalidad
                     </i>
                   </a>
                 </li>
@@ -400,6 +430,13 @@
                         <i class="fa fa-circle-o"></i> 
                           Ética Profesional
                         </a>
+                    </li>
+                    <li>
+                      <a href="sistemas-informatica" alt="Smiley face">
+                        <i class="fa fa-circle-o"></i> 
+                          Desarrollo Profesional e Informática Contable
+                        </i>
+                      </a>
                     </li>
                     <li>  
                       <a href="apoyo-cultura-arte-actividades-sociales">
@@ -516,4 +553,83 @@
   }
 
 /* --------------------------------------------- */
+
+/*
+  style for dropdown
+*/
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+/*
+  END style for dropdown
+*/
+
+
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+
+
+
       </style>

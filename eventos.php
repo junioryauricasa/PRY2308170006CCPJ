@@ -43,83 +43,98 @@
                 </div>
                 <div class="box-body">
                   <div class="box-group" id="accordion">
-                    <div class="panel box box-default">
-                      <div class="box-header with-border">
-                        <h4 class="">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" class="" href="#">
-                            XXIII CONVENCION NACIONAL DE TRIBUTACIÓN <br><span class="label label-default pull-left">13/06/2017</span>
-                          </a>
-                        </h4>
-                      </div>
-                      <div >
-                        <div class="box-body">
-                          <img src="http://ccpjunin.pe/imagenes/BCCPA2.jpg" alt="" class="img-responsive">
-                          <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/BCCPA2.jpg" data-width="100%" data-numposts="20"></div>
+                    <div class="col-lg-4">
+                      <div class="panel box box-default">
+                        <div class="box-header with-border">
+                          <h4 class="">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" class="" href="#">
+                              XXIII CONVENCION NACIONAL DE TRIBUTACIÓN <br><span class="label label-default pull-left">13/06/2017</span>
+                            </a>
+                          </h4>
                         </div>
-                        <br>
-                      </div>
-                    </div>
-                    <div class="panel box box-default">
-                      <div class="box-header with-border">
-                        <h4 class="">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne2" aria-expanded="false" class="collapsed" href="#">
-                             DIPLOMATURA <br><span class="label label-default pull-left">11/04/2017</span>
-                          </a>
-                        </h4>
-                      </div>
-                      <div >
-                        <div class="box-body">
-                          <img src="http://ccpjunin.pe/imagenes/4.jpg" alt="" class="img-responsive" width="100%">
-                          <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/4.jpg" data-width="100%" data-numposts="20"></div>
+                        <div >
+                          <div class="box-body">
+                            <img src="http://ccpjunin.pe/imagenes/BCCPA2.jpg" alt="" class="img-responsive">
+                            <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/BCCPA2.jpg" data-width="100%" data-numposts="20"></div>
+                          </div>
                           <br>
                         </div>
                       </div>
                     </div>
-                    <div class="panel box box-default">
-                      <div class="box-header with-border">
-                        <h4 class="">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne3" aria-expanded="false" class="collapsed" href="#">
-                            I CONVERSA DE FINANZAS <br><span class="label label-default pull-left">11/04/2017</span>
-                          </a>
-                        </h4>
-                      </div>
-                      <div id="collapseOne3" class="panel-collapse collapse in" aria-expanded="false" style="">
-                        <div class="box-body">
-                             <img src="http://ccpjunin.pe/imagenes/2.jpg" alt="" class="img-responsive">
-                             <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/2.jpg" data-width="100%" data-numposts="20"></div>
+                    
+                    <div class="col-lg-4">
+                      <div class="panel box box-default">
+                        <div class="box-header with-border">
+                          <h4 class="">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne2" aria-expanded="false" class="collapsed" href="#">
+                               DIPLOMATURA <br><span class="label label-default pull-left">11/04/2017</span>
+                            </a>
+                          </h4>
+                        </div>
+                        <div >
+                          <div class="box-body">
+                            <img src="http://ccpjunin.pe/imagenes/4.jpg" alt="" class="img-responsive" width="100%">
+                            <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/4.jpg" data-width="100%" data-numposts="20"></div>
+                            <br>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="panel box box-default">
-                      <div class="box-header with-border">
-                        <h4 class="">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne4" aria-expanded="false" class="collapsed" href="#">
-                            INVESTIGACIÓN CONTABLE <br><span class="label label-default pull-left">11/04/2017</span>
-                          </a>
-                        </h4>
-                      </div>
-                      <div id="collapseOne4" class="panel-collapse collapse in" aria-expanded="false" style="">
-                        <div class="box-body">
-                          <img src="http://ccpjunin.pe/imagenes/1.jpg" alt="" class="img-responsive">
-                          <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/1.jpg" data-width="100%" data-numposts="20"></div>
+
+                    <div class="col-lg-4">
+                      <div class="panel box box-default">
+                        <div class="box-header with-border">
+                          <h4 class="">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne3" aria-expanded="false" class="collapsed" href="#">
+                              I CONVERSA DE FINANZAS <br><span class="label label-default pull-left">11/04/2017</span>
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseOne3" class="panel-collapse collapse in" aria-expanded="false" style="">
+                          <div class="box-body">
+                               <img src="http://ccpjunin.pe/imagenes/2.jpg" alt="" class="img-responsive">
+                               <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/2.jpg" data-width="100%" data-numposts="20"></div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="panel box box-default">
-                      <div class="box-header with-border">
-                        <h4 class="">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne5" aria-expanded="false" class="collapsed" href="#">
-                            FRACCIONAMIENTO ESPECIAL <br><span class="label label-default pull-left">22/03/2017</span>
-                          </a>
-                        </h4>
-                      </div>
-                      <div id="collapseOne5" class="panel-collapse collapse in" aria-expanded="false" style="">
-                        <div class="box-body">
-                          <img src="http://ccpjunin.pe/imagenes/fraes.jpg" alt="" class="img-responsive">
-                          <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/fraes.jpg" data-width="100%" data-numposts="20"></div>
+
+                    <div class="col-lg-4">
+                      <div class="panel box box-default">
+                        <div class="box-header with-border">
+                          <h4 class="">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne4" aria-expanded="false" class="collapsed" href="#">
+                              INVESTIGACIÓN CONTABLE <br><span class="label label-default pull-left">11/04/2017</span>
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseOne4" class="panel-collapse collapse in" aria-expanded="false" style="">
+                          <div class="box-body">
+                            <img src="http://ccpjunin.pe/imagenes/1.jpg" alt="" class="img-responsive">
+                            <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/1.jpg" data-width="100%" data-numposts="20"></div>
+                          </div>
                         </div>
                       </div>
                     </div>
+
+                    <div class="col-lg-4">
+                      <div class="panel box box-default">
+                        <div class="box-header with-border">
+                          <h4 class="">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne5" aria-expanded="false" class="collapsed" href="#">
+                              FRACCIONAMIENTO ESPECIAL <br><span class="label label-default pull-left">22/03/2017</span>
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseOne5" class="panel-collapse collapse in" aria-expanded="false" style="">
+                          <div class="box-body">
+                            <img src="http://ccpjunin.pe/imagenes/fraes.jpg" alt="" class="img-responsive">
+                            <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/fraes.jpg" data-width="100%" data-numposts="20"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
                   </div>
                 </div>
               </div>

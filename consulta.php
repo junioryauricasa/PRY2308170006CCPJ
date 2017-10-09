@@ -1,4 +1,4 @@
-﻿﻿<?php
+﻿<?php
   //$conexion_db = mysql_connect("localhost", "wwwccpju_pagweb","#*{}+")or die("Error conectando a la BBDD");
   include('db/conexion.php'); //include connection file 
   include('_include/header.php');
@@ -129,7 +129,9 @@
                         <?php 
                             if($imprimir == 1){
                                 echo '
-                                  <a href="reporte-pdf?cod_consulta_habil='.$_POST['txtCodigo'].'" class="btn btn-danger">Imprimir</a>
+
+                                  <!--a href="reporte-agremiado?codagrem='.$_POST['txtCodigo'].'" class="btn btn-danger">Imprimir</a-->
+
                                 ';
                             }else
                             if($imprimir == 0){

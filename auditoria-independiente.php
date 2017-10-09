@@ -50,180 +50,179 @@
                       <th>N° de Matrícula</th>
                       <th>Nombres y Apellidos</th>
                     </tr>
-                    </thead>
-					<tbody>
+                  </thead>
+          				<tbody>
+                        <tr>	<td>	08-0001 AI	</td>	<td>	432	</td>	<td>	Maria Cecilia Bazan Alonso	</td>	</tr>
 
-                              <tr>	<td>	08-0001 AI	</td>	<td>	432	</td>	<td>	Maria Cecilia Bazan Alonso	</td>	</tr>
+                        <tr>	<td>	08-0002 AI	</td>	<td>	501	</td>	<td>	Madeleine Claros Armas	</td>	</tr>
 
-                              <tr>	<td>	08-0002 AI	</td>	<td>	501	</td>	<td>	Madeleine Claros Armas	</td>	</tr>
+                        <tr>	<td>	08-0003 AI	</td>	<td>	1024	</td>	<td>	Yolanda Fonseca Osorio	</td>	</tr>
 
-                              <tr>	<td>	08-0003 AI	</td>	<td>	1024	</td>	<td>	Yolanda Fonseca Osorio	</td>	</tr>
+                        <tr>	<td>	08-0004 AI	</td>	<td>	433	</td>	<td>	Euclides Evaristo Nuñez Gutierrez	</td>	</tr>
 
-                              <tr>	<td>	08-0004 AI	</td>	<td>	433	</td>	<td>	Euclides Evaristo Nuñez Gutierrez	</td>	</tr>
+                        <tr>	<td>	08-0005 AI	</td>	<td>	857	</td>	<td>	Efrain Felix Salomon Vara	</td>	</tr>
 
-                              <tr>	<td>	08-0005 AI	</td>	<td>	857	</td>	<td>	Efrain Felix Salomon Vara	</td>	</tr>
+                        <tr>	<td>	08-0006 AI	</td>	<td>	710	</td>	<td>	Carmen Edith Cordova Oncebay	</td>	</tr>
 
-                              <tr>	<td>	08-0006 AI	</td>	<td>	710	</td>	<td>	Carmen Edith Cordova Oncebay	</td>	</tr>
+                        <tr>	<td>	08-0007 AI	</td>	<td>	1284	</td>	<td>	Elvis Jhon Caro Zarate	</td>	</tr>
 
-                              <tr>	<td>	08-0007 AI	</td>	<td>	1284	</td>	<td>	Elvis Jhon Caro Zarate	</td>	</tr>
+                        <tr>	<td>	08-0008 AI	</td>	<td>	1120	</td>	<td>	Zenia Milagros Cotrado Ayala	</td>	</tr>
 
-                              <tr>	<td>	08-0008 AI	</td>	<td>	1120	</td>	<td>	Zenia Milagros Cotrado Ayala	</td>	</tr>
+                        <tr>	<td>	08-0009 AI	</td>	<td>	1275	</td>	<td>	Ernesto Avila Pichiule	</td>	</tr>
 
-                              <tr>	<td>	08-0009 AI	</td>	<td>	1275	</td>	<td>	Ernesto Avila Pichiule	</td>	</tr>
+                        <tr>	<td>	08-0010 AI	</td>	<td>	1569	</td>	<td>	Orlando Hector Leyva Esquivel	</td>	</tr>
 
-                              <tr>	<td>	08-0010 AI	</td>	<td>	1569	</td>	<td>	Orlando Hector Leyva Esquivel	</td>	</tr>
+                        <tr>	<td>	08-0011 AI	</td>	<td>	885	</td>	<td>	Melida Herlinda Pecho Rafael	</td>	</tr>
 
-                              <tr>	<td>	08-0011 AI	</td>	<td>	885	</td>	<td>	Melida Herlinda Pecho Rafael	</td>	</tr>
+                        <tr>	<td>	08-0012 AI	</td>	<td>	408	</td>	<td>	Jose Maria Nuñez Porras	</td>	</tr>
 
-                              <tr>	<td>	08-0012 AI	</td>	<td>	408	</td>	<td>	Jose Maria Nuñez Porras	</td>	</tr>
+                        <tr>	<td>	08-0013 AI	</td>	<td>	1202	</td>	<td>	Vicente Fernandez Ticllacuri	</td>	</tr>
 
-                              <tr>	<td>	08-0013 AI	</td>	<td>	1202	</td>	<td>	Vicente Fernandez Ticllacuri	</td>	</tr>
+                        <tr>	<td>	08-0014 AI	</td>	<td>	649	</td>	<td>	Danton Gomez Valerio	</td>	</tr>
 
-                              <tr>	<td>	08-0014 AI	</td>	<td>	649	</td>	<td>	Danton Gomez Valerio	</td>	</tr>
+                        <tr>	<td>	08-0015 AI	</td>	<td>	960	</td>	<td>	Elias Martin Espinoza Velasquez	</td>	</tr>
 
-                              <tr>	<td>	08-0015 AI	</td>	<td>	960	</td>	<td>	Elias Martin Espinoza Velasquez	</td>	</tr>
+                        <tr>	<td>	08-0016 AI	</td>	<td>	1380	</td>	<td>	Raul Soto Sedano	</td>	</tr>
 
-                              <tr>	<td>	08-0016 AI	</td>	<td>	1380	</td>	<td>	Raul Soto Sedano	</td>	</tr>
+                        <tr>	<td>	08-0017 AI	</td>	<td>	969	</td>	<td>	Aida Elena Aucasi Huanca	</td>	</tr>
 
-                              <tr>	<td>	08-0017 AI	</td>	<td>	969	</td>	<td>	Aida Elena Aucasi Huanca	</td>	</tr>
+                        <tr>	<td>	08-0018 AI	</td>	<td>	315	</td>	<td>	Norma Yolanda Orellana Torre	</td>	</tr>
 
-                              <tr>	<td>	08-0018 AI	</td>	<td>	315	</td>	<td>	Norma Yolanda Orellana Torre	</td>	</tr>
+                        <tr>	<td>	08-0019 AI	</td>	<td>	1032	</td>	<td>	Nicanor Calderon Ramirez	</td>	</tr>
 
-                              <tr>	<td>	08-0019 AI	</td>	<td>	1032	</td>	<td>	Nicanor Calderon Ramirez	</td>	</tr>
+                        <tr>	<td>	08-0020 AI	</td>	<td>	779	</td>	<td>	Sonia Rosa Hidalgo Balvin	</td>	</tr>
 
-                              <tr>	<td>	08-0020 AI	</td>	<td>	779	</td>	<td>	Sonia Rosa Hidalgo Balvin	</td>	</tr>
+                        <tr>	<td>	08-0021 AI	</td>	<td>	528	</td>	<td>	Joel Vidal Taipe Coronel	</td>	</tr>
 
-                              <tr>	<td>	08-0021 AI	</td>	<td>	528	</td>	<td>	Joel Vidal Taipe Coronel	</td>	</tr>
+                        <tr>	<td>	08-0022 AI	</td>	<td>	1419	</td>	<td>	Jenny Lidia Calcina Sotelo	</td>	</tr>
 
-                              <tr>	<td>	08-0022 AI	</td>	<td>	1419	</td>	<td>	Jenny Lidia Calcina Sotelo	</td>	</tr>
+                        <tr>	<td>	08-0023 AI	</td>	<td>	777	</td>	<td>	Edder Visitación Blancas Orteaga	</td>	</tr>
 
-                              <tr>	<td>	08-0023 AI	</td>	<td>	777	</td>	<td>	Edder Visitación Blancas Orteaga	</td>	</tr>
+                        <tr>	<td>	08-0024 AI	</td>	<td>	443	</td>	<td>	Cledith Astrid Porras Dolorier	</td>	</tr>
 
-                              <tr>	<td>	08-0024 AI	</td>	<td>	443	</td>	<td>	Cledith Astrid Porras Dolorier	</td>	</tr>
+                        <tr>	<td>	08-0025 AI	</td>	<td>	574	</td>	<td>	Margarita Leonidas Cardenas Soto	</td>	</tr>
 
-                              <tr>	<td>	08-0025 AI	</td>	<td>	574	</td>	<td>	Margarita Leonidas Cardenas Soto	</td>	</tr>
+                        <tr>	<td>	08-0026 AI	</td>	<td>	182	</td>	<td>	Rodrigo Arturo Colonio Arteaga	</td>	</tr>
 
-                              <tr>	<td>	08-0026 AI	</td>	<td>	182	</td>	<td>	Rodrigo Arturo Colonio Arteaga	</td>	</tr>
+                        <tr>	<td>	08-0027 AI	</td>	<td>	193	</td>	<td>	Justo Antonio Colonio Arteaga	</td>	</tr>
 
-                              <tr>	<td>	08-0027 AI	</td>	<td>	193	</td>	<td>	Justo Antonio Colonio Arteaga	</td>	</tr>
+                        <tr>	<td>	08-0028 AI	</td>	<td>	1118	</td>	<td>	Jesus Alberto Canales Fuster	</td>	</tr>
 
-                              <tr>	<td>	08-0028 AI	</td>	<td>	1118	</td>	<td>	Jesus Alberto Canales Fuster	</td>	</tr>
+                        <tr>	<td>	08-0029 AI	</td>	<td>	1458	</td>	<td>	Hilda Munive Lozano	</td>	</tr>
 
-                              <tr>	<td>	08-0029 AI	</td>	<td>	1458	</td>	<td>	Hilda Munive Lozano	</td>	</tr>
+                        <tr>	<td>	08-0030 AI	</td>	<td>	364	</td>	<td>	Jesus Pedro Guerreros  Meza	</td>	</tr>
 
-                              <tr>	<td>	08-0030 AI	</td>	<td>	364	</td>	<td>	Jesus Pedro Guerreros  Meza	</td>	</tr>
+                        <tr>	<td>	08-0031 AI	</td>	<td>	1516	</td>	<td>	Miguel Lalo Aguilar Huaroc	</td>	</tr>
 
-                              <tr>	<td>	08-0031 AI	</td>	<td>	1516	</td>	<td>	Miguel Lalo Aguilar Huaroc	</td>	</tr>
+                        <tr>	<td>	08-0032 AI	</td>	<td>	2081	</td>	<td>	Ronald Carlos Rosales Veliz	</td>	</tr>
 
-                              <tr>	<td>	08-0032 AI	</td>	<td>	2081	</td>	<td>	Ronald Carlos Rosales Veliz	</td>	</tr>
+                        <tr>	<td>	08-0033 AI	</td>	<td>	1270	</td>	<td>	Irma Monica Corilloclla Vilchez	</td>	</tr>
 
-                              <tr>	<td>	08-0033 AI	</td>	<td>	1270	</td>	<td>	Irma Monica Corilloclla Vilchez	</td>	</tr>
+                        <tr>	<td>	08-0034 AI	</td>	<td>	597	</td>	<td>	Segundo Juan Alhuay Flores	</td>	</tr>
 
-                              <tr>	<td>	08-0034 AI	</td>	<td>	597	</td>	<td>	Segundo Juan Alhuay Flores	</td>	</tr>
+                        <tr>	<td>	08-0035 AI	</td>	<td>	1447	</td>	<td>	Iris Orfelindo Zacarias Torres	</td>	</tr>
 
-                              <tr>	<td>	08-0035 AI	</td>	<td>	1447	</td>	<td>	Iris Orfelindo Zacarias Torres	</td>	</tr>
+                        <tr>	<td>	08-0036 AI	</td>	<td>	917	</td>	<td>	Alex Maravi Castro	</td>	</tr>
 
-                              <tr>	<td>	08-0036 AI	</td>	<td>	917	</td>	<td>	Alex Maravi Castro	</td>	</tr>
+                        <tr>	<td>	08-0037 AI	</td>	<td>	1960	</td>	<td>	Silvia Ruth Perez Ruiz	</td>	</tr>
 
-                              <tr>	<td>	08-0037 AI	</td>	<td>	1960	</td>	<td>	Silvia Ruth Perez Ruiz	</td>	</tr>
+                        <tr>	<td>	08-0038 AI	</td>	<td>	768	</td>	<td>	Walter Raul Vilchez Jauregui	</td>	</tr>
 
-                              <tr>	<td>	08-0038 AI	</td>	<td>	768	</td>	<td>	Walter Raul Vilchez Jauregui	</td>	</tr>
+                        <tr>	<td>	08-0039 AI	</td>	<td>	805	</td>	<td>	Maria Victoria Nattery Erquinigo	</td>	</tr>
 
-                              <tr>	<td>	08-0039 AI	</td>	<td>	805	</td>	<td>	Maria Victoria Nattery Erquinigo	</td>	</tr>
+                        <tr>	<td>	08-0040 AI	</td>	<td>	840	</td>	<td>	Miguel Angel Rojas Garcia	</td>	</tr>
 
-                              <tr>	<td>	08-0040 AI	</td>	<td>	840	</td>	<td>	Miguel Angel Rojas Garcia	</td>	</tr>
+                        <tr>	<td>	08-0041 AI	</td>	<td>	984	</td>	<td>	Edith Pilar Quispe Espinoza	</td>	</tr>
 
-                              <tr>	<td>	08-0041 AI	</td>	<td>	984	</td>	<td>	Edith Pilar Quispe Espinoza	</td>	</tr>
+                        <tr>	<td>	08-0042 AI	</td>	<td>	630	</td>	<td>	Ricardo Anthony Nattery Erquinigo	</td>	</tr>
 
-                              <tr>	<td>	08-0042 AI	</td>	<td>	630	</td>	<td>	Ricardo Anthony Nattery Erquinigo	</td>	</tr>
+                        <tr>	<td>	08-0043 AI	</td>	<td>	2186	</td>	<td>	Carlos Samuel Borja Mucha	</td>	</tr>
 
-                              <tr>	<td>	08-0043 AI	</td>	<td>	2186	</td>	<td>	Carlos Samuel Borja Mucha	</td>	</tr>
+                        <tr>	<td>	08-0044 AI	</td>	<td>	1113	</td>	<td>	Nila Wilma Capcha Carbajal	</td>	</tr>
 
-                              <tr>	<td>	08-0044 AI	</td>	<td>	1113	</td>	<td>	Nila Wilma Capcha Carbajal	</td>	</tr>
+                        <tr>	<td>	08-0045 AI	</td>	<td>	164	</td>	<td>	Angel  Agusto Vilchez Parra 	</td>	</tr>
 
-                              <tr>	<td>	08-0045 AI	</td>	<td>	164	</td>	<td>	Angel  Agusto Vilchez Parra 	</td>	</tr>
+                        <tr>	<td>	08-0046 AI	</td>	<td>	2069	</td>	<td>	Maria Helena Terreros Aliaga	</td>	</tr>
 
-                              <tr>	<td>	08-0046 AI	</td>	<td>	2069	</td>	<td>	Maria Helena Terreros Aliaga	</td>	</tr>
+                        <tr>	<td>	08-0047 AI	</td>	<td>	1386	</td>	<td>	Beatriz Rosalia Zapata Escobar	</td>	</tr>
 
-                              <tr>	<td>	08-0047 AI	</td>	<td>	1386	</td>	<td>	Beatriz Rosalia Zapata Escobar	</td>	</tr>
+                        <tr>	<td>	08-0048 AI	</td>	<td>	582	</td>	<td>	Cosme Dennis Ramos Aylas	</td>	</tr>
 
-                              <tr>	<td>	08-0048 AI	</td>	<td>	582	</td>	<td>	Cosme Dennis Ramos Aylas	</td>	</tr>
+                        <tr>	<td>	08-0049 AI	</td>	<td>	754	</td>	<td>	Iraisa Rosana Contreras Flores	</td>	</tr>
 
-                              <tr>	<td>	08-0049 AI	</td>	<td>	754	</td>	<td>	Iraisa Rosana Contreras Flores	</td>	</tr>
+                        <tr>	<td>	08-0050 AI	</td>	<td>	646	</td>	<td>	Olga Suarez Condor	</td>	</tr>
 
-                              <tr>	<td>	08-0050 AI	</td>	<td>	646	</td>	<td>	Olga Suarez Condor	</td>	</tr>
+                        <tr>	<td>	08-0051 AI	</td>	<td>	811	</td>	<td>	Luz Inga Galindo	</td>	</tr>
 
-                              <tr>	<td>	08-0051 AI	</td>	<td>	811	</td>	<td>	Luz Inga Galindo	</td>	</tr>
+                        <tr>	<td>	08-0052 AI	</td>	<td>	2155	</td>	<td>	Betzabe Bendezu Contreras	</td>	</tr>
 
-                              <tr>	<td>	08-0052 AI	</td>	<td>	2155	</td>	<td>	Betzabe Bendezu Contreras	</td>	</tr>
+                        <tr>	<td>	08-0053 AI	</td>	<td>	131	</td>	<td>	Alejandro Carhuamaca Maravi	</td>	</tr>
 
-                              <tr>	<td>	08-0053 AI	</td>	<td>	131	</td>	<td>	Alejandro Carhuamaca Maravi	</td>	</tr>
+                        <tr>	<td>	08-0054 AI	</td>	<td>	400	</td>	<td>	Mirian Graciela Minaya Arteaga	</td>	</tr>
 
-                              <tr>	<td>	08-0054 AI	</td>	<td>	400	</td>	<td>	Mirian Graciela Minaya Arteaga	</td>	</tr>
+                        <tr>	<td>	08-0055 AI	</td>	<td>	1252	</td>	<td>	Rosario Celinda Palpan Molina	</td>	</tr>
 
-                              <tr>	<td>	08-0055 AI	</td>	<td>	1252	</td>	<td>	Rosario Celinda Palpan Molina	</td>	</tr>
+                        <tr>	<td>	08-0056 AI	</td>	<td>	1381	</td>	<td>	Julio Alex Mejia Aguirre	</td>	</tr>
 
-                              <tr>	<td>	08-0056 AI	</td>	<td>	1381	</td>	<td>	Julio Alex Mejia Aguirre	</td>	</tr>
+                        <tr>	<td>	08-0057 AI	</td>	<td>	1223	</td>	<td>	Elvis Walter Cavero Solis	</td>	</tr>
 
-                              <tr>	<td>	08-0057 AI	</td>	<td>	1223	</td>	<td>	Elvis Walter Cavero Solis	</td>	</tr>
+                        <tr>	<td>	08-0058 AI	</td>	<td>	1020	</td>	<td>	Elvis Flores Navarro	</td>	</tr>
 
-                              <tr>	<td>	08-0058 AI	</td>	<td>	1020	</td>	<td>	Elvis Flores Navarro	</td>	</tr>
+                        <tr>	<td>	08-0059 AI	</td>	<td>	1293	</td>	<td>	Jose Antonio Arredondo Cristobal	</td>	</tr>
 
-                              <tr>	<td>	08-0059 AI	</td>	<td>	1293	</td>	<td>	Jose Antonio Arredondo Cristobal	</td>	</tr>
+                        <tr>	<td>	08-0060 AI	</td>	<td>	464	</td>	<td>	Sixto Felicisimo Camayo Paredes	</td>	</tr>
 
-                              <tr>	<td>	08-0060 AI	</td>	<td>	464	</td>	<td>	Sixto Felicisimo Camayo Paredes	</td>	</tr>
+                        <tr>	<td>	08-0061 AI	</td>	<td>	500	</td>	<td>	Hernan Capcha Carbajal	</td>	</tr>
 
-                              <tr>	<td>	08-0061 AI	</td>	<td>	500	</td>	<td>	Hernan Capcha Carbajal	</td>	</tr>
+                        <tr>	<td>	08-0062 AI	</td>	<td>	320	</td>	<td>	Espinoza Cortes Santos Alejandro	</td>	</tr>
 
-                              <tr>	<td>	08-0062 AI	</td>	<td>	320	</td>	<td>	Espinoza Cortes Santos Alejandro	</td>	</tr>
+                        <tr>	<td>	08-0063 AI	</td>	<td>	568	</td>	<td>	Diomedes Abel Lazaro Condor	</td>	</tr>
 
-                              <tr>	<td>	08-0063 AI	</td>	<td>	568	</td>	<td>	Diomedes Abel Lazaro Condor	</td>	</tr>
+                        <tr>	<td>	08-0064 AI	</td>	<td>	2307	</td>	<td>	Juan Roberto Meza Barrientos	</td>	</tr>
 
-                              <tr>	<td>	08-0064 AI	</td>	<td>	2307	</td>	<td>	Juan Roberto Meza Barrientos	</td>	</tr>
+                        <tr>	<td>	08-0065 AI	</td>	<td>	1988	</td>	<td>	Rafael Jesus Fernandez Jaime	</td>	</tr>
 
-                              <tr>	<td>	08-0065 AI	</td>	<td>	1988	</td>	<td>	Rafael Jesus Fernandez Jaime	</td>	</tr>
+                        <tr>	<td>	08-0066 AI	</td>	<td>	922	</td>	<td>	David Avila Paucar	</td>	</tr>
 
-                              <tr>	<td>	08-0066 AI	</td>	<td>	922	</td>	<td>	David Avila Paucar	</td>	</tr>
+                        <tr>	<td>	08-0067 AI	</td>	<td>	305	</td>	<td>	Rosa Nelida Granados Suazo	</td>	</tr>
 
-                              <tr>	<td>	08-0067 AI	</td>	<td>	305	</td>	<td>	Rosa Nelida Granados Suazo	</td>	</tr>
+                        <tr>	<td>	08-0068 AI	</td>	<td>	707	</td>	<td>	Angelica Teofila Vilchez Tovar	</td>	</tr>
 
-                              <tr>	<td>	08-0068 AI	</td>	<td>	707	</td>	<td>	Angelica Teofila Vilchez Tovar	</td>	</tr>
+                        <tr>	<td>	08-0069 AI	</td>	<td>	1377	</td>	<td>	Hector Eduardo Melgarejo Pozo	</td>	</tr>
 
-                              <tr>	<td>	08-0069 AI	</td>	<td>	1377	</td>	<td>	Hector Eduardo Melgarejo Pozo	</td>	</tr>
+                        <tr>	<td>	08-0070 AI	</td>	<td>	520	</td>	<td>	Jesus Capcha Carbajal	</td>	</tr>
 
-                              <tr>	<td>	08-0070 AI	</td>	<td>	520	</td>	<td>	Jesus Capcha Carbajal	</td>	</tr>
+                        <tr>	<td>	08-0071 AI	</td>	<td>	752	</td>	<td>	Victor De La Cruz  Cerrón	</td>	</tr>
 
-                              <tr>	<td>	08-0071 AI	</td>	<td>	752	</td>	<td>	Victor De La Cruz  Cerrón	</td>	</tr>
+                        <tr>	<td>	08-0072 AI	</td>	<td>	2457	</td>	<td>	Alfredo Wilder Marcos Fabian	</td>	</tr>
 
-                              <tr>	<td>	08-0072 AI	</td>	<td>	2457	</td>	<td>	Alfredo Wilder Marcos Fabian	</td>	</tr>
+                        <tr>	<td>	08-0073 AI	</td>	<td>	1230	</td>	<td>	Maritza Maribel Llacta Surichaqui	</td>	</tr>
 
-                              <tr>	<td>	08-0073 AI	</td>	<td>	1230	</td>	<td>	Maritza Maribel Llacta Surichaqui	</td>	</tr>
+                        <tr>	<td>	08-0074 AI	</td>	<td>	156	</td>	<td>	Maria Elena Victoria Romero	</td>	</tr>
 
-                              <tr>	<td>	08-0074 AI	</td>	<td>	156	</td>	<td>	Maria Elena Victoria Romero	</td>	</tr>
+                        <tr>	<td>	08-0075 AI	</td>	<td>	759	</td>	<td>	Condezo Ordoñez, Luis Alberto	</td>	</tr>
 
-                              <tr>	<td>	08-0075 AI	</td>	<td>	759	</td>	<td>	Condezo Ordoñez, Luis Alberto	</td>	</tr>
+                        <tr>	<td>	08-0076 AI	</td>	<td>	731	</td>	<td>	Paredes Soldevilla, Jose Antonio	</td>	</tr>
 
-                              <tr>	<td>	08-0076 AI	</td>	<td>	731	</td>	<td>	Paredes Soldevilla, Jose Antonio	</td>	</tr>
+                        <tr>	<td>	08-0077 AI	</td>	<td>	1800	</td>	<td>	Gonzales Benites, Juan Orlando 	</td>	</tr>
 
-                              <tr>	<td>	08-0077 AI	</td>	<td>	1800	</td>	<td>	Gonzales Benites, Juan Orlando 	</td>	</tr>
+                        <tr>	<td>	08-0078 AI	</td>	<td>	2829	</td>	<td>	Caro Amaro, Nivardo Jorge	</td>	</tr>
 
-                              <tr>	<td>	08-0078 AI	</td>	<td>	2829	</td>	<td>	Caro Amaro, Nivardo Jorge	</td>	</tr>
+                        <tr>	<td>	08-0079 AI	</td>	<td>	65	</td>	<td>	Nuñez Mucha, Carlos Celso	</td>	</tr>
 
-                              <tr>	<td>	08-0079 AI	</td>	<td>	65	</td>	<td>	Nuñez Mucha, Carlos Celso	</td>	</tr>
+                        <tr>	<td>	08-0080 AI	</td>	<td>	1867	</td>	<td>	Soto Mendoza, Henry	</td>	</tr>
 
-                              <tr>	<td>	08-0080 AI	</td>	<td>	1867	</td>	<td>	Soto Mendoza, Henry	</td>	</tr>
+                        <tr>	<td>	08-0081 AI	</td>	<td>	303	</td>	<td>	Garcia Pérez, Luis Abraham	</td>	</tr>
 
-                              <tr>	<td>	08-0081 AI	</td>	<td>	303	</td>	<td>	Garcia Pérez, Luis Abraham	</td>	</tr>
+                        <tr>	<td>	08-0082 AI	</td>	<td>	2815	</td>	<td>	Marcos Fabián, Lenin	</td>	</tr>
 
-                              <tr>	<td>	08-0082 AI	</td>	<td>	2815	</td>	<td>	Marcos Fabián, Lenin	</td>	</tr>
+                        <tr>	<td>	08-0083 AI	</td>	<td>	2055	</td>	<td>	Bedón Ravichagua, Luciano Pier	</td>	</tr>
 
-                              <tr>	<td>	08-0083 AI	</td>	<td>	2055	</td>	<td>	Bedón Ravichagua, Luciano Pier	</td>	</tr>
-
-                              <tr>	<td>	08-0084 AI	</td>	<td>	722	</td>	<td>	Lipa Matos, José Luis	</td>	</tr>
-                              <tr>	<td>	08-0085 AI	</td>	<td>	2448 </td>	<td>	Baldeon Balbin Olger	</td>	</tr>
-                              <tr>	<td>	08-0086 AI	</td>	<td>	973	</td>	<td>	Tarazona Tucto Yonson	</td>	</tr>
-					</tbody>
-                  </table>
+                        <tr>	<td>	08-0084 AI	</td>	<td>	722	</td>	<td>	Lipa Matos, José Luis	</td>	</tr>
+                        <tr>	<td>	08-0085 AI	</td>	<td>	2448 </td>	<td>	Baldeon Balbin Olger	</td>	</tr>
+                        <tr>	<td>	08-0086 AI	</td>	<td>	973	</td>	<td>	Tarazona Tucto Yonson	</td>	</tr>
+          				</tbody>
+                </table>
                     <!-- END json datatable -->
                 </div>
               </div>

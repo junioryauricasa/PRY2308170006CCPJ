@@ -2,6 +2,33 @@
 	include('_include/header.php');
 ?>
 
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    function realizaEnvio(nombrecontacto, correoelectronico, codigoagremiado, Mensaje){
+        var parametros = {
+          "nombrecontacto" : nombrecontacto,//Nombre de contacto
+          "correoelectronico" : correoelectronico,//Correo electronico
+          "codigoagremiado" : codigoagremiado,//Código agremiado
+          "Mensaje" : Mensaje //Contenido mensaje
+        };
+        $.ajax({
+          data:  parametros, //datos que se envian a traves de ajax
+          url:   'contact-process.php', //archivo que recibe la peticion
+          type:  'post', //método de envio
+          beforeSend: function () {
+                  $("#resultado").html("Enviando, espere por favor...");
+          },
+          success:  function (response) { 
+          //una vez que el archivo recibe el request lo procesa y lo devuelve
+                  $("#resultado").html(response);
+          }
+        });
+    }
+  </script>  
+</head>
+
+
 <div class="content-wrapper" style="padding-top: 30px">
 <!-- div con backgrond incluido -->
 <section class="content" style="    min-height: 0px;">
@@ -9,13 +36,12 @@
     <div class="col-md-12">
       <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-ofertas-laborales.jpg'); ">
             <h1 class="text-center header-page-h1">
-                Contáctanos
+                Contáctenos
             </h1>
             <p class="text-center text-description-header ">
-                Bienvenidos a la seccion de Contáctos del Colegio de Contadores Públicos de Junín. <br> Aqui podrás mantenerte en comunicación constante con nuestra institución.
+                Bienvenidos a la sección de Contáctos del Colegio de Contadores Públicos de Junín. <br> Aquí podrás mantenerte en comunicación constante con nuestra institución.
                 <br>
                 <br>
-                <a href="#" class="btn btn-transparente">Informarme Más</a>
             </p>
       </div>
     </div>
@@ -79,6 +105,7 @@
               </div>
             </div>
           </section>
+
           <section class="col-lg-8 col-md-7">
               <div class="box box-solid">
                 <div class="box-header">
@@ -91,7 +118,7 @@
                     <form role="form">
                       <div class="box-body">
                         <div class="row">
-                          <div class="col-lg-5">
+                          <div class="col-lg-4">
                             <div class="form-group">
                               <label for="nombrecontacto">Nombre de Contacto</label>
                               <input type="text" class="form-control" id="nombrecontacto" pattern="[A-Za-z]{6,50}" title="Te recomendamos ingresar un nombre real" placeholder="Ingrese sus Nombres" required="">
@@ -103,7 +130,7 @@
                               <input type="mail" class="form-control" id="correoelectronico"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Ingresa un correo valido por favor." placeholder="Ingrese Correo Electrónico" required="">
                             </div>
                           </div>
-                          <div class="col-lg-3">
+                          <div class="col-lg-4">
                             <div class="form-group">
                             <label for="codigoagremiado">Código de Agremiado</label>
                             <input type="text" class="form-control" onkeypress="return justNumbers(event);" id="codigoagremiado" placeholder="Código de Agremiado" required="" maxlength="5">
@@ -112,13 +139,17 @@
                         </div>
                         <div class="form-group">
                           <label for="contenidodelmensaje">Contenido del Mensaje</label>
-                          <textarea class="textarea" id="Mensaje" name="Mensaje" placeholder="Escriba su mensaje aquí" required=""></textarea>
+                          <textarea class="textarea" id="Mensaje" name="Mensaje" placeholder="Escriba su mensaje aquí" required="true"></textarea>
                         </div>
                       </div>
                       <div class="box-footer">
-                        <button type="submit" class="btn btn-success">Enviar Mensaje</button>
+                        <!--button type="submit" class="btn btn-success">Enviar Mensaje</button-->
+                        
+                        <button type="submit" href="javascript:;" class="btn btn-success" onclick="realizaEnvio($('#nombrecontacto').val(), $('#correoelectronico').val(),$('#codigoagremiado').val(),$('#Mensaje').val());return false;">Enviar Mensaje</button>
+
                         <button type="reset" class="btn btn-danger">Limpiar Campos</button>
                       </div>
+                      <span id="resultado"></span>
                     </form>
                 </div>
               </div>
