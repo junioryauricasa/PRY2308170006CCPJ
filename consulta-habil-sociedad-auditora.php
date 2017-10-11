@@ -1,5 +1,6 @@
 <?php 
 	//consulta-habil-sociedad-auditora.php
+  $metadescripcion = 'consulta Hábil de Sociedad Auditora del Colegio de Contadores Públicos de Junín';
 	include('_include/header.php');
 ?>
 

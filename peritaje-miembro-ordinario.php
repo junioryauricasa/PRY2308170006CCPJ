@@ -1,4 +1,5 @@
 <?php 
+  $metadescripcion = 'Peritaje Miembro Ordinario del Colegio de Contadores Públicos de Junín';
 	include('_include/header.php');
 ?>
 

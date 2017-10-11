@@ -1,4 +1,5 @@
 <?php 
+  $metadescripcion = 'Cursos Académicos del Colegio de Contadores Públicos de Junín';
 	include('_include/header.php');
 ?>
 
@@ -18,7 +19,6 @@
                 Ante dudas y/o consultas, comunicate con nosotros.
                 <br>
                 <br>
-                <a href="contactanos" class="btn btn-transparente">Contactarlos</a>
             </p>
       </div>
     </div>

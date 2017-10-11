@@ -1,4 +1,5 @@
 <?php 
+  $metadescripcion = 'Error 404 - Colegio de Contadores Públicos de Junín, algo sucedio mal';
 	include('_include/header.php');
 ?>
 

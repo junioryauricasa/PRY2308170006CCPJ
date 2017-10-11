@@ -362,8 +362,8 @@ div.container .row::after {
 
 div.container .row {
   /* column width */
-  -moz-column-width: 19em;
-  -webkit-column-width: 19em;
+  -moz-column-width: 20em;
+  -webkit-column-width: 20em;
   
   /* space between columns */
   -moz-column-gap: 1em;

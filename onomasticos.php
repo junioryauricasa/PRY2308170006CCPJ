@@ -1,4 +1,5 @@
 <?php 
+  $metadescripcion = 'Sección Onomasticos del Colegio de Contadores Públicos de Junín';
 	include('_include/header.php');
 ?>
 

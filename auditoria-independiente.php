@@ -1,5 +1,6 @@
 <?php 
 	//auditoria-independiente.php
+  $metadescripcion = 'Comité de Auditoria Independiente del Colegio de Contadores Públicos de Junín';
 	include('_include/header.php');
 ?>
 

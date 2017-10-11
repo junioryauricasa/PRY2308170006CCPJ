@@ -4,11 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> Colégio de Contadores Públicos de Junín | Portal Web</title>
+
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <meta name="description" content="El Colegio de Contadores Públicos de Junin es una Institución Profesional, autónoma, con personería de Derecho Público Interno">
 
-    <!-- Bootstrap 3.3.5 -->
+    <!--meta name="description" content="El Colegio de Contadores Públicos de Junin es una Institución Profesional, autónoma, con personería de Derecho Público Interno"-->
+    <meta name="description" content="<?php echo $metadescripcion; ?>">
+
+    
     <!--link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"-->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -169,7 +172,7 @@
               <img src="dist/img/logoccnpj.png" class="" alt="User Image" width="100%" style="padding: 7px">
           </div>
           <!-- search form -->
-          <form action="" method="" class="sidebar-form">
+          <form action="search" method="GET" class="sidebar-form">
             <div class="input-group">
               <input type="text" name="q" class="form-control" placeholder="Estoy Buscando...">
               <span class="input-group-btn">
@@ -177,6 +180,7 @@
               </span>
             </div>
           </form>
+          <!-- END search form-->
           <ul class="sidebar-menu">
             <li class="header">MENÚ DE NAVEGACIÓN</li>
             <li class="treeview">

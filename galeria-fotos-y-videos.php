@@ -1,4 +1,5 @@
 <?php 
+  $metadescripcion = 'Galeria de Fotos y Videos del Colegio de Contadores Públicos de Junín';
 	include('_include/header.php');
 ?>
 <div class="content-wrapper" style="padding-top: 30px">

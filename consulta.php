@@ -1,8 +1,8 @@
 ﻿<?php
-  //$conexion_db = mysql_connect("localhost", "wwwccpju_pagweb","#*{}+")or die("Error conectando a la BBDD");
-  include('db/conexion.php'); //include connection file 
-  include('_include/header.php');
-
+    $metadescripcion = 'Sección de Consulta del Colegio de Contadores Públicos de Junín';
+    //$conexion_db = mysql_connect("localhost", "wwwccpju_pagweb","#*{}+")or die("Error conectando a la BBDD");
+    include('db/conexion.php'); //include connection file 
+    include('_include/header.php');
 ?>
 
 <div class="content-wrapper" style="padding-top: 30px">

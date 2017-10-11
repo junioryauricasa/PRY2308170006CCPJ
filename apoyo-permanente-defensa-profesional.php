@@ -1,6 +1,7 @@
 <?php 
 	// apoyo-permanente-defensa-profesional
 	// los datos del comite no existen en el excel que nos dieron
+  $metadescripcion = 'Comité de Apoyo Permanente Defensa Profesional del Colegio de Contadores Públicos de Junín';
 	include('_include/header.php');
 ?>
 

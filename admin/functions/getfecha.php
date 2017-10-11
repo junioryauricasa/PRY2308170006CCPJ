@@ -60,5 +60,5 @@
     /*
         imprime: 16 septiembre a las 13:56:46
     */
-    $fechadoc = $diadelmes.' '.$mesdelanio1.' a las '.$time;
+    $fechadoc = $diadelmes.' '.$mesdelanio1.' '.$anio.' - '.$time;
  ?>

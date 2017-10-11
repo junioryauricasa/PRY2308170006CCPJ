@@ -1,5 +1,6 @@
 <?php 
-  include('_include/header.php');
+    $metadescripcion = 'El Colegio de Contadores Públicos de Junin es una Institución Profesional, autónoma, con personería de Derecho Público Interno';
+    include('_include/header.php');
 ?>
       <div class="content-wrapper" style="padding-top: 0px">
         <div class="row">

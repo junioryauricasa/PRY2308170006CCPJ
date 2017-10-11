@@ -1,5 +1,6 @@
 <?php 
-  include('_include/header.php');
+    $metadescripcion = 'Comité de Apoyo Investigación Contable del Colegio de Contadores Públicos de Junín';
+    include('_include/header.php');
 ?>
 
 <div class="content-wrapper" style="padding-top: 30px">
@@ -97,24 +98,23 @@
                   </thead>
                   <tbody>
 
-<tr>  <td>1 - IC  </td> <td>08-1465</td> <td>JIM CULKIN VERA ALVARADO                 </td> <td>          </td> </tr>
-<tr>  <td>2 - IC  </td> <td>08-0358</td> <td>FLAVIO AUGUSTO ANGULO DIAZ               </td> <td>          </td> </tr>
-<tr>  <td>3 - IC  </td> <td>08-0364</td> <td>JESUS PEDRO GUERREROS MEZA               </td> <td>          </td> </tr>
-<tr>  <td>4 - IC  </td> <td>2094   </td> <td>MERCEDES KATY PAUCARCHUCO HUAMAN         </td> <td>          </td> </tr>
-<tr>  <td>5 - IC  </td> <td>08-1202</td> <td>VICENTE FERNANDEZ TICLLACURI             </td> <td>          </td> </tr>
-<tr>  <td>6 - IC  </td> <td>08-1831</td> <td>VICTOR RAUL CARDENAS OSORES              </td> <td>          </td> </tr>
-<tr>  <td>7 - IC  </td> <td>08-0685</td> <td>RAUL UNOCC DAVILA                        </td> <td>          </td> </tr>
-<tr>  <td>8 - IC  </td> <td>08-1777</td> <td>GUSTAVO CARDENAS VASQUEZ                 </td> <td>          </td> </tr>
-<tr>  <td>9 - IC  </td> <td>08-0192</td> <td>JESUS SALAZAR CABANILLAS                 </td> <td>          </td> </tr>
-<tr>  <td>10 - IC </td> <td>08-1733</td> <td> SOLIS RODRIGUEZ ANGEL MARLEONE          </td> <td>05/09/2012</td> </tr>
-<tr>  <td>11 - IC </td> <td>08-0306</td> <td> PARIONA COLONIO CESAR FRANCISCO         </td> <td>05/09/2012</td> </tr>
-<tr>  <td>12 - IC </td> <td>MIEMBRO HONORARIO</td> <td> MAG. ZOSIMO DE LA CRUZ CERRON </td> <td>          </td> </tr>
-<tr>  <td>13 - IC </td> <td>07-0197</td> <td> MORAN VILCHERREZ, MARIO                 </td> <td>26/05/2014</td> </tr>
-<tr>  <td>14 - IC </td> <td>08-2772</td> <td> VIVAS INOCENTE, ANDREA DEL PILAR        </td> <td>26/05/2014</td> </tr>
-<tr>  <td>15 - IC </td> <td>08-3058</td> <td>TACZA EGOAVIL, SANDRA ANDREA             </td> <td>04/09/2015</td> </tr>
-<tr>  <td>16 - IC </td> <td>08-1230</td> <td>LLACTA SURICHAQUI, MARITZA MARIBEL       </td> <td>04/09/2015</td> </tr>
-<tr>  <td>17 - IC </td> <td>       </td> <td> COSME LOPEZ, MARCO ANTONIO              </td> <td>2016      </td> </tr>
-
+                      <tr>  <td>1 - IC  </td> <td>08-1465</td> <td>JIM CULKIN VERA ALVARADO                 </td> <td>          </td> </tr>
+                      <tr>  <td>2 - IC  </td> <td>08-0358</td> <td>FLAVIO AUGUSTO ANGULO DIAZ               </td> <td>          </td> </tr>
+                      <tr>  <td>3 - IC  </td> <td>08-0364</td> <td>JESUS PEDRO GUERREROS MEZA               </td> <td>          </td> </tr>
+                      <tr>  <td>4 - IC  </td> <td>2094   </td> <td>MERCEDES KATY PAUCARCHUCO HUAMAN         </td> <td>          </td> </tr>
+                      <tr>  <td>5 - IC  </td> <td>08-1202</td> <td>VICENTE FERNANDEZ TICLLACURI             </td> <td>          </td> </tr>
+                      <tr>  <td>6 - IC  </td> <td>08-1831</td> <td>VICTOR RAUL CARDENAS OSORES              </td> <td>          </td> </tr>
+                      <tr>  <td>7 - IC  </td> <td>08-0685</td> <td>RAUL UNOCC DAVILA                        </td> <td>          </td> </tr>
+                      <tr>  <td>8 - IC  </td> <td>08-1777</td> <td>GUSTAVO CARDENAS VASQUEZ                 </td> <td>          </td> </tr>
+                      <tr>  <td>9 - IC  </td> <td>08-0192</td> <td>JESUS SALAZAR CABANILLAS                 </td> <td>          </td> </tr>
+                      <tr>  <td>10 - IC </td> <td>08-1733</td> <td> SOLIS RODRIGUEZ ANGEL MARLEONE          </td> <td>05/09/2012</td> </tr>
+                      <tr>  <td>11 - IC </td> <td>08-0306</td> <td> PARIONA COLONIO CESAR FRANCISCO         </td> <td>05/09/2012</td> </tr>
+                      <tr>  <td>12 - IC </td> <td>MIEMBRO HONORARIO</td> <td> MAG. ZOSIMO DE LA CRUZ CERRON </td> <td>          </td> </tr>
+                      <tr>  <td>13 - IC </td> <td>07-0197</td> <td> MORAN VILCHERREZ, MARIO                 </td> <td>26/05/2014</td> </tr>
+                      <tr>  <td>14 - IC </td> <td>08-2772</td> <td> VIVAS INOCENTE, ANDREA DEL PILAR        </td> <td>26/05/2014</td> </tr>
+                      <tr>  <td>15 - IC </td> <td>08-3058</td> <td>TACZA EGOAVIL, SANDRA ANDREA             </td> <td>04/09/2015</td> </tr>
+                      <tr>  <td>16 - IC </td> <td>08-1230</td> <td>LLACTA SURICHAQUI, MARITZA MARIBEL       </td> <td>04/09/2015</td> </tr>
+                      <tr>  <td>17 - IC </td> <td>       </td> <td> COSME LOPEZ, MARCO ANTONIO              </td> <td>2016      </td> </tr>
 
                   </tbody>
                 </table>

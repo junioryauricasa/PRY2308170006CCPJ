@@ -1,4 +1,5 @@
 <?php 
+  $metadescripcion = 'Requisitos Certificación del Colegio de Contadores Públicos de Junín';
 	include('_include/header.php');
 ?>
 
@@ -15,7 +16,6 @@
                     Bienvenidos a la seccion de Requisitos de Certificación del Colegio de Contadores Públicos de Junín. <br> 
                     <br>
                     <br>
-                    <a href="#" class="btn btn-transparente">Deseo Inscribirme</a>
                 </p>
           </div>
         </div>
@@ -52,7 +52,7 @@
                             Si desea puede descargar los requistos dando clic en el siguiente enlace: <b><a href="http://www.ccpjunin.pe/documentos/requisitos_certificacion.pdf" download="http://www.ccpjunin.pe/documentos/requisitos_certificacion.pdf">Requisitos para la Certificación Profesional</a></b>
                       </li>
                       <li>
-                            Si desea puede descargar el banco de preguntas dando clic en el siguiente enlace: <b><a href="http://www.ccpjunin.pe/documentos/banco.pdf" download="http://www.ccpjunin.pe/documentos/banco.pdf">Banco de Preguntas</a></b>
+                            Si desea puede descargar el TEMARIO dando clic en el siguiente enlace: <b><a href="http://www.ccpjunin.pe/documentos/banco.pdf" download="http://www.ccpjunin.pe/documentos/banco.pdf">TEMARIO</a></b>
                       </li>
                   </ul>
                   

@@ -1,4 +1,5 @@
 <?php 
+  $metadescripcion = 'Requisitos pare recertificación del Colegio de Contadores Públicos de Junín';
 	include('_include/header.php');
 ?>
 <div class="content-wrapper" style="padding-top: 30px">
@@ -11,9 +12,8 @@
                 <h1 class="text-center header-page-h1">
                     Requisitos par Recertificación
                 </h1>
-                <p class="text-center text-description-header ">
-                    <a href="#" class="btn btn-transparente">Informarme Más</a>
-                </p>
+                <br>
+                <br>
           </div>
         </div>
       </div>
@@ -221,7 +221,7 @@
                             Si desea puede descargar los requistos dando clic en el siguiente enlace: <b><a href="http://www.ccpjunin.pe/documentos/requisitos_recertificacion.pdf">Requisitos para la Recertificación Profesional</a></b>
                       </li>
                       <li>
-                            Si desea puede descargar el banco de preguntas dando clic en el siguiente enlace: <b><a href="http://www.ccpjunin.pe/documentos/banco.pdf">Banco de Preguntas</a></b>
+                            Si desea puede descargar el TEMARIO dando clic en el siguiente enlace: <b><a href="http://www.ccpjunin.pe/documentos/banco.pdf">TEMARIO</a></b>
                       </li>
                   </ul>
                   

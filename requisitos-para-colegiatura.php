@@ -1,6 +1,8 @@
 <?php 
-	include('_include/header.php');
+	$metadescripcion = 'Requisitos de colegiatura del Colegio de Contadores Públicos de Junín';
+    include('_include/header.php');
 ?>
+
 <div class="content-wrapper" style="padding-top: 30px">
     <!-- div con backgrond incluido -->
     <section class="content" style="    min-height: 0px;">
@@ -15,7 +17,6 @@
                     Aqui podrás mantenerte informado y al día, y tu que esperas para Colegiarte.
                     <br>
                     <br>
-                    <a href="suscribirse" class="btn btn-transparente">Informarme Más</a>
                 </p>
           </div>
         </div>

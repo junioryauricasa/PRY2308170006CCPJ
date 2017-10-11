@@ -1,4 +1,5 @@
 <?php 
+  $metadescripcion = 'Sección de Contacto del Colegio de Contadores Públicos de Junín, vizualize la información y pongase en contacto con nosotros';
 	include('_include/header.php');
 ?>
 
@@ -17,21 +18,23 @@
           url:   'contact-process.php', //archivo que recibe la peticion
           type:  'post', //método de envio
           beforeSend: function () {
-                  $("#resultado").html("Enviando, espere por favor...");
+              /*
+                Mensaje mientras dura el proceso de consulta
+              */
+              $("#resultado").html("<img src='https://c.s-microsoft.com/en-us/CMSImages/big-loading-gif.gif?version=eac3284f-fcba-ea1d-70e3-010e22fefd05' alt='' width='20px' style='margin-right: 10px; margin-left:20px'>Enviando correo, espere por favor...");
           },
           success:  function (response) { 
-          //una vez que el archivo recibe el request lo procesa y lo devuelve
-                  $("#resultado").html(response);
+              //una vez que el archivo recibe el request lo procesa y lo devuelve
+              $("#resultado").html(response);
           }
         });
     }
   </script>  
 </head>
 
-
 <div class="content-wrapper" style="padding-top: 30px">
 <!-- div con backgrond incluido -->
-<section class="content" style="    min-height: 0px;">
+<section class="content" style="min-height: 0px;">
   <div class="row">
     <div class="col-md-12">
       <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-ofertas-laborales.jpg'); ">
@@ -39,7 +42,7 @@
                 Contáctenos
             </h1>
             <p class="text-center text-description-header ">
-                Bienvenidos a la sección de Contáctos del Colegio de Contadores Públicos de Junín. <br> Aquí podrás mantenerte en comunicación constante con nuestra institución.
+                Bienvenidos a la sección de Contáctos del Colegio de Contadores Públicos de Junín. <br> Aquí podrá mantenerte en comunicación constante con nuestra Institución.
                 <br>
                 <br>
             </p>
@@ -149,8 +152,10 @@
 
                         <button type="reset" class="btn btn-danger">Limpiar Campos</button>
                       </div>
-                      <span id="resultado"></span>
                     </form>
+                </div>
+                <div class="box-footer">
+                  <span id="resultado"></span>
                 </div>
               </div>
           </section>

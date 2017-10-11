@@ -1,6 +1,7 @@
 <?php 
-  include('db/conexion.php'); //include connection file 
-  include('_include/header.php');
+    $metadescripcion = 'Sección de Conferencias del Colegio de Contadores Públicos de Junín';
+    include('db/conexion.php'); //include connection file 
+    include('_include/header.php');
 ?>
 
 <div class="content-wrapper" style="padding-top: 30px">

@@ -1,4 +1,5 @@
 <?php 
+  $metadescripcion = 'Finanzas y Gestión Administrativa del Colegio de Contadores Públicos de Junín';
   include('_include/header.php');
 ?>
 

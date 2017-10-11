@@ -1,5 +1,6 @@
 <?php 
-	include('_include/header.php');
+	$metadescripcion = 'Bolsa de Trabajo del Colegio de Contadores Públicos de Junín';
+  include('_include/header.php');
 ?>
 
 <div class="content-wrapper" style="padding-top: 30px">

@@ -1,5 +1,6 @@
 <?php 
-  include('_include/header.php');
+    $metadescripcion = 'Información Institucional del Colegio de Contadores Públicos de Junín';
+    include('_include/header.php');
 ?>
 
 

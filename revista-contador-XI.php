@@ -1,4 +1,5 @@
 <?php 
+  $metadescripcion = 'Revista contador XI del Colegio de Contadores Públicos de Junín';
 	include('_include/header.php');
 ?>
 <div class="row">

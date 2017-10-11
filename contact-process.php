@@ -16,7 +16,7 @@
     */
 
 	
-	$nombres = $_POST['nombrecontacto']; //$nombres = 'Junior Yauricasa'; 
+	  $nombres = $_POST['nombrecontacto']; //$nombres = 'Junior Yauricasa'; 
     $codAgremiado = $_POST['codigoagremiado'];
     $from = $_POST['correoelectronico']; //correo remitente recibido desde formulario
     $para = "junioryauricasa@gmail.com"; //Correo destinatario (correo de recepcion modificar segun considere conveniente)
@@ -31,10 +31,26 @@
     $enviado = mail($para, $titulo, $mensaje, $cabeceras); //ejecutando envio de mail con los parametros obtenidos.
      
     if($enviado){
-      $resultado = 'Email enviado correctamente a '.$para; //Mensaje exitoso
+      //$resultado = 'Email enviado correctamente a '.$para; //Mensaje exitoso
+      $resultado = '
+      		<div class="alert alert-success" role="alert">
+      		  <button type="button" class="close" data-dismiss="alert" aria-label="Close" style="color:white">
+			    <span aria-hidden="true">&times;</span>
+			  </button>
+			  <strong>Exitoso!!</strong> Email enviado correctamente.
+			</div>
+      ';
     }
     else{
-      $resultado = 'Error en el envío del email'; //Mensaje de error
+      //$resultado = 'Error en el envío del email'; //Mensaje de error
+      $resultado = '
+      		<div class="alert alert-danger" role="alert">
+      		  <button type="button" class="close" data-dismiss="alert" aria-label="Close" style="color:white">
+			    <span aria-hidden="true">&times;</span>
+			  </button>
+			  <strong>Alerta!!</strong> Error en el envío del email.
+			</div>
+      ';
     }
 
   	echo $resultado; //Imprimie mensaje que se vera en el formulario

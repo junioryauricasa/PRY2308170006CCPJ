@@ -1,5 +1,6 @@
 <?php 
 	// apoyo-etica-ejercicio-profesional
+  $metadescripcion = 'Comité de Apoyo Ética y Ejercicio Profesional del Colegio de Contadores Públicos de Junín';
 	include('_include/header.php');
 ?>
 

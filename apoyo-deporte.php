@@ -1,5 +1,5 @@
 <?php 
-	// apoyo-cultura-arte-actividades-sociales
+  $metadescripcion = 'Comité de Apoyo y Deporte del Colegio de Contadores Públicos de Junín';
 	include('_include/header.php');
 ?>
 
