@@ -2,7 +2,6 @@
   $metadescripcion = 'Sección de Evnetos del Colegio de Contadores Públicos de Junín';
 	include('_include/header.php');
 ?>
-
 <div class="content-wrapper" style="padding-top: 20px">
 
 <!-- div con backgrond incluido -->
@@ -136,7 +135,7 @@
                              <object data="'.utf8_encode($row['nvcharchivo']).'" type="application/pdf" width="100%" height="800px"> 
                               <p>
                                 Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                               <a href="'.$row['nvcharchivo'].'">
+                               <a href="admin/'.$row['nvcharchivo'].'">
                                  click para descargar el archivo PDF
                                </a>
                               </p>  

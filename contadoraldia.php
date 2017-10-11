@@ -18,7 +18,6 @@
                     Nuestro deber es mantenernos actualizados constantemente encuentra todo lo que precisas saber en esta seccion
                     <br>
                     <br>
-                    <a href="#" class="btn btn-transparente">Informarme Más</a>
                 </p>
           </div>
         </div>

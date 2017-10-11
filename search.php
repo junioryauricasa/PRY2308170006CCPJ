@@ -231,7 +231,7 @@
                 if($tipoarchivo == 1){
                     echo '
                         <div class="embed-responsive" style="padding-bottom:150%">
-                             <object data="'.utf8_encode($row['nvcharchivo']).'" type="application/pdf" width="100%" height="800px"> 
+                             <object data="admin/'.utf8_encode($row['nvcharchivo']).'" type="application/pdf" width="100%" height="800px"> 
                               <p>
                                 Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
                                <a href="'.$row['nvcharchivo'].'">
