@@ -8,7 +8,7 @@
     <section class="content" style=" min-height: 0px;">
       <div class="row">
         <div class="col-md-12">
-          <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-onomasticos.jpg'); ">
+          <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-eventos.jpg'); ">
                 <h1 class="text-center header-page-h1">
                     Galeria de Imagenes
                 </h1>
@@ -16,7 +16,6 @@
                    Bienvenido a la sección de fotos y videos del portal web del colegio de contadores publicos de Junín
                     <br>
                     <br>
-                    <a href="#" class="btn btn-transparente">Informarme Más</a>
                 </p>
           </div>
         </div>
@@ -39,7 +38,7 @@
                 <li class="pull-left header"><i class="fa fa-photo"></i> Galería de Fotos y Videos</li>
               </ul>
               <div class="box-body">
-                  <div class="container" style="width: 100%;">
+                  <!--div class="container" style="width: 100%;">
                     <div class="row">
                       <div class="item well">
                         <img src="http://ccpjunin.pe/img/galeria/2017/1.jpg" alt="" class="img-responsive">
@@ -75,7 +74,8 @@
                         <img src="http://ccpjunin.pe/img/galeria/2017/12.jpg" alt="" class="img-responsive">
                       </div>
                     </div>
-                  </div>
+                  </div-->
+                  <?php include ('funciones/fotos-getdata-all.php'); ?>
               </div>
             </div>
           </section>

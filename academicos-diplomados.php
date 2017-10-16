@@ -19,7 +19,6 @@
                 Ante dudas y/o consultas, comunicate con nosotros.
                 <br>
                 <br>
-                <a href="contactanos" class="btn btn-transparente">Contactarlos</a>
             </p>
       </div>
     </div>
@@ -50,12 +49,12 @@
                   <div class="box-group" id="accordion">
                     
                     <!-- estructura convencional de una noticia -->
-                    <div class="panel box box-default">
+                    <!--div class="panel box box-default">
                       <div class="box-header with-border">
                         <h4 class="">
                           <a href="#" class="">
                              DIPLOMA EN CONTROL GUBERNAMENTAL <br> 
-                             <span class="label label-default pull-left">05/04/2017</span> <!-- FEcha noticia -->
+                             <span class="label label-default pull-left">05/04/2017</span> 
                           </a>
                         </h4>
                       </div>
@@ -68,74 +67,11 @@
                           <div class="fb-comments" data-href="http://ccpjunin.pe/dist/img/diplomados/a.jpg" data-width="100%" data-numposts="20"></div>
                         </div>
                       </div>
-                    </div>
-                    <!-- END estructura convencional de una noticia -->
-      
-                    <!-- estructura convencional de una noticia -->
-                    <div class="panel box box-default">
-                      <div class="box-header with-border">
-                        <h4 class="">
-                          <a>
-                            DIPLOMA EN CONTROL GUBERNAMENTAL <br> 
-                            <span class="label label-default pull-left">03/05/2017</span> <!-- FEcha noticia -->
-                          </a>
-                        </h4>
-                      </div>
-                      <div>
-                        <div class="box-body">
-                          <p class="text-justify">
-                            Para información y descuentos comunícate al 949002916 o al 231063 anexo 13 y al correo: eventosccpj@gmail.com, Lic. Chiang Arizapana Gomez.
-                          </p>
-                          <img src="dist/img/diplomados/b.jpg" alt="" class="img-responsive">
-                          <div class="fb-comments" data-href="http://ccpjunin.pe/dist/img/diplomados/b.jpg" data-width="100%" data-numposts="20"></div>
-                        </div>
-                      </div>
-                    </div>
+                    </div-->
                     <!-- END estructura convencional de una noticia -->
 
-                    <!-- estructura convencional de una noticia -->
-                    <div class="panel box box-default">
-                      <div class="box-header with-border">
-                        <h4 class="">
-                          <a href="#">
-                            Diploma de Especialización Tributario <br> 
-                            <span class="label label-default pull-left">26/05/2017</span>
-                          </a>
-                        </h4>
-                      </div>
-                      <div id="collapseOne3" style="">
-                        <div class="box-body">
-                          <p class="text-justify">
-                            Para información y descuentos comunícate al 949002916 o al 231063 anexo 13 y al correo: eventosccpj@gmail.com, Lic. Chiang Arizapana Gomez.
-                          </p>
-                          <img src="dist/img/diplomados/1.jpg" alt="" class="img-responsive" width="100%">
-                          <div class="fb-comments" data-href="http://ccpjunin.pe/dist/img/diplomados/1.png" data-width="100%" data-numposts="20"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- END estructura convencional de una noticia -->
+                    <?php include('funciones/AcademicoDiplomados-getdata-all.php'); ?>
 
-                    <!-- estructura convencional de una noticia -->
-                    <div class="panel box box-default">
-                      <div class="box-header with-border">
-                        <h4 class="">
-                          <a href="#">
-                             Diploma de Especialización Tributario <br> 
-                             <span class="label label-default pull-left">26/05/2017</span>
-                          </a>
-                        </h4>
-                      </div>
-                      <div id="collapseOne4" style="">
-                        <div class="box-body">
-                          <p class="text-justify">
-                            Para información y descuentos comunícate al 949002916 o al 231063 anexo 13 y al correo: eventosccpj@gmail.com, Lic. Chiang Arizapana Gomez.
-                          </p>
-                          <img src="dist/img/diplomados/2.jpg" alt="" class="img-responsive">
-                          <div class="fb-comments" data-href="http://ccpjunin.pe/dist/img/diplomados/2.jpg" data-width="100%" data-numposts="20"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- END estructura convencional de una noticia -->
                   </div>
                 </div>
               </div>
@@ -159,8 +95,9 @@
                 <li class="pull-left header"><i class="fa fa-inbox"></i> Ofertas Laborales</li>
               </ul>
               <div class="box-body">
+
                   <!-- div bolsa trabajo -->
-                  <div class="panel box box-default">
+                  <!--div class="panel box box-default">
                     <div class="box-header with-border">
                       <h4 class="">
                         <a href="#collapseOne1">
@@ -187,132 +124,11 @@
                         <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/bolsatrabajo1" data-width="100%" data-numposts="20"></div>
                       </div>
                     </div>
-                  </div>
+                  </div-->
                   <!-- div bolsa trabajo -->
 
-                  <!-- div bolsa trabajo -->
-                  <div class="panel box box-default">
-                    <div class="box-header with-border">
-                      <h4 class="">
-                        <a href="#collapseOne1">
-                          Convocatoria 20 de Julio del 2017 <span class="label label-default pull-right">20/07/2017</span>
-                        </a>
-                      </h4>
-                    </div>
-                    <div class="">
-                      <div class="box-body">
-                        <p>
-                          Descripción: (Vista previa) para poder descargar el archivo completo, dar click en el siguiente enlace <b><a href="dist/docs/ofertalaboral/20-agost-Bolsa-de-trabajo.pdf" download="dist/docs/ofertalaboral/20-agost-Bolsa-de-trabajo.pdf">Descargar archivo completo</a></b>
-                        </p>
-                        <br> 
-                        <div class="embed-responsive" style="padding-bottom:150%">
-                             <object data="dist/docs/ofertalaboral/20-agost-Bolsa-de-trabajo.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
-                              <p>
-                                Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                               <a href="dist/docs/ofertalaboral/20-agost-Bolsa-de-trabajo.pdf">
-                                 click para descargar el archivo PDF
-                               </a>
-                              </p>  
-                             </object>
-                        </div>
-                        <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/bolsatrabajo0002" data-width="100%" data-numposts="20"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- div bolsa trabajo -->
+                  <?php include('funciones/OfertaLaboral-getdata-resumen.php'); ?>
 
-                  <!-- div bolsa trabajo -->
-                  <div class="panel box box-default">
-                    <div class="box-header with-border">
-                      <h4 class="">
-                        <a href="#collapseOne1">
-                          Convocatoria 20 de Julio del 2017 <span class="label label-default pull-right">20/07/2017</span>
-                        </a>
-                      </h4>
-                    </div>
-                    <div class="">
-                      <div class="box-body">
-                        <p>
-                          Descripción: (Vista previa) para poder descargar el archivo completo, dar click en el siguiente enlace <b><a href="dist/docs/ofertalaboral/20-julio-2Bolsa-de-trabajo.pdf" download="dist/docs/ofertalaboral/20-julio-2Bolsa-de-trabajo.pdf">Descargar archivo completo</a></b>
-                        </p>
-                        <br> 
-                        <div class="embed-responsive" style="padding-bottom:150%">
-                             <object data="dist/docs/ofertalaboral/20-julio-2Bolsa-de-trabajo.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
-                              <p>
-                                Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                               <a href="dist/docs/ofertalaboral/20-julio-2Bolsa-de-trabajo.pdf">
-                                 click para descargar el archivo PDF
-                               </a>
-                              </p>  
-                             </object>
-                        </div>
-                        <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/bolsatrabajo0003" data-width="100%" data-numposts="20"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- div bolsa trabajo -->
-
-                  <!-- div bolsa trabajo -->
-                  <div class="panel box box-default">
-                    <div class="box-header with-border">
-                      <h4 class="">
-                        <a href="#collapseOne1">
-                          Convocatoria 10 de Julio del 2017 <span class="label label-default pull-right">10/07/2017</span>
-                        </a>
-                      </h4>
-                    </div>
-                    <div class="">
-                      <div class="box-body">
-                        <p>
-                          Descripción: (Vista previa) para poder descargar el archivo completo, dar click en el siguiente enlace <b><a href="dist/docs/ofertalaboral/10-julio-bolsa-de-trabajo.pdf" download="dist/docs/ofertalaboral/10-julio-bolsa-de-trabajo.pdf">Descargar archivo completo</a></b>
-                        </p>
-                        <br> 
-                        <div class="embed-responsive" style="padding-bottom:150%">
-                             <object data="dist/docs/ofertalaboral/10-julio-bolsa-de-trabajo.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
-                              <p>
-                                Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                               <a href="dist/docs/ofertalaboral/10-julio-bolsa-de-trabajo.pdf">
-                                 click para descargar el archivo PDF
-                               </a>
-                              </p>  
-                             </object>
-                        </div>
-                        <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/bolsatrabajo0004" data-width="100%" data-numposts="20"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- div bolsa trabajo -->
-
-                  <!-- div bolsa trabajo -->
-                  <div class="panel box box-default">
-                    <div class="box-header with-border">
-                      <h4 class="">
-                        <a href="#collapseOne1">
-                          Convocatoria 06 de Julio del 2017 <span class="label label-default pull-right">06/07/2017</span>
-                        </a>
-                      </h4>
-                    </div>
-                    <div class="">
-                      <div class="box-body">
-                        <p>
-                          Descripción: (Vista previa) para poder descargar el archivo completo, dar click en el siguiente enlace <b><a href="dist/docs/ofertalaboral/06-julio-Bolsa-de-trabajo.pdf" download="dist/docs/ofertalaboral/06-julio-Bolsa-de-trabajo.pdf">Descargar archivo completo</a></b>
-                        </p>
-                        <br> 
-                        <div class="embed-responsive" style="padding-bottom:150%">
-                             <object data="dist/docs/ofertalaboral/06-julio-Bolsa-de-trabajo.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
-                              <p>
-                                Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                               <a href="dist/docs/ofertalaboral/06-julio-Bolsa-de-trabajo.pdf">
-                                 click para descargar el archivo PDF
-                               </a>
-                              </p>  
-                             </object>
-                        </div>
-                        <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/bolsatrabajo0005" data-width="100%" data-numposts="20"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- div bolsa trabajo -->
               </div>
               <div class="box-footer text-center">
                 <a href="bolsadetrabajo" class="uppercase">

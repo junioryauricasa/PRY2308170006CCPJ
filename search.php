@@ -1,5 +1,5 @@
 <?php 
-  $metadescripcion = 'Sección busqeuda del Colegio de Contadores Públicos de Junín';
+  $metadescripcion = 'Sección busqueda del Colegio de Contadores Públicos de Junín';
   include('_include/header.php');
 ?>
 

@@ -13,10 +13,8 @@
                 <h1 class="text-center header-page-h1">
                     Calendario
                 </h1>
-                <p class="text-center text-description-header">
-                    <br>
-                    <a href="#" class="btn btn-transparente">Informarme Más</a>
-                </p>
+                <br>
+                <br>
           </div>
         </div>
       </div>
@@ -30,7 +28,7 @@
           </div>
         </div>
         <div class="row">
-            <section class="col-lg-12">
+            <section class="col-lg-9">
                 <div class="box box-solid">
                   <div class="box-header">
                     <i class="fa fa-map-marker"></i>
@@ -40,9 +38,24 @@
                   </div>
                   <div class="box-body">
                     <!-- pegar el iframe -->
-                    <iframe src="https://calendar.google.com/calendar/embed?src=junioryauricasa%40gmail.com&ctz=America/Lima" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                    <iframe src="https://calendar.google.com/calendar/embed?src=eventosccpj%40gmail.com&ctz=America/Lima" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
                   </div>
                 </div>
+            </section>
+
+            <section class="col-lg-3">
+                <div class="nav-tabs-custom">
+              <ul class="nav nav-tabs pull-right">
+                <li class="pull-left header"><i class="fa fa-commenting"></i> Déjanos tu Opinión</li>
+              </ul>
+              <div class="box-body">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="fb-comments" data-href="http://ccpjunin.pe/eventos/" data-width="100%" data-numposts="20"></div>
+                    </div>
+                  </div>
+              </div>
+            </div>
             </section>
         </div>
     </section>

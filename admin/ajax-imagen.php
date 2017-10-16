@@ -45,6 +45,20 @@
         }else
         if($ubicacion == 10){
             $carpeta = "documentos/RequisitosParaColegiatura/";
+        }else
+        if($ubicacion == 11){
+            $carpeta = "documentos/AcademicoConvenciones/";
+        }
+        else
+        if($ubicacion == 12){
+            $carpeta = "documentos/AcademicoCurso/";
+        }
+        else
+        if($ubicacion == 13){
+            $carpeta = "documentos/AcademicoDiplomado/";
+        }else
+        if($ubicacion == 14){
+            $carpeta = "documentos/Comunicados/";
         }
 
         $src = $carpeta.$nombre;
@@ -100,8 +114,9 @@
                     )
             ";
             $conn->exec($sql);
-
             $conn = null;
+
+            header('location: index.php');
     //}
     }else
 

@@ -4,6 +4,25 @@
 	include('_include/header.php');
 ?>
 
+ <script>
+      function realizaConsulta(txtCodigo){
+              var parametros = {
+                      "txtCodigo" : txtCodigo
+              };
+              $.ajax({
+                      data:  parametros, //datos que se envian a traves de ajax
+                      url:   'consulta-habil-sociedad-auditora_process.php', //archivo que recibe la peticion
+                      type:  'post', //método de envio
+                      beforeSend: function () {
+                              $("#resultado").html("<img src='https://c.s-microsoft.com/en-us/CMSImages/big-loading-gif.gif?version=eac3284f-fcba-ea1d-70e3-010e22fefd05' alt='' width='20px' style='margin-right: 10px; margin-left:20px'>Realizando consulta, espere por favor...");
+                      },
+                      success:  function (response) { //una vez que el archivo recibe el request lo procesa y lo devuelve
+                              $("#resultado").html(response);
+                      }
+              });
+      }
+ </script>
+
 <div class="content-wrapper" style="padding-top: 30px">
 
     <!-- div con backgrond incluido -->
@@ -19,7 +38,6 @@
                     Busque la habilidad por medio del código de Colegiatura
                     <br>
                     <br>
-                    <input type="button" class="btn btn-transparente" value="Informarme Más">
                 </p>
           </div>
         </div>
@@ -50,34 +68,29 @@
                       <div class="box-body">
                         <div class="row">
                             <div class="col-lg-6">
-                              <div class="form-group">
-                                <label for="nombrecontacto">Número de Matricula:</label>
-                                <input type="text" class="form-control" id="txtCodigo" placeholder="Código de Agremiado" onkeypress="return justNumbers(event);" maxlength="5">
-                              </div>
-                              <div class="row">
-                                  <div class="col-lg-12 col-xs-12">
-                                    <div class="form-group">
-                                      <label for="nombrecontacto"></label>
-                                      <input type="text"  class="" id="randomfield" disabled>
-                                    </div>
-                                  </div>
-                                  <div class="col-lg-12 col-xs-12">
-                                    <div class="form-group">
-                                      <label for="nombrecontacto">Código Captcha:</label>
-                                      <input type="text" class="form-control" id="CaptchaEnter" size="20" maxlength="6" placeholder="Ingrese CAPTCHA">
-                                    </div>
-                                  </div>
-                              </div>
+                                <img src="dist/img/logo_horizontal_ccpj.png" alt="" class="img-responsive" width="100%">
+                                <br>
+                                <div class="form-group">
+                                  <label for="nombrecontacto">Número de Matricula:</label>
+                                  <input type="text" class="form-control" id="txtCodigo" placeholder="Código de Agremiado" onkeypress="return justNumbers(event);" maxlength="11" required="true">
+                                </div>
+                                <!--span id="resultado"></span-->
                             </div>
 
-                            <div class="col-lg-6">
-                                
+                            <div class="col-lg-6" id="resultado">
                             </div>
+                            
+                            <!--div class="col-lg-6">
+                            </div-->
                         </div>
                       </div>
                       <div class="box-footer">
-                        <button type="button" onclick="check()" class="btn btn-success" style="font-weight: bolder">Consultar</button>
-                        <button type="button" class="btn btn-default" style="font-weight: bolder" onclick="ChangeCaptcha()">Cambiar CAPTCHA</button>
+                        <input type="button" href="javascript:;" onclick="realizaConsulta($('#txtCodigo').val());return false;" class="btn btn-success" style="font-weight: bolder" value="Realizar Consulta">
+                        <input type="reset" class="btn btn-primary" value="Nueva Consulta">
+                        
+
+                        <!--button type="button" href="javascript:;" onclick="realizaProceso($('#txtCodigo').val());return false;" class="btn btn-success" style="font-weight: bolder">Consultar</button>
+                        <button type="button" class="btn btn-default" style="font-weight: bolder" onclick="ChangeCaptcha()">Cambiar CAPTCHA</button-->
                       </div>
                     </form>
                 </div>
@@ -124,11 +137,7 @@
           
         </div>
 
-        <div class="row">
-          <div class="col-lg-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5059.773489627902!2d-75.21317235630036!3d-12.069722345035359!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8c7ed02d929c4a17!2sColegio+de+Contadores+P%C3%BAblicos+de+Jun%C3%ADn!5e0!3m2!1ses!2spe!4v1504307147190" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-        </div>
+
     </section>
 </div>
 

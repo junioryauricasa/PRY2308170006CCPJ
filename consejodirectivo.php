@@ -18,7 +18,6 @@
                     Podrá encontrar toda la información sobre el Colegio de Contadores Públicos de Junín, les invitamos a hacer un recorrido por nuestra página web.
                     <br>
                     <br>
-                    <a href="#" class="btn btn-transparente">Informarme Más</a>
                 </p>
           </div>
         </div>
@@ -77,7 +76,7 @@
                       </div>
                   </div>
                 </div>
-                <div class="col-lg-2 col-sm-6 col-xs-12">
+                <!--div class="col-lg-2 col-sm-6 col-xs-12">
                   <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
                       <img src="dist/img/decanos/CPC. Mari Loardo Salutar - 1er Vice Decano.jpg" alt="" width="600px"> 
                       <div class="caption">
@@ -86,7 +85,7 @@
                         </p>     
                       </div>
                   </div>
-                </div>
+                </div-->
                 <div class="col-lg-2 col-sm-6 col-xs-12">
                   <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
                       <img src="dist/img/decanos/CPC. Villanueva Huamán María - 2da Vice Decana.jpg" alt="" width="600px"> 
@@ -127,8 +126,6 @@
                       </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
                 <div class="col-lg-2 col-sm-6 col-xs-12">
                   <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
                       <img src="dist/img/decanos/CPC. Unocc Dávila Raúl - Director de Investigación, Publicaciones y Certamen.jpg" alt="" width="600px">
@@ -139,6 +136,9 @@
                       </div>
                   </div>
                 </div>
+              </div>
+              <div class="row">
+                
                 <div class="col-lg-2 col-sm-6 col-xs-12">
                   <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
                       <img src="dist/img/decanos/CPC. Flores Pacheco Humberto Joel - Director de Actividades Culturales, Deportivas y Profesionales.jpg" alt="" width="600px"> 

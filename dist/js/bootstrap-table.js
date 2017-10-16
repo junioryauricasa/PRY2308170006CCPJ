@@ -157,7 +157,7 @@
             return 'Cargando, por favor espere…';
         },
         formatRecordsPerPage: function (pageNumber) {
-            return sprintf('%s resultados por  pagina', pageNumber);
+            return sprintf('%s resultados por página', pageNumber);
         },
         formatShowingRows: function (pageFrom, pageTo, totalRows) {
             return sprintf('Mostrando %s a %s de %s filas', pageFrom, pageTo, totalRows);

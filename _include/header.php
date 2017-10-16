@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Colégio de Contadores Públicos de Junín | Portal Web</title>
+    <title>Colegio de Contadores Públicos de Junín | Portal Web</title>
 
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+    <!--link rel="stylesheet" href="dist/css/AdminLTE.min.css"-->
+    <link rel="stylesheet" href="dist/css/AdminLTE.css">
     <link rel="stylesheet" href="dist/css/skins/_all-skins.css">
     <link rel="stylesheet" href="plugins/iCheck/flat/blue.css">
     <link rel="stylesheet" href="plugins/morris/morris.css">
@@ -42,11 +43,12 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-      <script>
-          function ocultar(){
-            $('#buttondisplayhidden').click();
-          }
-      </script>
+
+    <script>
+        function ocultar(){
+          $('#buttondisplayhidden').click();
+        }
+    </script>
   </head>
   
   <body class="scrollbar fixed sidebar-mini skin-blue-light sidebar-collapse " id="style-3"> 
@@ -54,63 +56,123 @@
 
     <div class="wrapper">
       <header class="main-header">
-        <!-- Logo -->
-        <a href="index" class="logo">
-          <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini">CCPJ</span>
-          <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>CCP</b>Junín</span>
-        </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top">
           <!-- Sidebar toggle button-->
-          <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button" id="buttondisplayhidden">
+          <!--a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button" id="buttondisplayhidden">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </a>
+          </a-->
 
           <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header" id="navbarcel">
               <!--a class="navbar-brand" href="#">
                 <img src="dist/img/logoccnpj-old.png" alt="" height="100%">
               </a-->
+
+              <div id="" class="navbar-collapse collapse navbar-cel">
+                <ul class="nav navbar-nav"  style="padding-left: 2px;margin: 0 auto;display: -webkit-box; font-size: 13px;">
+                  <li>
+                    <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button" id="buttondisplayhidden">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </a>
+                  </li>
+                  <li class=""><a href="eventos">Eventos</a></li> 
+                  <li class="dropdown" style="left:0;">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      Institucional 
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu pull-right" style="background: #0f2634;    position: absolute;">
+                      <li><a href="informacioninstitucional">Historia, Misión y Visión</a></li>
+                      <li><a href="consejodirectivo">Consejo Directivo Actual</a></li>
+                      <li><a href="requisitos-incorporacion-comite">Requisitos para la Incorporación</a></li>
+                      <li><a href="convenios">Convenios</a></li>
+                      <li><a href="requisitos-para-colegiatura">Requisitos para Colegiatura</a></li>
+                      <li><a href="revista-institucional">Revista Institucional</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      Servicios 
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu pull-right" style="background: #0f2634;    position: absolute;    font-size: 13px;">
+                      <li><a href="ficha-actualizacion-datos">Requisitos de Colegiatura</a></li>
+                      <li><a href="requisitos-incorporacion-comite">Requisitos de Incorporación a Comités</a></li>
+                      <li><a href="#">Biblioteca</a></li>
+                      <li><a href="documento">Documentos</a></li>
+                      <li><a href="convenios">Convenios</a></li>
+                      <li><a href="bolsadetrabajo">Bolsa de Trabajo</a></li>
+                      <li><a href="precios">Lista de Precios por Servicios</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <style>
+                  @media screen and (max-width: 766px) {
+                    .navbar-cel{
+                      display: block;
+                      height: 20px
+                    }
+                  }
+                  @media screen and (min-width: 767px) {
+                    .navbar-cel{
+                      display: none;
+                    }
+                    #navbarcel{
+                      display: none
+                    }
+                  }
+              </style>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class=""><a href="index">Inicio</a></li> <!-- class active para sombrear -->
-                <li class=""><a href="eventos">Eventos</a></li> <!-- class active para sombrear -->
-                <li class=""><a href="conferencias">Conferencias</a></li> <!-- class active para sombrear -->
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Institucional <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="informacioninstitucional">Historia, Misión y Visión</a></li>
-                    <li><a href="consejodirectivo">Consejo Directivo Actual</a></li>
-                    <li><a href="requisitos-incorporacion-comite">Requisitos para la Incorporación</a></li>
-                    <li><a href="convenios">Convenios</a></li>
-                    <li><a href="requisitos-para-colegiatura">Requisitos para Colegiatura</a></li>
-                    <li><a href="revista-institucional">Revista Institucional</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">        Servicios 
-                      <span class="caret"></span>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Institucional 
+                    <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a href="ficha-actualizacion-datos">Ficha de Actualización de Datos</a></li>
-                    <li><a href="documento">Documentos</a></li>
-                    <li><a href="#">Biblioteca</a></li>
-                    <li><a href="consulta-habil">Consulta Hábil</a></li>
-                    <li><a href="precios">Lista de Precio por Servicios</a></li>
-                    <li><a href="#">Archivos de Actividades Académicas</a></li>
-                    <li><a href="gestor-de-cobranza"> Gestor de Cobranza</a></li>
+                    <li><a href="informacioninstitucional">Historia, Misión y Visión</a></li>
+                    <li><a href="past-decanos">Past-Decanos</a></li>
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                          Órganos de Gobierno
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="consejodirectivo#">Consejo Directivo</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                          Órganos de Apoyo y Asesoría
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="">Tribunal de Honor</a></li>
+                            <li><a href="">Comité de Ética</a></li>
+                            <li><a href="">Consejo Consultivo</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="filial-selva-central">Junta Directiva Filial Selva Central</a>
+                    </li>
                   </ul>
                 </li>
                 <li class="dropdown">
                   <ul class="nav navbar-nav">
                     <li>
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Comités Funcionales <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                          Comités Funcionales 
+                          <b class="caret"></b>
+                        </a>
                         <ul class="dropdown-menu multi-level">
                             <li><a href="gestion-gubernamental">Gestión Gubernamental</a></li>
                             <li class="dropdown-submenu">
@@ -134,7 +196,6 @@
                             </li>
                             <li><a href="mypes">Gestión de las MYPE</a></li>
                             <li><a href="finanzas-gestion-administrativa">Finanzas y Gestión Administrativa</a></li>
-                            <li><a href="">Desarrollo Profesional</a></li>
                             <li><a href="comite-funcional-de-tributacion">Tributación y Fiscalidad</a></li>
                             <li class="dropdown-submenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -150,21 +211,99 @@
                                     <li><a href="apoyo-deporte">Deportes</a></li>
                                 </ul>
                             </li>
-                            <li><a href="filial-selva-central">J. D. Selva Central</a></li>
+                            <li><a href="requisitos-incorporacion-comite">Requisitos de Incorporación a Comités</a></li>
                         </ul>
                     </li>
-                      
                   </ul>
                 </li>
-                <li><a href="estados-financieros">Estados Financieros</a></li>
-                <li><a href="contactanos">Contacto</a></li>
-
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">        
+                      Servicios 
+                      <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                          Consulta de Habilidad
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="consulta-habil-agremiado">Habilidad Profesional</a></li>
+                            <li><a href="consulta-habil-sociedad-auditora">Habilidad de Sociedades Auditoras</a></li>
+                            <li><a href="#">Hablidad de Auditores Idependientes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="ficha-actualizacion-datos">Requisitos de Colegiatura</a></li>
+                    <li><a href="documento">Requisitos de Incorporación a Comités</a></li>
+                    <li><a href="#">Biblioteca</a></li>
+                    <li><a href="#">Documentos</a></li>
+                    <li><a href="#">Convenios</a></li>
+                    <li><a href="#">Bolsa de Trabajo</a></li>
+                    <li><a href="precios">Lista de Precios por Servicios</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Eventos
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="revista-institucional">Diplomados</a></li>
+                    <li><a href="">Seminarios</a></li>
+                    <li><a href="conferencias">Conferencias</a></li>
+                    <li><a href="">Charlas</a></li>
+                    <li><a href="">Archivos de Actividades Academicas</a></li>
+                    <li><a href="calendario">Calendario</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Contador al Día
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="revista-institucional">Revista Institucíonal</a></li>
+                    <li><a href="">Normativa Vigente</a></li>
+                    <li><a href="counicados">Comunicados</a></li>
+                    <li><a href="onomasticos">Onomasticos</a></li>
+                    <li><a href="consulta-habil">Galeria de Fotos</a></li>
+                  </ul>
+                </li>
+                <!--li><a href="estados-financieros">Estados Financieros</a></li-->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Estados Financieros
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                          Trimestral
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="">1er Trimestre</a></li>
+                            <li><a href="">2do Trimestre</a></li>
+                            <li><a href="">3er Trimestre</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                          Anual
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="">2016</a></li>
+                            <li><a href="">2017</a></li>
+                            <li><a href="">2018</a></li>
+                        </ul>
+                    </li>
+                  </ul>
+                </li>
               </ul>
             </div>
           </div>
         </nav>
       </header>
-      <!-- Left side column. contains the logo and sidebar -->
+
+
       <aside class="main-sidebar">
         <section class="sidebar">
           <!-- Sidebar user panel -->
@@ -172,7 +311,7 @@
               <img src="dist/img/logoccnpj.png" class="" alt="User Image" width="100%" style="padding: 7px">
           </div>
           <!-- search form -->
-          <form action="search" method="GET" class="sidebar-form">
+          <form action="" method="" class="sidebar-form">
             <div class="input-group">
               <input type="text" name="q" class="form-control" placeholder="Estoy Buscando...">
               <span class="input-group-btn">
@@ -180,7 +319,6 @@
               </span>
             </div>
           </form>
-          <!-- END search form-->
           <ul class="sidebar-menu">
             <li class="header">MENÚ DE NAVEGACIÓN</li>
             <li class="treeview">
@@ -242,7 +380,7 @@
                 <li class="active">
                   <a href="noticias">
                     <i class="fa fa-circle-o"></i> 
-                    Notícias
+                    Noticias
                   </a>
                 </li>
                 <li class="active">
@@ -318,6 +456,20 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
+                <!--li>
+                  <a href="#" alt="Smiley face">
+                    <i class="fa fa-circle-o"></i> 
+                      Comité Funcional
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" alt="Smiley face">
+                    <i class="fa fa-circle-o"></i> 
+                      Comité Funcional de Apoyo
+                    </i>
+                  </a>
+                </li-->
                 <li>
                   <a href="gestion-gubernamental" alt="Smiley face">
                     <i class="fa fa-circle-o"></i> 
@@ -342,7 +494,7 @@
                     <li>  
                       <a href="peritaje-especialista">
                         <i class="fa fa-circle-o"></i> 
-                         Miembro Especialista
+                          Miembro Especialista
                         </a>
                     </li>
                   </ul>
@@ -359,13 +511,13 @@
                       <a href="auditoria-ordinaria">
                         <i class="fa fa-circle-o"></i> 
                           Ordinaria
-                      </a>
+                        </a>
                     </li>
                     <li>  
                       <a href="auditoria-independiente">
                         <i class="fa fa-circle-o"></i> 
                           Independiente
-                      </a>
+                        </a>
                     </li>
                     <li>  
                       <a href="sociedad-auditora">
@@ -386,13 +538,6 @@
                   <a href="finanzas-gestion-administrativa" alt="Smiley face">
                     <i class="fa fa-circle-o"></i> 
                       Finanzas y Gestión Administrativa
-                    </i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" alt="Smiley face">
-                    <i class="fa fa-circle-o"></i> 
-                      Desarrollo Profesional
                     </i>
                   </a>
                 </li>
@@ -520,11 +665,23 @@
         </section>
       </aside>
 
+<style>
 
-      <style>
+  .main-sidebar{
+        display: block
+  }
+  @media screen and (min-width: 767px) {
+      .main-sidebar{
+        display: none
+      }
+      .main-sidebar{
+        max-width: 0px
+      }    
+  }
 
 
-/* ---------- for banner in header ----------  */
+
+   /* ---------- FOR BANNER IN HEADER ----------  */
   .img-backg-banner-header{
     background-image: url("dist/img/banner-superior.png");
     background-color: #cccccc;
@@ -556,84 +713,87 @@
     }
   }
 
-/* --------------------------------------------- */
-
-/*
-  style for dropdown
-*/
-.dropdown-submenu {
-    position: relative;
-}
-
-.dropdown-submenu>.dropdown-menu {
-    top: 0;
-    left: 100%;
-    margin-top: -6px;
-    margin-left: -1px;
-    -webkit-border-radius: 0 6px 6px 6px;
-    -moz-border-radius: 0 6px 6px;
-    border-radius: 0 6px 6px 6px;
-}
-
-.dropdown-submenu:hover>.dropdown-menu {
-    display: block;
-}
-
-.dropdown-submenu>a:after {
-    display: block;
-    content: " ";
-    float: right;
-    width: 0;
-    height: 0;
-    border-color: transparent;
-    border-style: solid;
-    border-width: 5px 0 5px 5px;
-    border-left-color: #ccc;
-    margin-top: 5px;
-    margin-right: -10px;
-}
-
-.dropdown-submenu:hover>a:after {
-    border-left-color: #fff;
-}
-
-.dropdown-submenu.pull-left {
-    float: none;
-}
-
-.dropdown-submenu.pull-left>.dropdown-menu {
-    left: -100%;
-    margin-left: 10px;
-    -webkit-border-radius: 6px 0 6px 6px;
-    -moz-border-radius: 6px 0 6px 6px;
-    border-radius: 6px 0 6px 6px;
-}
-/*
-  END style for dropdown
-*/
+  /* ---------- ************* ----------  */
 
 
-.carousel-fade .carousel-inner .item {
-  transition-property: opacity;
-}
-.carousel-fade .carousel-inner .item,
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  opacity: 0;
-}
-.carousel-fade .carousel-inner .active,
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
-  opacity: 1;
-}
-.carousel-fade .carousel-inner .next,
-.carousel-fade .carousel-inner .prev,
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  left: 0;
-  transform: translate3d(0, 0, 0);
-}
+  /*
+    style for dropdown
+  */
+  .dropdown-submenu {
+      position: relative;
+  }
+
+  .dropdown-submenu>.dropdown-menu {
+      top: 0;
+      left: 100%;
+      margin-top: -6px;
+      margin-left: -1px;
+      -webkit-border-radius: 0 6px 6px 6px;
+      -moz-border-radius: 0 6px 6px;
+      border-radius: 0 6px 6px 6px;
+  }
+
+  .dropdown-submenu:hover>.dropdown-menu {
+      display: block;
+  }
+
+  .dropdown-submenu>a:after {
+      display: block;
+      content: " ";
+      float: right;
+      width: 0;
+      height: 0;
+      border-color: transparent;
+      border-style: solid;
+      border-width: 5px 0 5px 5px;
+      border-left-color: #ccc;
+      margin-top: 5px;
+      margin-right: -10px;
+  }
+
+  .dropdown-submenu:hover>a:after {
+      border-left-color: #fff;
+  }
+
+  .dropdown-submenu.pull-left {
+      float: none;
+  }
+
+  .dropdown-submenu.pull-left>.dropdown-menu {
+      left: -100%;
+      margin-left: 10px;
+      -webkit-border-radius: 6px 0 6px 6px;
+      -moz-border-radius: 6px 0 6px 6px;
+      border-radius: 6px 0 6px 6px;
+  }
+  /* ---------- ************* ----------  */
 
 
+  /*
+    END style for dropdown
+  */
 
-      </style>
+
+  .carousel-fade .carousel-inner .item {
+    transition-property: opacity;
+  }
+  .carousel-fade .carousel-inner .item,
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+  }
+  .carousel-fade .carousel-inner .active,
+  .carousel-fade .carousel-inner .next.left,
+  .carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+  }
+  .carousel-fade .carousel-inner .next,
+  .carousel-fade .carousel-inner .prev,
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+    left: 0;
+    transform: translate3d(0, 0, 0);
+  }
+  /* ---------- ************* ----------  */
+
+</style>

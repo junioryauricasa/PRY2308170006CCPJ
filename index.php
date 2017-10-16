@@ -18,7 +18,7 @@
         </div>
 
 
-        <section class="content">
+        <section class="content" style="width: 90%; margin: 0 auto">
           <div class="row">
             <!-- slides -->
             <div class="">
@@ -47,45 +47,29 @@
                       <div class="carousel-inner" role="listbox">
                         
                         <!--  img principal 0 -->
-                        <div class="item active">
+                        <!--div class="item active">
                           <a href="#">
                             <img src="http://placehold.it/900x340/39CCCC/ffffff&text=900x340" class="img-responsive banner-principal" width="100%" height="430px" />
                           </a>
                           <div class="carousel-caption">
                           </div>
-                        </div>
+                        </div-->
                         <!--  END img principal -->
 
                         <!-- 1 slide  -->
-                        <div class="item">
+                        <div class="item active">
                           <a href="requisitos-recertificacion">
-                            <img src="http://www.ccpjunin.pe/dist/img/slides/asamblea.jpg" class="img-responsive banner-principal" width="100%" height="430px" />
+                            <img src="dist/img/slides/sld-principal-0001.jpg" width="100%" height="430px" />
                           </a>
                           <div class="carousel-caption">
                           </div>
                         </div>
   
-                        <!-- 2 slide -->
-                        <div class="item">
-                          <a href=""> 
-                            <img src="http://www.ccpjunin.pe/dist/img/slides/campeonatoCREDJ.jpg" class="img-responsive banner-principal" width="100%" height="430px" />
-                          </a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
-
-                        <!-- 3 slide -->
-                        <div class="item">
-                          <a href="#">
-                            <img src="http://www.ccpjunin.pe/dist/img/slides/certificacion.jpg" class="img-responsive" width="100%"  height="430px" />
-                          </a>
-                          <div class="carousel-caption">
-                          </div>
-                        </div>
+                        <?php include('funciones/index-slides.php'); ?>
 
                       </div>
                       <!-- END IMG slides for carrousel -->
-                      
+
                       <!-- link for rigth or letf -->
                           <a class="left carousel-control" href="#carousel-example" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -123,166 +107,8 @@
                         </h3>
                       </div>
                       <div class="box-body">
-                      <!-- contador al dia actualiza -->
-
-
-                          <div class="panel box box-default">
-                            <div class="box-header with-border">
-                              <h4 class="">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" class="">
-                                  Publicación del 28 de Septiembre <br><span class="label label-default pull-left">18/09/2017</span>
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="collapseOne1" class="panel-collapse collapse in" aria-expanded="true" style="">
-                              <div class="box-body">
-                                <div class="embed-responsive" style="padding-bottom:150%">
-                                     <object data="dist\docs\contador al dia/contador-al-dia-28-septiembre.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
-                                      <p>
-                                        Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="dist\docs\contador al dia/contador-al-dia-28-septiembre.pdf">
-                                         click para descargar el archivo PDF
-                                       </a>
-                                      </p>  
-                                     </object>
-                                </div>
-                                <br>
-                                <div class="fb-comments" data-href="http://ccpjunin.pe/dist\docs\contador-al-dia/contador-al-dia-28-septiembre.pdf" data-width="100%" data-numposts="20"></div>
-                              </div>
-                            </div>
-                          </div>
-
-
-                          <div class="panel box box-default">
-                            <div class="box-header with-border">
-                              <h4 class="">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" class="">
-                                  Publicación del 14 de Septiembre <br><span class="label label-default pull-left">14/09/2017</span>
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="collapseOne1" class="panel-collapse collapse in" aria-expanded="true" style="">
-                              <div class="box-body">
-                                <div class="embed-responsive" style="padding-bottom:150%">
-                                     <object data="dist\docs\contador al dia/conta1409.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
-                                      <p>
-                                        Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="dist\docs\contador al dia/conta1409.pdf">
-                                         click para descargar el archivo PDF
-                                       </a>
-                                      </p>  
-                                     </object>
-                                </div>
-                                <br>
-                                <div class="fb-comments" data-href="http://ccpjunin.pe/dist\docs\contador-al-dia/13-sep-bolsa.pdf" data-width="100%" data-numposts="20"></div>
-                              </div>
-                            </div>
-                          </div>
-
-
-
-                          <div class="panel box box-default">
-                            <div class="box-header with-border">
-                              <h4 class="">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" class="">
-                                  Publicación del 13 de Septiembre <br><span class="label label-default pull-left">13/09/2017</span>
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="collapseOne1" class="panel-collapse collapse in" aria-expanded="true" style="">
-                              <div class="box-body">
-                                <div class="embed-responsive" style="padding-bottom:150%">
-                                     <object data="dist\docs\contador al dia/13-sep-bolsa.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
-                                      <p>
-                                        Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="dist\docs\contador al dia/13-sep-bolsa.pdf">
-                                         click para descargar el archivo PDF
-                                       </a>
-                                      </p>  
-                                     </object>
-                                </div>
-                                <br>
-                                <div class="fb-comments" data-href="http://ccpjunin.pe/dist\docs\contador-al-dia/13-sep-bolsa.pdf" data-width="100%" data-numposts="20"></div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="panel box box-default">
-                            <div class="box-header with-border">
-                              <h4 class="">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="true" class="">
-                                  Publicación del 05 de Julio <br><span class="label label-default pull-left">05/07/2017</span>
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="collapseOne1" class="panel-collapse collapse in" aria-expanded="true" style="">
-                              <div class="box-body">
-                                <div class="embed-responsive" style="padding-bottom:150%">
-                                     <object data="dist\docs\contador al dia/05julio.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
-                                      <p>
-                                        Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="dist\docs\contador al dia/05julio.pdf">
-                                         click para descargar el archivo PDF
-                                       </a>
-                                      </p>  
-                                     </object>
-                                </div>
-                                <br>
-                                <div class="fb-comments" data-href="http://ccpjunin.pe/dist\docs\contador-al-dia/05julio.pdf" data-width="100%" data-numposts="20"></div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="panel box box-default ">
-                            <div class="box-header with-border">
-                              <h4 class="">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne3" aria-expanded="false" class="collapsed">
-                                  Publicación del 04 de Julio <br><span class="label label-default pull-left">04/07/2017</span>
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="collapseOne3" class="panel-collapse collapse in" aria-expanded="false" style="">
-                              <div class="box-body">
-                                <div class="embed-responsive" style="padding-bottom:150%">
-                                     <object data="dist\docs\contador al dia/04julio.pdf" type="application/pdf" width="100%" height="800px"> 
-                                      <p>
-                                        Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="dist\docs\contador al dia/04julio.pdf">
-                                         click para descargar el archivo PDF
-                                       </a>
-                                      </p>  
-                                     </object>
-                                </div>
-                                <br>
-                                <div class="fb-comments" data-href="http://ccpjunin.pe/dist\docs\contador-al-dia/04julio.pdf" data-width="100%" data-numposts="20"></div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="panel box box-default">
-                            <div class="box-header with-border">
-                              <h4 class="">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne4" aria-expanded="false" class="collapsed">
-                                  Adopcion de normas internacionales de información financiera NIIF <br><span class="label label-default pull-left">15/06/2017</span>
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="collapseOne4" class="panel-collapse collapse in" aria-expanded="false" style="">
-                              <div class="box-body">
-                                <div class="embed-responsive" style="padding-bottom:150%">
-                                     <object data="dist\docs\contador al dia/sedam.pdf" type="application/pdf" width="100%" height="800px"> 
-                                      <p>
-                                        Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                                       <a href="dist\docs\contador al dia/sedam.pdf">
-                                         click para descargar el archivo PDF
-                                       </a>
-                                      </p>  
-                                     </object>
-                                </div>
-                                <br>
-                                <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/sedam.pdf" data-width="100%" data-numposts="20"></div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="panel box box-default ">
+                          <!-- contador al dia actualiza -->
+                          <!--div class="panel box box-default ">
                             <div class="box-header with-border">
                               <h4 class="">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne5" aria-expanded="false" class="collapsed">
@@ -306,8 +132,11 @@
                                 <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/contraloria.pdf" data-width="100%" data-numposts="20"></div>
                               </div>
                             </div>
-                          </div>
-                      <!-- END contador al dia actualiza -->
+                          </div-->
+                          <!-- END contador al dia actualiza -->
+
+                          <?php include('funciones/ContadorAlDia-resumen.php'); ?>
+                      
                       </div>
                       <div class="box-footer text-center">
                         <a href="contadoraldia" class="uppercase">
@@ -328,80 +157,24 @@
                 <div class="box-body">
 
                     <!-- estructura convencional de una noticia -->
-                    <div class="panel box box-default">
+                    <!--div class="panel box box-default">
                       <div class="box-header with-border">
                         <h4 class="">
                           <a href="#" class="">
                              Comunicado <br> 
-                             <span class="label label-default pull-left">13/09/2017</span> <!-- FEcha noticia -->
+                             <span class="label label-default pull-left">13/09/2017</span> 
                           </a>
                         </h4>
                       </div>
                       <div id="" style="">
                         <div class="box-body">
-                          <img src="dist\img\noticias/21754834_1840754809272454_675416764_o (1).jpg" alt="" class="img-responsive" width="100%">
+                          <img src="admin/" alt="" class="img-responsive" width="100%">
                           <div class="fb-comments" data-href="http://ccpjunin.pe/img/21754834_1840754809272454_675416764_o (1).jpg" data-width="100%" data-numposts="20"></div>
                         </div>
                       </div>
-                    </div>
+                    </div-->
                     <!-- END estructura convencional de una noticia -->
-
-                    <!-- estructura convencional de una noticia -->
-                    <div class="panel box box-default">
-                      <div class="box-header with-border">
-                        <h4 class="">
-                          <a href="#" class="">
-                             SUNAT solicita infomación de los agremiados <br> 
-                             <span class="label label-default pull-left">05/04/2017</span> <!-- FEcha noticia -->
-                          </a>
-                        </h4>
-                      </div>
-                      <div id="" style="">
-                        <div class="box-body">
-                          <img src="dist\img\noticias-eventos/sunat.jpg" alt="" class="img-responsive" width="100%">
-                          <div class="fb-comments" data-href="http://ccpjunin.pe/img/sunat.jpg" data-width="100%" data-numposts="20"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- END estructura convencional de una noticia -->
-      
-                    <!-- estructura convencional de una noticia -->
-                    <div class="panel box box-default">
-                      <div class="box-header with-border">
-                        <h4 class="">
-                          <a>
-                            Problemas con el internet perjudican Declaraciones Anuales <br> 
-                            <span class="label label-default pull-left">23/03/2017</span> <!-- FEcha noticia -->
-                          </a>
-                        </h4>
-                      </div>
-                      <div>
-                        <div class="box-body">
-                          <img src="dist\img\noticias-eventos/sunat2.jpg" alt="" class="img-responsive">
-                          <img src="dist\img\noticias-eventos/sunat (1).jpg" alt="" class="img-responsive">
-                          <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/sunatsunat2/1.jpg" data-width="100%" data-numposts="20"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- END estructura convencional de una noticia -->
-
-                    <!-- estructura convencional de una noticia -->
-                    <div class="panel box box-default">
-                      <div class="box-header with-border">
-                        <h4 class="">
-                          <a href="#">
-                            Especializacion en Contratación <br> 
-                            <span class="label label-default pull-left">22/02/2017</span>
-                          </a>
-                        </h4>
-                      </div>
-                      <div id="collapseOne3" style="">
-                        <div class="box-body">
-                          <img src="dist\img\noticias-eventos/osce.png" alt="" class="img-responsive" width="100%">
-                          <div class="fb-comments" data-href="http://ccpjunin.pe/imagenes/osce.png" data-width="100%" data-numposts="20"></div>
-                        </div>
-                      </div>
-                    </div>
+                    <?php include('funciones/noticias-getdata-resumen.php'); ?>
 
                 </div>
                 <div class="box-footer text-center">
@@ -500,11 +273,13 @@
 
 <style>
   .banner-principal{
-    min-height: 430px;
+    /*min-height: 430px;*/
   }
 
   div.carousel-inner>div.item>a>img{
+    /*
     height: 430px
+    */
   }
 
 

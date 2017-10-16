@@ -9,7 +9,7 @@
 <section class="content" style=" min-height: 0px;">
   <div class="row">
     <div class="col-md-12">
-      <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-onomasticos.jpg'); ">
+      <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-eventos.jpg'); ">
             <h1 class="text-center header-page-h1">
                 Onomásticos del día de hoy
             </h1>
@@ -17,7 +17,6 @@
                 Bienvenidos a la seccion Onomásticos del Colegio de Contadores Públicos de Junín. <br> Desde ya ofrecemos un cordial saludo nuestros agremiados que cumplan años hoy. <br> <b>MUCHOS EXITOS Y BENDICIONES</b>
                 <br>
                 <br>
-                <a href="#" class="btn btn-transparente">Informarme Más</a>
             </p>
       </div>
     </div>
@@ -50,7 +49,7 @@
                           Reciban un cordial saludo por parte de la junta directiva del CCPJ por esta fecha tan especial a todos nuestros agremiados que cumplen años.
                         </p>
                         <!-- imagen alusiva al santo, personalizada -->
-                        <img src="dist/img/parallax/pexels-photo-137485.jpeg" alt="" class="img-responsive" width="100%">
+                        <img src="admin/documentos/Onomasticos/pexels-photo-137485.jpeg" alt="" class="img-responsive" width="100%">
                       </div>
                     </div>
                   </div>

@@ -14,7 +14,6 @@
                 </h1>
                 <p class="text-center text-description-header ">
                     <br>
-                    <a href="#" class="btn btn-transparente">Informarme Más</a>
                 </p>
           </div>
         </div>
@@ -88,6 +87,7 @@
 	              </div>
 	            </div>
           </section>
+
           <section class="col-lg-8 col-md-12">
               <div class="nav-tabs-custom">
                 <ul class="nav nav-tabs pull-right">
@@ -98,6 +98,7 @@
                 </div>
               </div>
           </section>
+          
         </div>
         <br>
         <div class="row">

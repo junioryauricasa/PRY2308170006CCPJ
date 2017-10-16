@@ -14,12 +14,11 @@
                 COMITÉ FUNCIONAL DE AUDITORÍA MIEMBRO ORDINARIO
             </h1>
             <p class="text-center text-description-header ">
-                Bienvenidos a la seccion de Auditoria ordinaria del Colegio de Contadores Públicos de Junín. 
+                Bienvenidos a la sección del Comité Funcional de Auditoria - Miembro Ordinario del Colegio de Contadores Públicos de Junín. 
                 <br> 
                 Ante dudas y/o consultas, comunicate con nosotros.
                 <br>
                 <br>
-                <a href="contactanos" class="btn btn-transparente">Contactarlos</a>
             </p>
       </div>
     </div>
@@ -281,7 +280,7 @@
                           <th>Apellidos y Nombres</th>
                         </tr>
                         <tr>
-                          <td>Presidenta</td>
+                          <td>Presidente</td>
                           <td>CPCC. Rafael Jesús Fernández Jaime</td>
                         </tr>
                         <tr>
@@ -321,11 +320,6 @@
           
         </div>
         <br>
-        <div class="row">
-          <div class="col-lg-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5059.773489627902!2d-75.21317235630036!3d-12.069722345035359!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8c7ed02d929c4a17!2sColegio+de+Contadores+P%C3%BAblicos+de+Jun%C3%ADn!5e0!3m2!1ses!2spe!4v1504307147190" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-        </div>
     </section>
 </div>
 
@@ -374,5 +368,5 @@
 </script>
 
 <?php 
-	include('_include/footer.php');
+  include('_include/footer.php');
 ?>

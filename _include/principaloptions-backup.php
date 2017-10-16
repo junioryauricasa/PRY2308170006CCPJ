@@ -7,7 +7,7 @@
                 <div class="" style="">
                   <div class="inner text-center">
                     <img src="dist/img/icons/showcase-search.png" alt="" width="50%" class="img-option-principal" style="border-radius: 50%; background-color: #073e5f; box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 10px 0px;">
-                    <p class="text-center text-black">Consulta por <br>Habilidad</p>
+                    <p class="text-center text-black">Consulta de <br>Habilidad</p>
                   </div>
                 </div>
               </a>

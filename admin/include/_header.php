@@ -7,12 +7,16 @@
 
 	<!-- glypficons -->
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+	<link rel="stylesheet" href="css/bootstrap-table.css">
+	<link rel="stylesheet" href="css/style-jsondatatable.css">
+
 
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 	<style>
 		body{
 			padding-top: 80px;
 		}
+		/* 
 		.row{
 			padding-bottom: 20px;
 		}
@@ -20,18 +24,19 @@
 			border-bottom: solid 2px #d5d5d5;
 		}
 
-		/* Grid pinterest */
+		Grid pinterest 
 		.grid-item { width: 200px; }
 		.grid-item--width2 { width: 400px; }
+		*/
 	</style>
 
-	<script src="js/bootstrap-wysihtml5.js"></script>
-	<script src="js/wysihtml5-0.3.0.js"></script>
+	<!--script src="js/bootstrap-wysihtml5.js"></script>
+	<script src="js/wysihtml5-0.3.0.js"></script-->
 
 
-	<!-- script para aajx -->
+	<!-- script para ajax -->
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script>
+	<!--script>
 	     $(function(){
 	            $("input[name='file']").on("change", function(){
 	                var formData = new FormData($("#formulario")[0]);
@@ -74,11 +79,12 @@
 	                        }
 	                    });
 	                    var $container = $('#content');
-	                    $container.load('getResults.php');
+	                    //$container.load('getResults.php');
+	                    $container.load('functions/files-getResults-all-table.php');
 	                });
 	            })(jQuery);
 	     }
-	</script>
+	</script-->
 	<!-- END script AJAX -->
 
 </head>
@@ -100,15 +106,15 @@
 	    <div id="navbar" class="navbar-collapse collapse">
 	      <ul class="nav navbar-nav">
 	        <li class=""><a href="index.php">Posts</a></li>
-	        
-	        
+
 	        <?php 
 		        if (isset($_SESSION['usr_id'])) 
 		        	{ 
 		        		echo '
-		        			<li class=""><a href="#">Banners</a></li>
-					        <li class=""><a href="eventos.php">Eventos</a></li>
-					        <li class=""><a href="busqueda.php">Busqueda</a></li>
+		        			<li class=""><a href="estados-financieros.php">EE FF</a></li>
+					        <li class=""><a href="eventos">Eventos</a></li>
+					        <li class=""><a href="banners">Banners</a></li>
+					        <!--li class=""><a href="busqueda">Busqueda</a></li-->
 
 					        <!--li class="dropdown">
 					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -127,7 +133,7 @@
 		        	{
 		        		echo '';
 		        	}
-	         ?>
+	        ?>
 	        
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
@@ -138,7 +144,8 @@
 	        	{
 	        ?>
 				<li>
-					<p class="navbar-text">Hola <i class="btn btn-danger btn-xs" ><b><?php echo $_SESSION['usr_name']; ?></b></i></p>
+					<p class="navbar-text">Hola <i class="btn btn-danger btn-xs" ><b>
+						<?php echo $_SESSION['usr_name']; ?></b></i></p>
 				</li>
 				<li>
 					<a href="logout.php">

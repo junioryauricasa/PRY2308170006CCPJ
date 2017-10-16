@@ -15,10 +15,8 @@
             </h1>
             <p class="text-center text-description-header ">
                 El Decano y El Consejo Directivo 2015 – 2016 les da la bienvenida a nuestra página web institucional <br> Podrá encontrar toda la información sobre el Colegio de Contadores Públicos de Junín, a continuación podrán apreciar la lista de Past - Decanos de nuestra prestigiosa orden.
-                <br>
-                <br>
-                <a href="#" class="btn btn-transparente">Deseo Inscribirme</a>
-            </p>
+            <br>
+            <br>
       </div>
     </div>
   </div>

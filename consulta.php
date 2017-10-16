@@ -115,7 +115,6 @@
                                      ;
                                 $imprimir = 0; 
                               }
-
                         ?>
                       </div>
                       <div class="col-lg-7">

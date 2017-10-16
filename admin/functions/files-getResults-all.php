@@ -85,7 +85,7 @@
 
     <style>
         
-        /*  For grid pinterest  */
+        /*  For grid pinterest 
         *,
         div.container .row:before,
         div.container .row::after {
@@ -93,11 +93,9 @@
         }
 
         div.container .row {
-          /* column width */
           -moz-column-width: 25em;
           -webkit-column-width: 25em;
           
-          /* space between columns */
           -moz-column-gap: 1em;
           -webkit-column-gap: 1em;
         }
@@ -108,6 +106,6 @@
         }
         .well{
           padding: 0px
-        }
+        } */
 
     </style>

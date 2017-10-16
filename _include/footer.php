@@ -279,7 +279,10 @@
 
   @media screen and (max-width:766px){
     body{
+      /*
       margin-top: 95px;
+      */
+      margin-top: 45px;
     }
   }
   @media screen and (min-width:767px){
@@ -362,8 +365,8 @@ div.container .row::after {
 
 div.container .row {
   /* column width */
-  -moz-column-width: 20em;
-  -webkit-column-width: 20em;
+  -moz-column-width: 25em;
+  -webkit-column-width: 25em;
   
   /* space between columns */
   -moz-column-gap: 1em;

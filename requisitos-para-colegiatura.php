@@ -30,8 +30,7 @@
               <?php include('_include/principaloptions.php'); ?>
           </div>
         </div>
-        <!-- Small boxes (Stat box) -->
-        <!-- Main row -->
+
         <div class="row">
           <section class="col-lg-8 col-md-12">
               <div class="nav-tabs-custom">
@@ -50,14 +49,14 @@
                             <div class="panel-heading panel-heading-faq">
                                 <h4 class="panel-title">
                                     <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                        a. Solicitud de ingreso dirigido al decano.
+                                        a. Solicitud de ingreso dirigida al decano.
                                     </a>
                                 </h4>
                             </div>
 
                             <div id="collapseOne" class="panel-collapse collapse" style="height: 0px;">
                                 <div class="panel-body panel-faq">
-                                    <p>Recabar en tesorería al momento de realizar el pago.</p>
+                                    <p>Recabar en secretaría al momento de realizar el pago.</p>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +73,7 @@
 
                             <div id="collapseTwo" class="panel-collapse collapse" style="height: 0px;">
                                 <div class="panel-body panel-faq">
-                                    <p>Recabar en tesorería al momento de realizar el pago.</p>
+                                    <p>Recabar en secretaría al momento de realizar el pago.</p>
                                 </div>
                             </div>
                         </div>
@@ -91,7 +90,7 @@
 
                             <div id="collapseThree" class="panel-collapse collapse" style="height: 0px;">
                                 <div class="panel-body panel-faq">
-                                    <p>Al momento de realizar el pago en tesorería</p>
+                                    <p>Recabar en secretaría al momento de realizar el pago.</p>
                                 </div>
                             </div>
                         </div>
@@ -115,7 +114,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading panel-heading-faq">
                                 <h4 class="panel-title">
-                                        e. Verificar su registro del título profesional en la SUNEDU, se encuentra en <b><a href="https://www.sunedu.gob.pe/">WWW.SUNEDU.GOB.PE</a></b>
+                                        e. Verificar el registro del título profesional en la SUNEDU, el link registro de grados y títulos <b><a href="https://www.sunedu.gob.pe/">WWW.SUNEDU.GOB.PE</a></b> entregar impreso.
                                 </h4>
                             </div>
 
@@ -131,7 +130,7 @@
                             <div class="panel-heading panel-heading-faq">
                                 <h4 class="panel-title">
                                     <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                                        f. Título profesional Original, con código de seguridad.
+                                        f. Título profesional (Original).
                                     </a>
                                 </h4>
                             </div>
@@ -149,14 +148,9 @@
                             <div class="panel-heading panel-heading-faq">
                                 <h4 class="panel-title">
                                     <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-                                        g. Copia de Título Profesional autenticada por la universidad de procedencia.
+                                        g. Copia de Título Profesional, fedateada(o) y autenticada(o) por la universidad de procedencia 
                                     </a>
                                 </h4>
-                            </div>
-                            <div id="collapseSix" class="panel-collapse collapse" style="height: 0px;">
-                                <div class="panel-body panel-faq">
-                                    <p>La copia del Título profesional tiene que estar autenticada por la universidad</p>
-                                </div>
                             </div>
                         </div>
 
@@ -165,14 +159,9 @@
                             <div class="panel-heading panel-heading-faq">
                                 <h4 class="panel-title">
                                     <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse7">
-                                        h. Resolución de la universidad donde se apruebe otorgamiento del título.
+                                        h. Resolución de la universidad donde se aprueba el otorgamiento del título (original).
                                     </a>
                                 </h4>
-                            </div>
-                            <div id="collapse7" class="panel-collapse collapse" style="height: 0px;">
-                                <div class="panel-body panel-faq">
-                                    <p>La resolución de la univeridad tiene que ser original.</p>
-                                </div>
                             </div>
                         </div>
 
@@ -185,11 +174,6 @@
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapse8" class="panel-collapse collapse" style="height: 0px;">
-                                <div class="panel-body panel-faq">
-                                    <p>Copia simple del bachillerato.</p>
-                                </div>
-                            </div>
                         </div>
 
                         <!-- PANEL 9 -->
@@ -197,14 +181,9 @@
                             <div class="panel-heading panel-heading-faq">
                                 <h4 class="panel-title">
                                     <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse9">
-                                        j. Certificados de antecedentes penales.
+                                        j. Certificado de antecedentes penales vigente.
                                     </a>
                                 </h4>
-                            </div>
-                            <div id="collapse9" class="panel-collapse collapse" style="height: 0px;">
-                                <div class="panel-body panel-faq">
-                                    <p>Certificados de antecedentes penales.</p>
-                                </div>
                             </div>
                         </div>
 
@@ -214,14 +193,9 @@
                             <div class="panel-heading panel-heading-faq">
                                 <h4 class="panel-title">
                                     <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse10">
-                                        k. 2 fotografías tamaño pasaporte a colores fondo blanco.
+                                        k. 01 fotografía tamaño pasaporte a colores fondo blanco.
                                     </a>
                                 </h4>
-                            </div>
-                            <div id="collapse10" class="panel-collapse collapse" style="height: 0px;">
-                                <div class="panel-body panel-faq">
-                                    <p>Las fotografias tiene que ser a colores y con el fondo blanco, no se aceptarán con otro color de fondo.</p>
-                                </div>
                             </div>
                         </div>
 
@@ -230,15 +204,9 @@
                             <div class="panel-heading panel-heading-faq">
                                 <h4 class="panel-title">
                                     <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11">
-                                        l. 01 fotografía tamaño carnet a colores.
+                                        l. 02 fotografía tamaño carnet a colores.
                                     </a>
                                 </h4>
-                            </div>
-
-                            <div id="collapse11" class="panel-collapse collapse" style="height: 0px;">
-                                <div class="panel-body panel-faq">
-                                    <p>La fotografia tiene que ser tamaño carnet y a colores.</p>
-                                </div>
                             </div>
                         </div>
 
@@ -247,7 +215,7 @@
                             <div class="panel-heading panel-heading-faq">
                                 <h4 class="panel-title">
                                     <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse12">
-                                        m. Copia de recibos de pago. (Clic para visualizar que recibos debe sacar copia)
+                                        m. 02 Copias del recibo de pago. (Desplegar)
                                     </a>
                                 </h4>
                             </div>
@@ -257,7 +225,7 @@
                                       <li>Pago por implementación de biblioteca de s/. 50.00</li>
                                       <li>Pago de derecho de colegiatura s/.855.00</li>
                                       <li>Pago de derecho junta de decanos s/. 45.00</li>
-                                      <li>Pago por solaperas /. 7.00</li>
+                                      <li>Pago por solapera /. 7.00</li>
                                       <li>Pago por medallón s/.45.00</li>
                                       <li>Pago por carnet s/.10.00</li>
                                       <li>Aporte para la construcción del local institucional s/.100.00</li>
@@ -277,11 +245,6 @@
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapse13" class="panel-collapse collapse">
-                                <div class="panel-body panel-faq">
-                                    <p>Copia simple del DNI</p>
-                                </div>
-                            </div>
                         </div>
 
                         <!-- PANEL 14 -->
@@ -289,29 +252,15 @@
                             <div class="panel-heading panel-heading-faq">
                                 <h4 class="panel-title">
                                     <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse14">
-                                        o. Copia de RUC.
+                                        o. Copia de RUC (opcional).
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapse14" class="panel-collapse collapse">
                                 <div class="panel-body panel-faq">
-                                    <p>Este requisito es opcional</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- PANEL 15 -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading panel-heading-faq">
-                                <h4 class="panel-title">
-                                   <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse15">
-                                        p. Un Folder manila.
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse15" class="panel-collapse collapse">
-                                <div class="panel-body panel-faq">
-                                    <p>Los documentos se deben presentar según el orden indicado.</p>
+                                    <ul>
+                                      <li>01 Fólder de manila</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>                     
@@ -351,12 +300,8 @@
                 </div>
           </section>
         </div>
+        
         <br>
-        <div class="row">
-          <div class="col-lg-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5059.773489627902!2d-75.21317235630036!3d-12.069722345035359!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8c7ed02d929c4a17!2sColegio+de+Contadores+P%C3%BAblicos+de+Jun%C3%ADn!5e0!3m2!1ses!2spe!4v1504307147190" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-        </div>
     </section>
 </div>
 

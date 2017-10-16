@@ -200,7 +200,7 @@ a:focus {
   -o-transition: margin-left 0.3s ease-in-out;
   transition: margin-left 0.3s ease-in-out;
   margin-bottom: 0;
-  margin-left: 230px;
+  /*margin-left: 230px;*/
   border: none;
   min-height: 50px;
   border-radius: 0;
@@ -584,7 +584,7 @@ a:focus {
   .sidebar-mini.sidebar-collapse .content-wrapper,
   .sidebar-mini.sidebar-collapse .right-side,
   .sidebar-mini.sidebar-collapse .main-footer {
-    margin-left: 50px!important;
+    /*margin-left: 50px!important;*/
     z-index: 840;
   }
   .sidebar-mini.sidebar-collapse .main-sidebar {
@@ -651,7 +651,7 @@ a:focus {
     display: none;
   }
   .sidebar-mini.sidebar-collapse .main-header .navbar {
-    margin-left: 50px;
+    /*margin-left: 50px;*/
   }
 }
 .sidebar-menu,
