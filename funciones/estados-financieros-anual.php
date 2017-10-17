@@ -27,7 +27,7 @@
 
             echo '
                 <li>
-                	<a href="estados-financieros?codver='.md5($TrimestreUl).'&anio='.$anio.'&trimestre='.$row["nvchyear"].'&coddoc='.md5($TrimestreUl).'"> '.$row["nvchyear"].'</a>
+                	<a href="estados-financieros?codver='.md5($TrimestreUl).'&anio='.$row["nvchyear"].'&trimestre='.$anio.'&coddoc='.md5($TrimestreUl).'"> '.$row["nvchyear"].'</a>
                 </li> 
                 ';
         }
