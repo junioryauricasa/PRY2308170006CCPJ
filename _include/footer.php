@@ -401,9 +401,6 @@ div.container .row .item {
   color: gray
 }
 
-
-
-
 /*
   Ajustando el ancho a los cambios solicitados
   tomando como referencia el colegio de contadore spublicos de arequipa
@@ -413,6 +410,8 @@ div.container .row .item {
   margin: 0 auto;
 }
 */
+
+
 
 </style>
 

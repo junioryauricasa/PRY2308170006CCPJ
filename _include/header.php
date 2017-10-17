@@ -49,6 +49,13 @@
           $('#buttondisplayhidden').click();
         }
     </script>
+    <style>
+        @media screen and (min-width: 1200px){
+              section.content{
+                width: 90%;
+              }
+        }
+    </style>
   </head>
   
   <body class="scrollbar fixed sidebar-mini skin-blue-light sidebar-collapse " id="style-3"> 
@@ -156,9 +163,9 @@
                           Órganos de Apoyo y Asesoría
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="">Tribunal de Honor</a></li>
-                            <li><a href="">Comité de Ética</a></li>
-                            <li><a href="">Consejo Consultivo</a></li>
+                            <li><a href="tribunal-de-honor">Tribunal de Honor</a></li>
+                            <li><a href="apoyo-etica-ejercicio-profesional">Comité de Ética</a></li>
+                            <li><a href="consejo-consultivo">Consejo Consultivo</a></li>
                         </ul>
                     </li>
                     <li>
@@ -232,12 +239,12 @@
                             <li><a href="#">Hablidad de Auditores Idependientes</a></li>
                         </ul>
                     </li>
-                    <li><a href="ficha-actualizacion-datos">Requisitos de Colegiatura</a></li>
-                    <li><a href="documento">Requisitos de Incorporación a Comités</a></li>
+                    <li><a href="requisitos-para-colegiatura">Requisitos de Colegiatura</a></li>
+                    <li><a href="requisitos-incorporacion-comite">Requisitos de Incorporación a Comités</a></li>
                     <li><a href="#">Biblioteca</a></li>
-                    <li><a href="#">Documentos</a></li>
-                    <li><a href="#">Convenios</a></li>
-                    <li><a href="#">Bolsa de Trabajo</a></li>
+                    <li><a href="documento">Documentos</a></li>
+                    <li><a href="convenios">Convenios</a></li>
+                    <li><a href="bolsadetrabajo">Bolsa de Trabajo</a></li>
                     <li><a href="precios">Lista de Precios por Servicios</a></li>
                   </ul>
                 </li>
@@ -248,10 +255,10 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li><a href="revista-institucional">Diplomados</a></li>
-                    <li><a href="">Seminarios</a></li>
+                    <li><a href="#">Seminarios</a></li>
                     <li><a href="conferencias">Conferencias</a></li>
-                    <li><a href="">Charlas</a></li>
-                    <li><a href="">Archivos de Actividades Academicas</a></li>
+                    <li><a href="#">Charlas</a></li>
+                    <li><a href="#">Archivos de Actividades Academicas</a></li>
                     <li><a href="calendario">Calendario</a></li>
                   </ul>
                 </li>
@@ -262,7 +269,7 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li><a href="revista-institucional">Revista Institucíonal</a></li>
-                    <li><a href="">Normativa Vigente</a></li>
+                    <li><a href="#">Normativa Vigente</a></li><!-- no proporcionado -->
                     <li><a href="counicados">Comunicados</a></li>
                     <li><a href="onomasticos">Onomasticos</a></li>
                     <li><a href="consulta-habil">Galeria de Fotos</a></li>
@@ -280,9 +287,12 @@
                           Trimestral
                         </a>
                         <ul class="dropdown-menu">
+                            <!-- 
                             <li><a href="">1er Trimestre</a></li>
                             <li><a href="">2do Trimestre</a></li>
-                            <li><a href="">3er Trimestre</a></li>
+                            <li><a href="">3er Trimestre</a></li> 
+                            -->
+                            <?php include('funciones/estados-financieros-trimestral-of-year.php'); ?>
                         </ul>
                     </li>
                     <li class="dropdown-submenu">
@@ -290,9 +300,12 @@
                           Anual
                         </a>
                         <ul class="dropdown-menu">
+                            <!--
                             <li><a href="">2016</a></li>
                             <li><a href="">2017</a></li>
                             <li><a href="">2018</a></li>
+                            -->
+                            <?php include('funciones/estados-financieros-anual.php'); ?>
                         </ul>
                     </li>
                   </ul>

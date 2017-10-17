@@ -125,4 +125,12 @@
   array (
     'normal' => DOMPDF_FONT_DIR . '6f19c9e3a03bf4bfd9187749fb698cbe',
   ),
+  'glyphicons halflings' => 
+  array (
+    'normal' => DOMPDF_FONT_DIR . '4a421c5d9bc9041e1670e5e118876e4a',
+  ),
+  'slabo 27px' => 
+  array (
+    'normal' => DOMPDF_FONT_DIR . 'a08bd31806c1fdb6e43cb45bc118dd06',
+  ),
 ) ?>

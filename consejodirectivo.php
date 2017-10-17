@@ -34,7 +34,7 @@
       <br>
 
       <!-- slider banner grupal consejo -->
-      <div class="row">
+      <!--div class="row">
          <div class="col-lg-12">
            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
@@ -55,7 +55,7 @@
               </a>
            </div>
          </div>
-      </div>
+      </div-->
       <!-- END slider banner grupal consejo -->
 
       <br>
@@ -76,6 +76,7 @@
                       </div>
                   </div>
                 </div>
+                
                 <!--div class="col-lg-2 col-sm-6 col-xs-12">
                   <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
                       <img src="dist/img/decanos/CPC. Mari Loardo Salutar - 1er Vice Decano.jpg" alt="" width="600px"> 
@@ -86,6 +87,7 @@
                       </div>
                   </div>
                 </div-->
+
                 <div class="col-lg-2 col-sm-6 col-xs-12">
                   <div class="thumbnail wow fadeInUp animated" data-wow-delay=".1s" style="" data-wow-animation-name="fadeInUp">
                       <img src="dist/img/decanos/CPC. Villanueva Huamán María - 2da Vice Decana.jpg" alt="" width="600px"> 

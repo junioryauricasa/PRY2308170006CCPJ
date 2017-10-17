@@ -1,6 +1,5 @@
 <?php 
-	// apoyo-etica-ejercicio-profesional
-  $metadescripcion = 'Comité de Apoyo Ética y Ejercicio Profesional del Colegio de Contadores Públicos de Junín';
+  $metadescripcion = 'Filial Selva Central del Colegio de Contadores Públicos de Junín';
 	include('_include/header.php');
 ?>
 
@@ -11,7 +10,7 @@
         <div class="col-md-12">
           <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-eventos.jpg'); ">
                 <h1 class="text-center header-page-h1">
-                    COMITÉ FUNCIONAL DE APOYO DE ÉTICA Y EJERCICIO PROFESIONAL
+                    CONSEJO CONSULTIVO
                 </h1>
                 <p class="text-center text-description-header ">
                     <br>
@@ -34,7 +33,7 @@
           <section class="col-lg-4 col-md-12">
 	            <div class="nav-tabs-custom">
 	              <ul class="nav nav-tabs pull-right">
-	                <li class="pull-left header"><i class="fa fa-list"></i>Junta Directiva del Comité</li>
+	                <li class="pull-left header"><i class="fa fa-list"></i> Junta Directiva de la Filial Selva Central</li>
 	              </ul>
 	              <div class="box-body">
 	                  <table class="table table-bordered">
@@ -43,46 +42,26 @@
 	                          <th>Cargo</th>
 	                          <th>Nombres y Apellidos</th>
 	                        </tr>
-	                        <!--tr>
-	                          <td>Presidente</td>
-	                          <td>CPCC. Raúl, Unocc Dávila</td>
+	                        <tr>
+	                          <td></td>
+                            <td>CPC. Tito Edgar Huamán Cuela  </td>
 	                        </tr>
 	                        <tr>
-	                          <td>Vicepresidente</td>
-	                          <td>CPCC. Vicente, Fernandez Ticllacuri</td>
+	                          <td></td>
+                            <td>CPCC.Luis Márquez Crisóstomo</td>
 	                        </tr>
 	                        <tr>
-	                          <td>Secretaria</td>
-	                          <td>CPC. Carmen Rosa, Toralva Gonzales</td>
-	                        </tr>
-	                        <tr>
-	                          <td>Tesorero</td>
-	                          <td>CPCC. Marlon Ivan, Prieto Hormaza</td>
-	                        </tr>
-	                        <tr>
-	                          <td>Vocal</td>
-	                          <td>CPCC. Luis Alberto, Condezo Ordoñez</td>
-	                        </tr-->
+	                          <td></td>
+                            <td>CPC. Felipe Neri Huaroto Sairitupac</td>
+	                        </tr> 
                           <tr>
-                            <td>Presidente</td>
-                            <td>CPCC. Ruben Calero Romero</td>
-                          </tr>
+                            <td></td>
+                            <td>CPCC. Carlos Celso Nuñez Mucha </td>
+                          </tr> 
                           <tr>
-                            <td>Secretario </td>
-                            <td>CPC. Noe Enrique Garcia Chihuan  </td>
-                          </tr>
-                          <tr>
-                            <td>Vocal</td>
-                            <td>CPC. Mirtha Tolentino Churampi  </td>
-                          </tr>
-                          <tr>
-                            <td>Vocal</td>
-                            <td>CPC.  Doris Matilde Palacios Rojas</td>
-                          </tr>
-                          <tr>
-                            <td>Vocal</td>
-                            <td>CPC. Lilian Elizabeth Valentín Baldeon </td>
-                          </tr>
+                            <td></td>
+                            <td>CPC.Jesús Salazar Cabanillas </td>
+                          </tr>  
 	                      </tbody>
 	                  </table>
 	              </div>
@@ -94,22 +73,24 @@
 	              <div class="box-body">
 	                  <div class="row">
 	                    <div class="col-lg-12">
-	                      <div class="fb-comments" data-href="http://ccpjunin.pe/etica-profesional" data-width="100%" data-numposts="20"></div>
+	                      <div class="fb-comments" data-href="http://ccpjunin.pe/tribunal-de-honor/" data-width="100%" data-numposts="20"></div>
 	                    </div>
 	                  </div>
 	              </div>
 	            </div>
           </section>
+
           <section class="col-lg-8 col-md-12">
               <div class="nav-tabs-custom">
                 <ul class="nav nav-tabs pull-right">
                   <li class="pull-left header"><i class="fa fa-list"></i></li>
                 </ul>
                 <div class="box-body">  
-                    <img src="https://images.pexels.com/photos/515166/pexels-photo-515166.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="imagen de junta directiva" width="100%" class="img-responsive">
+                    <!--img src="http://cdne.diariocorreo.pe/thumbs/uploads/img/2017/06/09/puno-selva-de-sandia-y-cara-jpg_604x0.jpg" alt="imagen selva central" class="img-responsive" width="100%"-->
                 </div>
               </div>
           </section>
+          
         </div>
         <br>
     </section>
