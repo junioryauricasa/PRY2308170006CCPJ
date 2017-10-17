@@ -13,7 +13,7 @@ $codigo = $_GET['codagrem']; //obteniendo codigo consult ahabil
   Descripción: Validacion de existencia de script
 */
 if(empty($codigo)){
-  header('location: consulta-habil.php'); //redireciona a interfazconsulta habil
+  header('location: consulta-habil-sociedad-auditora.php'); //redireciona a interfazconsulta habil
 }
 //obteniendo fecha
 date_default_timezone_set('America/Lima');
@@ -118,7 +118,7 @@ $codigoHTML='
           <tbody>
             <tr style="text-transform:uppercase">';
                 $result=mysqli_query($con,"
-                SELECT * FROM agre WHERE id = '".$codigo."' limit 1
+                SELECT * FROM socidades WHERE ruc = '".$codigo."' limit 1
                 ");
                 /*$consulta=mysql_query("
                     SELECT * FROM socidades WHERE ruc = '".$codigo."' limit 1
