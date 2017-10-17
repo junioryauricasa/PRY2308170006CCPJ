@@ -111,8 +111,8 @@ $codigoHTML='
           <thead>
             <tr>
               <td><strong>RUC</strong></td>
-              <td><strong>Denominación</strong></td> 
-              <td><strong>Habilidad</strong></td>
+              <td><strong>DENOMINACION/strong></td> 
+              <td><strong>HABILIDAD</strong></td>
             </tr>
           </thead>
           <tbody>
