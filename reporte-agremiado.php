@@ -1,17 +1,17 @@
 <?php 
 
 require_once("dompdf/dompdf_config.inc.php");
-$conexion = mysql_connect("localhost","wwwccpju_pagweb","#*{}+");
-mysql_select_db("wwwccpju_nbdccpj",$conexion);
+//$conexion = mysql_connect("localhost","root","");
+//mysql_select_db("db_ccpj",$conexion);
+$con = mysqli_connect("localhost","root","","db_ccpj");
 
 //codigo agremiado
 $codigo = $_GET['codagrem']; //obteniendo codigo consult ahabil
 
 /*
   Autor: Junior Yauricasa
-  Descripcion: Validacion de existencia de script
+  Descripción: Validacion de existencia de script
 */
-
 if(empty($codigo)){
   header('location: consulta-habil.php'); //redireciona a interfazconsulta habil
 }
@@ -79,8 +79,8 @@ $horadoc = 'Horas: '.$time;
 $codigoHTML='
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
-  
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Reporte</title>
   <link href="https://fonts.googleapis.com/css?family=Slabo+27px&amp;subset=latin-ext" rel="stylesheet">
 </head>
@@ -118,10 +118,13 @@ $codigoHTML='
           </thead>
         <tbody>
         <tr style="text-transform:uppercase">';
-            $consulta=mysql_query("
-                SELECT * FROM agre WHERE id = '".$codigo."' 
+            $result=mysqli_query($con,"
+                SELECT * FROM agre WHERE id = '".$codigo."' limit 1
                 ");
-            while($dato=mysql_fetch_array($consulta)){
+            //$consulta=mysql_query("
+            //    SELECT * FROM agre WHERE id = '".$codigo."' limit 1
+            //    ");
+            while($dato=mysqli_fetch_array($result,MYSQLI_ASSOC)){
             $codigoHTML.='
                   
                     <td>'.$dato['id'].'</td>
@@ -149,7 +152,7 @@ $codigoHTML='
 </html>';
 
 
-$nmrndm = 'ReportCodAgrem_'.$codigo.'_'.$fechadoc.'-'.$horadoc;
+$nmrndm = 'ReporteCodAgrem_'.$codigo.'_';
 $namedoc = $nmrndm.$fechadoc.'.pdf';
 
 $codigoHTML=utf8_encode($codigoHTML); //codifica los unicode
