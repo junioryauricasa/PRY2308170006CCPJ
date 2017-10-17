@@ -1,35 +1,20 @@
 <?php 
 
 require_once("dompdf/dompdf_config.inc.php");
-
-/*
-  Cadena conexion localhost
-
-  $conexion = mysql_connect("localhost","root","");
-  mysql_select_db("db_ccpj",$conexion);
-*/
-
-
-/*
-  Cadena conexion ccpj
-*/
-$conexion = mysql_connect("localhost","wwwccpju_pagweb","#*{}+");
-mysql_select_db("wwwccpju_nbdccpj",$conexion);
-
-
+//$conexion = mysql_connect("localhost","root","");
+//mysql_select_db("db_ccpj",$conexion);
+$con = mysqli_connect("localhost","root","","db_ccpj");
 
 //codigo agremiado
 $codigo = $_GET['codagrem']; //obteniendo codigo consult ahabil
 
 /*
   Autor: Junior Yauricasa
-  Descripcion: Validacion de existencia de script
+  Descripción: Validacion de existencia de script
 */
-
 if(empty($codigo)){
   header('location: consulta-habil.php'); //redireciona a interfazconsulta habil
 }
-
 //obteniendo fecha
 date_default_timezone_set('America/Lima');
 $dia = date("N"); //dia en numeros
@@ -132,14 +117,17 @@ $codigoHTML='
           </thead>
           <tbody>
             <tr style="text-transform:uppercase">';
-                $consulta=mysql_query("
-                    SELECT * FROM socidades WHERE ruc = '".$codigo."' 
-                    ");
-                while($dato=mysql_fetch_array($consulta)){
+                $result=mysqli_query($con,"
+                SELECT * FROM agre WHERE id = '".$codigo."' limit 1
+                ");
+                /*$consulta=mysql_query("
+                    SELECT * FROM socidades WHERE ruc = '".$codigo."' limit 1
+                    ");*/
+                while($dato=mysqli_fetch_array($result,MYSQLI_ASSOC)){
                 $codigoHTML.='
                         <td>'.$dato['ruc'].'</td>
                         <td>'.$dato['nombre'].'</td>
-                        <td>'.$dato['habilidad'].'</td>
+                        <td>'.$dato['habil'].'</td>
                       ';
                       } 
                 $codigoHTML.='
@@ -162,7 +150,7 @@ $codigoHTML='
 </html>';
 
 
-$nmrndm = 'ReporteCodSocAudit_'.$codigo.'_'.$fechadoc.'-'.$horadoc;
+$nmrndm = 'ReporteCodSocAudit_'.$codigo.'_'.$fechadoc.'_'.$horadoc;
 $namedoc = $nmrndm.$fechadoc.'.pdf';
 
 $codigoHTML=utf8_encode($codigoHTML); //codifica los unicode
@@ -173,5 +161,6 @@ $dompdf->render();
 
 $dompdf->stream($namedoc);
 //$dompdf->stream($namedoc, array("Attachment" => false)); //previzualizar
+
 
 ?>
