@@ -254,8 +254,8 @@
                     <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a href="revista-institucional">Diplomados</a></li>
-                    <li><a href="#">Seminarios</a></li>
+                    <li><a href="eventos">Diplomados</a></li>
+                    <li><a href="eventos">Seminarios</a></li>
                     <li><a href="conferencias">Conferencias</a></li>
                     <li><a href="#">Charlas</a></li>
                     <li><a href="#">Archivos de Actividades Academicas</a></li>
