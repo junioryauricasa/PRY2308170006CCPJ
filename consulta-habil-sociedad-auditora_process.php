@@ -48,7 +48,7 @@
 		                            <br>
 		                            <b>Denominación:</b> '.$row["nombre"].'
 		                            <br>
-		                            <b><b>Habil:</b> '.$row["habil"].'
+		                            <b><b>Hábil:</b> '.$row["habil"].'
 		                            <br>
 		                          </p>
 		                      </div>

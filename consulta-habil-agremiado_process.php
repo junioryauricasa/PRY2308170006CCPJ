@@ -41,7 +41,7 @@
                         <br>
                         <b>Nombre:</b> '.$row["nombres"].'
                         <br>
-                        <b><b>Habil:</b> '.$row["habilidad"].'
+                        <b><b>Hábil:</b> '.$row["habilidad"].'
                         <br>
                       </p>
                   </div>

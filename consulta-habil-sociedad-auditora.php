@@ -57,7 +57,14 @@
           $("#txtCodigo").val("");
           $("#CodigoCaptcha").val("");
         }
-    }
+  }
+
+  function limpiarCampos(){
+      ChangeCaptcha();
+      $("#txtCodigo").val("");
+      $("#CodigoCaptcha").val("");
+      $("#resultado").html("");      
+  }
  </script>
 
 <div class="content-wrapper" style="padding-top: 30px">
@@ -101,7 +108,6 @@
                   </h3>
                 </div>
                 <div class="box-body">
-                    <form>
                       <div class="box-body">
                         <div class="row">
                             <div class="col-lg-6">
@@ -109,6 +115,8 @@
                                 <br>
                                 <div class="form-group">
                                   <input type="text" id="randomfield" disabled>
+                                </div>
+                                <div class="form-group">
                                   <button class="btn btn-warning" onclick="ChangeCaptcha()">Cambiar CAPTCHA</button>
                                 </div>
                                 <div class="form-group">
@@ -116,7 +124,7 @@
                                   <input type="text" class="form-control" id="CodigoCaptcha" size="20" maxlength="6" placeholder="Ingrese CAPTCHA">
                                 </div>
                                 <div class="form-group">
-                                  <label for="nombrecontacto">Número de Matricula:</label>
+                                  <label for="nombrecontacto">Número de RUC:</label>
                                   <input type="text" class="form-control" id="txtCodigo" placeholder="Ingrese RUC" onkeypress="return justNumbers(event);" maxlength="11">
                                 </div>
                                 <!--span id="resultado"></span-->
@@ -130,14 +138,21 @@
                         </div>
                       </div>
                       <div class="box-footer">
-                        <input type="button" onclick="realizaConsulta($('#txtCodigo').val());return false;" class="btn btn-success" style="font-weight: bolder" value="Realizar Consulta">
-                        <input type="reset" class="btn btn-primary" value="Nueva Consulta">
-                        
-
+                        <div class="row">
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <input type="button" onclick="realizaConsulta($('#txtCodigo').val()); return false;" class="form-control select2 btn btn-success" style="font-weight: bolder" value="Realizar Consulta">
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">                          
+                              <input type="button" onclick="limpiarCampos()" class="form-control select2 btn btn-primary" value="Nueva Consulta">  
+                            </div>
+                          </div>
+                        </div>
                         <!--button type="button" href="javascript:;" onclick="realizaProceso($('#txtCodigo').val());return false;" class="btn btn-success" style="font-weight: bolder">Consultar</button>
                         <button type="button" class="btn btn-default" style="font-weight: bolder" onclick="ChangeCaptcha()">Cambiar CAPTCHA</button-->
                       </div>
-                    </form>
                 </div>
               </div>
           </section>
