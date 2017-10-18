@@ -73,7 +73,7 @@
     <section class="content" style="min-height: 0px;">
       <div class="row">
         <div class="col-md-12">
-          <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-ofertas-laborales.jpg'); ">
+          <div class="div-with-background-img" style="background:url('dist/img/parallax/bckgnd-eventos.jpg'); ">
                 <h1 class="text-center header-page-h1">
                     Consulta Hábil Sociedad Auditora
                 </h1>
@@ -117,9 +117,6 @@
                                   <input type="text" id="randomfield" disabled>
                                 </div>
                                 <div class="form-group">
-                                  <button class="btn btn-warning" onclick="ChangeCaptcha()">Cambiar CAPTCHA</button>
-                                </div>
-                                <div class="form-group">
                                   <label>Ingresar Captcha:</label>
                                   <input type="text" class="form-control" id="CodigoCaptcha" size="20" maxlength="6" placeholder="Ingrese CAPTCHA">
                                 </div>
@@ -139,16 +136,17 @@
                       </div>
                       <div class="box-footer">
                         <div class="row">
-                          <div class="col-md-3">
+                          <div class="col-md-2">
                             <div class="form-group">
                               <input type="button" onclick="realizaConsulta($('#txtCodigo').val()); return false;" class="form-control select2 btn btn-success" style="font-weight: bolder" value="Realizar Consulta">
                             </div>
                           </div>
-                          <div class="col-md-3">
+                          <div class="col-md-2">
                             <div class="form-group">                          
                               <input type="button" onclick="limpiarCampos()" class="form-control select2 btn btn-primary" value="Nueva Consulta">  
                             </div>
                           </div>
+                          <button class="btn btn-warning" onclick="ChangeCaptcha()">Cambiar CAPTCHA</button>
                         </div>
                         <!--button type="button" href="javascript:;" onclick="realizaProceso($('#txtCodigo').val());return false;" class="btn btn-success" style="font-weight: bolder">Consultar</button>
                         <button type="button" class="btn btn-default" style="font-weight: bolder" onclick="ChangeCaptcha()">Cambiar CAPTCHA</button-->

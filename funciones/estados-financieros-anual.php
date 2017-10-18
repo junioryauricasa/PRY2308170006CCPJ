@@ -1,5 +1,5 @@
 <?php 
-	$anio = date('Y');
+	$anio = date('Y'); //año actual definido
     
     include('db/conexion.php'); //include connection file 
         
@@ -27,7 +27,7 @@
 
             echo '
                 <li>
-                	<a href="estados-financieros?codver='.md5($TrimestreUl).'&anio='.$row["nvchyear"].'&trimestre='.$anio.'&coddoc='.md5($TrimestreUl).'"> '.$row["nvchyear"].'</a>
+                	<a href="estados-financieros?codver='.md5($TrimestreUl).'&year='.$row["nvchyear"].'&trim='.$anio.'&coddoc='.md5($TrimestreUl).'"> '.$row["nvchyear"].'</a>
                 </li> 
                 ';
         }

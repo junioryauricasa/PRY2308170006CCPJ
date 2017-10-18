@@ -112,7 +112,7 @@
                 <div class="box-body">
                       <div class="box-body">
                         <div class="row">
-                            <div class="col-lg-7">
+                            <div class="col-lg-6">
                                 <img src="dist/img/logo_horizontal_ccpj.png" alt="" class="img-responsive" width="100%">
                                 <br>
                                 <div class="form-group">
@@ -131,7 +131,7 @@
                                 </div>
                                 <!--span id="resultado"></span-->
                             </div>
-                            <div class="col-lg-5" id="resultado">
+                            <div class="col-lg-6" id="resultado">
                             </div>
                         </div>
                       </div>

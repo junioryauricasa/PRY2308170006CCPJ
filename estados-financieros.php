@@ -3,14 +3,6 @@
   include('_include/header.php');
 
 
-  /*
-    Autor: Junior yauricasa
-  */
-  $anio = date('Y');//obteniedo el valor del año presente este caso 2007 para udso en la logica del sql y el archivo a mostrar
-
-  $valoranio = $_GET['anio'];
-  $valortrimestre = $_GET['trimestre'];
-
 ?>
 
 <div class="content-wrapper" style="padding-top: 20px">
@@ -50,12 +42,12 @@
           <!-- section principal -->
           <section class="col-lg-9">
               <div class="box box-solid">
-                <div class="box-header">
-                  <i class="fa fa-inbox"></i>
-                  <h3 class="box-title">
-                    Estados Financieros
-                  </h3>
-                </div>
+                  <div class="box-header">
+                    <i class="fa fa-inbox"></i>
+                    <h3 class="box-title">
+                      Estados Financieros
+                    </h3>
+                  </div>
                 
                   <!--
                     - Autor: Junior Yauricasa
@@ -64,37 +56,72 @@
                         Basarse en el embed(PDF) contador al dia.
                         el embed se basa en las dimensiones de su pantalla para poder realizar su calculo.
                         Colocar enfasis en los enlaces y sus respectivas direcciones de descarga.
-                        No romper estructura
+                        No distorcionar la actual estructura
                    -->
 
+                  <!--div class="box-body">
+                  <div class="embed-responsive" style="padding-bottom:150%">
+                       <object data="admin/'.$row["nvchdocumento"].'" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
+                        <p>
+                          Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
+                         
+                         <a href="admin/'.$row["nvchdocumento"].'" download="admin/'.$row["nvchdocumento"].'">
+                           click para descargar el archivo PDF
+                         </a>
+
+                        </p>  
+                       </object>
+                  </div>
+
+                  </div>
+                  <div class="box-footer">
+                    <a href="admin/'.$row["nvchdocumento"].'" class="btn btn-danger">
+                        Descargar Documento PDF
+                    </a>
+                  </div-->
 
 
+                  <?php
+                      if($_GET['year'] != null){
+                            /*
+                              Verificacion de una existencia de la variable año para mostrar el anual de este año correspondiente
+                            */
+                            
+                            $valoranual = $_GET['year']; 
+                            $valoranualmaximo = date('Y')+5;
+                            $valoranualminimo = date('Y')-5;
 
-              <!--div class="box-body">
-                <div class="embed-responsive" style="padding-bottom:150%">
-                     <object data="admin/'.$row["nvchdocumento"].'" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
-                      <p>
-                        Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                       
-                       <a href="admin/'.$row["nvchdocumento"].'" download="admin/'.$row["nvchdocumento"].'">
-                         click para descargar el archivo PDF
-                       </a>
+                            if($valoranual > $valoranualmaximo || $valoranual < $valoranualminimo){
+                                //echo 'mostrar el anual de este año '.$valoranual;
+                                echo 'Este valor anual es inadecuado, estas seguro que el año es: '.$valoranual.'?';
+                            }
+                            
+                      }else
+                      if(empty($_GET['year']) || empty($_GET['trim'])){
+                            /*
+                              $valoranio = $_GET['anio'];
+                              $valortrimestre = $_GET['trimestre'];
+                            */
+                            echo 'No mostrar nada, Mensaje *Debes de seleccionar un periodo primero* ';
+                      }else
+                      if($_GET['year'] != null && $_GET['trim'] != null){
+                            
+                            /*
+                              1.- Verificacion de que se cuenta con dos variables trimestral y anual
+                              2.- Se asigna los valores a cada variable
+                            */
 
-                      </p>  
-                     </object>
-                </div>
+                            $valoranual = $_GET['year'];
+                            $valortrimestre = $_GET['trim'];
 
-                   <!--
-                    Estructura documentos pdf/ responsivos 
-                   -->
-              </div>
-              <div class="box-footer">
-                <a href="admin/'.$row["nvchdocumento"].'" class="btn btn-danger">
-                    Descargar Documento PDF
-                </a>
-              </div-->
+                            echo 'anual: '.$valoranual.'</br> trimestral: '.$valortrimestre;
+                            echo '</br>hacer la consulta correspondiente a estos dos valores';
+                      } 
+                            
+
+                            
+                  ?>
                   
-               
               </div>
           </section>
           <!-- section secundaria -->

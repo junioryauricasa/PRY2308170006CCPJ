@@ -1,8 +1,7 @@
 <?php 
-	$anio = date('Y');
-    
+	$anio = date('Y');//obteniendo el año actual YYYY
     include('db/conexion.php'); //include connection file 
-        
+
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
     // Check connection
@@ -24,22 +23,35 @@
     if ($result->num_rows > 0) {
         // output data of each row
         while($row = $result->fetch_assoc()) {
+
+            /*
+                Autor:  Junior Yauricasa
+                descripcion: termino a mostrar en interfaz conforme a lo registrado en db
+                    - Primer
+                    - Segundo
+                    - Tercer
+                    - Cuarto
+            */
+
         	if($row["nvchtrimestre"] == 1){
-        		$TrimestreUl = 'Primer';
+        		$TrimestreUl = 'Primer Trimestre';
         	}else
         	if($row["nvchtrimestre"] == 2){
-        		$TrimestreUl = 'Segundo';
+        		$TrimestreUl = 'Segundo Trimestre';
         	}else
         	if($row["nvchtrimestre"] == 3){
-        		$TrimestreUl = 'Tercer';
+        		$TrimestreUl = 'Tercer Trimestre';
         	}else
         	if($row["nvchtrimestre"] == 4){
-        		$TrimestreUl = 'Cuarto';
-        	}
+        		$TrimestreUl = 'Cuarto Trimestre';
+            }else
+            if($row["nvchtrimestre"] == 5){
+                $TrimestreUl = 'Anual';
+            }
 
             echo '
                     <li>
-                    	<a href="estados-financieros?codver='.md5($TrimestreUl).'&anio='.$anio.'&trimestre='.$row["nvchtrimestre"].'">'.$TrimestreUl.' Trimestre</a>
+                    	<a href="estados-financieros?codver='.$TrimestreUl.'&year='.$row["nvchyear"].'&trim='.$row["nvchtrimestre"].'">'.$TrimestreUl.'</a>
                     </li> 
                 ';
         }
