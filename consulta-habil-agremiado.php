@@ -3,24 +3,62 @@
   $metadescripcion = 'consulta Hábil de Agremiados del Colegio de Contadores Públicos de Junín';
   include('_include/header.php');
 ?>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700');
+  #randomfield { 
+    -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; 
+      width: 200px;
+      color: black;
+      border-color: transparent;
+      text-align: center;
+      font-size: 40px;
+      background-image: url('http://teleglobos.com.mx/imagenes/mayor/background.png');
+      font-family: 'Cabin Sketch', cursive;
+  }
+</style>
+<script>
+  // Do not remove this (it's just a comment and won't effect the functions)
+  // SimpleCaptcha v1.0 © Anudeep Tubati
+  function ChangeCaptcha() {
+      var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
+      var string_length = 6;
+      var ChangeCaptcha = '';
 
+      for (var i=0; i<string_length; i++) {
+        var rnum = Math.floor(Math.random() * chars.length);
+        ChangeCaptcha += chars.substring(rnum,rnum+1);
+      }
+      document.getElementById('randomfield').value = ChangeCaptcha;
+  }
 
- <script>
-    function realizaConsulta(txtCodigo){
-        var parametros = {
-                "txtCodigo" : txtCodigo
-        };
-        $.ajax({
-                data:  parametros, //datos que se envian a traves de ajax
-                url:   'consulta-habil-agremiado_process.php', //archivo que recibe la peticion
-                type:  'post', //método de envio
-                beforeSend: function () {
-                        $("#resultado").html("<img src='https://c.s-microsoft.com/en-us/CMSImages/big-loading-gif.gif?version=eac3284f-fcba-ea1d-70e3-010e22fefd05' alt='' width='20px' style='margin-right: 10px; margin-left:20px'>Enviando, espere por favor...");
-                },
-                success:  function (response) { //una vez que el archivo recibe el request lo procesa y lo devuelve
-                        $("#resultado").html(response);
-                }
-        });
+  function realizaConsulta(txtCodigo){
+        if(document.getElementById('txtCodigo').value == '' || document.getElementById('CodigoCaptcha').value == ''){
+          alert('Rellena los campos');
+          return false;
+        } else if(document.getElementById('CodigoCaptcha').value != document.getElementById('randomfield').value ) {
+          alert('Ingrese el Captcha Nuevamente');
+          return false;
+        } else {
+          $.ajax({
+                  data:  {txtCodigo:txtCodigo}, //datos que se envian a traves de ajax
+                  url:   'consulta-habil-agremiado_process.php', //archivo que recibe la peticion
+                  type:  'post', //método de envio
+                  beforeSend: function () {
+                          $("#resultado").html("<img src='https://c.s-microsoft.com/en-us/CMSImages/big-loading-gif.gif?version=eac3284f-fcba-ea1d-70e3-010e22fefd05' alt='' width='20px' style='margin-right: 10px; margin-left:20px'>Enviando, espere por favor...");
+                  },
+                  success:  function (response) { //una vez que el archivo recibe el request lo procesa y lo devuelve
+                          $("#resultado").html(response);
+                  }
+          });
+          ChangeCaptcha();
+          $("#txtCodigo").val("");
+          $("#CodigoCaptcha").val("");
+        }
     }
  </script>
 
@@ -65,28 +103,32 @@
                   </h3>
                 </div>
                 <div class="box-body">
-                    <form role="form">
+                  <form>
                       <div class="box-body">
                         <div class="row">
                             <div class="col-lg-7">
                                 <img src="dist/img/logo_horizontal_ccpj.png" alt="" class="img-responsive" width="100%">
                                 <br>
                                 <div class="form-group">
+                                  <input type="text" id="randomfield" disabled>
+                                  <button class="btn btn-warning" onclick="ChangeCaptcha()">Cambiar CAPTCHA</button>
+                                </div>
+                                <div class="form-group">
+                                  <label>Ingresar Captcha:</label>
+                                  <input type="text" class="form-control" id="CodigoCaptcha" size="20" maxlength="6" placeholder="Ingrese CAPTCHA">
+                                </div>
+                                <div class="form-group">
                                   <label for="nombrecontacto">Número de Matricula:</label>
-                                  <input type="text" class="form-control" id="txtCodigo" placeholder="Código de Agremiado" onkeypress="return justNumbers(event);" maxlength="5" required="true">
+                                  <input type="text" class="form-control" id="txtCodigo" placeholder="Código de Agremiado" onkeypress="return justNumbers(event);" maxlength="5">
                                 </div>
                                 <!--span id="resultado"></span-->
                             </div>
-
                             <div class="col-lg-5" id="resultado">
                             </div>
-                            
-                            <!--div class="col-lg-6">
-                            </div-->
                         </div>
                       </div>
                       <div class="box-footer">
-                        <input type="button" href="javascript:;" onclick="realizaConsulta($('#txtCodigo').val());return false;" class="btn btn-success" style="font-weight: bolder" value="Realizar Consulta">
+                        <input type="button" onclick="realizaConsulta($('#txtCodigo').val()); return false;" class="btn btn-success" style="font-weight: bolder" value="Realizar Consulta">
                         <input type="reset" class="btn btn-primary" value="Nueva Consulta">
                         
 
