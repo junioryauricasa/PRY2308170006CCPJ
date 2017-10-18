@@ -51,7 +51,7 @@
 
             echo '
                     <li>
-                    	<a href="estados-financieros?codver='.$TrimestreUl.'&year='.$row["nvchyear"].'&trim='.$row["nvchtrimestre"].'">'.$TrimestreUl.'</a>
+                    	<a href="estados-financieros?codver=&year='.$row["nvchyear"].'&trim='.$row["nvchtrimestre"].'">'.$TrimestreUl.'</a>
                     </li> 
                 ';
         }

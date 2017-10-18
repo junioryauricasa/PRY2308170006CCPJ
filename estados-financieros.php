@@ -82,29 +82,25 @@
 
 
                   <?php
-                      if($_GET['year'] != null){
-                            /*
-                              Verificacion de una existencia de la variable año para mostrar el anual de este año correspondiente
-                            */
-                            
-                            $valoranual = $_GET['year']; 
-                            $valoranualmaximo = date('Y')+5;
-                            $valoranualminimo = date('Y')-5;
+                      
+                      $valoranualmaximo = date('Y')+5;
+                      $valoranualminimo = date('Y')-5;
 
-                            if($valoranual > $valoranualmaximo || $valoranual < $valoranualminimo){
-                                //echo 'mostrar el anual de este año '.$valoranual;
+                      if(!empty($_GET['year'])){
+                            /*
+                              1.- Verificacion de una existencia de la variable año para mostrar el anual de este año correspondiente
+                              2.- Mostrar REPORTE ANUAL
+                            */
+                            
+                            $valoranual = $_GET['year'];
+
+                            if($valoranual>$valoranualmaximo || $valoranual<$valoranualminimo){
                                 echo 'Este valor anual es inadecuado, estas seguro que el año es: '.$valoranual.'?';
-                            }
+                            }else 
+                                echo 'estas dentro del rango '.$valoranual; 
                             
                       }else
-                      if(empty($_GET['year']) || empty($_GET['trim'])){
-                            /*
-                              $valoranio = $_GET['anio'];
-                              $valortrimestre = $_GET['trimestre'];
-                            */
-                            echo 'No mostrar nada, Mensaje *Debes de seleccionar un periodo primero* ';
-                      }else
-                      if($_GET['year'] != null && $_GET['trim'] != null){
+                      if(!empty($_GET['year']) && !empty($_GET['trim'])){
                             
                             /*
                               1.- Verificacion de que se cuenta con dos variables trimestral y anual
@@ -115,8 +111,15 @@
                             $valortrimestre = $_GET['trim'];
 
                             echo 'anual: '.$valoranual.'</br> trimestral: '.$valortrimestre;
-                            echo '</br>hacer la consulta correspondiente a estos dos valores';
-                      } 
+                            echo '</br>hacer la consulta trimestral correspondiente a estos dos valores';
+                      }else
+                      if(empty($_GET['year']) && empty($_GET['trim'])){
+                            /*
+                              $valoranio = $_GET['anio'];
+                              $valortrimestre = $_GET['trimestre'];
+                            */
+                            echo 'No mostrar nada, Mensaje *Debes de seleccionar un periodo primero* ';
+                      }
                             
 
                             
