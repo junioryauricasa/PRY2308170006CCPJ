@@ -83,21 +83,36 @@
 
                   <?php
                       
-                      $valoranualmaximo = date('Y')+5;
-                      $valoranualminimo = date('Y')-5;
+                      /*
+                          - Autor: Junior Yauricasa 
+                          - Descripción:
+                            Funcion calcular rango Se define un rango de +-5 años a partir del año actual
+                      */
+                      function calcularrago($valoranual){
+                          $valoranualmaximo = date('Y')+5;
+                          $valoranualminimo = date('Y')-5;
 
-                      if(!empty($_GET['year'])){
+                            if($valoranual > $valoranualmaximo || $valoranual < $valoranualminimo){
+                                  $respuesta = 'Este valor anual es inadecuado, estas seguro que el año es: '.$valoranual.'?';
+                            }else 
+                            if($valoranual < $valoranualmaximo || $valoranual > $valoranualminimo){
+                                  $respuesta =  'estas dentro del rango '.$valoranual.' - mostrar anual'; 
+                            }  
+                               echo $respuesta;
+                          
+                      }
+
+
+                      if(!empty($_GET['year']) && empty($_GET['trim'])){
                             /*
                               1.- Verificacion de una existencia de la variable año para mostrar el anual de este año correspondiente
                               2.- Mostrar REPORTE ANUAL
                             */
                             
                             $valoranual = $_GET['year'];
+                            
+                            calcularrago($valoranual);
 
-                            if($valoranual>$valoranualmaximo || $valoranual<$valoranualminimo){
-                                echo 'Este valor anual es inadecuado, estas seguro que el año es: '.$valoranual.'?';
-                            }else 
-                                echo 'estas dentro del rango '.$valoranual; 
                             
                       }else
                       if(!empty($_GET['year']) && !empty($_GET['trim'])){
@@ -118,7 +133,11 @@
                               $valoranio = $_GET['anio'];
                               $valortrimestre = $_GET['trimestre'];
                             */
-                            echo 'No mostrar nada, Mensaje *Debes de seleccionar un periodo primero* ';
+                            
+                            //echo 'No mostrar nada, Mensaje *Debes de seleccionar un periodo primero* ';
+                            include ('funciones/EEFF-get-all-table.php');
+
+
                       }
                             
 
@@ -138,9 +157,9 @@
                   <p>
                     Bienvenidos a la sección de estados Financieros del CCPJ, puedes descargar el documento en formato PDF pulsando sobre el botón en la parte inferior.
                   </p>
-                  <a href="http://www.ccpjunin.pe/dist/docs/estados-financieros/ESTADOS%20FINANCIEROS.pdf" download="http://www.ccpjunin.pe/dist/docs/estados-financieros/ESTADOS%20FINANCIEROS.pdf" class="btn btn-danger">
+                  <!--a href="http://www.ccpjunin.pe/dist/docs/estados-financieros/ESTADOS%20FINANCIEROS.pdf" download="http://www.ccpjunin.pe/dist/docs/estados-financieros/ESTADOS%20FINANCIEROS.pdf" class="btn btn-danger">
                       Descargar Documento PDF
-                  </a>
+                  </a-->
                   <br>
                   <div class="row">
                     <div class="col-lg-12">
@@ -155,17 +174,6 @@
 </div>
 
 
-<style>
-  #textonparallax{
-      margin-top: -280px; 
-      padding-bottom: 80px;
-  }
-  @media screen and (min-width:350px){
-    #textonparallax{
-          margin-bottom: 100px;
-    }
-  }
-</style>
 
 <?php 
   include('_include/footer.php');

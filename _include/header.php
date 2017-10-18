@@ -308,6 +308,7 @@
                             <?php include('funciones/estados-financieros-anual.php'); ?>
                         </ul>
                     </li>
+                    <li><a href="estados-financieros">Ver todos EEFF</a></li>
                   </ul>
                 </li>
               </ul>
