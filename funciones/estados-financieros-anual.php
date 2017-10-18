@@ -18,7 +18,9 @@
         WHERE 
             nvchtrimestre = 5
         GROUP BY 
-            nvchyear        
+            nvchyear 
+        ORDER BY 
+            nvchyear ASC       
         ";
 
     $result = $conn->query($sql);

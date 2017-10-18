@@ -23,8 +23,13 @@
             *
         FROM 
             tb_upload_estados_financieros
+        WHERE 
+            nvchtrimestre = $valortrimestre 
+            AND
+            nvchyear = $valoranual 
         ORDER BY intidcodigo
         	DESC
+        LIMIT 1
     ";
     $result = $conn->query($sql);
 
@@ -33,17 +38,7 @@
 
     	echo '
 					<div class="box-body" id="preload">
-                      <table data-toggle="table" data-show-refresh="true" data-show-toggle="true" data-show-columns="true" data-search="true" data-select-item-name="toolbar1" data-pagination="true" data-sort-name="name" data-sort-order="desc">
-                        <thead>
-                          <tr>
-                            <th>Trimestre</th>
-                            <th>Año</th>
-                            <th>Documento</th>
-                            <th>Tipo de Documento</th>
-                            <th>Opciones de Documento</th>
-                          </tr>
-                        </thead>
-                        <tbody>
+                      
     	';
 
         while($row = $result->fetch_assoc()) {
@@ -65,36 +60,32 @@
             }
 
             echo '
-                            <tr>
-                              <td>'.$TrimestreUl.'</td>
-                              <td>'.$row["nvchyear"].'</td>
-                              <td>  
-                                    <a href="admin/'.$row["nvchdocumento"].'" class="">
-                                        <b>'.str_replace('documentos/EstadosFinancieros/', '', $row["nvchdocumento"]).'</b>
-                                    </a>
-                              </td>
-                              <td>Formato PDF</td>
-                              <td>
-                                  <a href="admin/'.$row["nvchdocumento"].'" target="_blank" class="btn btn-danger btn-xs">Visualizar Documento</a>
-                                  <!--a href="" class="btn btn-danger btn-xs" download="'.str_replace('documentos/EstadosFinancieros/', '', $row["nvchdocumento"]).'">Descargar</a-->
-                              </td>
-                            </tr>
+                       <object data="admin/'.$row["nvchdocumento"].'" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
+                        <p>
+                          Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
+                         
+                         <a href="admin/'.$row["nvchdocumento"].'" download="admin/'.$row["nvchdocumento"].'">
+                           click para descargar el archivo PDF
+                         </a>
+
+                        </p>  
+                       </object>
             
                 ';
         }
 
         echo '
-                        </tbody>
-                      </table>
                     </div>
         ';
 
     }else {
         echo '
+            <div class="box-body" id="preload">
                 <div class="alert alert-danger alert-dismissable">
                   <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
                   <strong>Alerta!</strong> Aun no se cuenta con registros.
                 </div>
+            </div>
         ';
     }
 

@@ -16,6 +16,8 @@
             tb_upload_estados_financieros
         WHERE 
             nvchyear = '$anio'
+        ORDER BY
+            nvchtrimestre ASC
         ";
 
     $result = $conn->query($sql);
@@ -51,7 +53,7 @@
 
             echo '
                     <li>
-                    	<a href="estados-financieros?codver=&year='.$row["nvchyear"].'&trim='.$row["nvchtrimestre"].'">'.$TrimestreUl.'</a>
+                        <a href="estados-financieros?codver=&year='.$row["nvchyear"].'&trim='.$row["nvchtrimestre"].'">'.$TrimestreUl.'</a>
                     </li> 
                 ';
         }

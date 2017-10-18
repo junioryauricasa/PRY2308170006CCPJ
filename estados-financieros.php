@@ -93,10 +93,29 @@
                           $valoranualminimo = date('Y')-5;
 
                             if($valoranual > $valoranualmaximo || $valoranual < $valoranualminimo){
-                                  $respuesta = 'Este valor anual es inadecuado, estas seguro que el año es: '.$valoranual.'?';
+                                  //$respuesta = 'Este valor anual es inadecuado, estas seguro que el año es: '.$valoranual.'?';
+
+                                  $respuesta = '
+                                        <div class="box-body">
+                                          <div class="alert alert-danger alert-dismissable">
+                                            <strong>Alerta!</strong> Este valor anual es inadecuado, estas seguro que el año es: <b>'.$valoranual.'<b>?.
+                                            </br>
+                                            <p>  <a href="estados-financieros">Intenta probar con este resultado</a></br>
+                                          </div>
+                                        </div>
+                                  ';
                             }else 
                             if($valoranual < $valoranualmaximo || $valoranual > $valoranualminimo){
-                                  $respuesta =  'estas dentro del rango '.$valoranual.' - mostrar anual'; 
+                                  //$respuesta =  'estas dentro del rango '.$valoranual.' - mostrar anual';
+                                  $respuesta = '
+                                        <div class="box-body">
+                                          <div class="alert alert-success alert-dismissable">
+                                            <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+                                            <strong>Felicidades!</strong> estas dentro del rango '.$valoranual.'<b>?
+                                          </div>
+                                        </div>
+                                  ';
+                                  include ('funciones/EEFF-get-anual-table.php');
                             }  
                                echo $respuesta;
                           
@@ -125,8 +144,11 @@
                             $valoranual = $_GET['year'];
                             $valortrimestre = $_GET['trim'];
 
-                            echo 'anual: '.$valoranual.'</br> trimestral: '.$valortrimestre;
-                            echo '</br>hacer la consulta trimestral correspondiente a estos dos valores';
+                            //echo 'anual: '.$valoranual.'</br> trimestral: '.$valortrimestre.'</br>';
+                            //echo 'hacer la consulta trimestral correspondiente a estos dos valores - consulta trimestral'.'</br>';
+                            
+                            include ('funciones/EEFF-get-trimestral-table.php');
+
                       }else
                       if(empty($_GET['year']) && empty($_GET['trim'])){
                             /*
@@ -136,12 +158,8 @@
                             
                             //echo 'No mostrar nada, Mensaje *Debes de seleccionar un periodo primero* ';
                             include ('funciones/EEFF-get-all-table.php');
-
-
                       }
-                            
 
-                            
                   ?>
                   
               </div>
@@ -155,7 +173,9 @@
               </ul>
               <div class="box-body">
                   <p>
-                    Bienvenidos a la sección de estados Financieros del CCPJ, puedes descargar el documento en formato PDF pulsando sobre el botón en la parte inferior.
+                    Bienvenidos a la sección de estados Financieros del Portal Web del Colegio de Contadores Públicos de Junín.
+                    <br>
+                    Accede a toda la documentacion de Estados Financieros del CCPJ pulsando sobre el <a href="estados-financieros"><b>siguiente enlace</b></a>
                   </p>
                   <!--a href="http://www.ccpjunin.pe/dist/docs/estados-financieros/ESTADOS%20FINANCIEROS.pdf" download="http://www.ccpjunin.pe/dist/docs/estados-financieros/ESTADOS%20FINANCIEROS.pdf" class="btn btn-danger">
                       Descargar Documento PDF
