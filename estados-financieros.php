@@ -108,13 +108,14 @@
                             if($valoranual < $valoranualmaximo || $valoranual > $valoranualminimo){
                                   //$respuesta =  'estas dentro del rango '.$valoranual.' - mostrar anual';
                                   $respuesta = '
-                                        <div class="box-body">
+                                        <!--div class="box-body">
                                           <div class="alert alert-success alert-dismissable">
                                             <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
                                             <strong>Felicidades!</strong> estas dentro del rango '.$valoranual.'<b>?
                                           </div>
-                                        </div>
+                                        </div-->
                                   ';
+                                  $respuesta = '';
                                   include ('funciones/EEFF-get-anual-table.php');
                             }  
                                echo $respuesta;
