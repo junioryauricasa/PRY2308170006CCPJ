@@ -67,11 +67,11 @@
                             <tr>
                               <td>'.$TrimestreUl.'</td>
                               <td>'.$row["nvchyear"].'</td>
-                              <td><a href="admin/'.$row["nvchdocumento"].'" class="">Enlace del documento</a></td>
+                              <td><a href="admin/'.$row["nvchdocumento"].'" class="">'.str_replace('documentos/EstadosFinancieros/', '', $row["nvchdocumento"]).'</a></td>
                               <td>Formato PDF</td>
                               <td>
-                                  <a href="admin/'.$row["nvchdocumento"].'" target="_blank" class="btn btn-primary btn-xs">Vizualizar</a>
-                                  <a href="" class="btn btn-danger btn-xs" download="estadosfiancieros.pdf">Descargar</a>
+                                  <a href="admin/'.$row["nvchdocumento"].'" target="_blank" class="btn btn-primary btn-xs">Vizualizar Documento</a>
+                                  <!--a href="" class="btn btn-danger btn-xs" download="'.str_replace('documentos/EstadosFinancieros/', '', $row["nvchdocumento"]).'">Descargar</a-->
                               </td>
                             </tr>
             

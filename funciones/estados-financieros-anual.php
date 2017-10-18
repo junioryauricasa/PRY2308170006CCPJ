@@ -15,6 +15,8 @@
             *
         FROM 
             tb_upload_estados_financieros
+        WHERE 
+            nvchtrimestre = 5
         GROUP BY 
             nvchyear        
         ";
@@ -31,7 +33,8 @@
                 </li> 
                 ';
         }
-    }
+    }else
+    echo '<li> <a href="#">Sin resultados</a> </li>';
 
     $conn->close();
 
