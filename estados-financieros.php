@@ -1,6 +1,14 @@
 <?php 
   $metadescripcion = 'Sección de Estados Financieros del Colegio de Contadores Públicos de Junín';
   include('_include/header.php');
+
+  $anio = date('Y');
+
+  $valoranio = $_GET['anio'];
+  $valortrimestre = $_GET['trimestre'];
+
+
+
 ?>
 
 <div class="content-wrapper" style="padding-top: 20px">
@@ -46,7 +54,7 @@
                     Estados Financieros
                   </h3>
                 </div>
-                <div class="box-body">
+                
                   <!--
                     - Autor: Junior Yauricasa
                     - Descripción:
@@ -56,29 +64,93 @@
                         Colocar enfasis en los enlaces y sus respectivas direcciones de descarga.
                         No romper estructura
                    -->
-                  <div class="embed-responsive" style="padding-bottom:150%">
-                       <object data="http://www.ccpjunin.pe/dist/docs/estados-financieros/ESTADOS%20FINANCIEROS.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
-                        <p>
-                          Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
-                         
-                         <!-- Link descargar documento PDF -->
-                         <a href="http://www.ccpjunin.pe/dist/docs/estados-financieros/ESTADOS%20FINANCIEROS.pdf" download="http://www.ccpjunin.pe/dist/docs/estados-financieros/ESTADOS%20FINANCIEROS.pdf">
-                           click para descargar el archivo PDF
-                         </a>
-                         <!-- END Link descargar documento PDF -->
 
-                        </p>  
-                       </object>
-                  </div>
-                  <!--
+
+<?php 
+  
+    
+    include('db/conexion.php'); //include connection file 
+        
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    } 
+
+    if($valoranio != 2017){
+          $sql = "
+                  SELECT
+                      nvchdocumento,
+                      nvchtrimestre,
+                      nvchyear
+                  FROM 
+                      tb_upload_estados_financieros
+                  WHERE 
+                      nvchyear = $valoranio
+                      and
+                      $nvchtrimestre = 4
+                  ";
+    }else
+              $sql = "
+                  SELECT
+                      nvchdocumento,
+                      nvchtrimestre,
+                      nvchyear
+                  FROM 
+                      tb_upload_estados_financieros
+                  WHERE 
+                      nvchyear = $valoranio
+                      and
+                      $nvchtrimestre =  $valortrimestre
+                  ";
+    
+
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+
+            echo '
+              <div class="box-body">
+                <div class="embed-responsive" style="padding-bottom:150%">
+                     <object data="admin/'.$row["nvchdocumento"].'" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
+                      <p>
+                        Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
+                       
+                       <!-- Link descargar documento PDF -->
+                       <a href="admin/'.$row["nvchdocumento"].'" download="admin/'.$row["nvchdocumento"].'">
+                         click para descargar el archivo PDF
+                       </a>
+                       <!-- END Link descargar documento PDF -->
+
+                      </p>  
+                     </object>
+                </div>
+                   <!--
                     Estructura documentos pdf/ responsivos 
                    -->
-                </div>
-                <div class="box-footer">
-                  <a href="http://www.ccpjunin.pe/dist/docs/estados-financieros/ESTADOS%20FINANCIEROS.pdf" download="http://www.ccpjunin.pe/dist/docs/estados-financieros/ESTADOS%20FINANCIEROS.pdf" class="btn btn-danger">
-                      Descargar Documento PDF
-                  </a>
-                </div>
+              </div>
+              <div class="box-footer">
+                <a href="admin/'.$row["nvchdocumento"].'" class="btn btn-danger">
+                    Descargar Documento PDF
+                </a>
+              </div>
+                ';
+        }
+    }
+
+    $conn->close();
+
+    //echo $resultado; //haciendo este echo estas respondiendo la solicitud ajax
+    //echo 'enviado exitosamente';
+
+ ?>
+
+
+                  
+               
               </div>
           </section>
           <!-- section secundaria -->
