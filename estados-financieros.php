@@ -2,12 +2,14 @@
   $metadescripcion = 'Sección de Estados Financieros del Colegio de Contadores Públicos de Junín';
   include('_include/header.php');
 
-  $anio = date('Y');
+
+  /*
+    Autor: Junior yauricasa
+  */
+  $anio = date('Y');//obteniedo el valor del año presente este caso 2007 para udso en la logica del sql y el archivo a mostrar
 
   $valoranio = $_GET['anio'];
   $valortrimestre = $_GET['trimestre'];
-
-
 
 ?>
 
@@ -66,68 +68,22 @@
                    -->
 
 
-<?php 
-  
-    
-    include('db/conexion.php'); //include connection file 
-        
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    } 
 
-    if($valoranio != 2017){
-          $sql = "
-                  SELECT
-                      nvchdocumento,
-                      nvchtrimestre,
-                      nvchyear
-                  FROM 
-                      tb_upload_estados_financieros
-                  WHERE 
-                      nvchyear = $valoranio
-                      and
-                      $nvchtrimestre = 4
-                  ";
-    }else
-              $sql = "
-                  SELECT
-                      nvchdocumento,
-                      nvchtrimestre,
-                      nvchyear
-                  FROM 
-                      tb_upload_estados_financieros
-                  WHERE 
-                      nvchyear = $valoranio
-                      and
-                      $nvchtrimestre =  $valortrimestre
-                  ";
-    
 
-    $result = $conn->query($sql);
-
-    if ($result->num_rows > 0) {
-        // output data of each row
-        while($row = $result->fetch_assoc()) {
-
-            echo '
-              <div class="box-body">
+              <!--div class="box-body">
                 <div class="embed-responsive" style="padding-bottom:150%">
                      <object data="admin/'.$row["nvchdocumento"].'" type="application/pdf" width="100%" height="800px" internalinstanceid="508" title=""> 
                       <p>
                         Parece que no tiene un complemento PDF para este navegador, pero no hay problema, puedes dar 
                        
-                       <!-- Link descargar documento PDF -->
                        <a href="admin/'.$row["nvchdocumento"].'" download="admin/'.$row["nvchdocumento"].'">
                          click para descargar el archivo PDF
                        </a>
-                       <!-- END Link descargar documento PDF -->
 
                       </p>  
                      </object>
                 </div>
+
                    <!--
                     Estructura documentos pdf/ responsivos 
                    -->
@@ -136,19 +92,7 @@
                 <a href="admin/'.$row["nvchdocumento"].'" class="btn btn-danger">
                     Descargar Documento PDF
                 </a>
-              </div>
-                ';
-        }
-    }
-
-    $conn->close();
-
-    //echo $resultado; //haciendo este echo estas respondiendo la solicitud ajax
-    //echo 'enviado exitosamente';
-
- ?>
-
-
+              </div-->
                   
                
               </div>

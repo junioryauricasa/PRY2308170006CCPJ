@@ -58,8 +58,8 @@
     </style>
   </head>
   
-  <body class="scrollbar fixed sidebar-mini skin-blue-light sidebar-collapse " id="style-3"> 
-  <!--body class="fixed sidebar-mini skin-blue-light "  ondragstart="return false" oncontextmenu="return false" onselectstart="return false"--> <!-- evitar descargar imgs DESCOMENTAR AL FINAL -->
+  <!--body class="scrollbar fixed sidebar-mini skin-blue-light sidebar-collapse " id="style-3"--> 
+  <body class="scrollbar fixed sidebar-mini skin-blue-light sidebar-collapse  "  ondragstart="return false" oncontextmenu="return false" onselectstart="return false"> <!-- evitar descargar imgs DESCOMENTAR AL FINAL -->
 
     <div class="wrapper">
       <header class="main-header">

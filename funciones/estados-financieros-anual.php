@@ -16,7 +16,7 @@
         FROM 
             tb_upload_estados_financieros
         GROUP BY 
-            nvchyear
+            nvchyear        
         ";
 
     $result = $conn->query($sql);
